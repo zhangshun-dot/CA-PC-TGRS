@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "dior_cls": "airplane",
+      "coco_name": "airplane",
+      "n_imgs": 20,
+      "ap_raw": 0.474,
+      "ap_reinhard": 0.4179,
+      "ap_learned": 0.4497,
+      "ap_delta_c_vs_a": -0.0243,
+      "ap_delta_c_vs_b": 0.0318,
+      "align_raw": 0.2578,
+      "align_reinhard": 0.2588,
+      "align_learned": 0.2636,
+      "align_delta_c_vs_a": 0.0058,
+      "boot_delta_mean": -0.0333,
+      "boot_ci_lo": -0.062,
+      "boot_ci_hi": -0.0085,
+      "boot_sig": "worse"
+    },
+    {
+      "dior_cls": "ship",
+      "coco_name": "boat",
+      "n_imgs": 20,
+      "ap_raw": 0.154,
+      "ap_reinhard": 0.1164,
+      "ap_learned": 0.1222,
+      "ap_delta_c_vs_a": -0.0318,
+      "ap_delta_c_vs_b": 0.0058,
+      "align_raw": 0.25,
+      "align_reinhard": 0.2568,
+      "align_learned": 0.2551,
+      "align_delta_c_vs_a": 0.0051,
+      "boot_delta_mean": -0.0082,
+      "boot_ci_lo": -0.0423,
+      "boot_ci_hi": 0.0031,
+      "boot_sig": "ns"
+    },
+    {
+      "dior_cls": "vehicle",
+      "coco_name": "car",
+      "n_imgs": 20,
+      "ap_raw": 0.2452,
+      "ap_reinhard": 0.1679,
+      "ap_learned": 0.2278,
+      "ap_delta_c_vs_a": -0.0174,
+      "ap_delta_c_vs_b": 0.0599,
+      "align_raw": 0.2244,
+      "align_reinhard": 0.2261,
+      "align_learned": 0.2316,
+      "align_delta_c_vs_a": 0.0071,
+      "boot_delta_mean": -0.0217,
+      "boot_ci_lo": -0.051,
+      "boot_ci_hi": 0.0012,
+      "boot_sig": "ns"
+    }
+  ],
+  "mean": {
+    "ap_raw": 0.2911,
+    "ap_reinhard": 0.2341,
+    "ap_learned": 0.2666,
+    "ap_delta_c_vs_a": -0.0245,
+    "ap_delta_c_vs_b": 0.0325,
+    "align_raw": 0.2441,
+    "align_reinhard": 0.2472,
+    "align_learned": 0.2501,
+    "align_delta_c_vs_a": 0.006
+  },
+  "note": "C=学习型文本条件映射(TextConditionedEnhancer, FiLM文本条件+残差, 自监督). A=raw, B=Reinhard. bootstrap 1000 重采样测 C vs A 显著性."
+}

@@ -1,0 +1,153 @@
+{
+  "DIOR": {
+    "airplane": {
+      "Baseline": 0.8230500752044378,
+      "TGE": 0.845938688093669,
+      "USC_fixed_alpha1.0": 0.7849479267328051,
+      "USC_adaptive_alpha": 0.8160600732469715,
+      "alpha_adaptive": 0.6764547304138641,
+      "box_size_variance": 18150.31913305952,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.8497651873146552,
+      "oracle_alpha": 0.0
+    },
+    "ship": {
+      "Baseline": 0.5184374861771062,
+      "TGE": 0.4921426054277973,
+      "USC_fixed_alpha1.0": 0.5194869580882642,
+      "USC_adaptive_alpha": 0.5190828355740139,
+      "alpha_adaptive": 1.0294861289437305,
+      "box_size_variance": 12772.537047464271,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.5272720829052114,
+      "oracle_alpha": 0.7
+    },
+    "vehicle": {
+      "Baseline": 0.6201772575038565,
+      "TGE": 0.6796318007488533,
+      "USC_fixed_alpha1.0": 0.6261863851467608,
+      "USC_adaptive_alpha": 0.6595653308233769,
+      "alpha_adaptive": 0.5763986984513079,
+      "box_size_variance": 18474.838764432632,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.6733629569417273,
+      "oracle_alpha": 0.3
+    }
+  },
+  "NWPU": {
+    "airplane": {
+      "Baseline": 0.8230500752044378,
+      "TGE": 0.8390080316778228,
+      "USC_fixed_alpha1.0": 0.8243830025816602,
+      "USC_adaptive_alpha": 0.8354088752756684,
+      "alpha_adaptive": 0.6764547304138641,
+      "box_size_variance": 18150.31913305952,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.8407545790768214,
+      "oracle_alpha": 0.0
+    },
+    "ship": {
+      "Baseline": 0.5184374861771062,
+      "TGE": 0.5098414055633288,
+      "USC_fixed_alpha1.0": 0.5162935058880342,
+      "USC_adaptive_alpha": 0.5155524902806166,
+      "alpha_adaptive": 1.0294861289437305,
+      "box_size_variance": 12772.537047464271,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.5243834777147544,
+      "oracle_alpha": 0.5
+    },
+    "vehicle": {
+      "Baseline": 0.6201772575038565,
+      "TGE": 0.6764724217801971,
+      "USC_fixed_alpha1.0": 0.6377110911639349,
+      "USC_adaptive_alpha": 0.6622547212026973,
+      "alpha_adaptive": 0.5763986984513079,
+      "box_size_variance": 18474.838764432632,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.6715797857477779,
+      "oracle_alpha": 0.3
+    }
+  },
+  "DOTA": {
+    "plane": {
+      "Baseline": 0.8230500752044378,
+      "TGE": 0.8455561959037329,
+      "USC_fixed_alpha1.0": 0.8156463995340384,
+      "USC_adaptive_alpha": 0.8313555022502559,
+      "alpha_adaptive": 0.6764547304138641,
+      "box_size_variance": 18150.31913305952,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.8474871642927898,
+      "oracle_alpha": 0.0
+    },
+    "ship": {
+      "Baseline": 0.5184374861771062,
+      "TGE": 0.4959170546208501,
+      "USC_fixed_alpha1.0": 0.5219028001952644,
+      "USC_adaptive_alpha": 0.520842228600298,
+      "alpha_adaptive": 1.0294861289437305,
+      "box_size_variance": 12772.537047464271,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.5273103785743456,
+      "oracle_alpha": 0.7
+    },
+    "small-vehicle": {
+      "Baseline": 0.6201772575038565,
+      "TGE": 0.680934680153833,
+      "USC_fixed_alpha1.0": 0.6293615116832115,
+      "USC_adaptive_alpha": 0.659875683437834,
+      "alpha_adaptive": 0.5763986984513079,
+      "box_size_variance": 18474.838764432632,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.6719096194736056,
+      "oracle_alpha": 0.3
+    }
+  },
+  "VisDrone": {
+    "bicycle": {
+      "Baseline": 0.7259143780380651,
+      "TGE": 0.7310383443444824,
+      "USC_fixed_alpha1.0": 0.7114962286506535,
+      "USC_adaptive_alpha": 0.6943264719750971,
+      "alpha_adaptive": 1.288229385232801,
+      "box_size_variance": 14836.95453984465,
+      "text_confusability": 0.3850901424884796,
+      "USC_oracle_alpha": 0.7522668373023111,
+      "oracle_alpha": 0.3
+    },
+    "car": {
+      "Baseline": 0.6201772575038565,
+      "TGE": 0.6911988974017578,
+      "USC_fixed_alpha1.0": 0.6038086833843239,
+      "USC_adaptive_alpha": 0.6495804739914263,
+      "alpha_adaptive": 0.5763986984513079,
+      "box_size_variance": 18474.838764432632,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.6886167414108552,
+      "oracle_alpha": 0.0
+    },
+    "bus": {
+      "Baseline": 0.7579307870981663,
+      "TGE": 0.7661318278553736,
+      "USC_fixed_alpha1.0": 0.7641586102206053,
+      "USC_adaptive_alpha": 0.7586121712873506,
+      "alpha_adaptive": 1.3716026760478877,
+      "box_size_variance": 15145.142347668245,
+      "text_confusability": 0.39830347895622253,
+      "USC_oracle_alpha": 0.7694886079111243,
+      "oracle_alpha": 0.7
+    },
+    "motor": {
+      "Baseline": 0.7579868525122457,
+      "TGE": 0.7144400958516569,
+      "USC_fixed_alpha1.0": 0.7482261123129199,
+      "USC_adaptive_alpha": 0.6909349043940408,
+      "alpha_adaptive": 0.0,
+      "box_size_variance": 12771.047413151684,
+      "text_confusability": 0.1744769960641861,
+      "USC_oracle_alpha": 0.7587558988295733,
+      "oracle_alpha": 0.5
+    }
+  }
+}

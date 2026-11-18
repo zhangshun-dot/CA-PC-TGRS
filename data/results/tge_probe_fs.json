@@ -1,0 +1,60 @@
+{
+  "config": {
+    "k": 10,
+    "alpha": 0.5,
+    "beta": 2.0,
+    "n_coco": 100,
+    "neg_lam": 0.5,
+    "protocol": "gdino th=0 -> pre-filter 0.03 -> image-safe per-image AP50 (per-image matching + global PR, 2026-08-23 修正), 前K图校准后90图测试"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "zs_src": 0.7659,
+      "zs_extrap": 0.7601,
+      "zs_text": 0.4501,
+      "fs_src": 0.7667,
+      "fs_extrap": 0.7645
+    },
+    "COCO-boat": {
+      "baseline": 0.1879,
+      "zs_src": 0.1753,
+      "zs_extrap": 0.2277,
+      "zs_text": 0.2037,
+      "fs_src": 0.1891,
+      "fs_extrap": 0.1951
+    },
+    "COCO-car": {
+      "baseline": 0.0858,
+      "zs_src": 0.0995,
+      "zs_extrap": 0.1752,
+      "zs_text": 0.1141,
+      "fs_src": 0.1071,
+      "fs_extrap": 0.1212
+    },
+    "COCO-truck": {
+      "baseline": 0.2631,
+      "zs_src": 0.2904,
+      "zs_extrap": 0.3342,
+      "zs_text": 0.1453,
+      "fs_src": 0.2848,
+      "fs_extrap": 0.3065
+    },
+    "COCO-bus": {
+      "baseline": 0.5651,
+      "zs_src": 0.524,
+      "zs_extrap": 0.6236,
+      "zs_text": 0.5368,
+      "fs_src": 0.5933,
+      "fs_extrap": 0.6093
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.435,
+      "zs_src": 0.4491,
+      "zs_extrap": 0.5557,
+      "zs_text": 0.2872,
+      "fs_src": 0.4945,
+      "fs_extrap": 0.531
+    }
+  }
+}

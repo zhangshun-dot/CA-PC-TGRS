@@ -1,0 +1,81 @@
+{
+ "note": "R^1 (paper text) vs R^2 (implementation) injection; point estimates only; category-balanced",
+ "PS": 3.3706120402673045,
+ "c0": 0.3003235325217247,
+ "per_ds": {
+  "DIOR": {
+   "gdino": {
+    "n_cells": 24,
+    "gain": {
+     "full_m_r1": -0.056024,
+     "full_m_r2": 0.02045,
+     "cond_m_r1": -0.053627,
+     "cond_m_r2": 0.020238,
+     "vocab_m_r1": -0.040847,
+     "vocab_m_r2": -0.013998,
+     "full_p_r1": -0.106211,
+     "full_p_r2": -0.047788
+    },
+    "base_proto": 0.212821,
+    "inj_len_r1": 1.9021,
+    "inj_len_r2": 1.1048,
+    "R_mean": 0.5762
+   },
+   "owlv2": {
+    "n_cells": 24,
+    "gain": {
+     "full_m_r1": -0.01086,
+     "full_m_r2": -0.002383,
+     "cond_m_r1": -0.012993,
+     "cond_m_r2": -0.006346,
+     "vocab_m_r1": -0.05083,
+     "vocab_m_r2": -0.023467,
+     "full_p_r1": -0.126759,
+     "full_p_r2": -0.053909
+    },
+    "base_proto": 0.450248,
+    "inj_len_r1": 1.7549,
+    "inj_len_r2": 1.0317,
+    "R_mean": 0.5762
+   }
+  },
+  "DOTA": {
+   "gdino": {
+    "n_cells": 16,
+    "gain": {
+     "full_m_r1": 0.017375,
+     "full_m_r2": 0.012955,
+     "cond_m_r1": 0.022596,
+     "cond_m_r2": 0.014059,
+     "vocab_m_r1": -0.007385,
+     "vocab_m_r2": -0.00297,
+     "full_p_r1": -0.012911,
+     "full_p_r2": -0.006445
+    },
+    "base_proto": 0.028039,
+    "inj_len_r1": 1.833,
+    "inj_len_r2": 1.017,
+    "R_mean": 0.5509
+   }
+  },
+  "NWPU": {
+   "gdino": {
+    "n_cells": 12,
+    "gain": {
+     "full_m_r1": -0.168624,
+     "full_m_r2": 0.036599,
+     "cond_m_r1": -0.154089,
+     "cond_m_r2": 0.039011,
+     "vocab_m_r1": -0.177635,
+     "vocab_m_r2": -0.021313,
+     "full_p_r1": -0.256652,
+     "full_p_r2": -0.090148
+    },
+    "base_proto": 0.356989,
+    "inj_len_r1": 1.779,
+    "inj_len_r2": 0.9733,
+    "R_mean": 0.5426
+   }
+  }
+ }
+}

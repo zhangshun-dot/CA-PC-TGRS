@@ -1,0 +1,27 @@
+{
+  "per_domain": {
+    "DIOR": {
+      "ess_rho": 0.2732295333235123,
+      "det_proxy_rho": NaN,
+      "n": 6
+    },
+    "NWPU": {
+      "ess_rho": 0.7650368522374495,
+      "det_proxy_rho": NaN,
+      "n": 6
+    },
+    "DOTA": {
+      "ess_rho": 0.2608969660436018,
+      "det_proxy_rho": NaN,
+      "n": 6
+    },
+    "VisDrone": {
+      "ess_rho": 0.7999999999999999,
+      "det_proxy_rho": NaN,
+      "n": 4
+    }
+  },
+  "mean_essence_rho": 0.5247908379011409,
+  "mean_det_proxy_rho": NaN,
+  "winner": "det_stats(proxy)"
+}

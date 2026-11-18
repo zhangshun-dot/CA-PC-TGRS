@@ -1,0 +1,488 @@
+{
+  "task1_adaptive_correction": {
+    "per_class": [
+      {
+        "domain": "DIOR",
+        "src_cls": "airplane",
+        "tgt_cls": "airplane",
+        "oracle_alpha": 0.1,
+        "pred_alpha_raw": 0.34849404175699317,
+        "adaptive_alpha": 0.3,
+        "ap_fixed_1.0": 0.7366909762131327,
+        "ap_adaptive": 0.7777463947238075,
+        "ap_oracle": 0.781105174369954,
+        "gain_adaptive_vs_fixed": 0.041055418510674735,
+        "gain_oracle_vs_fixed": 0.04441419815682124,
+        "oracle_realization_ratio": 0.9243757845622954
+      },
+      {
+        "domain": "DIOR",
+        "src_cls": "ship",
+        "tgt_cls": "boat",
+        "oracle_alpha": 1.0,
+        "pred_alpha_raw": 1.810057910427874,
+        "adaptive_alpha": 2.0,
+        "ap_fixed_1.0": 0.20188971447675763,
+        "ap_adaptive": 0.20111633198082812,
+        "ap_oracle": 0.20188971447675763,
+        "gain_adaptive_vs_fixed": -0.0007733824959295088,
+        "gain_oracle_vs_fixed": 0.0,
+        "oracle_realization_ratio": -77338.24959295087
+      },
+      {
+        "domain": "DIOR",
+        "src_cls": "vehicle",
+        "tgt_cls": "car",
+        "oracle_alpha": 0.3,
+        "pred_alpha_raw": 0.10214466606945494,
+        "adaptive_alpha": 0.1,
+        "ap_fixed_1.0": 0.14427924793714164,
+        "ap_adaptive": 0.16416461679252262,
+        "ap_oracle": 0.16962572303496762,
+        "gain_adaptive_vs_fixed": 0.019885368855380975,
+        "gain_oracle_vs_fixed": 0.025346475097825977,
+        "oracle_realization_ratio": 0.7845414769989778
+      },
+      {
+        "domain": "DIOR",
+        "src_cls": "vehicle",
+        "tgt_cls": "truck",
+        "oracle_alpha": 0.7,
+        "pred_alpha_raw": 0.8001994206760287,
+        "adaptive_alpha": 0.7,
+        "ap_fixed_1.0": 0.21546682209542792,
+        "ap_adaptive": 0.2261088036845185,
+        "ap_oracle": 0.2261088036845185,
+        "gain_adaptive_vs_fixed": 0.010641981589090577,
+        "gain_oracle_vs_fixed": 0.010641981589090577,
+        "oracle_realization_ratio": 0.9999990603262635
+      },
+      {
+        "domain": "DIOR",
+        "src_cls": "vehicle",
+        "tgt_cls": "bus",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.667366840307207,
+        "adaptive_alpha": 1.5,
+        "ap_fixed_1.0": 0.5126604685197272,
+        "ap_adaptive": 0.5147407106243713,
+        "ap_oracle": 0.5164532245711516,
+        "gain_adaptive_vs_fixed": 0.002080242104644081,
+        "gain_oracle_vs_fixed": 0.003792756051424373,
+        "oracle_realization_ratio": 0.5484762509574895
+      },
+      {
+        "domain": "DIOR",
+        "src_cls": "vehicle",
+        "tgt_cls": "motorcycle",
+        "oracle_alpha": 0.7,
+        "pred_alpha_raw": 1.0056489402387734,
+        "adaptive_alpha": 1.0,
+        "ap_fixed_1.0": 0.4355677732131108,
+        "ap_adaptive": 0.4355677732131108,
+        "ap_oracle": 0.44308706906750017,
+        "gain_adaptive_vs_fixed": 0.0,
+        "gain_oracle_vs_fixed": 0.007519295854389374,
+        "oracle_realization_ratio": 0.0
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "airplane",
+        "tgt_cls": "airplane",
+        "oracle_alpha": 0.0,
+        "pred_alpha_raw": 0.34849404175699317,
+        "adaptive_alpha": 0.3,
+        "ap_fixed_1.0": 0.7374779838462014,
+        "ap_adaptive": 0.7674468940382504,
+        "ap_oracle": 0.7731978326073765,
+        "gain_adaptive_vs_fixed": 0.029968910192048948,
+        "gain_oracle_vs_fixed": 0.035719848761175066,
+        "oracle_realization_ratio": 0.8389985635839918
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "ship",
+        "tgt_cls": "boat",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.810057910427874,
+        "adaptive_alpha": 2.0,
+        "ap_fixed_1.0": 0.1975739692747843,
+        "ap_adaptive": 0.20139163157789453,
+        "ap_oracle": 0.20139163157789453,
+        "gain_adaptive_vs_fixed": 0.003817662303110231,
+        "gain_oracle_vs_fixed": 0.003817662303110231,
+        "oracle_realization_ratio": 0.999997380602837
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "vehicle",
+        "tgt_cls": "car",
+        "oracle_alpha": 0.0,
+        "pred_alpha_raw": 0.10214466606945494,
+        "adaptive_alpha": 0.1,
+        "ap_fixed_1.0": 0.19503669700253268,
+        "ap_adaptive": 0.1683523747720505,
+        "ap_oracle": 0.21509825165952384,
+        "gain_adaptive_vs_fixed": -0.02668432223048217,
+        "gain_oracle_vs_fixed": 0.020061554656991165,
+        "oracle_realization_ratio": -1.330121687252498
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "vehicle",
+        "tgt_cls": "truck",
+        "oracle_alpha": 1.0,
+        "pred_alpha_raw": 0.8001994206760287,
+        "adaptive_alpha": 0.7,
+        "ap_fixed_1.0": 0.21621011758561137,
+        "ap_adaptive": 0.2159783134624779,
+        "ap_oracle": 0.21621011758561137,
+        "gain_adaptive_vs_fixed": -0.00023180412313347776,
+        "gain_oracle_vs_fixed": 0.0,
+        "oracle_realization_ratio": -23180.412313347777
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "vehicle",
+        "tgt_cls": "bus",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.667366840307207,
+        "adaptive_alpha": 1.5,
+        "ap_fixed_1.0": 0.5047056366382449,
+        "ap_adaptive": 0.5071651881918832,
+        "ap_oracle": 0.5080461949572349,
+        "gain_adaptive_vs_fixed": 0.002459551553638306,
+        "gain_oracle_vs_fixed": 0.00334055831899005,
+        "oracle_realization_ratio": 0.7362674008660597
+      },
+      {
+        "domain": "NWPU",
+        "src_cls": "vehicle",
+        "tgt_cls": "motorcycle",
+        "oracle_alpha": 0.7,
+        "pred_alpha_raw": 1.0056489402387734,
+        "adaptive_alpha": 1.0,
+        "ap_fixed_1.0": 0.4473858805359707,
+        "ap_adaptive": 0.4473858805359707,
+        "ap_oracle": 0.450705851041481,
+        "gain_adaptive_vs_fixed": 0.0,
+        "gain_oracle_vs_fixed": 0.00331997050551025,
+        "oracle_realization_ratio": 0.0
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "plane",
+        "tgt_cls": "airplane",
+        "oracle_alpha": 0.0,
+        "pred_alpha_raw": 0.34849404175699317,
+        "adaptive_alpha": 0.3,
+        "ap_fixed_1.0": 0.7338051207556963,
+        "ap_adaptive": 0.7698226178159778,
+        "ap_oracle": 0.7748706812732178,
+        "gain_adaptive_vs_fixed": 0.03601749706028157,
+        "gain_oracle_vs_fixed": 0.04106556051752153,
+        "oracle_realization_ratio": 0.8770728521819491
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "ship",
+        "tgt_cls": "boat",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.810057910427874,
+        "adaptive_alpha": 2.0,
+        "ap_fixed_1.0": 0.2037643813524294,
+        "ap_adaptive": 0.20516395314430652,
+        "ap_oracle": 0.20516395314430652,
+        "gain_adaptive_vs_fixed": 0.0013995717918771078,
+        "gain_oracle_vs_fixed": 0.0013995717918771078,
+        "oracle_realization_ratio": 0.9999928550085047
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "small-vehicle",
+        "tgt_cls": "car",
+        "oracle_alpha": 1.5,
+        "pred_alpha_raw": 0.10214466606945494,
+        "adaptive_alpha": 0.1,
+        "ap_fixed_1.0": 0.14660066975115557,
+        "ap_adaptive": 0.16515226816387332,
+        "ap_oracle": 0.17226287156535894,
+        "gain_adaptive_vs_fixed": 0.01855159841271775,
+        "gain_oracle_vs_fixed": 0.025662201814203367,
+        "oracle_realization_ratio": 0.7229150217850638
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "large-vehicle",
+        "tgt_cls": "truck",
+        "oracle_alpha": 0.5,
+        "pred_alpha_raw": 0.8001994206760287,
+        "adaptive_alpha": 0.7,
+        "ap_fixed_1.0": 0.21593302506415304,
+        "ap_adaptive": 0.222382951888532,
+        "ap_oracle": 0.22417944771616824,
+        "gain_adaptive_vs_fixed": 0.006449926824378949,
+        "gain_oracle_vs_fixed": 0.008246422652015195,
+        "oracle_realization_ratio": 0.7821475171815984
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "large-vehicle",
+        "tgt_cls": "bus",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.667366840307207,
+        "adaptive_alpha": 1.5,
+        "ap_fixed_1.0": 0.5392861711888485,
+        "ap_adaptive": 0.5472503229455814,
+        "ap_oracle": 0.5535173792587929,
+        "gain_adaptive_vs_fixed": 0.007964151756732929,
+        "gain_oracle_vs_fixed": 0.014231208069944379,
+        "oracle_realization_ratio": 0.5596254458044473
+      },
+      {
+        "domain": "DOTA",
+        "src_cls": "small-vehicle",
+        "tgt_cls": "motorcycle",
+        "oracle_alpha": 0.7,
+        "pred_alpha_raw": 1.0056489402387734,
+        "adaptive_alpha": 1.0,
+        "ap_fixed_1.0": 0.4393395277657309,
+        "ap_adaptive": 0.4393395277657309,
+        "ap_oracle": 0.44489833351371466,
+        "gain_adaptive_vs_fixed": 0.0,
+        "gain_oracle_vs_fixed": 0.005558805747983786,
+        "oracle_realization_ratio": 0.0
+      },
+      {
+        "domain": "VisDrone",
+        "src_cls": "bicycle",
+        "tgt_cls": "bicycle",
+        "oracle_alpha": 1.5,
+        "pred_alpha_raw": 1.223104094955575,
+        "adaptive_alpha": 1.0,
+        "ap_fixed_1.0": 0.21945071733301216,
+        "ap_adaptive": 0.21945071733301216,
+        "ap_oracle": 0.2325880471070848,
+        "gain_adaptive_vs_fixed": 0.0,
+        "gain_oracle_vs_fixed": 0.013137329774072642,
+        "oracle_realization_ratio": 0.0
+      },
+      {
+        "domain": "VisDrone",
+        "src_cls": "car",
+        "tgt_cls": "car",
+        "oracle_alpha": 0.0,
+        "pred_alpha_raw": 0.10214466606945494,
+        "adaptive_alpha": 0.1,
+        "ap_fixed_1.0": 0.147447910970207,
+        "ap_adaptive": 0.18689977805659527,
+        "ap_oracle": 0.19193555172510346,
+        "gain_adaptive_vs_fixed": 0.03945186708638826,
+        "gain_oracle_vs_fixed": 0.044487640754896446,
+        "oracle_realization_ratio": 0.8868049091588875
+      },
+      {
+        "domain": "VisDrone",
+        "src_cls": "bus",
+        "tgt_cls": "bus",
+        "oracle_alpha": 2.0,
+        "pred_alpha_raw": 1.667366840307207,
+        "adaptive_alpha": 1.5,
+        "ap_fixed_1.0": 0.5232692996308862,
+        "ap_adaptive": 0.5239438023721834,
+        "ap_oracle": 0.5265134063680191,
+        "gain_adaptive_vs_fixed": 0.0006745027412972115,
+        "gain_oracle_vs_fixed": 0.0032441067371329346,
+        "oracle_realization_ratio": 0.207915681201201
+      },
+      {
+        "domain": "VisDrone",
+        "src_cls": "motor",
+        "tgt_cls": "motorcycle",
+        "oracle_alpha": 0.5,
+        "pred_alpha_raw": 1.0056489402387734,
+        "adaptive_alpha": 1.0,
+        "ap_fixed_1.0": 0.4387204608103243,
+        "ap_adaptive": 0.4387204608103243,
+        "ap_oracle": 0.4420797593679593,
+        "gain_adaptive_vs_fixed": 0.0,
+        "gain_oracle_vs_fixed": 0.0033592985576350043,
+        "oracle_realization_ratio": 0.0
+      }
+    ],
+    "summary": {
+      "n_samples": 22,
+      "mean_ap_fixed": 0.3705710259982313,
+      "mean_ap_adaptive": 0.3793314233588092,
+      "mean_ap_oracle": 0.38504222816698624,
+      "mean_gain_adaptive": 0.008760397360578022,
+      "mean_gain_oracle": 0.014471202168755028,
+      "n_positive": 14,
+      "oracle_realization_ratio": -4568.596495353896
+    }
+  },
+  "task23_improved_prior_cv": {
+    "cv_5fold": {
+      "size_only": {
+        "name": "仅尺寸方差",
+        "mean_rho": 0.7094495760778112,
+        "std_rho": 0.03314002212463443,
+        "mean_mae": 0.4701888860916969,
+        "all_rho": [
+          0.7355126691653484,
+          0.6467339915199997,
+          0.7139644464358949,
+          0.7385946736578096,
+          0.7124420996100039
+        ]
+      },
+      "text_only": {
+        "name": "仅文本混淆度",
+        "mean_rho": 0.34268878301230765,
+        "std_rho": 0.09470188018953193,
+        "mean_mae": 0.6735745308598379,
+        "all_rho": [
+          0.4114273993143667,
+          0.38100865941689555,
+          0.2829999918468235,
+          0.18868869108488476,
+          0.44931917339856775
+        ]
+      },
+      "physical_improved_only": {
+        "name": "仅改进物理先验",
+        "mean_rho": -0.28335526136713574,
+        "std_rho": 0.10668894409222654,
+        "mean_mae": 0.7148551950723674,
+        "all_rho": [
+          -0.24801836706875083,
+          -0.25563524394084536,
+          -0.20013737883332774,
+          -0.21997858449352836,
+          -0.4930067324992264
+        ]
+      },
+      "size+text": {
+        "name": "尺寸+文本（双因子）",
+        "mean_rho": 0.766800871466461,
+        "std_rho": 0.006992413724335198,
+        "mean_mae": 0.3961821135319553,
+        "all_rho": [
+          0.775161398987543,
+          0.7576355111675874,
+          0.7742994700783646,
+          0.7610111656987859,
+          0.7658968114000243
+        ]
+      },
+      "size+physical": {
+        "name": "尺寸+改进物理先验",
+        "mean_rho": 0.6408861437177,
+        "std_rho": 0.057157325437781265,
+        "mean_mae": 0.5013586548067877,
+        "all_rho": [
+          0.7203688726432536,
+          0.5431292276802081,
+          0.6334468747184384,
+          0.6598644234374303,
+          0.64762132010917
+        ]
+      },
+      "text+physical": {
+        "name": "文本+改进物理先验",
+        "mean_rho": 0.2664626286288423,
+        "std_rho": 0.05426509177974778,
+        "mean_mae": 0.71281549471591,
+        "all_rho": [
+          0.3613333499941041,
+          0.27099048146412075,
+          0.2331635821719728,
+          0.19870590992980933,
+          0.2681198195842042
+        ]
+      },
+      "size+text+physical": {
+        "name": "三因子联合",
+        "mean_rho": 0.6953249548421455,
+        "std_rho": 0.04358555156161071,
+        "mean_mae": 0.43718534987386803,
+        "all_rho": [
+          0.7720699879047311,
+          0.6378610697174538,
+          0.6862819721564225,
+          0.6994907465159185,
+          0.6809209979162018
+        ]
+      }
+    },
+    "loo": {
+      "size_only": {
+        "spearman_rho": 0.6703853565997824,
+        "spearman_p": 0.0006400548764799475,
+        "pearson_r": 0.6634136472262857,
+        "mae": 0.4593665991353099,
+        "rmse": 0.5744292145130351
+      },
+      "text_only": {
+        "spearman_rho": 0.1723857818356285,
+        "spearman_p": 0.4430019507716153,
+        "pearson_r": 0.205783692356106,
+        "mae": 0.696940880135275,
+        "rmse": 0.7587172580976386
+      },
+      "physical_improved_only": {
+        "spearman_rho": -0.8730936259036675,
+        "spearman_p": 1.1465605604836147e-07,
+        "pearson_r": -0.4764774161677011,
+        "mae": 0.7385453403856456,
+        "rmse": 0.8292774588757069
+      },
+      "size+text": {
+        "spearman_rho": 0.7439216029290379,
+        "spearman_p": 7.22254547004129e-05,
+        "pearson_r": 0.727832420942603,
+        "mae": 0.403791305670536,
+        "rmse": 0.5265734765957241
+      },
+      "size+physical": {
+        "spearman_rho": 0.6024349697004914,
+        "spearman_p": 0.0030068067297492804,
+        "pearson_r": 0.6389681092853033,
+        "mae": 0.4639699769362966,
+        "rmse": 0.5985462307525505
+      },
+      "text+physical": {
+        "spearman_rho": 0.024120370569514434,
+        "spearman_p": 0.9151493841745015,
+        "pearson_r": 0.1065091297629566,
+        "mae": 0.7405253777684787,
+        "rmse": 0.7999556771695816
+      },
+      "size+text+physical": {
+        "spearman_rho": 0.6793904377079898,
+        "spearman_p": 0.0005063071130703349,
+        "pearson_r": 0.6791458947294416,
+        "mae": 0.4300155908290036,
+        "rmse": 0.5743412613059162
+      }
+    },
+    "physical_prior_values": {
+      "airplane→airplane": 0.555,
+      "ship→boat": 0.5625,
+      "vehicle→car": 0.5449999999999999,
+      "vehicle→truck": 0.5449999999999999,
+      "vehicle→bus": 0.5449999999999999,
+      "vehicle→motorcycle": 0.5449999999999999,
+      "plane→airplane": 0.555,
+      "small-vehicle→car": 0.475,
+      "large-vehicle→truck": 0.55,
+      "large-vehicle→bus": 0.55,
+      "small-vehicle→motorcycle": 0.475,
+      "bicycle→bicycle": 0.3725,
+      "car→car": 0.5249999999999999,
+      "bus→bus": 0.4925,
+      "motor→motorcycle": 0.365
+    }
+  },
+  "note": "综合实验：双因子自适应校正实际AP + 改进物理先验四因子 + 5折交叉验证"
+}

@@ -1,0 +1,102 @@
+{
+  "config": {
+    "device": "cuda",
+    "beta": 2.0,
+    "lam": 0.5,
+    "n_eval": 100,
+    "detector": "gdino-tiny",
+    "clip": "openai/clip-vit-base-patch32"
+  },
+  "results": {
+    "dior_airplane_airplane": {
+      "baseline": 0.4934,
+      "n_img": 100,
+      "n_box": 10433,
+      "A_anchored": -0.001,
+      "B_roleswap": -0.0274,
+      "beta0": 0.0187,
+      "rand_mean": -0.0131
+    },
+    "dior_ship_boat": {
+      "baseline": 0.238,
+      "n_img": 100,
+      "n_box": 11863,
+      "A_anchored": 0.0564,
+      "B_roleswap": -0.0309,
+      "beta0": 0.0118,
+      "rand_mean": 0.0076
+    },
+    "dior_vehicle_car": {
+      "baseline": 0.1408,
+      "n_img": 100,
+      "n_box": 11807,
+      "A_anchored": 0.1155,
+      "B_roleswap": 0.018,
+      "beta0": 0.08,
+      "rand_mean": 0.0916
+    },
+    "dota_plane_airplane": {
+      "baseline": 0.1424,
+      "n_img": 71,
+      "n_box": 11363,
+      "A_anchored": -0.001,
+      "B_roleswap": -0.0088,
+      "beta0": -0.0006,
+      "rand_mean": -0.0034
+    },
+    "dota_ship_boat": {
+      "baseline": 0.0278,
+      "n_img": 100,
+      "n_box": 21663,
+      "A_anchored": 0.0124,
+      "B_roleswap": -0.0002,
+      "beta0": 0.0,
+      "rand_mean": 0.0003
+    },
+    "dota_small-vehicle_car": {
+      "baseline": 0.0173,
+      "n_img": 100,
+      "n_box": 19374,
+      "A_anchored": 0.0017,
+      "B_roleswap": -0.001,
+      "beta0": 0.0002,
+      "rand_mean": 0.0009
+    },
+    "dota_large-vehicle_truck": {
+      "baseline": 0.0475,
+      "n_img": 100,
+      "n_box": 18075,
+      "A_anchored": 0.0013,
+      "B_roleswap": -0.0064,
+      "beta0": 0.0006,
+      "rand_mean": -0.0001
+    },
+    "nwpu_1_airplane": {
+      "baseline": 0.6067,
+      "n_img": 89,
+      "n_box": 10124,
+      "A_anchored": -0.069,
+      "B_roleswap": -0.0992,
+      "beta0": -0.0135,
+      "rand_mean": -0.0808
+    },
+    "nwpu_2_boat": {
+      "baseline": 0.5315,
+      "n_img": 55,
+      "n_box": 4716,
+      "A_anchored": -0.0596,
+      "B_roleswap": -0.0374,
+      "beta0": 0.0014,
+      "rand_mean": -0.0279
+    },
+    "nwpu_10_car": {
+      "baseline": 0.397,
+      "n_img": 86,
+      "n_box": 12742,
+      "A_anchored": -0.0491,
+      "B_roleswap": -0.0274,
+      "beta0": 0.0032,
+      "rand_mean": -0.009
+    }
+  }
+}

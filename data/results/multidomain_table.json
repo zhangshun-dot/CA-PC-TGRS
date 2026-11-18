@@ -1,0 +1,141 @@
+{
+  "note": "跨源域 CA-PC 增益（gdino-tiny, 零GT 平衡先验 γ, COCO 为目标域）",
+  "by_domain": {
+    "dior": {
+      "mean_gain": 0.0594,
+      "n": 6,
+      "pos": 5
+    },
+    "dota": {
+      "mean_gain": 0.0408,
+      "n": 4,
+      "pos": 3
+    },
+    "nwpu": {
+      "mean_gain": 0.0423,
+      "n": 3,
+      "pos": 2
+    }
+  },
+  "overall_mean_gain": 0.0497,
+  "overall_pos": "10/13",
+  "rows": [
+    {
+      "src_domain": "dior",
+      "pair": "airplane->airplane",
+      "base": 0.7818,
+      "ap": 0.7805,
+      "gain": -0.0013,
+      "oracle_pct": 99.84,
+      "n_pred": 1692
+    },
+    {
+      "src_domain": "dior",
+      "pair": "ship->boat",
+      "base": 0.1585,
+      "ap": 0.1975,
+      "gain": 0.039,
+      "oracle_pct": 99.93,
+      "n_pred": 813
+    },
+    {
+      "src_domain": "dior",
+      "pair": "vehicle->car",
+      "base": 0.1164,
+      "ap": 0.2109,
+      "gain": 0.0945,
+      "oracle_pct": 81.75,
+      "n_pred": 1877
+    },
+    {
+      "src_domain": "dior",
+      "pair": "vehicle->truck",
+      "base": 0.2736,
+      "ap": 0.343,
+      "gain": 0.0694,
+      "oracle_pct": 100.74,
+      "n_pred": 3971
+    },
+    {
+      "src_domain": "dior",
+      "pair": "vehicle->bus",
+      "base": 0.5067,
+      "ap": 0.6145,
+      "gain": 0.1078,
+      "oracle_pct": 99.08,
+      "n_pred": 467
+    },
+    {
+      "src_domain": "dior",
+      "pair": "vehicle->motorcycle",
+      "base": 0.4299,
+      "ap": 0.477,
+      "gain": 0.047,
+      "oracle_pct": 93.04,
+      "n_pred": 3340
+    },
+    {
+      "src_domain": "dota",
+      "pair": "plane->airplane",
+      "base": 0.7754,
+      "ap": 0.7685,
+      "gain": -0.0069,
+      "oracle_pct": 99.11,
+      "n_pred": 1692
+    },
+    {
+      "src_domain": "dota",
+      "pair": "ship->boat",
+      "base": 0.1625,
+      "ap": 0.2004,
+      "gain": 0.0378,
+      "oracle_pct": 99.76,
+      "n_pred": 813
+    },
+    {
+      "src_domain": "dota",
+      "pair": "small-vehicle->car",
+      "base": 0.116,
+      "ap": 0.2217,
+      "gain": 0.1058,
+      "oracle_pct": 93.05,
+      "n_pred": 1877
+    },
+    {
+      "src_domain": "dota",
+      "pair": "large-vehicle->truck",
+      "base": 0.2759,
+      "ap": 0.3022,
+      "gain": 0.0263,
+      "oracle_pct": 99.47,
+      "n_pred": 3971
+    },
+    {
+      "src_domain": "nwpu",
+      "pair": "1->airplane",
+      "base": 0.7748,
+      "ap": 0.6885,
+      "gain": -0.0864,
+      "oracle_pct": 88.85,
+      "n_pred": 1692
+    },
+    {
+      "src_domain": "nwpu",
+      "pair": "2->boat",
+      "base": 0.1711,
+      "ap": 0.2482,
+      "gain": 0.0771,
+      "oracle_pct": 101.6,
+      "n_pred": 813
+    },
+    {
+      "src_domain": "nwpu",
+      "pair": "10->car",
+      "base": 0.1149,
+      "ap": 0.251,
+      "gain": 0.1361,
+      "oracle_pct": 96.89,
+      "n_pred": 1877
+    }
+  ]
+}

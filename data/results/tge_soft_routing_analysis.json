@@ -1,0 +1,142 @@
+{
+  "interior_peaks": {
+    "DOTA-storage-tank": false,
+    "COCO-bus": false,
+    "COCO-car": false,
+    "DOTA-small-vehicle": false,
+    "COCO-motorcycle": false,
+    "VD-bus": false,
+    "VOC-bus": false,
+    "COCO-truck": false,
+    "VOC-car": false,
+    "VD-car": true,
+    "COCO-boat": false,
+    "DOTA-plane": false,
+    "VD-motor": false,
+    "DOTA-large-vehicle": false,
+    "DOTA-ship": false,
+    "DOTA-bridge": false,
+    "COCO-airplane": true,
+    "VOC-aeroplane": false,
+    "VD-truck": true,
+    "VOC-boat": true,
+    "VOC-motorbike": true,
+    "DOTA-harbor": true
+  },
+  "per_domain_peaks": {
+    "COCO": 1,
+    "DOTA": 1,
+    "VOC": 2,
+    "VisDrone": 2
+  },
+  "corr": {
+    "agree": {
+      "n": 22,
+      "rho": -0.2626,
+      "p": 0.2378
+    },
+    "sep_src": {
+      "n": 22,
+      "rho": 0.2874,
+      "p": 0.1947
+    },
+    "gd_hi_frac": {
+      "n": 22,
+      "rho": -0.3292,
+      "p": 0.1347
+    },
+    "small_frac": {
+      "n": 22,
+      "rho": -0.0853,
+      "p": 0.7059
+    },
+    "low_band_recovery": {
+      "n": 22,
+      "rho": -0.5234,
+      "p": 0.0124
+    },
+    "low_band_lift": {
+      "n": 22,
+      "rho": -0.0164,
+      "p": 0.9423
+    },
+    "g1_roundtrip": {
+      "n": 22,
+      "rho": 0.235,
+      "p": 0.2925
+    },
+    "high_band_ext_agree": {
+      "n": 7,
+      "rho": 0.3571,
+      "p": 0.4316
+    }
+  },
+  "routing_posthoc": {
+    "agree": {
+      "acc": 0.6818,
+      "n": 22,
+      "th": -0.0296,
+      "dir": 1
+    },
+    "sep_src": {
+      "acc": 0.7727,
+      "n": 22,
+      "th": 0.0649,
+      "dir": -1
+    },
+    "gd_hi_frac": {
+      "acc": 0.7727,
+      "n": 22,
+      "th": 0.0012,
+      "dir": 1
+    },
+    "small_frac": {
+      "acc": 0.6818,
+      "n": 22,
+      "th": 0.0214,
+      "dir": -1
+    },
+    "low_band_recovery": {
+      "acc": 0.8182,
+      "n": 22,
+      "th": 0.532,
+      "dir": 1
+    },
+    "low_band_lift": {
+      "acc": 0.8182,
+      "n": 22,
+      "th": -0.2396,
+      "dir": 1
+    },
+    "g1_roundtrip": {
+      "acc": 0.7273,
+      "n": 22,
+      "th": 0.0834,
+      "dir": -1
+    }
+  },
+  "domains": [
+    "COCO",
+    "DOTA",
+    "VOC",
+    "VisDrone"
+  ],
+  "nn": {
+    "COCO": {
+      "nn": "VOC",
+      "dist": 1.522
+    },
+    "DOTA": {
+      "nn": "VisDrone",
+      "dist": 2.712
+    },
+    "VOC": {
+      "nn": "COCO",
+      "dist": 1.522
+    },
+    "VisDrone": {
+      "nn": "VOC",
+      "dist": 1.528
+    }
+  }
+}

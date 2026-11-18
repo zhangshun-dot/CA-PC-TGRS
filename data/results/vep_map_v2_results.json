@@ -1,0 +1,241 @@
+{
+  "config": {
+    "alpha": 0.5,
+    "beta": 0.5,
+    "gamma": 0.0,
+    "iou_thresh": 0.5,
+    "K": 5,
+    "label": "VEP v1 (无空间信号)"
+  },
+  "ablation": [],
+  "per_class": {
+    "airplane": {
+      "class": "airplane",
+      "ap_baseline": 0.17272727261643356,
+      "ap_vep": 0.4727317376725079,
+      "delta_ap": 0.30000446505607437,
+      "n_images": 20,
+      "n_gt_boxes": 162,
+      "n_baseline_preds": 29,
+      "n_vep_preds": 2086,
+      "avg_spatial_score": 0.8439253342627919
+    },
+    "airport": {
+      "class": "airport",
+      "ap_baseline": 0.1333992085400735,
+      "ap_vep": 0.3290649905970198,
+      "delta_ap": 0.19566578205694632,
+      "n_images": 20,
+      "n_gt_boxes": 20,
+      "n_baseline_preds": 26,
+      "n_vep_preds": 2347,
+      "avg_spatial_score": 0.8780907943667602
+    },
+    "baseball field": {
+      "class": "baseball field",
+      "ap_baseline": 0.05050505047699214,
+      "ap_vep": 0.1668155464970893,
+      "delta_ap": 0.11631049602009716,
+      "n_images": 20,
+      "n_gt_boxes": 44,
+      "n_baseline_preds": 39,
+      "n_vep_preds": 2634,
+      "avg_spatial_score": 0.840661619591046
+    },
+    "basketball court": {
+      "class": "basketball court",
+      "ap_baseline": 0.030303030252525252,
+      "ap_vep": 0.07474503887223954,
+      "delta_ap": 0.04444200861971429,
+      "n_images": 20,
+      "n_gt_boxes": 57,
+      "n_baseline_preds": 14,
+      "n_vep_preds": 2283,
+      "avg_spatial_score": 0.8543985985837997
+    },
+    "bridge": {
+      "class": "bridge",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.016076465138745503,
+      "delta_ap": 0.016076465138745503,
+      "n_images": 20,
+      "n_gt_boxes": 26,
+      "n_baseline_preds": 19,
+      "n_vep_preds": 2778,
+      "avg_spatial_score": 0.8605172353111906
+    },
+    "chimney": {
+      "class": "chimney",
+      "ap_baseline": 0.28567757677355893,
+      "ap_vep": 0.5434915184650444,
+      "delta_ap": 0.25781394169148547,
+      "n_images": 20,
+      "n_gt_boxes": 45,
+      "n_baseline_preds": 35,
+      "n_vep_preds": 2404,
+      "avg_spatial_score": 0.8872734794037088
+    },
+    "dam": {
+      "class": "dam",
+      "ap_baseline": 0.09090909000000001,
+      "ap_vep": 0.17918254407419107,
+      "delta_ap": 0.08827345407419106,
+      "n_images": 20,
+      "n_gt_boxes": 22,
+      "n_baseline_preds": 25,
+      "n_vep_preds": 2518,
+      "avg_spatial_score": 0.8440651847417181
+    },
+    "expressway service area": {
+      "class": "expressway service area",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.12562509206631522,
+      "delta_ap": 0.12562509206631522,
+      "n_images": 20,
+      "n_gt_boxes": 40,
+      "n_baseline_preds": 20,
+      "n_vep_preds": 2483,
+      "avg_spatial_score": 0.8451590436590614
+    },
+    "expressway toll station": {
+      "class": "expressway toll station",
+      "ap_baseline": 0.032085561478452346,
+      "ap_vep": 0.3095279627599917,
+      "delta_ap": 0.2774424012815394,
+      "n_images": 20,
+      "n_gt_boxes": 22,
+      "n_baseline_preds": 27,
+      "n_vep_preds": 2422,
+      "avg_spatial_score": 0.8375911802080124
+    },
+    "golf course": {
+      "class": "golf course",
+      "ap_baseline": 0.18181818121212123,
+      "ap_vep": 0.3055017448947813,
+      "delta_ap": 0.12368356368266009,
+      "n_images": 20,
+      "n_gt_boxes": 21,
+      "n_baseline_preds": 19,
+      "n_vep_preds": 2298,
+      "avg_spatial_score": 0.8775797934759401
+    },
+    "ground track field": {
+      "class": "ground track field",
+      "ap_baseline": 0.0779220778942486,
+      "ap_vep": 0.1989805461857557,
+      "delta_ap": 0.1210584682915071,
+      "n_images": 20,
+      "n_gt_boxes": 28,
+      "n_baseline_preds": 29,
+      "n_vep_preds": 2113,
+      "avg_spatial_score": 0.8664851267551628
+    },
+    "harbor": {
+      "class": "harbor",
+      "ap_baseline": 0.09090909060606062,
+      "ap_vep": 0.19696095888799592,
+      "delta_ap": 0.1060518682819353,
+      "n_images": 20,
+      "n_gt_boxes": 99,
+      "n_baseline_preds": 12,
+      "n_vep_preds": 2768,
+      "avg_spatial_score": 0.8417410885002118
+    },
+    "overpass": {
+      "class": "overpass",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.02758797212313097,
+      "delta_ap": 0.02758797212313097,
+      "n_images": 20,
+      "n_gt_boxes": 27,
+      "n_baseline_preds": 19,
+      "n_vep_preds": 2281,
+      "avg_spatial_score": 0.8527962169312409
+    },
+    "ship": {
+      "class": "ship",
+      "ap_baseline": 0.09090909045454545,
+      "ap_vep": 0.23584418719380992,
+      "delta_ap": 0.14493509673926447,
+      "n_images": 20,
+      "n_gt_boxes": 435,
+      "n_baseline_preds": 16,
+      "n_vep_preds": 2552,
+      "avg_spatial_score": 0.8558956646515329
+    },
+    "stadium": {
+      "class": "stadium",
+      "ap_baseline": 0.5252525246552295,
+      "ap_vep": 0.6648519753451538,
+      "delta_ap": 0.1395994506899243,
+      "n_images": 20,
+      "n_gt_boxes": 23,
+      "n_baseline_preds": 30,
+      "n_vep_preds": 1918,
+      "avg_spatial_score": 0.8463090275905939
+    },
+    "storage tank": {
+      "class": "storage tank",
+      "ap_baseline": 0.09090909045454545,
+      "ap_vep": 0.2240232850784402,
+      "delta_ap": 0.13311419462389473,
+      "n_images": 20,
+      "n_gt_boxes": 349,
+      "n_baseline_preds": 25,
+      "n_vep_preds": 2103,
+      "avg_spatial_score": 0.8545438699128082
+    },
+    "tennis court": {
+      "class": "tennis court",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.014773326543998431,
+      "delta_ap": 0.014773326543998431,
+      "n_images": 20,
+      "n_gt_boxes": 105,
+      "n_baseline_preds": 14,
+      "n_vep_preds": 2549,
+      "avg_spatial_score": 0.837951634757034
+    },
+    "train station": {
+      "class": "train station",
+      "ap_baseline": 0.00826446280616078,
+      "ap_vep": 0.042348182896655345,
+      "delta_ap": 0.03408372009049457,
+      "n_images": 20,
+      "n_gt_boxes": 21,
+      "n_baseline_preds": 32,
+      "n_vep_preds": 2394,
+      "avg_spatial_score": 0.8750211840361067
+    },
+    "vehicle": {
+      "class": "vehicle",
+      "ap_baseline": 0.11713286702881254,
+      "ap_vep": 0.3034192428129315,
+      "delta_ap": 0.18628637578411894,
+      "n_images": 20,
+      "n_gt_boxes": 127,
+      "n_baseline_preds": 32,
+      "n_vep_preds": 2261,
+      "avg_spatial_score": 0.8508399287277154
+    },
+    "windmill": {
+      "class": "windmill",
+      "ap_baseline": 0.0303030302020202,
+      "ap_vep": 0.07857267927821204,
+      "delta_ap": 0.04826964907619184,
+      "n_images": 20,
+      "n_gt_boxes": 64,
+      "n_baseline_preds": 31,
+      "n_vep_preds": 1649,
+      "avg_spatial_score": 0.8515345572953541
+    }
+  },
+  "summary": {
+    "mAP_baseline": 0.10045136027258901,
+    "mAP_vep": 0.22550624986920048,
+    "mAP_delta": 0.12505488959661148,
+    "mAP_weak_baseline": 0.05303030281565657,
+    "mAP_weak_vep": 0.13153778797600407,
+    "mAP_weak_delta": 0.0785074851603475
+  }
+}

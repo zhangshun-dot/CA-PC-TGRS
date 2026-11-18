@@ -1,0 +1,109 @@
+{
+  "per_class": {
+    "airplane": {
+      "sat": 0.65,
+      "oh": 0.85,
+      "tdm": 0.95
+    },
+    "airport": {
+      "sat": 0.75,
+      "oh": 0.95,
+      "tdm": 0.95
+    },
+    "baseball field": {
+      "sat": 0.6,
+      "oh": 0.65,
+      "tdm": 0.65
+    },
+    "basketball court": {
+      "sat": 0.9,
+      "oh": 0.95,
+      "tdm": 1.0
+    },
+    "bridge": {
+      "sat": 0.7,
+      "oh": 0.95,
+      "tdm": 0.95
+    },
+    "chimney": {
+      "sat": 0.95,
+      "oh": 0.95,
+      "tdm": 0.95
+    },
+    "dam": {
+      "sat": 0.7,
+      "oh": 0.95,
+      "tdm": 0.95
+    },
+    "expressway service area": {
+      "sat": 1.0,
+      "oh": 1.0,
+      "tdm": 1.0
+    },
+    "expressway toll station": {
+      "sat": 0.75,
+      "oh": 1.0,
+      "tdm": 1.0
+    },
+    "golf course": {
+      "sat": 0.95,
+      "oh": 1.0,
+      "tdm": 1.0
+    },
+    "ground track field": {
+      "sat": 1.0,
+      "oh": 1.0,
+      "tdm": 1.0
+    },
+    "harbor": {
+      "sat": 0.35,
+      "oh": 0.75,
+      "tdm": 0.75
+    },
+    "overpass": {
+      "sat": 0.65,
+      "oh": 0.9,
+      "tdm": 0.9
+    },
+    "ship": {
+      "sat": 0.6,
+      "oh": 0.85,
+      "tdm": 0.8
+    },
+    "stadium": {
+      "sat": 1.0,
+      "oh": 1.0,
+      "tdm": 1.0
+    },
+    "storage tank": {
+      "sat": 0.85,
+      "oh": 0.95,
+      "tdm": 1.0
+    },
+    "tennis court": {
+      "sat": 0.85,
+      "oh": 0.8,
+      "tdm": 0.8
+    },
+    "train station": {
+      "sat": 0.3,
+      "oh": 0.85,
+      "tdm": 0.85
+    },
+    "vehicle": {
+      "sat": 1.0,
+      "oh": 0.9,
+      "tdm": 0.9
+    },
+    "windmill": {
+      "sat": 1.0,
+      "oh": 0.95,
+      "tdm": 0.95
+    }
+  },
+  "means": {
+    "sat": 0.7775,
+    "oh": 0.9099999999999999,
+    "tdm": 0.9175000000000001
+  }
+}

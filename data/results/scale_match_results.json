@@ -1,0 +1,15 @@
+{
+  "dual_original_gain": -9.610936216187311e-06,
+  "dual_zscore_gain": 0.006703628610099527,
+  "dual_minmax_gain": -0.00015379665342406514,
+  "dual_mean_gain": 0.009311844233980893,
+  "dual_best_scaled_gain": 0.009311844233980893,
+  "closed_gain": 0.012402882741261768,
+  "oracle_gain": 0.016286079427902125,
+  "best_const_alpha": 2.0,
+  "best_const_gain": 0.011038670240095408,
+  "rho_dual_vs_oracle": -0.21172772963850095,
+  "p_dual_vs_oracle": 0.27872138016116277,
+  "rho_closed_vs_oracle": 0.30510802855858954,
+  "p_closed_vs_oracle": 0.10917253536180338
+}

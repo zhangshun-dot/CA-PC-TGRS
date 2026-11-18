@@ -1,0 +1,70 @@
+{
+  "config": {
+    "method": "ExDet TGE reimpl (Eq.1+Eq.2, arXiv 2606.09360)",
+    "note": "ExDet 代码未公开, 此为按论文公式忠实复现; 与 CA-PC 同协议双向评测",
+    "detector": "gdino-tiny",
+    "beta": 2.0,
+    "lam": 0.5
+  },
+  "per_class": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.7627,
+        "TGE_gain": 0.0148,
+        "CA_PC_gain": 0.0092
+      },
+      "ship->boat": {
+        "baseline": 0.17,
+        "TGE_gain": 0.0326,
+        "CA_PC_gain": -0.0012
+      },
+      "vehicle->car": {
+        "baseline": 0.1079,
+        "TGE_gain": 0.1069,
+        "CA_PC_gain": 0.0839
+      },
+      "vehicle->truck": {
+        "baseline": 0.265,
+        "TGE_gain": 0.0055,
+        "CA_PC_gain": 0.0358
+      },
+      "vehicle->bus": {
+        "baseline": 0.5404,
+        "TGE_gain": 0.0574,
+        "CA_PC_gain": 0.0603
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.4113,
+        "TGE_gain": 0.0449,
+        "CA_PC_gain": 0.091
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.506,
+        "TGE_gain": -0.0293,
+        "CA_PC_gain": 0.0096
+      },
+      "boat->ship": {
+        "baseline": 0.2466,
+        "TGE_gain": -0.0323,
+        "CA_PC_gain": 0.0618
+      },
+      "car->vehicle": {
+        "baseline": 0.1124,
+        "TGE_gain": -0.0137,
+        "CA_PC_gain": 0.1057
+      }
+    }
+  },
+  "summary": {
+    "fwd_dior2coco": {
+      "TGE_mean": 0.0437,
+      "CA_PC_mean": 0.0465
+    },
+    "rev_coco2dior": {
+      "TGE_mean": -0.0251,
+      "CA_PC_mean": 0.059
+    }
+  }
+}

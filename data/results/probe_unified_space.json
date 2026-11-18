@@ -1,0 +1,41 @@
+{
+  "consistency": {
+    "ours_zc": 0.9925,
+    "clip_baseline": 0.9786,
+    "delta": 0.0139,
+    "zc_more_invariant": true
+  },
+  "cond_mse": 0.0875,
+  "detection": {
+    "rows": [
+      {
+        "dior_cls": "airplane",
+        "coco_name": "airplane",
+        "n_imgs": 20,
+        "ap_raw": 0.474,
+        "ap_disentangle": 0.1492,
+        "ap_delta_d_vs_a": -0.3248
+      },
+      {
+        "dior_cls": "ship",
+        "coco_name": "boat",
+        "n_imgs": 20,
+        "ap_raw": 0.154,
+        "ap_disentangle": 0.0909,
+        "ap_delta_d_vs_a": -0.0631
+      },
+      {
+        "dior_cls": "vehicle",
+        "coco_name": "car",
+        "n_imgs": 20,
+        "ap_raw": 0.2452,
+        "ap_disentangle": 0.0305,
+        "ap_delta_d_vs_a": -0.2147
+      }
+    ],
+    "ap_raw_mean": 0.2911,
+    "ap_disentangle_mean": 0.0902,
+    "ap_delta": -0.2009
+  },
+  "note": "信息统一框架 v0: 条件解耦(content/condition)。①跨条件一致性高=分解成功; ②条件MSE低=显式; ③D用zc重建(条件取均值)喂检测, 保真不消除."
+}

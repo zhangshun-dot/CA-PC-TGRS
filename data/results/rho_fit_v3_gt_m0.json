@@ -1,0 +1,155 @@
+{
+  "n_samples": 12,
+  "m0_conf_spearman": -0.39870833692704205,
+  "m0_conf_p": 0.19920379897446747,
+  "m0_gt_spearman": -0.4130762049244129,
+  "m0_gt_p": 0.18199429077085524,
+  "fit_gt": {
+    "rho": 0.5800000000000001,
+    "c": 0.04,
+    "r_squared": 0.3593761151012995,
+    "spearman_rho": 0.438219973919812,
+    "spearman_p": 0.15417608028115432
+  },
+  "fit_conf": {
+    "rho": 0.4099999999999999,
+    "c": 0.06999999999999999,
+    "r_squared": 0.3839175453854128,
+    "spearman_rho": 0.3591966999342721,
+    "spearman_p": 0.2515064450411826
+  },
+  "samples": [
+    {
+      "src": "DIOR",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0_conf": 0.113273024559021,
+      "m_0_gt": 0.05212527886033058,
+      "n_pos": 300,
+      "mu_c": 0.025744371116161346,
+      "alpha_grid": 0.2,
+      "baseline_ap": 0.8503314859857567
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0_conf": 0.15387392044067383,
+      "m_0_gt": 0.08176282048225403,
+      "n_pos": 278,
+      "mu_c": 0.034729477018117905,
+      "alpha_grid": 0.1,
+      "baseline_ap": 0.48438347201317417
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0_conf": 0.047403693199157715,
+      "m_0_gt": -0.009225763380527496,
+      "n_pos": 381,
+      "mu_c": 0.014319458045065403,
+      "alpha_grid": 2.0,
+      "baseline_ap": 0.6533049132905124
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0_conf": 0.12967565655708313,
+      "m_0_gt": 0.1074632778763771,
+      "n_pos": 300,
+      "mu_c": 0.033775098621845245,
+      "alpha_grid": 0.0,
+      "baseline_ap": 0.8379256826079579
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0_conf": 0.2150467336177826,
+      "m_0_gt": 0.12445580214262009,
+      "n_pos": 278,
+      "mu_c": 0.03394024074077606,
+      "alpha_grid": 1.0,
+      "baseline_ap": 0.5012474270950874
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0_conf": 0.07165080308914185,
+      "m_0_gt": 0.005635547451674938,
+      "n_pos": 381,
+      "mu_c": 0.012245469726622105,
+      "alpha_grid": 2.0,
+      "baseline_ap": 0.654023553473447
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "plane",
+      "target_cls": "aeroplane",
+      "m_0_conf": 0.1590263843536377,
+      "m_0_gt": 0.1094871535897255,
+      "n_pos": 300,
+      "mu_c": 0.021690232679247856,
+      "alpha_grid": 0.0,
+      "baseline_ap": 0.8492783560367276
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0_conf": 0.18821966648101807,
+      "m_0_gt": 0.0962512344121933,
+      "n_pos": 278,
+      "mu_c": 0.03406255319714546,
+      "alpha_grid": 0.1,
+      "baseline_ap": 0.4814649435726934
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "small-vehicle",
+      "target_cls": "car",
+      "m_0_conf": 0.07089531421661377,
+      "m_0_gt": -0.0002603460452519357,
+      "n_pos": 381,
+      "mu_c": 0.03018329106271267,
+      "alpha_grid": 2.0,
+      "baseline_ap": 0.6485376693036863
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "car",
+      "target_cls": "car",
+      "m_0_conf": 0.19118636846542358,
+      "m_0_gt": 0.1757015585899353,
+      "n_pos": 381,
+      "mu_c": 0.010775637812912464,
+      "alpha_grid": 2.0,
+      "baseline_ap": 0.6877032704279327
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "bus",
+      "target_cls": "bus",
+      "m_0_conf": 0.11596515774726868,
+      "m_0_gt": 0.018013490363955498,
+      "n_pos": 210,
+      "mu_c": 0.02024092711508274,
+      "alpha_grid": 0.0,
+      "baseline_ap": 0.7636686120924118
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "motor",
+      "target_cls": "motorbike",
+      "m_0_conf": 0.11563050746917725,
+      "m_0_gt": 0.014552110806107521,
+      "n_pos": 324,
+      "mu_c": 0.03667520731687546,
+      "alpha_grid": 1.5,
+      "baseline_ap": 0.6397069372241718
+    }
+  ]
+}

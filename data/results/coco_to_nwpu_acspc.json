@@ -1,0 +1,53 @@
+{
+  "config": {
+    "beta": 2.0,
+    "lambda": 0.5,
+    "pre_filter": 0.03,
+    "source_domain": "COCO",
+    "target_domain": "NWPU",
+    "category_mapping": {
+      "airplane": "airplane",
+      "boat": "ship",
+      "car": "vehicle",
+      "truck": "vehicle",
+      "bus": "vehicle",
+      "motorcycle": "vehicle"
+    }
+  },
+  "results": {
+    "airplane": {
+      "n_images": 90,
+      "baseline_ap50": 0.8732345710930662,
+      "acspc_ap50": 0.8290639127795668,
+      "gain": -0.04417065831349942,
+      "n_positive": 5,
+      "src_cats": [
+        "airplane"
+      ]
+    },
+    "ship": {
+      "n_images": 57,
+      "baseline_ap50": 0.7094776840486301,
+      "acspc_ap50": 0.4423994469592071,
+      "gain": -0.267078237089423,
+      "n_positive": 1,
+      "src_cats": [
+        "boat"
+      ]
+    },
+    "vehicle": {
+      "n_images": 86,
+      "baseline_ap50": 0.6256180365865768,
+      "acspc_ap50": 0.21879787553537786,
+      "gain": -0.4068201610511989,
+      "n_positive": 0,
+      "src_cats": [
+        "car",
+        "truck",
+        "bus",
+        "motorcycle"
+      ]
+    }
+  },
+  "mean_gain": -0.23935635215137377
+}

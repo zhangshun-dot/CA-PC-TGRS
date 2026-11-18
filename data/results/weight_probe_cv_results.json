@@ -1,0 +1,320 @@
+{
+  "COCO-airplane": {
+    "n_img": 30,
+    "mean_baseline": 0.8079214434902849,
+    "mean_tuned": 0.8565481620280797,
+    "delta_unbiased": 0.0486,
+    "avg_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 1.0,
+      "rel": 0.5,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 0.875
+    },
+    "fold_weights": [
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.5
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      }
+    ]
+  },
+  "COCO-boat": {
+    "n_img": 30,
+    "mean_baseline": 0.2320788931544943,
+    "mean_tuned": 0.2283970647225136,
+    "delta_unbiased": -0.0037,
+    "avg_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 0.875,
+      "rel": 0.125,
+      "unc": 0.375,
+      "cond": 0.375,
+      "cond_inv": 0.625
+    },
+    "fold_weights": [
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 1.0,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.5,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 1.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.5,
+        "cond": 0.0,
+        "cond_inv": 0.5
+      }
+    ]
+  },
+  "COCO-car": {
+    "n_img": 30,
+    "mean_baseline": 0.11718637578143637,
+    "mean_tuned": 0.3276038943508608,
+    "delta_unbiased": 0.2104,
+    "avg_weights": {
+      "gd": 0.0,
+      "vis": 0.5,
+      "clip": 0.75,
+      "rel": 0.0,
+      "unc": 0.25,
+      "cond": 0.125,
+      "cond_inv": 0.25
+    },
+    "fold_weights": [
+      {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.5,
+        "cond": 0.0,
+        "cond_inv": 0.0
+      },
+      {
+        "gd": 0.0,
+        "vis": 0.0,
+        "clip": 0.5,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.0
+      },
+      {
+        "gd": 0.0,
+        "vis": 0.0,
+        "clip": 0.5,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.0
+      }
+    ]
+  },
+  "DIOR-airplane": {
+    "n_img": 20,
+    "mean_baseline": 0.5727935487426812,
+    "mean_tuned": 0.6340267941179671,
+    "delta_unbiased": 0.0612,
+    "avg_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 0.75,
+      "rel": 0.125,
+      "unc": 0.25,
+      "cond": 0.0,
+      "cond_inv": 0.875
+    },
+    "fold_weights": [
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 1.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.5
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      }
+    ]
+  },
+  "DIOR-ship": {
+    "n_img": 20,
+    "mean_baseline": 0.23851208860142004,
+    "mean_tuned": 0.3729496653434283,
+    "delta_unbiased": 0.1344,
+    "avg_weights": {
+      "gd": 0.375,
+      "vis": 1.0,
+      "clip": 0.125,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 0.875
+    },
+    "fold_weights": [
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 0.5,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.5
+      }
+    ]
+  },
+  "DIOR-vehicle": {
+    "n_img": 20,
+    "mean_baseline": 0.2935845903083184,
+    "mean_tuned": 0.39167367833777167,
+    "delta_unbiased": 0.0981,
+    "avg_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 0.0,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.375,
+      "cond_inv": 0.875
+    },
+    "fold_weights": [
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.5
+      },
+      {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "config": {
+    "dev_set": "18类",
+    "test_set": "DIOR→COCO held-out 6类",
+    "heldout_skip": 200,
+    "best_tau": 0.01,
+    "delta_gate_threshold": 0.01
+  },
+  "baseline_fixed_main": 0.03791161710624288,
+  "oracle_gain": 0.04273816869317484,
+  "results": {
+    "fixed_main": {
+      "strategy": "fixed_main",
+      "mean_gain": 0.03791161710624288,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.005878613201499072,
+        "TEST-DIOR-COCO-boat": 0.023349130494766446,
+        "TEST-DIOR-COCO-car": 0.01731601723356009,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.07631554172810917,
+        "TEST-DIOR-COCO-motorcycle": 0.10461039997952248
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.005878613201499072
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.023349130494766446
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.01731601723356009
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.07631554172810917
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.10461039997952248
+        }
+      }
+    },
+    "target_indep": {
+      "strategy": "target_indep",
+      "mean_gain": 0.007148404043572476,
+      "n_positive": 2,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.01018380478882297,
+        "TEST-DIOR-COCO-boat": -0.01437199009173007,
+        "TEST-DIOR-COCO-car": -0.0028860028786733567,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": -0.0005836336967861566,
+        "TEST-DIOR-COCO-motorcycle": 0.05054824613980147
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": 0.01018380478882297
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": -0.01437199009173007
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": -0.0028860028786733567
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": -0.0005836336967861566
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 1.0,
+          "lambda": 0.25,
+          "gain": 0.05054824613980147
+        }
+      }
+    },
+    "dior_only": {
+      "strategy": "dior_only",
+      "mean_gain": 0.03635895097832864,
+      "n_positive": 4,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": -0.003058505448472415,
+        "TEST-DIOR-COCO-boat": 0.01919756620870186,
+        "TEST-DIOR-COCO-car": 0.01731601723356009,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.08144626471051175,
+        "TEST-DIOR-COCO-motorcycle": 0.10325236316567055
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 0.9272780948632189,
+          "lambda": 0.7671718165715403,
+          "gain": -0.003058505448472415
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 2.6734894705766608,
+          "lambda": 0.4383979531588267,
+          "gain": 0.01919756620870186
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 2.069031686675854,
+          "lambda": 0.5522042904939968,
+          "gain": 0.01731601723356009
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.9347077346978963,
+          "lambda": 0.5774945876795902,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.6660598307419825,
+          "lambda": 0.6280751820507767,
+          "gain": 0.08144626471051175
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 3.4794331824444025,
+          "lambda": 0.28665617004526633,
+          "gain": 0.10325236316567055
+        }
+      }
+    },
+    "merged": {
+      "strategy": "merged",
+      "mean_gain": 0.021494107122542072,
+      "n_positive": 4,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.01187775858235629,
+        "TEST-DIOR-COCO-boat": -0.006642544668435835,
+        "TEST-DIOR-COCO-car": 0.005194805176994435,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.04341654353597535,
+        "TEST-DIOR-COCO-motorcycle": 0.07511808010836218
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 1.346954639678088,
+          "lambda": 0.585355444457993,
+          "gain": 0.01187775858235629
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 1.1987410071942446,
+          "lambda": 0.47122302158273366,
+          "gain": -0.006642544668435835
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 1.2500457261309597,
+          "lambda": 0.5107303987318619,
+          "gain": 0.005194805176994435
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.261446774783563,
+          "lambda": 0.5195098158761127,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.2842488720887697,
+          "lambda": 0.537068650164614,
+          "gain": 0.04341654353597535
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 1.1303347152786247,
+          "lambda": 0.4185465187172293,
+          "gain": 0.07511808010836218
+        }
+      }
+    },
+    "avg": {
+      "strategy": "avg",
+      "mean_gain": 0.020128769080375173,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.01032043424698681,
+        "TEST-DIOR-COCO-boat": 0.008693656091378094,
+        "TEST-DIOR-COCO-car": 0.009740259701994434,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.02885085468129367,
+        "TEST-DIOR-COCO-motorcycle": 0.06316740976059804
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 0.8539644931595332,
+          "lambda": 0.4575812893876324,
+          "gain": 0.01032043424698681
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 1.602701618397349,
+          "lambda": 0.5403584333707158,
+          "gain": 0.008693656091378094
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 1.3435233827381052,
+          "lambda": 0.5117048066073409,
+          "gain": 0.009740259701994434
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.2859282192582728,
+          "lambda": 0.5053373339932575,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.1707378922986091,
+          "lambda": 0.49260238876509077,
+          "gain": 0.02885085468129367
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 1.948272599276341,
+          "lambda": 0.5785632690552158,
+          "gain": 0.06316740976059804
+        }
+      }
+    },
+    "proto_sim_gate": {
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.00886577690151581,
+      "n_positive": 4,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.011076464455715307,
+        "TEST-DIOR-COCO-boat": 0.0023888672270660494,
+        "TEST-DIOR-COCO-car": 0.01731601723356009,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.08257871874195322,
+        "TEST-DIOR-COCO-motorcycle": -0.060165406249199804
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 1.2880577201202912,
+          "lambda": 0.542621552346219,
+          "gain": 0.011076464455715307
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 2.310201475450243,
+          "lambda": 0.6465890268239636,
+          "gain": 0.0023888672270660494
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 2.0349113930834317,
+          "lambda": 0.5679240058282349,
+          "gain": 0.01731601723356009
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.9310630978549486,
+          "lambda": 0.5749574348909733,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.7448469938257234,
+          "lambda": 0.5741178896631115,
+          "gain": 0.08257871874195322
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 3.1459345292409324,
+          "lambda": 0.48259655606549284,
+          "gain": -0.060165406249199804
+        }
+      }
+    },
+    "two_level_gate": {
+      "strategy": "two_level_gate",
+      "mean_gain": 0.00886577690151581,
+      "n_positive": 4,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.011076464455715307,
+        "TEST-DIOR-COCO-boat": 0.0023888672270660494,
+        "TEST-DIOR-COCO-car": 0.01731601723356009,
+        "TEST-DIOR-COCO-truck": 0.0,
+        "TEST-DIOR-COCO-bus": 0.08257871874195322,
+        "TEST-DIOR-COCO-motorcycle": -0.060165406249199804
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 1.2880577201202912,
+          "lambda": 0.542621552346219,
+          "gain": 0.011076464455715307
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 2.310201475450243,
+          "lambda": 0.6465890268239636,
+          "gain": 0.0023888672270660494
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 2.0349113930834317,
+          "lambda": 0.5679240058282349,
+          "gain": 0.01731601723356009
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 1.9310630978549486,
+          "lambda": 0.5749574348909733,
+          "gain": 0.0
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.7448469938257234,
+          "lambda": 0.5741178896631115,
+          "gain": 0.08257871874195322
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 3.1459345292409324,
+          "lambda": 0.48259655606549284,
+          "gain": -0.060165406249199804
+        }
+      }
+    },
+    "oracle": {
+      "strategy": "oracle",
+      "mean_gain": 0.04273816869317484,
+      "n_positive": 6,
+      "n_total": 6,
+      "gains": {
+        "TEST-DIOR-COCO-airplane": 0.01413429345414774,
+        "TEST-DIOR-COCO-boat": 0.023349130494766446,
+        "TEST-DIOR-COCO-car": 0.03246753225881262,
+        "TEST-DIOR-COCO-truck": 4.5454544295164823e-10,
+        "TEST-DIOR-COCO-bus": 0.08175775770902405,
+        "TEST-DIOR-COCO-motorcycle": 0.10472029778775271
+      },
+      "params": {
+        "TEST-DIOR-COCO-airplane": {
+          "risk": 0.42000000000000004,
+          "delta_norm": 0.49585196375846863,
+          "beta": 0.5,
+          "lambda": 0.75,
+          "gain": 0.01413429345414774
+        },
+        "TEST-DIOR-COCO-boat": {
+          "risk": 0.6799999999999999,
+          "delta_norm": 0.5992740988731384,
+          "beta": 2.0,
+          "lambda": 0.5,
+          "gain": 0.023349130494766446
+        },
+        "TEST-DIOR-COCO-car": {
+          "risk": 0.59,
+          "delta_norm": 0.6063473224639893,
+          "beta": 1.0,
+          "lambda": 0.75,
+          "gain": 0.03246753225881262
+        },
+        "TEST-DIOR-COCO-truck": {
+          "risk": 0.57,
+          "delta_norm": 0.6524773836135864,
+          "beta": 2.0,
+          "lambda": 0.75,
+          "gain": 4.5454544295164823e-10
+        },
+        "TEST-DIOR-COCO-bus": {
+          "risk": 0.53,
+          "delta_norm": 0.663611650466919,
+          "beta": 1.25,
+          "lambda": 0.75,
+          "gain": 0.08175775770902405
+        },
+        "TEST-DIOR-COCO-motorcycle": {
+          "risk": 0.7999999999999999,
+          "delta_norm": 0.6958005428314209,
+          "beta": 3.5,
+          "lambda": 0.25,
+          "gain": 0.10472029778775271
+        }
+      }
+    }
+  }
+}

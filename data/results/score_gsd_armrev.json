@@ -1,0 +1,2041 @@
+{
+  "config": {
+    "datasets": [
+      "DIOR",
+      "DOTA",
+      "NWPU"
+    ],
+    "detectors": [
+      "gdino",
+      "owlv2"
+    ],
+    "B_boot": 400,
+    "lam": 0.5,
+    "beta_gate": "PRIOR_SCALE*|d|*g(q)",
+    "note": "base_proto = unit(P_src) - lam*P_neg (beta=0); base_raw = detector score"
+  },
+  "identity_check": {
+    "max_abs_dev": 0.0,
+    "criterion": "ap50_replay == RB.ap_of / RB.ap_base for every cell and arm"
+  },
+  "per_ds": {
+    "DIOR": {
+      "gdino": {
+        "n_cells": 24,
+        "mean_ap": {
+          "base_raw": 0.1272,
+          "base_proto": 0.1486,
+          "ca_pc": 0.179,
+          "dc_rev": 0.0987,
+          "cond_rev": 0.0964,
+          "vocab_rev": 0.1274,
+          "cond_fwd": 0.1772,
+          "vocab_fwd": 0.1255
+        },
+        "gain_vs_proto": {
+          "ca_pc": 0.0304,
+          "dc_rev": -0.0499,
+          "cond_rev": -0.0522,
+          "vocab_rev": -0.0212,
+          "cond_fwd": 0.0286,
+          "vocab_fwd": -0.023
+        },
+        "gain_vs_raw": {
+          "ca_pc": 0.0519,
+          "dc_rev": -0.0285,
+          "cond_rev": -0.0308,
+          "vocab_rev": 0.0003,
+          "cond_fwd": 0.05,
+          "vocab_fwd": -0.0016
+        },
+        "cells_pos_vs_proto": {
+          "ca_pc": 20,
+          "dc_rev": 0,
+          "cond_rev": 0,
+          "vocab_rev": 0,
+          "cond_fwd": 17,
+          "vocab_fwd": 0
+        },
+        "ci_vs_proto": {
+          "ca_pc": [
+            0.0323,
+            0.0263,
+            0.0387
+          ],
+          "dc_rev": [
+            -0.0495,
+            -0.0551,
+            -0.044
+          ],
+          "cond_rev": [
+            -0.051,
+            -0.0562,
+            -0.0445
+          ],
+          "vocab_rev": [
+            -0.0198,
+            -0.0249,
+            -0.0151
+          ],
+          "cond_fwd": [
+            0.0302,
+            0.0228,
+            0.0377
+          ],
+          "vocab_fwd": [
+            -0.0214,
+            -0.0264,
+            -0.017
+          ]
+        },
+        "margin_cond_minus_vocab_rev": [
+          [
+            -0.0311,
+            -0.0364,
+            -0.0253
+          ]
+        ],
+        "margin_cond_minus_vocab_fwd": [
+          [
+            0.0516,
+            0.0436,
+            0.0589
+          ]
+        ],
+        "cells": [
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.1908,
+              "base_raw": 0.1124,
+              "ca_pc": 0.2252,
+              "dc_rev": 0.1521,
+              "cond_rev": 0.1532,
+              "vocab_rev": 0.1663,
+              "cond_fwd": 0.2313,
+              "vocab_fwd": 0.1602
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.1626,
+              "base_raw": 0.1124,
+              "ca_pc": 0.2178,
+              "dc_rev": 0.0771,
+              "cond_rev": 0.0651,
+              "vocab_rev": 0.143,
+              "cond_fwd": 0.2059,
+              "vocab_fwd": 0.1506
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.1105,
+              "base_raw": 0.1124,
+              "ca_pc": 0.1193,
+              "dc_rev": 0.0221,
+              "cond_rev": 0.0162,
+              "vocab_rev": 0.0599,
+              "cond_fwd": 0.088,
+              "vocab_fwd": 0.0387
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.1772,
+              "base_raw": 0.1124,
+              "ca_pc": 0.1925,
+              "dc_rev": 0.0556,
+              "cond_rev": 0.0271,
+              "vocab_rev": 0.1337,
+              "cond_fwd": 0.1355,
+              "vocab_fwd": 0.127
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.2605,
+              "base_raw": 0.2466,
+              "ca_pc": 0.3082,
+              "dc_rev": 0.2118,
+              "cond_rev": 0.2099,
+              "vocab_rev": 0.2413,
+              "cond_fwd": 0.317,
+              "vocab_fwd": 0.2556
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 1.6638,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.5248,
+              "base_raw": 0.506,
+              "ca_pc": 0.5195,
+              "dc_rev": 0.4924,
+              "cond_rev": 0.4924,
+              "vocab_rev": 0.5248,
+              "cond_fwd": 0.5195,
+              "vocab_fwd": 0.5248
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.1578,
+              "base_raw": 0.0668,
+              "ca_pc": 0.1974,
+              "dc_rev": 0.0692,
+              "cond_rev": 0.0746,
+              "vocab_rev": 0.151,
+              "cond_fwd": 0.2052,
+              "vocab_fwd": 0.1007
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.093,
+              "base_raw": 0.0668,
+              "ca_pc": 0.1862,
+              "dc_rev": 0.0336,
+              "cond_rev": 0.0308,
+              "vocab_rev": 0.0629,
+              "cond_fwd": 0.1847,
+              "vocab_fwd": 0.0704
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.0544,
+              "base_raw": 0.0668,
+              "ca_pc": 0.0973,
+              "dc_rev": 0.0114,
+              "cond_rev": 0.0101,
+              "vocab_rev": 0.0166,
+              "cond_fwd": 0.0476,
+              "vocab_fwd": 0.0171
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.1307,
+              "base_raw": 0.0668,
+              "ca_pc": 0.1871,
+              "dc_rev": 0.0193,
+              "cond_rev": 0.0139,
+              "vocab_rev": 0.0664,
+              "cond_fwd": 0.1327,
+              "vocab_fwd": 0.0511
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.2205,
+              "base_raw": 0.2127,
+              "ca_pc": 0.2674,
+              "dc_rev": 0.176,
+              "cond_rev": 0.1737,
+              "vocab_rev": 0.2057,
+              "cond_fwd": 0.276,
+              "vocab_fwd": 0.2171
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.475,
+              "base_raw": 0.4606,
+              "ca_pc": 0.467,
+              "dc_rev": 0.4279,
+              "cond_rev": 0.4279,
+              "vocab_rev": 0.475,
+              "cond_fwd": 0.467,
+              "vocab_fwd": 0.475
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7659,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.1185,
+              "base_raw": 0.034,
+              "ca_pc": 0.1434,
+              "dc_rev": 0.0272,
+              "cond_rev": 0.0278,
+              "vocab_rev": 0.0534,
+              "cond_fwd": 0.1449,
+              "vocab_fwd": 0.0416
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8873,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.033,
+              "base_raw": 0.034,
+              "ca_pc": 0.1314,
+              "dc_rev": 0.0129,
+              "cond_rev": 0.0126,
+              "vocab_rev": 0.0213,
+              "cond_fwd": 0.1357,
+              "vocab_fwd": 0.0234
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0642,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.0235,
+              "base_raw": 0.034,
+              "ca_pc": 0.0369,
+              "dc_rev": 0.0051,
+              "cond_rev": 0.0052,
+              "vocab_rev": 0.0051,
+              "cond_fwd": 0.0543,
+              "vocab_fwd": 0.005
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1772,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.0388,
+              "base_raw": 0.034,
+              "ca_pc": 0.1021,
+              "dc_rev": 0.006,
+              "cond_rev": 0.0054,
+              "vocab_rev": 0.014,
+              "cond_fwd": 0.1154,
+              "vocab_fwd": 0.0128
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.1444,
+              "base_raw": 0.1281,
+              "ca_pc": 0.1561,
+              "dc_rev": 0.1231,
+              "cond_rev": 0.1218,
+              "vocab_rev": 0.1391,
+              "cond_fwd": 0.1517,
+              "vocab_fwd": 0.144
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.3281,
+              "base_raw": 0.319,
+              "ca_pc": 0.3273,
+              "dc_rev": 0.2439,
+              "cond_rev": 0.2439,
+              "vocab_rev": 0.3281,
+              "cond_fwd": 0.3273,
+              "vocab_fwd": 0.3281
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.5743,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.0184,
+              "base_raw": 0.0156,
+              "ca_pc": 0.0568,
+              "dc_rev": 0.0125,
+              "cond_rev": 0.0126,
+              "vocab_rev": 0.0161,
+              "cond_fwd": 0.1027,
+              "vocab_fwd": 0.0158
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.6825,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.0138,
+              "base_raw": 0.0156,
+              "ca_pc": 0.0327,
+              "dc_rev": 0.0071,
+              "cond_rev": 0.0067,
+              "vocab_rev": 0.0103,
+              "cond_fwd": 0.041,
+              "vocab_fwd": 0.0115
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 1.8402,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.0106,
+              "base_raw": 0.0156,
+              "ca_pc": 0.0161,
+              "dc_rev": 0.0024,
+              "cond_rev": 0.0025,
+              "vocab_rev": 0.0024,
+              "cond_fwd": 0.0338,
+              "vocab_fwd": 0.0027
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 1.9409,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.016,
+              "base_raw": 0.0156,
+              "ca_pc": 0.0546,
+              "dc_rev": 0.003,
+              "cond_rev": 0.0031,
+              "vocab_rev": 0.006,
+              "cond_fwd": 0.0814,
+              "vocab_fwd": 0.0073
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.1051,
+              "base_raw": 0.0829,
+              "ca_pc": 0.0857,
+              "dc_rev": 0.0546,
+              "cond_rev": 0.0543,
+              "vocab_rev": 0.058,
+              "cond_fwd": 0.0845,
+              "vocab_fwd": 0.0743
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.158,
+              "base_raw": 0.1807,
+              "ca_pc": 0.1687,
+              "dc_rev": 0.1216,
+              "cond_rev": 0.1216,
+              "vocab_rev": 0.158,
+              "cond_fwd": 0.1687,
+              "vocab_fwd": 0.158
+            }
+          }
+        ]
+      },
+      "owlv2": {
+        "n_cells": 24,
+        "mean_ap": {
+          "base_raw": 0.3735,
+          "base_proto": 0.3714,
+          "ca_pc": 0.3442,
+          "dc_rev": 0.2928,
+          "cond_rev": 0.2833,
+          "vocab_rev": 0.3182,
+          "cond_fwd": 0.3311,
+          "vocab_fwd": 0.3284
+        },
+        "gain_vs_proto": {
+          "ca_pc": -0.0272,
+          "dc_rev": -0.0787,
+          "cond_rev": -0.0881,
+          "vocab_rev": -0.0532,
+          "cond_fwd": -0.0404,
+          "vocab_fwd": -0.043
+        },
+        "gain_vs_raw": {
+          "ca_pc": -0.0293,
+          "dc_rev": -0.0807,
+          "cond_rev": -0.0901,
+          "vocab_rev": -0.0553,
+          "cond_fwd": -0.0424,
+          "vocab_fwd": -0.0451
+        },
+        "cells_pos_vs_proto": {
+          "ca_pc": 10,
+          "dc_rev": 0,
+          "cond_rev": 0,
+          "vocab_rev": 0,
+          "cond_fwd": 9,
+          "vocab_fwd": 1
+        },
+        "ci_vs_proto": {
+          "ca_pc": [
+            -0.0285,
+            -0.0347,
+            -0.0227
+          ],
+          "dc_rev": [
+            -0.0812,
+            -0.0898,
+            -0.0741
+          ],
+          "cond_rev": [
+            -0.0896,
+            -0.0975,
+            -0.0811
+          ],
+          "vocab_rev": [
+            -0.0533,
+            -0.0602,
+            -0.047
+          ],
+          "cond_fwd": [
+            -0.0413,
+            -0.0492,
+            -0.0334
+          ],
+          "vocab_fwd": [
+            -0.0446,
+            -0.0512,
+            -0.0385
+          ]
+        },
+        "margin_cond_minus_vocab_rev": [
+          [
+            -0.0363,
+            -0.0422,
+            -0.0309
+          ]
+        ],
+        "margin_cond_minus_vocab_fwd": [
+          [
+            0.0033,
+            -0.004,
+            0.0103
+          ]
+        ],
+        "cells": [
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.3539,
+              "base_raw": 0.3508,
+              "ca_pc": 0.3316,
+              "dc_rev": 0.3493,
+              "cond_rev": 0.351,
+              "vocab_rev": 0.3484,
+              "cond_fwd": 0.3325,
+              "vocab_fwd": 0.3492
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.352,
+              "base_raw": 0.3508,
+              "ca_pc": 0.3433,
+              "dc_rev": 0.3182,
+              "cond_rev": 0.3137,
+              "vocab_rev": 0.3477,
+              "cond_fwd": 0.3263,
+              "vocab_fwd": 0.3514
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.35,
+              "base_raw": 0.3508,
+              "ca_pc": 0.1436,
+              "dc_rev": 0.147,
+              "cond_rev": 0.1284,
+              "vocab_rev": 0.146,
+              "cond_fwd": 0.1252,
+              "vocab_fwd": 0.1643
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.3542,
+              "base_raw": 0.3508,
+              "ca_pc": 0.2751,
+              "dc_rev": 0.2205,
+              "cond_rev": 0.1862,
+              "vocab_rev": 0.2971,
+              "cond_fwd": 0.1571,
+              "vocab_fwd": 0.3274
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 1.5314,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.5418,
+              "base_raw": 0.5246,
+              "ca_pc": 0.5902,
+              "dc_rev": 0.4866,
+              "cond_rev": 0.4826,
+              "vocab_rev": 0.5317,
+              "cond_fwd": 0.5991,
+              "vocab_fwd": 0.5422
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 1.0,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 0.5601,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.8699,
+              "base_raw": 0.8739,
+              "ca_pc": 0.8697,
+              "dc_rev": 0.8662,
+              "cond_rev": 0.8662,
+              "vocab_rev": 0.8699,
+              "cond_fwd": 0.8697,
+              "vocab_fwd": 0.8699
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.3466,
+              "base_raw": 0.342,
+              "ca_pc": 0.3343,
+              "dc_rev": 0.342,
+              "cond_rev": 0.3435,
+              "vocab_rev": 0.3444,
+              "cond_fwd": 0.3343,
+              "vocab_fwd": 0.3434
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.3463,
+              "base_raw": 0.342,
+              "ca_pc": 0.3348,
+              "dc_rev": 0.2905,
+              "cond_rev": 0.2843,
+              "vocab_rev": 0.335,
+              "cond_fwd": 0.322,
+              "vocab_fwd": 0.3353
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.3396,
+              "base_raw": 0.342,
+              "ca_pc": 0.1444,
+              "dc_rev": 0.1236,
+              "cond_rev": 0.0625,
+              "vocab_rev": 0.1208,
+              "cond_fwd": 0.1312,
+              "vocab_fwd": 0.1375
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.3469,
+              "base_raw": 0.342,
+              "ca_pc": 0.3018,
+              "dc_rev": 0.1773,
+              "cond_rev": 0.1179,
+              "vocab_rev": 0.2578,
+              "cond_fwd": 0.2013,
+              "vocab_fwd": 0.2827
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 1.6865,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.4718,
+              "base_raw": 0.4652,
+              "ca_pc": 0.5313,
+              "dc_rev": 0.406,
+              "cond_rev": 0.3994,
+              "vocab_rev": 0.4621,
+              "cond_fwd": 0.5444,
+              "vocab_fwd": 0.4711
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.5,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 0.5733,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.8319,
+              "base_raw": 0.8476,
+              "ca_pc": 0.8353,
+              "dc_rev": 0.8256,
+              "cond_rev": 0.8256,
+              "vocab_rev": 0.8319,
+              "cond_fwd": 0.8353,
+              "vocab_fwd": 0.8319
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.3004,
+              "base_raw": 0.3018,
+              "ca_pc": 0.2985,
+              "dc_rev": 0.2904,
+              "cond_rev": 0.2885,
+              "vocab_rev": 0.2988,
+              "cond_fwd": 0.3004,
+              "vocab_fwd": 0.2952
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.2971,
+              "base_raw": 0.3018,
+              "ca_pc": 0.2948,
+              "dc_rev": 0.2487,
+              "cond_rev": 0.251,
+              "vocab_rev": 0.2852,
+              "cond_fwd": 0.2876,
+              "vocab_fwd": 0.291
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.2925,
+              "base_raw": 0.3018,
+              "ca_pc": 0.1303,
+              "dc_rev": 0.0451,
+              "cond_rev": 0.039,
+              "vocab_rev": 0.0759,
+              "cond_fwd": 0.1307,
+              "vocab_fwd": 0.1172
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.2968,
+              "base_raw": 0.3018,
+              "ca_pc": 0.2637,
+              "dc_rev": 0.1314,
+              "cond_rev": 0.1187,
+              "vocab_rev": 0.1878,
+              "cond_fwd": 0.2166,
+              "vocab_fwd": 0.2117
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0315,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.3658,
+              "base_raw": 0.3684,
+              "ca_pc": 0.4184,
+              "dc_rev": 0.2931,
+              "cond_rev": 0.2867,
+              "vocab_rev": 0.3522,
+              "cond_fwd": 0.4351,
+              "vocab_fwd": 0.3596
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.25,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 0.7056,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.6739,
+              "base_raw": 0.6921,
+              "ca_pc": 0.6781,
+              "dc_rev": 0.6634,
+              "cond_rev": 0.6634,
+              "vocab_rev": 0.6739,
+              "cond_fwd": 0.6781,
+              "vocab_fwd": 0.6739
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.1807,
+              "base_raw": 0.1795,
+              "ca_pc": 0.1839,
+              "dc_rev": 0.1681,
+              "cond_rev": 0.1738,
+              "vocab_rev": 0.1751,
+              "cond_fwd": 0.1841,
+              "vocab_fwd": 0.1744
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8985,
+            "mag": 0.5633,
+            "rev_norm": 0.6523,
+            "aps": {
+              "base_proto": 0.1765,
+              "base_raw": 0.1795,
+              "ca_pc": 0.1805,
+              "dc_rev": 0.1343,
+              "cond_rev": 0.1201,
+              "vocab_rev": 0.1634,
+              "cond_fwd": 0.1817,
+              "vocab_fwd": 0.1663
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "bus",
+            "n_img": 100,
+            "gamma": 2.0765,
+            "mag": 0.6161,
+            "rev_norm": 0.6635,
+            "aps": {
+              "base_proto": 0.1712,
+              "base_raw": 0.1795,
+              "ca_pc": 0.1098,
+              "dc_rev": 0.0207,
+              "cond_rev": 0.022,
+              "vocab_rev": 0.0215,
+              "cond_fwd": 0.0894,
+              "vocab_fwd": 0.0226
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "vehicle",
+            "eval": "vehicle",
+            "src": "motorcycle",
+            "n_img": 100,
+            "gamma": 2.1902,
+            "mag": 0.6498,
+            "rev_norm": 0.6957,
+            "aps": {
+              "base_proto": 0.1776,
+              "base_raw": 0.1795,
+              "ca_pc": 0.178,
+              "dc_rev": 0.0198,
+              "cond_rev": 0.0177,
+              "vocab_rev": 0.0577,
+              "cond_fwd": 0.1717,
+              "vocab_fwd": 0.1111
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.1167,
+              "base_raw": 0.1167,
+              "ca_pc": 0.1212,
+              "dc_rev": 0.11,
+              "cond_rev": 0.1097,
+              "vocab_rev": 0.0923,
+              "cond_fwd": 0.1239,
+              "vocab_fwd": 0.092
+            }
+          },
+          {
+            "ds": "DIOR",
+            "det": "owlv2",
+            "gsd": 0.125,
+            "key": "airplane",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 100,
+            "gamma": 1.2225,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.3605,
+              "base_raw": 0.3784,
+              "ca_pc": 0.3682,
+              "dc_rev": 0.3485,
+              "cond_rev": 0.3485,
+              "vocab_rev": 0.3605,
+              "cond_fwd": 0.3682,
+              "vocab_fwd": 0.3605
+            }
+          }
+        ]
+      }
+    },
+    "DOTA": {
+      "gdino": {
+        "n_cells": 16,
+        "mean_ap": {
+          "base_raw": 0.0232,
+          "base_proto": 0.028,
+          "ca_pc": 0.041,
+          "dc_rev": 0.0216,
+          "cond_rev": 0.0211,
+          "vocab_rev": 0.0244,
+          "cond_fwd": 0.0421,
+          "vocab_fwd": 0.0251
+        },
+        "gain_vs_proto": {
+          "ca_pc": 0.013,
+          "dc_rev": -0.0064,
+          "cond_rev": -0.007,
+          "vocab_rev": -0.0037,
+          "cond_fwd": 0.014,
+          "vocab_fwd": -0.003
+        },
+        "gain_vs_raw": {
+          "ca_pc": 0.0178,
+          "dc_rev": -0.0016,
+          "cond_rev": -0.0022,
+          "vocab_rev": 0.0011,
+          "cond_fwd": 0.0188,
+          "vocab_fwd": 0.0018
+        },
+        "cells_pos_vs_proto": {
+          "ca_pc": 15,
+          "dc_rev": 0,
+          "cond_rev": 0,
+          "vocab_rev": 0,
+          "cond_fwd": 16,
+          "vocab_fwd": 3
+        },
+        "ci_vs_proto": {
+          "ca_pc": [
+            0.0146,
+            0.0085,
+            0.0217
+          ],
+          "dc_rev": [
+            -0.0064,
+            -0.009,
+            -0.0035
+          ],
+          "cond_rev": [
+            -0.0065,
+            -0.0094,
+            -0.0046
+          ],
+          "vocab_rev": [
+            -0.0035,
+            -0.0058,
+            -0.0007
+          ],
+          "cond_fwd": [
+            0.0178,
+            0.012,
+            0.0257
+          ],
+          "vocab_fwd": [
+            -0.0026,
+            -0.0049,
+            0.0003
+          ]
+        },
+        "margin_cond_minus_vocab_rev": [
+          [
+            -0.0031,
+            -0.0055,
+            -0.0013
+          ]
+        ],
+        "margin_cond_minus_vocab_fwd": [
+          [
+            0.0203,
+            0.0146,
+            0.0285
+          ]
+        ],
+        "cells": [
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "plane",
+            "eval": "plane",
+            "src": "airplane",
+            "n_img": 51,
+            "gamma": 1.6129,
+            "mag": 0.4785,
+            "rev_norm": 0.5686,
+            "aps": {
+              "base_proto": 0.1485,
+              "base_raw": 0.0846,
+              "ca_pc": 0.1513,
+              "dc_rev": 0.1272,
+              "cond_rev": 0.1123,
+              "vocab_rev": 0.1453,
+              "cond_fwd": 0.1521,
+              "vocab_fwd": 0.1453
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.022,
+              "base_raw": 0.02,
+              "ca_pc": 0.0378,
+              "dc_rev": 0.0167,
+              "cond_rev": 0.0168,
+              "vocab_rev": 0.0182,
+              "cond_fwd": 0.0513,
+              "vocab_fwd": 0.0198
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "small-vehicle",
+            "eval": "small-vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.8742,
+            "mag": 0.556,
+            "rev_norm": 0.6456,
+            "aps": {
+              "base_proto": 0.0223,
+              "base_raw": 0.0144,
+              "ca_pc": 0.1016,
+              "dc_rev": 0.0135,
+              "cond_rev": 0.0135,
+              "vocab_rev": 0.0206,
+              "cond_fwd": 0.0718,
+              "vocab_fwd": 0.0181
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "large-vehicle",
+            "eval": "large-vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.901,
+            "mag": 0.564,
+            "rev_norm": 0.677,
+            "aps": {
+              "base_proto": 0.0452,
+              "base_raw": 0.044,
+              "ca_pc": 0.055,
+              "dc_rev": 0.0307,
+              "cond_rev": 0.0333,
+              "vocab_rev": 0.0329,
+              "cond_fwd": 0.0658,
+              "vocab_fwd": 0.0357
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "plane",
+            "eval": "plane",
+            "src": "airplane",
+            "n_img": 51,
+            "gamma": 1.6129,
+            "mag": 0.4785,
+            "rev_norm": 0.5686,
+            "aps": {
+              "base_proto": 0.073,
+              "base_raw": 0.0693,
+              "ca_pc": 0.0806,
+              "dc_rev": 0.0635,
+              "cond_rev": 0.065,
+              "vocab_rev": 0.0653,
+              "cond_fwd": 0.0878,
+              "vocab_fwd": 0.0667
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.0129,
+              "base_raw": 0.0121,
+              "ca_pc": 0.0311,
+              "dc_rev": 0.0107,
+              "cond_rev": 0.0106,
+              "vocab_rev": 0.0126,
+              "cond_fwd": 0.0388,
+              "vocab_fwd": 0.0135
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "small-vehicle",
+            "eval": "small-vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.8742,
+            "mag": 0.556,
+            "rev_norm": 0.6456,
+            "aps": {
+              "base_proto": 0.0124,
+              "base_raw": 0.0104,
+              "ca_pc": 0.0241,
+              "dc_rev": 0.009,
+              "cond_rev": 0.0092,
+              "vocab_rev": 0.0118,
+              "cond_fwd": 0.0273,
+              "vocab_fwd": 0.0118
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "large-vehicle",
+            "eval": "large-vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.901,
+            "mag": 0.564,
+            "rev_norm": 0.677,
+            "aps": {
+              "base_proto": 0.0405,
+              "base_raw": 0.0394,
+              "ca_pc": 0.0505,
+              "dc_rev": 0.0282,
+              "cond_rev": 0.0294,
+              "vocab_rev": 0.0301,
+              "cond_fwd": 0.0551,
+              "vocab_fwd": 0.0332
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "plane",
+            "eval": "plane",
+            "src": "airplane",
+            "n_img": 51,
+            "gamma": 1.6129,
+            "mag": 0.4785,
+            "rev_norm": 0.5686,
+            "aps": {
+              "base_proto": 0.0368,
+              "base_raw": 0.041,
+              "ca_pc": 0.0365,
+              "dc_rev": 0.0224,
+              "cond_rev": 0.0239,
+              "vocab_rev": 0.025,
+              "cond_fwd": 0.0406,
+              "vocab_fwd": 0.0247
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.0028,
+              "base_raw": 0.0025,
+              "ca_pc": 0.0303,
+              "dc_rev": 0.0016,
+              "cond_rev": 0.0015,
+              "vocab_rev": 0.0026,
+              "cond_fwd": 0.0303,
+              "vocab_fwd": 0.0029
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "small-vehicle",
+            "eval": "small-vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.8742,
+            "mag": 0.556,
+            "rev_norm": 0.6456,
+            "aps": {
+              "base_proto": 0.0036,
+              "base_raw": 0.0032,
+              "ca_pc": 0.0227,
+              "dc_rev": 0.0025,
+              "cond_rev": 0.0025,
+              "vocab_rev": 0.0035,
+              "cond_fwd": 0.0182,
+              "vocab_fwd": 0.0047
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "large-vehicle",
+            "eval": "large-vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.8777,
+            "mag": 0.564,
+            "rev_norm": 0.677,
+            "aps": {
+              "base_proto": 0.0112,
+              "base_raw": 0.0113,
+              "ca_pc": 0.0138,
+              "dc_rev": 0.0073,
+              "cond_rev": 0.0076,
+              "vocab_rev": 0.0084,
+              "cond_fwd": 0.0132,
+              "vocab_fwd": 0.0099
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "plane",
+            "eval": "plane",
+            "src": "airplane",
+            "n_img": 51,
+            "gamma": 1.5495,
+            "mag": 0.4785,
+            "rev_norm": 0.5686,
+            "aps": {
+              "base_proto": 0.0125,
+              "base_raw": 0.0147,
+              "ca_pc": 0.013,
+              "dc_rev": 0.0094,
+              "cond_rev": 0.0087,
+              "vocab_rev": 0.0101,
+              "cond_fwd": 0.013,
+              "vocab_fwd": 0.0104
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "ship",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 100,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.0012,
+              "base_raw": 0.0012,
+              "ca_pc": 0.003,
+              "dc_rev": 0.0006,
+              "cond_rev": 0.0005,
+              "vocab_rev": 0.0011,
+              "cond_fwd": 0.0031,
+              "vocab_fwd": 0.0011
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "small-vehicle",
+            "eval": "small-vehicle",
+            "src": "car",
+            "n_img": 100,
+            "gamma": 1.7847,
+            "mag": 0.556,
+            "rev_norm": 0.6456,
+            "aps": {
+              "base_proto": 0.0012,
+              "base_raw": 0.0012,
+              "ca_pc": 0.0016,
+              "dc_rev": 0.0007,
+              "cond_rev": 0.0008,
+              "vocab_rev": 0.0009,
+              "cond_fwd": 0.0018,
+              "vocab_fwd": 0.0009
+            }
+          },
+          {
+            "ds": "DOTA",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "large-vehicle",
+            "eval": "large-vehicle",
+            "src": "truck",
+            "n_img": 100,
+            "gamma": 1.6948,
+            "mag": 0.564,
+            "rev_norm": 0.677,
+            "aps": {
+              "base_proto": 0.0026,
+              "base_raw": 0.0027,
+              "ca_pc": 0.0031,
+              "dc_rev": 0.0016,
+              "cond_rev": 0.0017,
+              "vocab_rev": 0.0019,
+              "cond_fwd": 0.0032,
+              "vocab_fwd": 0.0023
+            }
+          }
+        ]
+      }
+    },
+    "NWPU": {
+      "gdino": {
+        "n_cells": 12,
+        "mean_ap": {
+          "base_raw": 0.335,
+          "base_proto": 0.357,
+          "ca_pc": 0.3936,
+          "dc_rev": 0.2668,
+          "cond_rev": 0.2684,
+          "vocab_rev": 0.3274,
+          "cond_fwd": 0.396,
+          "vocab_fwd": 0.3357
+        },
+        "gain_vs_proto": {
+          "ca_pc": 0.0366,
+          "dc_rev": -0.0901,
+          "cond_rev": -0.0886,
+          "vocab_rev": -0.0295,
+          "cond_fwd": 0.039,
+          "vocab_fwd": -0.0213
+        },
+        "gain_vs_raw": {
+          "ca_pc": 0.0586,
+          "dc_rev": -0.0682,
+          "cond_rev": -0.0666,
+          "vocab_rev": -0.0076,
+          "cond_fwd": 0.061,
+          "vocab_fwd": 0.0006
+        },
+        "cells_pos_vs_proto": {
+          "ca_pc": 8,
+          "dc_rev": 0,
+          "cond_rev": 0,
+          "vocab_rev": 0,
+          "cond_fwd": 8,
+          "vocab_fwd": 0
+        },
+        "ci_vs_proto": {
+          "ca_pc": [
+            0.0343,
+            0.0261,
+            0.0433
+          ],
+          "dc_rev": [
+            -0.0913,
+            -0.1039,
+            -0.0781
+          ],
+          "cond_rev": [
+            -0.0892,
+            -0.1023,
+            -0.0767
+          ],
+          "vocab_rev": [
+            -0.0284,
+            -0.036,
+            -0.021
+          ],
+          "cond_fwd": [
+            0.0377,
+            0.0274,
+            0.0471
+          ],
+          "vocab_fwd": [
+            -0.0224,
+            -0.0299,
+            -0.0144
+          ]
+        },
+        "margin_cond_minus_vocab_rev": [
+          [
+            -0.0608,
+            -0.0723,
+            -0.0502
+          ]
+        ],
+        "margin_cond_minus_vocab_fwd": [
+          [
+            0.0601,
+            0.046,
+            0.0727
+          ]
+        ],
+        "cells": [
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "1",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 69,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.6054,
+              "base_raw": 0.5733,
+              "ca_pc": 0.6137,
+              "dc_rev": 0.5748,
+              "cond_rev": 0.5748,
+              "vocab_rev": 0.6054,
+              "cond_fwd": 0.6137,
+              "vocab_fwd": 0.6054
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "2",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 35,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.517,
+              "base_raw": 0.4958,
+              "ca_pc": 0.5101,
+              "dc_rev": 0.368,
+              "cond_rev": 0.3803,
+              "vocab_rev": 0.4095,
+              "cond_fwd": 0.4892,
+              "vocab_fwd": 0.446
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 1.0,
+            "key": "10",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 66,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.4693,
+              "base_raw": 0.3915,
+              "ca_pc": 0.5366,
+              "dc_rev": 0.3567,
+              "cond_rev": 0.3647,
+              "vocab_rev": 0.4316,
+              "cond_fwd": 0.5429,
+              "vocab_fwd": 0.4331
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "1",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 69,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.5585,
+              "base_raw": 0.5461,
+              "ca_pc": 0.5529,
+              "dc_rev": 0.4863,
+              "cond_rev": 0.4863,
+              "vocab_rev": 0.5585,
+              "cond_fwd": 0.5529,
+              "vocab_fwd": 0.5585
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "2",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 35,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.5121,
+              "base_raw": 0.4962,
+              "ca_pc": 0.5059,
+              "dc_rev": 0.3716,
+              "cond_rev": 0.3697,
+              "vocab_rev": 0.4464,
+              "cond_fwd": 0.4985,
+              "vocab_fwd": 0.4758
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.5,
+            "key": "10",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 66,
+            "gamma": 1.7764,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.3618,
+              "base_raw": 0.2474,
+              "ca_pc": 0.4453,
+              "dc_rev": 0.2328,
+              "cond_rev": 0.2416,
+              "vocab_rev": 0.328,
+              "cond_fwd": 0.4627,
+              "vocab_fwd": 0.3248
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "1",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 69,
+            "gamma": 1.6711,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.3355,
+              "base_raw": 0.3597,
+              "ca_pc": 0.3267,
+              "dc_rev": 0.2735,
+              "cond_rev": 0.2735,
+              "vocab_rev": 0.3355,
+              "cond_fwd": 0.3267,
+              "vocab_fwd": 0.3355
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "2",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 35,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.4207,
+              "base_raw": 0.4023,
+              "ca_pc": 0.4773,
+              "dc_rev": 0.2202,
+              "cond_rev": 0.2154,
+              "vocab_rev": 0.3658,
+              "cond_fwd": 0.4873,
+              "vocab_fwd": 0.3917
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.25,
+            "key": "10",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 66,
+            "gamma": 1.7028,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.0901,
+              "base_raw": 0.0742,
+              "ca_pc": 0.1904,
+              "dc_rev": 0.0693,
+              "cond_rev": 0.0706,
+              "vocab_rev": 0.0834,
+              "cond_fwd": 0.1986,
+              "vocab_fwd": 0.0841
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "1",
+            "eval": "airplane",
+            "src": "airplane",
+            "n_img": 69,
+            "gamma": 1.6676,
+            "mag": 0.4958,
+            "rev_norm": 0.4958,
+            "aps": {
+              "base_proto": 0.1221,
+              "base_raw": 0.1573,
+              "ca_pc": 0.1358,
+              "dc_rev": 0.0808,
+              "cond_rev": 0.0808,
+              "vocab_rev": 0.1221,
+              "cond_fwd": 0.1358,
+              "vocab_fwd": 0.1221
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "2",
+            "eval": "ship",
+            "src": "boat",
+            "n_img": 35,
+            "gamma": 2.0396,
+            "mag": 0.6051,
+            "rev_norm": 0.5991,
+            "aps": {
+              "base_proto": 0.271,
+              "base_raw": 0.2574,
+              "ca_pc": 0.4042,
+              "dc_rev": 0.1518,
+              "cond_rev": 0.147,
+              "vocab_rev": 0.2246,
+              "cond_fwd": 0.418,
+              "vocab_fwd": 0.233
+            }
+          },
+          {
+            "ds": "NWPU",
+            "det": "gdino",
+            "gsd": 0.125,
+            "key": "10",
+            "eval": "vehicle",
+            "src": "car",
+            "n_img": 66,
+            "gamma": 1.2536,
+            "mag": 0.527,
+            "rev_norm": 0.6061,
+            "aps": {
+              "base_proto": 0.0202,
+              "base_raw": 0.0191,
+              "ca_pc": 0.0241,
+              "dc_rev": 0.0162,
+              "cond_rev": 0.0164,
+              "vocab_rev": 0.0184,
+              "cond_fwd": 0.0256,
+              "vocab_fwd": 0.018
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "per_class": {
+    "airplane": {
+      "prompt": "an overhead image of airplane, in its natural setting, large and prominent",
+      "max_f1": 0.4935714285714286,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.4935714285714286,
+      "delta_max_vs_cls": 0.4935714285714286
+    },
+    "airport": {
+      "prompt": "an overhead image of airport",
+      "max_f1": 0.6666666666666666,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.6666666666666666,
+      "delta_max_vs_cls": 0.6666666666666666
+    },
+    "baseball field": {
+      "prompt": "an overhead image of baseball field",
+      "max_f1": 0.2,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.2,
+      "delta_max_vs_cls": 0.2
+    },
+    "basketball court": {
+      "prompt": "an overhead image of basketball court, large and prominent",
+      "max_f1": 0.1,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.1,
+      "delta_max_vs_cls": 0.1
+    },
+    "bridge": {
+      "prompt": "an overhead image of bridge",
+      "max_f1": 0.06666666666666667,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.06666666666666667,
+      "delta_max_vs_cls": 0.06666666666666667
+    },
+    "chimney": {
+      "prompt": "an overhead image of chimney",
+      "max_f1": 0.5228571428571429,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.5228571428571429,
+      "delta_max_vs_cls": 0.5228571428571429
+    },
+    "dam": {
+      "prompt": "an overhead image of dam",
+      "max_f1": 0.16666666666666666,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.16666666666666666,
+      "delta_max_vs_cls": 0.16666666666666666
+    },
+    "expressway service area": {
+      "prompt": "an overhead image of expressway service area, large and prominent",
+      "max_f1": 0.13333333333333333,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.13333333333333333,
+      "delta_max_vs_cls": 0.13333333333333333
+    },
+    "expressway toll station": {
+      "prompt": "an overhead image of expressway toll station",
+      "max_f1": 0.13333333333333333,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.13333333333333333,
+      "delta_max_vs_cls": 0.13333333333333333
+    },
+    "golf course": {
+      "prompt": "an overhead image of golf course, in its natural setting, large and prominent",
+      "max_f1": 0.4666666666666666,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.4666666666666666,
+      "delta_max_vs_cls": 0.4666666666666666
+    },
+    "ground track field": {
+      "prompt": "an overhead image of ground track field",
+      "max_f1": 0.13333333333333333,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.13333333333333333,
+      "delta_max_vs_cls": 0.13333333333333333
+    },
+    "harbor": {
+      "prompt": "an overhead image of harbor, large and prominent",
+      "max_f1": 0.2,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.2,
+      "delta_max_vs_cls": 0.2
+    },
+    "overpass": {
+      "prompt": "an overhead image of overpass, with clearly visible surface features",
+      "max_f1": 0.0,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.0,
+      "delta_max_vs_cls": 0.0
+    },
+    "ship": {
+      "prompt": "an overhead image of ship, large and prominent",
+      "max_f1": 0.16666666666666666,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.16666666666666666,
+      "delta_max_vs_cls": 0.16666666666666666
+    },
+    "stadium": {
+      "prompt": "an overhead image of stadium",
+      "max_f1": 0.4333333333333333,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.4333333333333333,
+      "delta_max_vs_cls": 0.4333333333333333
+    },
+    "storage tank": {
+      "prompt": "an overhead image of storage tank, large and prominent",
+      "max_f1": 0.0,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.0,
+      "delta_max_vs_cls": 0.0
+    },
+    "tennis court": {
+      "prompt": "an overhead image of tennis court",
+      "max_f1": 0.0,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.0,
+      "delta_max_vs_cls": 0.0
+    },
+    "train station": {
+      "prompt": "an overhead image of train station",
+      "max_f1": 0.11666666666666665,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.11666666666666665,
+      "delta_max_vs_cls": 0.11666666666666665
+    },
+    "vehicle": {
+      "prompt": "an overhead image of vehicle",
+      "max_f1": 0.3055555555555556,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.3055555555555556,
+      "delta_max_vs_cls": 0.3055555555555556
+    },
+    "windmill": {
+      "prompt": "an overhead image of windmill",
+      "max_f1": 0.2952380952380952,
+      "mean_f1": 0.0,
+      "cls_only_f1": 0.0,
+      "delta_max_vs_mean": 0.2952380952380952,
+      "delta_max_vs_cls": 0.2952380952380952
+    }
+  },
+  "summary": {
+    "max_mean": 0.23002777777777778,
+    "mean_mean": 0.0,
+    "cls_only_mean": 0.0,
+    "max_per_class": {
+      "airplane": 0.4935714285714286,
+      "airport": 0.6666666666666666,
+      "baseball field": 0.2,
+      "basketball court": 0.1,
+      "bridge": 0.06666666666666667,
+      "chimney": 0.5228571428571429,
+      "dam": 0.16666666666666666,
+      "expressway service area": 0.13333333333333333,
+      "expressway toll station": 0.13333333333333333,
+      "golf course": 0.4666666666666666,
+      "ground track field": 0.13333333333333333,
+      "harbor": 0.2,
+      "overpass": 0.0,
+      "ship": 0.16666666666666666,
+      "stadium": 0.4333333333333333,
+      "storage tank": 0.0,
+      "tennis court": 0.0,
+      "train station": 0.11666666666666665,
+      "vehicle": 0.3055555555555556,
+      "windmill": 0.2952380952380952
+    },
+    "mean_per_class": {
+      "airplane": 0.0,
+      "airport": 0.0,
+      "baseball field": 0.0,
+      "basketball court": 0.0,
+      "bridge": 0.0,
+      "chimney": 0.0,
+      "dam": 0.0,
+      "expressway service area": 0.0,
+      "expressway toll station": 0.0,
+      "golf course": 0.0,
+      "ground track field": 0.0,
+      "harbor": 0.0,
+      "overpass": 0.0,
+      "ship": 0.0,
+      "stadium": 0.0,
+      "storage tank": 0.0,
+      "tennis court": 0.0,
+      "train station": 0.0,
+      "vehicle": 0.0,
+      "windmill": 0.0
+    },
+    "cls_only_per_class": {
+      "airplane": 0.0,
+      "airport": 0.0,
+      "baseball field": 0.0,
+      "basketball court": 0.0,
+      "bridge": 0.0,
+      "chimney": 0.0,
+      "dam": 0.0,
+      "expressway service area": 0.0,
+      "expressway toll station": 0.0,
+      "golf course": 0.0,
+      "ground track field": 0.0,
+      "harbor": 0.0,
+      "overpass": 0.0,
+      "ship": 0.0,
+      "stadium": 0.0,
+      "storage tank": 0.0,
+      "tennis court": 0.0,
+      "train station": 0.0,
+      "vehicle": 0.0,
+      "windmill": 0.0
+    },
+    "delta_max_vs_mean": 0.23002777777777778,
+    "delta_max_vs_cls": 0.23002777777777778,
+    "wins_max_over_mean": 17,
+    "wins_max_over_cls": 17,
+    "n_classes": 20
+  }
+}

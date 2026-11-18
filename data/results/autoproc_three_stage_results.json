@@ -1,0 +1,130 @@
+{
+  "DIOR": {
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "airplane",
+        "simLV": 0.783,
+        "gate": 1,
+        "base": 0.7535,
+        "allAlign": 0.7363,
+        "threeStage": 0.7363,
+        "threeSeed_mean": 0.7363,
+        "threeSeed_std": 0.0
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "simLV": 0.856,
+        "gate": 1,
+        "base": 0.1437,
+        "allAlign": 0.1775,
+        "threeStage": 0.1775,
+        "threeSeed_mean": 0.1764,
+        "threeSeed_std": 0.0056
+      },
+      {
+        "class": "car",
+        "src": "vehicle",
+        "simLV": 0.899,
+        "gate": 1,
+        "base": 0.1934,
+        "allAlign": 0.1939,
+        "threeStage": 0.1939,
+        "threeSeed_mean": 0.1628,
+        "threeSeed_std": 0.0359
+      },
+      {
+        "class": "truck",
+        "src": "vehicle",
+        "simLV": 0.921,
+        "gate": 1,
+        "base": 0.2222,
+        "allAlign": 0.2784,
+        "threeStage": 0.2784,
+        "threeSeed_mean": 0.2688,
+        "threeSeed_std": 0.026
+      },
+      {
+        "class": "bus",
+        "src": "vehicle",
+        "simLV": 0.898,
+        "gate": 1,
+        "base": 0.5017,
+        "allAlign": 0.5462,
+        "threeStage": 0.5462,
+        "threeSeed_mean": 0.5551,
+        "threeSeed_std": 0.0392
+      },
+      {
+        "class": "motorcycle",
+        "src": "vehicle",
+        "simLV": 0.845,
+        "gate": 1,
+        "base": 0.459,
+        "allAlign": 0.4447,
+        "threeStage": 0.4447,
+        "threeSeed_mean": 0.463,
+        "threeSeed_std": 0.0326
+      }
+    ],
+    "domain": {
+      "base": 0.3789,
+      "allAlign": 0.3962,
+      "threeStage": 0.3962
+    }
+  },
+  "VisDrone": {
+    "per_class": [
+      {
+        "class": "bicycle",
+        "src": "bicycle",
+        "simLV": 0.821,
+        "gate": 0,
+        "base": 0.2202,
+        "allAlign": 0.2315,
+        "threeStage": 0.2202,
+        "threeSeed_mean": 0.2098,
+        "threeSeed_std": 0.0218
+      },
+      {
+        "class": "car",
+        "src": "car",
+        "simLV": 0.899,
+        "gate": 0,
+        "base": 0.2379,
+        "allAlign": 0.1993,
+        "threeStage": 0.2379,
+        "threeSeed_mean": 0.2234,
+        "threeSeed_std": 0.0196
+      },
+      {
+        "class": "bus",
+        "src": "bus",
+        "simLV": 0.898,
+        "gate": 0,
+        "base": 0.5379,
+        "allAlign": 0.5507,
+        "threeStage": 0.5379,
+        "threeSeed_mean": 0.5519,
+        "threeSeed_std": 0.0329
+      },
+      {
+        "class": "motorcycle",
+        "src": "motor",
+        "simLV": 0.845,
+        "gate": 0,
+        "base": 0.4662,
+        "allAlign": 0.4401,
+        "threeStage": 0.4662,
+        "threeSeed_mean": 0.4828,
+        "threeSeed_std": 0.0232
+      }
+    ],
+    "domain": {
+      "base": 0.3656,
+      "allAlign": 0.3554,
+      "threeStage": 0.3656
+    }
+  }
+}

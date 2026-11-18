@@ -1,0 +1,57 @@
+{
+  "config": {
+    "n_coco": 500,
+    "neg_lam": 0.5,
+    "protocol": "gdino th=0 -> pre-filter 0.03 -> dataset-level AP50, sqrt(gd*vis)"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7882,
+      "B2_clip": 0.7864,
+      "B3_joint2": 0.7944,
+      "B3_best": 0.5823,
+      "T4_text": 0.5937,
+      "best_cfg": "joint@4.0"
+    },
+    "COCO-boat": {
+      "baseline": 0.2422,
+      "B2_clip": 0.2317,
+      "B3_joint2": 0.2613,
+      "B3_best": 0.2683,
+      "T4_text": 0.2487,
+      "best_cfg": "cat@4.0"
+    },
+    "COCO-car": {
+      "baseline": 0.2101,
+      "B2_clip": 0.2348,
+      "B3_joint2": 0.2779,
+      "B3_best": 0.2779,
+      "T4_text": 0.2066,
+      "best_cfg": "joint@2.0"
+    },
+    "COCO-truck": {
+      "baseline": 0.3631,
+      "B2_clip": 0.3798,
+      "B3_joint2": 0.4585,
+      "B3_best": 0.4359,
+      "T4_text": 0.2979,
+      "best_cfg": "cat@4.0"
+    },
+    "COCO-bus": {
+      "baseline": 0.6042,
+      "B2_clip": 0.5816,
+      "B3_joint2": 0.6582,
+      "B3_best": 0.6536,
+      "T4_text": 0.5949,
+      "best_cfg": "cat@4.0"
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.5441,
+      "B2_clip": 0.5506,
+      "B3_joint2": 0.5961,
+      "B3_best": 0.522,
+      "T4_text": 0.4204,
+      "best_cfg": "cat@4.0"
+    }
+  }
+}

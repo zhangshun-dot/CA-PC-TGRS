@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Large / third-party artifacts (not redistributed)
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.mp4
+*.wav
+*.mp3
+
+# Local-only caches
+probe_*_cache/
+*_frames/
+rtdetr_r50vd_coco_o365/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key

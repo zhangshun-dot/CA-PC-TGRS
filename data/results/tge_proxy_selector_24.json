@@ -1,0 +1,223 @@
+{
+  "config": {
+    "protocol": "v3 sep 复核: 24 类 (COCO6 全量 + DOTA7 N10 + VOC5 N100 + 反向6), 全部目标无关信号"
+  },
+  "proxy": {
+    "COCO-airplane": {
+      "agree_spearman": -0.2301,
+      "agree_kendall": -0.1557,
+      "sep_src": 0.1019,
+      "gd_hi_frac": 0.0294,
+      "n_boxes": 2213
+    },
+    "COCO-boat": {
+      "agree_spearman": -0.2577,
+      "agree_kendall": -0.1756,
+      "sep_src": 0.1357,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 956
+    },
+    "COCO-car": {
+      "agree_spearman": -0.207,
+      "agree_kendall": -0.1413,
+      "sep_src": 0.1393,
+      "gd_hi_frac": 0.0034,
+      "n_boxes": 10248
+    },
+    "COCO-truck": {
+      "agree_spearman": -0.1541,
+      "agree_kendall": -0.104,
+      "sep_src": 0.1471,
+      "gd_hi_frac": 0.0137,
+      "n_boxes": 9866
+    },
+    "COCO-bus": {
+      "agree_spearman": -0.4251,
+      "agree_kendall": -0.2944,
+      "sep_src": 0.1338,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 877
+    },
+    "COCO-motorcycle": {
+      "agree_spearman": -0.2204,
+      "agree_kendall": -0.1485,
+      "sep_src": 0.1306,
+      "gd_hi_frac": 0.0009,
+      "n_boxes": 5281
+    },
+    "DOTA-plane": {
+      "agree_spearman": -0.0101,
+      "agree_kendall": -0.0065,
+      "sep_src": 0.0764,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 2511
+    },
+    "DOTA-ship": {
+      "agree_spearman": -0.0323,
+      "agree_kendall": -0.022,
+      "sep_src": 0.1151,
+      "gd_hi_frac": 0.0011,
+      "n_boxes": 1785
+    },
+    "DOTA-storage-tank": {
+      "agree_spearman": -0.056,
+      "agree_kendall": -0.0384,
+      "sep_src": 0.1225,
+      "gd_hi_frac": 0.0009,
+      "n_boxes": 2153
+    },
+    "DOTA-harbor": {
+      "agree_spearman": -0.0295,
+      "agree_kendall": -0.02,
+      "sep_src": 0.052,
+      "gd_hi_frac": 0.0012,
+      "n_boxes": 1712
+    },
+    "DOTA-bridge": {
+      "agree_spearman": -0.094,
+      "agree_kendall": -0.0628,
+      "sep_src": 0.0643,
+      "gd_hi_frac": 0.0014,
+      "n_boxes": 2185
+    },
+    "DOTA-large-vehicle": {
+      "agree_spearman": -0.0566,
+      "agree_kendall": -0.0375,
+      "sep_src": 0.1112,
+      "gd_hi_frac": 0.0004,
+      "n_boxes": 2620
+    },
+    "DOTA-small-vehicle": {
+      "agree_spearman": -0.0547,
+      "agree_kendall": -0.0366,
+      "sep_src": 0.106,
+      "gd_hi_frac": 0.0009,
+      "n_boxes": 2283
+    },
+    "VOC-aeroplane": {
+      "agree_spearman": -0.1872,
+      "agree_kendall": -0.1253,
+      "sep_src": 0.113,
+      "gd_hi_frac": 0.0627,
+      "n_boxes": 1084
+    },
+    "VOC-boat": {
+      "agree_spearman": -0.1738,
+      "agree_kendall": -0.1164,
+      "sep_src": 0.1419,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 626
+    },
+    "VOC-car": {
+      "agree_spearman": -0.2828,
+      "agree_kendall": -0.1904,
+      "sep_src": 0.1589,
+      "gd_hi_frac": 0.0328,
+      "n_boxes": 1374
+    },
+    "VOC-bus": {
+      "agree_spearman": -0.4179,
+      "agree_kendall": -0.2901,
+      "sep_src": 0.1402,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 448
+    },
+    "VOC-motorbike": {
+      "agree_spearman": -0.2157,
+      "agree_kendall": -0.1443,
+      "sep_src": 0.1383,
+      "gd_hi_frac": 0.0157,
+      "n_boxes": 6106
+    },
+    "REV-DOTA-plane": {
+      "agree_spearman": 0.1765,
+      "agree_kendall": 0.1183,
+      "sep_src": 0.0525,
+      "gd_hi_frac": 0.0,
+      "n_boxes": 2548
+    },
+    "REV-DOTA-ship": {
+      "agree_spearman": -0.0166,
+      "agree_kendall": -0.0112,
+      "sep_src": 0.08,
+      "gd_hi_frac": 0.0011,
+      "n_boxes": 1785
+    },
+    "REV-DOTA-large-vehicle": {
+      "agree_spearman": -0.0757,
+      "agree_kendall": -0.0505,
+      "sep_src": 0.0739,
+      "gd_hi_frac": 0.0018,
+      "n_boxes": 2257
+    },
+    "REV-DIOR-airplane": {
+      "agree_spearman": 0.1155,
+      "agree_kendall": 0.0772,
+      "sep_src": 0.0521,
+      "gd_hi_frac": 0.0133,
+      "n_boxes": 1879
+    },
+    "REV-DIOR-ship": {
+      "agree_spearman": -0.1056,
+      "agree_kendall": -0.0708,
+      "sep_src": 0.0747,
+      "gd_hi_frac": 0.0007,
+      "n_boxes": 1491
+    },
+    "REV-DIOR-vehicle": {
+      "agree_spearman": 0.0053,
+      "agree_kendall": 0.0037,
+      "sep_src": 0.0877,
+      "gd_hi_frac": 0.0117,
+      "n_boxes": 1969
+    }
+  },
+  "gain_map": {
+    "COCO-airplane": -0.00660000000000005,
+    "COCO-boat": 0.03770000000000001,
+    "COCO-car": 0.10309999999999998,
+    "COCO-truck": 0.06640000000000001,
+    "COCO-bus": 0.10719999999999996,
+    "COCO-motorcycle": 0.0928,
+    "DOTA-plane": 0.024900000000000033,
+    "DOTA-ship": 0.003300000000000001,
+    "DOTA-storage-tank": 0.15039999999999998,
+    "DOTA-harbor": -0.0736,
+    "DOTA-bridge": -0.0002000000000000001,
+    "DOTA-large-vehicle": 0.013200000000000003,
+    "DOTA-small-vehicle": 0.09040000000000001,
+    "VOC-aeroplane": -0.013400000000000079,
+    "VOC-boat": -0.02889999999999998,
+    "VOC-car": 0.049699999999999966,
+    "VOC-bus": 0.07419999999999993,
+    "VOC-motorbike": -0.05369999999999997,
+    "REV-DOTA-plane": -0.016500000000000015,
+    "REV-DOTA-ship": -0.0020999999999999994,
+    "REV-DOTA-large-vehicle": -0.007800000000000001,
+    "REV-DIOR-airplane": -0.057499999999999996,
+    "REV-DIOR-ship": -0.03839999999999999,
+    "REV-DIOR-vehicle": -0.10249999999999998
+  },
+  "correlation": {
+    "正向13": {
+      "n": 13,
+      "rho": 0.6923,
+      "p": 0.0087
+    },
+    "VOC5": {
+      "n": 5,
+      "rho": 0.3,
+      "p": 0.6238
+    },
+    "反向6": {
+      "n": 6,
+      "rho": -0.0286,
+      "p": 0.9572
+    },
+    "全部24": {
+      "n": 24,
+      "rho": 0.5409,
+      "p": 0.0064
+    }
+  }
+}

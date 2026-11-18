@@ -1,0 +1,279 @@
+{
+  "config": {
+    "clip": "openai/clip-vit-base-patch32",
+    "prompt_src": "an overhead image of {}",
+    "prompt_tgt": "a photo of {}",
+    "eval_cls": [
+      "car",
+      "truck",
+      "bus",
+      "motorcycle",
+      "boat",
+      "airplane"
+    ],
+    "n_img_per_cls": 60,
+    "beta_grid": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "view_transform": "oblique = perspective trapezoid (k=0.22w) + rotate -7deg",
+    "n_random_dirs": 50,
+    "random_seed": 0
+  },
+  "cells": [
+    {
+      "cls": "car",
+      "dior_term": "vehicle",
+      "n_crops": 173,
+      "R_xi": 0.510570764541626,
+      "dF_mean_norm": 0.15019378066062927,
+      "dF_per_crop_mean": 0.37913769483566284,
+      "dF_per_crop_std": 0.12086516618728638,
+      "cos_dF_dxi": -0.10775110125541687,
+      "rand_cos_absmean": 0.027497299420373884,
+      "rand_cos_p": 0.0,
+      "dT_norm": 0.510570764541626,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8696587085723877,
+          "cos_w_xi": -0.2552855610847473
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.966865599155426,
+          "cos_w_xi": -1.2665987014770508e-07
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 1.0,
+          "cos_w_xi": 0.2552852928638458
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9164164066314697,
+          "cos_w_xi": 0.6209126710891724
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6846280097961426,
+          "cos_w_xi": 0.8795168995857239
+        }
+      ]
+    },
+    {
+      "cls": "truck",
+      "dior_term": "vehicle",
+      "n_crops": 90,
+      "R_xi": 0.5312058925628662,
+      "dF_mean_norm": 0.16834744811058044,
+      "dF_per_crop_mean": 0.4341199994087219,
+      "dF_per_crop_std": 0.10034021735191345,
+      "cos_dF_dxi": -0.11969310790300369,
+      "rand_cos_absmean": 0.035069155768675704,
+      "rand_cos_p": 0.0,
+      "dT_norm": 0.5312058925628662,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8589102029800415,
+          "cos_w_xi": -0.26560303568840027
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.9640823602676392,
+          "cos_w_xi": -6.705522537231445e-08
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 1.0,
+          "cos_w_xi": 0.26560288667678833
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9123291373252869,
+          "cos_w_xi": 0.6370680928230286
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6795868873596191,
+          "cos_w_xi": 0.887746274471283
+        }
+      ]
+    },
+    {
+      "cls": "bus",
+      "dior_term": "vehicle",
+      "n_crops": 85,
+      "R_xi": 0.5167998671531677,
+      "dF_mean_norm": 0.21424265205860138,
+      "dF_per_crop_mean": 0.49738234281539917,
+      "dF_per_crop_std": 0.08241625130176544,
+      "cos_dF_dxi": -0.08483194559812546,
+      "rand_cos_absmean": 0.03285232984939425,
+      "rand_cos_p": 0.0,
+      "dT_norm": 0.5167998671531677,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8664589524269104,
+          "cos_w_xi": -0.258400022983551
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.9660380482673645,
+          "cos_w_xi": -5.960464477539063e-08
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 0.9999999403953552,
+          "cos_w_xi": 0.2583998739719391
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9151689410209656,
+          "cos_w_xi": 0.6258606910705566
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6830288171768188,
+          "cos_w_xi": 0.8820804953575134
+        }
+      ]
+    },
+    {
+      "cls": "motorcycle",
+      "dior_term": "vehicle",
+      "n_crops": 143,
+      "R_xi": 0.5502105355262756,
+      "dF_mean_norm": 0.16914395987987518,
+      "dF_per_crop_mean": 0.42202281951904297,
+      "dF_per_crop_std": 0.09605298936367035,
+      "cos_dF_dxi": -0.05398523807525635,
+      "rand_cos_absmean": 0.03035475233955581,
+      "rand_cos_p": 0.18,
+      "dT_norm": 0.5502105355262756,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8486341238021851,
+          "cos_w_xi": -0.275105357170105
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.961414098739624,
+          "cos_w_xi": -8.195638656616211e-08
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 1.0000001192092896,
+          "cos_w_xi": 0.27510523796081543
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9086845517158508,
+          "cos_w_xi": 0.6513583660125732
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6755735874176025,
+          "cos_w_xi": 0.8946973085403442
+        }
+      ]
+    },
+    {
+      "cls": "boat",
+      "dior_term": "ship",
+      "n_crops": 203,
+      "R_xi": 0.5246177315711975,
+      "dF_mean_norm": 0.13021431863307953,
+      "dF_per_crop_mean": 0.36244428157806396,
+      "dF_per_crop_std": 0.13891395926475525,
+      "cos_dF_dxi": -0.05688874423503876,
+      "rand_cos_absmean": 0.033976944063881055,
+      "rand_cos_p": 0.14,
+      "dT_norm": 0.5246177315711975,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8623882532119751,
+          "cos_w_xi": -0.262308806180954
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.9649840593338013,
+          "cos_w_xi": 8.195638656616211e-08
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 1.0000001192092896,
+          "cos_w_xi": 0.2623089551925659
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9136199951171875,
+          "cos_w_xi": 0.6319833993911743
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6811172962188721,
+          "cos_w_xi": 0.8851996660232544
+        }
+      ]
+    },
+    {
+      "cls": "airplane",
+      "dior_term": "airplane",
+      "n_crops": 82,
+      "R_xi": 0.4957721531391144,
+      "dF_mean_norm": 0.21605658531188965,
+      "dF_per_crop_mean": 0.43670472502708435,
+      "dF_per_crop_std": 0.08927394449710846,
+      "cos_dF_dxi": -0.03442385792732239,
+      "rand_cos_absmean": 0.030044802357729883,
+      "rand_cos_p": 0.36,
+      "dT_norm": 0.4957721531391144,
+      "beta_response": [
+        {
+          "beta": 0.0,
+          "cos_to_tgt": 0.8771049380302429,
+          "cos_w_xi": -0.24788600206375122
+        },
+        {
+          "beta": 0.5,
+          "cos_to_tgt": 0.968789279460907,
+          "cos_w_xi": 7.078051567077637e-08
+        },
+        {
+          "beta": 1.0,
+          "cos_to_tgt": 1.0000001192092896,
+          "cos_w_xi": 0.24788618087768555
+        },
+        {
+          "beta": 2.0,
+          "cos_to_tgt": 0.9194241166114807,
+          "cos_w_xi": 0.6089058518409729
+        },
+        {
+          "beta": 4.0,
+          "cos_to_tgt": 0.6887054443359375,
+          "cos_w_xi": 0.8731326460838318
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "n_classes": 6,
+    "pearson_R_vs_dFnorm": -0.4189420613032655,
+    "p_R_vs_dFnorm": 0.43940304473963443,
+    "pearson_R_vs_cos": -0.13311330404633867,
+    "p_R_vs_cos": 0.8165881584246164,
+    "mean_cos_dF_dxi": -0.07626233249902725,
+    "min_cos_dF_dxi": -0.11969310790300369,
+    "n_cos_gt_random_p05": 3
+  },
+  "elapsed_s": 22.211345672607422
+}

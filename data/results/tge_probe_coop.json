@@ -1,0 +1,62 @@
+{
+  "config": {
+    "n_coco": 100,
+    "n_ctx": 8,
+    "k_shot": 16,
+    "epochs": 10,
+    "lr": 0.002,
+    "seed": 42,
+    "protocol": "CoOp (CVPR22): DIOR K=16 GT-crop 训练共享 context, COCO 框 crop 打分, 逐图 AP50, 后90图测试"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "coop_zs": 0.7616,
+      "coop_fs": 0.7836,
+      "zs_gain": 0.0132,
+      "fs_gain": 0.0352
+    },
+    "COCO-boat": {
+      "baseline": 0.1879,
+      "coop_zs": 0.2118,
+      "coop_fs": 0.2145,
+      "zs_gain": 0.0239,
+      "fs_gain": 0.0266
+    },
+    "COCO-car": {
+      "baseline": 0.0858,
+      "coop_zs": 0.1106,
+      "coop_fs": 0.1582,
+      "zs_gain": 0.0248,
+      "fs_gain": 0.0723
+    },
+    "COCO-truck": {
+      "baseline": 0.2631,
+      "coop_zs": 0.3102,
+      "coop_fs": 0.3638,
+      "zs_gain": 0.0471,
+      "fs_gain": 0.1007
+    },
+    "COCO-bus": {
+      "baseline": 0.5651,
+      "coop_zs": 0.5943,
+      "coop_fs": 0.605,
+      "zs_gain": 0.0292,
+      "fs_gain": 0.0399
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.435,
+      "coop_zs": 0.5113,
+      "coop_fs": 0.543,
+      "zs_gain": 0.0764,
+      "fs_gain": 0.108
+    }
+  },
+  "mean": {
+    "baseline": 0.3809,
+    "coop_zs": 0.4166,
+    "coop_fs": 0.4447,
+    "zs_gain": 0.0358,
+    "fs_gain": 0.0638
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "baseline": {
+    "airplane": 0.8,
+    "ship": 0.7,
+    "stadium": 0.9,
+    "bridge": 0.85,
+    "harbor": 0.5,
+    "overpass": 0.65,
+    "tennis court": 0.55,
+    "windmill": 0.95
+  },
+  "static_tdm": {
+    "airplane": 0.8,
+    "ship": 0.7,
+    "stadium": 0.9,
+    "bridge": 0.85,
+    "harbor": 0.5,
+    "overpass": 0.65,
+    "tennis court": 0.55,
+    "windmill": 0.95
+  },
+  "cps_adapter": {
+    "airplane": 1.0,
+    "ship": 0.9,
+    "stadium": 0.95,
+    "bridge": 0.7,
+    "harbor": 0.85,
+    "overpass": 0.95,
+    "tennis court": 0.6,
+    "windmill": 0.1
+  },
+  "cps_oracle": {
+    "airplane": 1.0,
+    "ship": 0.9,
+    "stadium": 0.95,
+    "bridge": 0.85,
+    "harbor": 0.85,
+    "overpass": 0.95,
+    "tennis court": 0.6,
+    "windmill": 0.95
+  },
+  "per_class": {
+    "airplane": {
+      "base_prompt": "an overhead image of airplane",
+      "tdm_prompt": "an overhead image of airplane",
+      "cps_best_prompt": "a photo of airplane, large and prominent",
+      "cps_score": 0.034973569214344025,
+      "best_oracle_prompt": "a photo of airplane, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of airplane",
+        "an overhead image of airplane",
+        "a photo of airplane, with fine details",
+        "an overhead image of airplane, large and prominent",
+        "a photo of airplane, large and prominent"
+      ],
+      "oracle_drs": {
+        "an overhead image of airplane": 0.8,
+        "a photo of airplane, with fine details": 0.9,
+        "an overhead image of airplane, large and prominent": 0.9,
+        "a photo of airplane, large and prominent": 1.0
+      }
+    },
+    "ship": {
+      "base_prompt": "an overhead image of ship",
+      "tdm_prompt": "an overhead image of ship",
+      "cps_best_prompt": "a photo of ship, large and prominent",
+      "cps_score": 0.012844167649745941,
+      "best_oracle_prompt": "a photo of ship, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of ship",
+        "an overhead image of ship",
+        "a photo of ship, with fine details",
+        "an overhead image of ship, with distinct structural features",
+        "a photo of ship, large and prominent"
+      ],
+      "oracle_drs": {
+        "an overhead image of ship": 0.7,
+        "a photo of ship, with fine details": 0.15,
+        "an overhead image of ship, with distinct structural features": 0.65,
+        "a photo of ship, large and prominent": 0.9
+      }
+    },
+    "stadium": {
+      "base_prompt": "an overhead image of stadium",
+      "tdm_prompt": "an overhead image of stadium, with distinct structural features, with fine details",
+      "cps_best_prompt": "a photo of stadium, large and prominent",
+      "cps_score": 0.014993151649832726,
+      "best_oracle_prompt": "a photo of stadium, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of stadium",
+        "an overhead image of stadium, with distinct structural features, with fine details",
+        "a photo of stadium, with fine details",
+        "a photo of stadium, with natural coloring",
+        "a photo of stadium, large and prominent"
+      ],
+      "oracle_drs": {
+        "an overhead image of stadium": 0.9,
+        "an overhead image of stadium, with distinct structural features, with fine details": 0.9,
+        "a photo of stadium, with fine details": 0.7,
+        "a photo of stadium, with natural coloring": 0.85,
+        "a photo of stadium, large and prominent": 0.95
+      }
+    },
+    "bridge": {
+      "base_prompt": "an overhead image of bridge",
+      "tdm_prompt": "an overhead image of bridge",
+      "cps_best_prompt": "a photo of bridge, with natural coloring",
+      "cps_score": 0.024791866540908813,
+      "best_oracle_prompt": "an overhead image of bridge",
+      "oracle_candidates": [
+        "an overhead image of bridge",
+        "an overhead image of bridge",
+        "an overhead image of bridge, with fine details",
+        "an overhead image of bridge, in its natural setting",
+        "a photo of bridge, with natural coloring"
+      ],
+      "oracle_drs": {
+        "an overhead image of bridge": 0.85,
+        "an overhead image of bridge, with fine details": 0.7,
+        "an overhead image of bridge, in its natural setting": 0.75,
+        "a photo of bridge, with natural coloring": 0.7
+      }
+    },
+    "harbor": {
+      "base_prompt": "an overhead image of harbor",
+      "tdm_prompt": "an overhead image of harbor",
+      "cps_best_prompt": "a photo of harbor, large and prominent",
+      "cps_score": 0.008166884072124958,
+      "best_oracle_prompt": "a photo of harbor, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of harbor",
+        "an overhead image of harbor",
+        "an overhead image of harbor, with clearly visible surface features",
+        "an overhead image of harbor, with fine details",
+        "a photo of harbor, large and prominent"
+      ],
+      "oracle_drs": {
+        "an overhead image of harbor": 0.5,
+        "an overhead image of harbor, with clearly visible surface features": 0.55,
+        "an overhead image of harbor, with fine details": 0.5,
+        "a photo of harbor, large and prominent": 0.85
+      }
+    },
+    "overpass": {
+      "base_prompt": "an overhead image of overpass",
+      "tdm_prompt": "an overhead image of overpass, large and prominent",
+      "cps_best_prompt": "a photo of overpass, large and prominent",
+      "cps_score": 0.025654776021838188,
+      "best_oracle_prompt": "a photo of overpass, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of overpass",
+        "an overhead image of overpass, large and prominent",
+        "a photo of overpass, with natural coloring",
+        "a photo of overpass, in its natural setting",
+        "a photo of overpass, large and prominent"
+      ],
+      "oracle_drs": {
+        "an overhead image of overpass": 0.65,
+        "an overhead image of overpass, large and prominent": 0.65,
+        "a photo of overpass, with natural coloring": 0.6,
+        "a photo of overpass, in its natural setting": 0.3,
+        "a photo of overpass, large and prominent": 0.95
+      }
+    },
+    "tennis court": {
+      "base_prompt": "an overhead image of tennis court",
+      "tdm_prompt": "an overhead image of tennis court",
+      "cps_best_prompt": "a photo of tennis court, with natural coloring",
+      "cps_score": 0.007627029903233051,
+      "best_oracle_prompt": "an overhead image of tennis court, large and prominent",
+      "oracle_candidates": [
+        "an overhead image of tennis court",
+        "an overhead image of tennis court",
+        "an overhead image of tennis court, large and prominent",
+        "an overhead image of tennis court, with natural coloring",
+        "a photo of tennis court, with natural coloring"
+      ],
+      "oracle_drs": {
+        "an overhead image of tennis court": 0.55,
+        "an overhead image of tennis court, large and prominent": 0.6,
+        "an overhead image of tennis court, with natural coloring": 0.35,
+        "a photo of tennis court, with natural coloring": 0.6
+      }
+    },
+    "windmill": {
+      "base_prompt": "an overhead image of windmill",
+      "tdm_prompt": "an overhead image of windmill",
+      "cps_best_prompt": "a photo of windmill, with fine details",
+      "cps_score": 0.0011254730634391308,
+      "best_oracle_prompt": "an overhead image of windmill",
+      "oracle_candidates": [
+        "an overhead image of windmill",
+        "an overhead image of windmill",
+        "a photo of windmill, with distinct structural features",
+        "an overhead image of windmill, in its natural setting",
+        "a photo of windmill, with fine details"
+      ],
+      "oracle_drs": {
+        "an overhead image of windmill": 0.95,
+        "a photo of windmill, with distinct structural features": 0.15,
+        "an overhead image of windmill, in its natural setting": 0.95,
+        "a photo of windmill, with fine details": 0.1
+      }
+    }
+  },
+  "summary": {
+    "mean_baseline": 0.7375,
+    "mean_static_tdm": 0.7375,
+    "mean_cps_adapter": 0.75625,
+    "mean_cps_oracle": 0.8812499999999999
+  }
+}

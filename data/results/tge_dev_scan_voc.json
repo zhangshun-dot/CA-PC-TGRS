@@ -1,0 +1,578 @@
+{
+  "config": {
+    "protocol": "v2 frozen §1: DIOR->VOC2007 dev scan, N=100/类, 逐图 AP50, 只看 VOC GT, 不看目标域",
+    "betas": [
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "lambdas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "n_voc": 100
+  },
+  "baseline": {
+    "VOC-aeroplane": 0.8482,
+    "VOC-boat": 0.4988,
+    "VOC-car": 0.5076,
+    "VOC-bus": 0.6564,
+    "VOC-motorbike": 0.8332
+  },
+  "grid": {
+    "b0.5_l0.0": {
+      "VOC-aeroplane": 0.8579,
+      "VOC-boat": 0.5024,
+      "VOC-car": 0.55,
+      "VOC-bus": 0.6595,
+      "VOC-motorbike": 0.8325
+    },
+    "b0.5_l0.25": {
+      "VOC-aeroplane": 0.8596,
+      "VOC-boat": 0.5039,
+      "VOC-car": 0.5509,
+      "VOC-bus": 0.6635,
+      "VOC-motorbike": 0.8334
+    },
+    "b0.5_l0.5": {
+      "VOC-aeroplane": 0.8595,
+      "VOC-boat": 0.5047,
+      "VOC-car": 0.5555,
+      "VOC-bus": 0.665,
+      "VOC-motorbike": 0.8338
+    },
+    "b0.5_l0.75": {
+      "VOC-aeroplane": 0.8552,
+      "VOC-boat": 0.5093,
+      "VOC-car": 0.5695,
+      "VOC-bus": 0.6788,
+      "VOC-motorbike": 0.828
+    },
+    "b0.5_l1.0": {
+      "VOC-aeroplane": 0.7216,
+      "VOC-boat": 0.4048,
+      "VOC-car": 0.4609,
+      "VOC-bus": 0.5814,
+      "VOC-motorbike": 0.548
+    },
+    "b1.0_l0.0": {
+      "VOC-aeroplane": 0.8595,
+      "VOC-boat": 0.5029,
+      "VOC-car": 0.5506,
+      "VOC-bus": 0.6645,
+      "VOC-motorbike": 0.8354
+    },
+    "b1.0_l0.25": {
+      "VOC-aeroplane": 0.8592,
+      "VOC-boat": 0.5023,
+      "VOC-car": 0.5548,
+      "VOC-bus": 0.6693,
+      "VOC-motorbike": 0.8363
+    },
+    "b1.0_l0.5": {
+      "VOC-aeroplane": 0.8565,
+      "VOC-boat": 0.5031,
+      "VOC-car": 0.5668,
+      "VOC-bus": 0.679,
+      "VOC-motorbike": 0.8309
+    },
+    "b1.0_l0.75": {
+      "VOC-aeroplane": 0.8449,
+      "VOC-boat": 0.4884,
+      "VOC-car": 0.5988,
+      "VOC-bus": 0.7257,
+      "VOC-motorbike": 0.7704
+    },
+    "b1.0_l1.0": {
+      "VOC-aeroplane": 0.5857,
+      "VOC-boat": 0.5002,
+      "VOC-car": 0.5076,
+      "VOC-bus": 0.6394,
+      "VOC-motorbike": 0.8332
+    },
+    "b2.0_l0.0": {
+      "VOC-aeroplane": 0.8574,
+      "VOC-boat": 0.4976,
+      "VOC-car": 0.5576,
+      "VOC-bus": 0.6734,
+      "VOC-motorbike": 0.836
+    },
+    "b2.0_l0.25": {
+      "VOC-aeroplane": 0.8516,
+      "VOC-boat": 0.5004,
+      "VOC-car": 0.5688,
+      "VOC-bus": 0.6891,
+      "VOC-motorbike": 0.8324
+    },
+    "b2.0_l0.5": {
+      "VOC-aeroplane": 0.8502,
+      "VOC-boat": 0.4754,
+      "VOC-car": 0.5937,
+      "VOC-bus": 0.7222,
+      "VOC-motorbike": 0.7732
+    },
+    "b2.0_l0.75": {
+      "VOC-aeroplane": 0.6795,
+      "VOC-boat": 0.3946,
+      "VOC-car": 0.4315,
+      "VOC-bus": 0.5764,
+      "VOC-motorbike": 0.6791
+    },
+    "b2.0_l1.0": {
+      "VOC-aeroplane": 0.8252,
+      "VOC-boat": 0.4988,
+      "VOC-car": 0.5076,
+      "VOC-bus": 0.6564,
+      "VOC-motorbike": 0.8332
+    },
+    "b4.0_l0.0": {
+      "VOC-aeroplane": 0.8516,
+      "VOC-boat": 0.4943,
+      "VOC-car": 0.5722,
+      "VOC-bus": 0.6991,
+      "VOC-motorbike": 0.8308
+    },
+    "b4.0_l0.25": {
+      "VOC-aeroplane": 0.8443,
+      "VOC-boat": 0.4583,
+      "VOC-car": 0.5873,
+      "VOC-bus": 0.7216,
+      "VOC-motorbike": 0.7773
+    },
+    "b4.0_l0.5": {
+      "VOC-aeroplane": 0.613,
+      "VOC-boat": 0.3733,
+      "VOC-car": 0.3751,
+      "VOC-bus": 0.5592,
+      "VOC-motorbike": 0.4666
+    },
+    "b4.0_l0.75": {
+      "VOC-aeroplane": 0.825,
+      "VOC-boat": 0.4988,
+      "VOC-car": 0.5076,
+      "VOC-bus": 0.6564,
+      "VOC-motorbike": 0.8332
+    },
+    "b4.0_l1.0": {
+      "VOC-aeroplane": 0.8482,
+      "VOC-boat": 0.4988,
+      "VOC-car": 0.5076,
+      "VOC-bus": 0.6564,
+      "VOC-motorbike": 0.8332
+    }
+  },
+  "ranking": [
+    {
+      "key": "b4.0_l0.0",
+      "mean_gain": 0.0208,
+      "all_positive": false,
+      "lambda": 0.0,
+      "aps": {
+        "VOC-aeroplane": 0.8516,
+        "VOC-boat": 0.4943,
+        "VOC-car": 0.5722,
+        "VOC-bus": 0.6991,
+        "VOC-motorbike": 0.8308
+      },
+      "gains": {
+        "VOC-aeroplane": 0.0034000000000000696,
+        "VOC-boat": -0.004500000000000004,
+        "VOC-car": 0.06459999999999999,
+        "VOC-bus": 0.04270000000000007,
+        "VOC-motorbike": -0.0024000000000000687
+      }
+    },
+    {
+      "key": "b2.0_l0.25",
+      "mean_gain": 0.0196,
+      "all_positive": false,
+      "lambda": 0.25,
+      "aps": {
+        "VOC-aeroplane": 0.8516,
+        "VOC-boat": 0.5004,
+        "VOC-car": 0.5688,
+        "VOC-bus": 0.6891,
+        "VOC-motorbike": 0.8324
+      },
+      "gains": {
+        "VOC-aeroplane": 0.0034000000000000696,
+        "VOC-boat": 0.0015999999999999348,
+        "VOC-car": 0.06119999999999992,
+        "VOC-bus": 0.03270000000000006,
+        "VOC-motorbike": -0.0008000000000000229
+      }
+    },
+    {
+      "key": "b0.5_l0.75",
+      "mean_gain": 0.0193,
+      "all_positive": false,
+      "lambda": 0.75,
+      "aps": {
+        "VOC-aeroplane": 0.8552,
+        "VOC-boat": 0.5093,
+        "VOC-car": 0.5695,
+        "VOC-bus": 0.6788,
+        "VOC-motorbike": 0.828
+      },
+      "gains": {
+        "VOC-aeroplane": 0.007000000000000006,
+        "VOC-boat": 0.010499999999999954,
+        "VOC-car": 0.061899999999999955,
+        "VOC-bus": 0.022399999999999975,
+        "VOC-motorbike": -0.0052000000000000934
+      }
+    },
+    {
+      "key": "b1.0_l0.5",
+      "mean_gain": 0.0184,
+      "all_positive": false,
+      "lambda": 0.5,
+      "aps": {
+        "VOC-aeroplane": 0.8565,
+        "VOC-boat": 0.5031,
+        "VOC-car": 0.5668,
+        "VOC-bus": 0.679,
+        "VOC-motorbike": 0.8309
+      },
+      "gains": {
+        "VOC-aeroplane": 0.008300000000000085,
+        "VOC-boat": 0.0042999999999999705,
+        "VOC-car": 0.05919999999999992,
+        "VOC-bus": 0.022600000000000064,
+        "VOC-motorbike": -0.0023000000000000798
+      }
+    },
+    {
+      "key": "b1.0_l0.75",
+      "mean_gain": 0.0168,
+      "all_positive": false,
+      "lambda": 0.75,
+      "aps": {
+        "VOC-aeroplane": 0.8449,
+        "VOC-boat": 0.4884,
+        "VOC-car": 0.5988,
+        "VOC-bus": 0.7257,
+        "VOC-motorbike": 0.7704
+      },
+      "gains": {
+        "VOC-aeroplane": -0.0032999999999999696,
+        "VOC-boat": -0.01040000000000002,
+        "VOC-car": 0.09119999999999995,
+        "VOC-bus": 0.06930000000000003,
+        "VOC-motorbike": -0.06280000000000008
+      }
+    },
+    {
+      "key": "b2.0_l0.0",
+      "mean_gain": 0.0156,
+      "all_positive": false,
+      "lambda": 0.0,
+      "aps": {
+        "VOC-aeroplane": 0.8574,
+        "VOC-boat": 0.4976,
+        "VOC-car": 0.5576,
+        "VOC-bus": 0.6734,
+        "VOC-motorbike": 0.836
+      },
+      "gains": {
+        "VOC-aeroplane": 0.009200000000000097,
+        "VOC-boat": -0.0012000000000000344,
+        "VOC-car": 0.04999999999999993,
+        "VOC-bus": 0.017000000000000015,
+        "VOC-motorbike": 0.0027999999999999137
+      }
+    },
+    {
+      "key": "b1.0_l0.25",
+      "mean_gain": 0.0155,
+      "all_positive": true,
+      "lambda": 0.25,
+      "aps": {
+        "VOC-aeroplane": 0.8592,
+        "VOC-boat": 0.5023,
+        "VOC-car": 0.5548,
+        "VOC-bus": 0.6693,
+        "VOC-motorbike": 0.8363
+      },
+      "gains": {
+        "VOC-aeroplane": 0.01100000000000001,
+        "VOC-boat": 0.0034999999999999476,
+        "VOC-car": 0.04719999999999991,
+        "VOC-bus": 0.012900000000000023,
+        "VOC-motorbike": 0.0030999999999999917
+      }
+    },
+    {
+      "key": "b0.5_l0.5",
+      "mean_gain": 0.0149,
+      "all_positive": true,
+      "lambda": 0.5,
+      "aps": {
+        "VOC-aeroplane": 0.8595,
+        "VOC-boat": 0.5047,
+        "VOC-car": 0.5555,
+        "VOC-bus": 0.665,
+        "VOC-motorbike": 0.8338
+      },
+      "gains": {
+        "VOC-aeroplane": 0.011300000000000088,
+        "VOC-boat": 0.005900000000000016,
+        "VOC-car": 0.04789999999999994,
+        "VOC-bus": 0.008600000000000052,
+        "VOC-motorbike": 0.0005999999999999339
+      }
+    },
+    {
+      "key": "b2.0_l0.5",
+      "mean_gain": 0.0141,
+      "all_positive": false,
+      "lambda": 0.5,
+      "aps": {
+        "VOC-aeroplane": 0.8502,
+        "VOC-boat": 0.4754,
+        "VOC-car": 0.5937,
+        "VOC-bus": 0.7222,
+        "VOC-motorbike": 0.7732
+      },
+      "gains": {
+        "VOC-aeroplane": 0.0020000000000000018,
+        "VOC-boat": -0.023400000000000032,
+        "VOC-car": 0.08609999999999995,
+        "VOC-bus": 0.06579999999999997,
+        "VOC-motorbike": -0.06000000000000005
+      }
+    },
+    {
+      "key": "b1.0_l0.0",
+      "mean_gain": 0.0137,
+      "all_positive": true,
+      "lambda": 0.0,
+      "aps": {
+        "VOC-aeroplane": 0.8595,
+        "VOC-boat": 0.5029,
+        "VOC-car": 0.5506,
+        "VOC-bus": 0.6645,
+        "VOC-motorbike": 0.8354
+      },
+      "gains": {
+        "VOC-aeroplane": 0.011300000000000088,
+        "VOC-boat": 0.0040999999999999925,
+        "VOC-car": 0.04299999999999993,
+        "VOC-bus": 0.008099999999999996,
+        "VOC-motorbike": 0.0021999999999999797
+      }
+    },
+    {
+      "key": "b0.5_l0.25",
+      "mean_gain": 0.0134,
+      "all_positive": true,
+      "lambda": 0.25,
+      "aps": {
+        "VOC-aeroplane": 0.8596,
+        "VOC-boat": 0.5039,
+        "VOC-car": 0.5509,
+        "VOC-bus": 0.6635,
+        "VOC-motorbike": 0.8334
+      },
+      "gains": {
+        "VOC-aeroplane": 0.011400000000000077,
+        "VOC-boat": 0.005099999999999993,
+        "VOC-car": 0.043299999999999894,
+        "VOC-bus": 0.007099999999999995,
+        "VOC-motorbike": 0.00019999999999997797
+      }
+    },
+    {
+      "key": "b0.5_l0.0",
+      "mean_gain": 0.0116,
+      "all_positive": false,
+      "lambda": 0.0,
+      "aps": {
+        "VOC-aeroplane": 0.8579,
+        "VOC-boat": 0.5024,
+        "VOC-car": 0.55,
+        "VOC-bus": 0.6595,
+        "VOC-motorbike": 0.8325
+      },
+      "gains": {
+        "VOC-aeroplane": 0.009700000000000042,
+        "VOC-boat": 0.0035999999999999366,
+        "VOC-car": 0.04239999999999999,
+        "VOC-bus": 0.0030999999999999917,
+        "VOC-motorbike": -0.0007000000000000339
+      }
+    },
+    {
+      "key": "b4.0_l0.25",
+      "mean_gain": 0.0089,
+      "all_positive": false,
+      "lambda": 0.25,
+      "aps": {
+        "VOC-aeroplane": 0.8443,
+        "VOC-boat": 0.4583,
+        "VOC-car": 0.5873,
+        "VOC-bus": 0.7216,
+        "VOC-motorbike": 0.7773
+      },
+      "gains": {
+        "VOC-aeroplane": -0.0038999999999999035,
+        "VOC-boat": -0.040500000000000036,
+        "VOC-car": 0.0797,
+        "VOC-bus": 0.06520000000000004,
+        "VOC-motorbike": -0.05590000000000006
+      }
+    },
+    {
+      "key": "b4.0_l1.0",
+      "mean_gain": 0.0,
+      "all_positive": true,
+      "lambda": 1.0,
+      "aps": {
+        "VOC-aeroplane": 0.8482,
+        "VOC-boat": 0.4988,
+        "VOC-car": 0.5076,
+        "VOC-bus": 0.6564,
+        "VOC-motorbike": 0.8332
+      },
+      "gains": {
+        "VOC-aeroplane": 0.0,
+        "VOC-boat": 0.0,
+        "VOC-car": 0.0,
+        "VOC-bus": 0.0,
+        "VOC-motorbike": 0.0
+      }
+    },
+    {
+      "key": "b4.0_l0.75",
+      "mean_gain": -0.0046,
+      "all_positive": false,
+      "lambda": 0.75,
+      "aps": {
+        "VOC-aeroplane": 0.825,
+        "VOC-boat": 0.4988,
+        "VOC-car": 0.5076,
+        "VOC-bus": 0.6564,
+        "VOC-motorbike": 0.8332
+      },
+      "gains": {
+        "VOC-aeroplane": -0.0232,
+        "VOC-boat": 0.0,
+        "VOC-car": 0.0,
+        "VOC-bus": 0.0,
+        "VOC-motorbike": 0.0
+      }
+    },
+    {
+      "key": "b2.0_l1.0",
+      "mean_gain": -0.0046,
+      "all_positive": false,
+      "lambda": 1.0,
+      "aps": {
+        "VOC-aeroplane": 0.8252,
+        "VOC-boat": 0.4988,
+        "VOC-car": 0.5076,
+        "VOC-bus": 0.6564,
+        "VOC-motorbike": 0.8332
+      },
+      "gains": {
+        "VOC-aeroplane": -0.02299999999999991,
+        "VOC-boat": 0.0,
+        "VOC-car": 0.0,
+        "VOC-bus": 0.0,
+        "VOC-motorbike": 0.0
+      }
+    },
+    {
+      "key": "b1.0_l1.0",
+      "mean_gain": -0.0556,
+      "all_positive": false,
+      "lambda": 1.0,
+      "aps": {
+        "VOC-aeroplane": 0.5857,
+        "VOC-boat": 0.5002,
+        "VOC-car": 0.5076,
+        "VOC-bus": 0.6394,
+        "VOC-motorbike": 0.8332
+      },
+      "gains": {
+        "VOC-aeroplane": -0.26249999999999996,
+        "VOC-boat": 0.0013999999999999568,
+        "VOC-car": 0.0,
+        "VOC-bus": -0.017000000000000015,
+        "VOC-motorbike": 0.0
+      }
+    },
+    {
+      "key": "b2.0_l0.75",
+      "mean_gain": -0.1166,
+      "all_positive": false,
+      "lambda": 0.75,
+      "aps": {
+        "VOC-aeroplane": 0.6795,
+        "VOC-boat": 0.3946,
+        "VOC-car": 0.4315,
+        "VOC-bus": 0.5764,
+        "VOC-motorbike": 0.6791
+      },
+      "gains": {
+        "VOC-aeroplane": -0.16869999999999996,
+        "VOC-boat": -0.10420000000000001,
+        "VOC-car": -0.07610000000000006,
+        "VOC-bus": -0.07999999999999996,
+        "VOC-motorbike": -0.15410000000000001
+      }
+    },
+    {
+      "key": "b0.5_l1.0",
+      "mean_gain": -0.1255,
+      "all_positive": false,
+      "lambda": 1.0,
+      "aps": {
+        "VOC-aeroplane": 0.7216,
+        "VOC-boat": 0.4048,
+        "VOC-car": 0.4609,
+        "VOC-bus": 0.5814,
+        "VOC-motorbike": 0.548
+      },
+      "gains": {
+        "VOC-aeroplane": -0.12659999999999993,
+        "VOC-boat": -0.09400000000000003,
+        "VOC-car": -0.046700000000000075,
+        "VOC-bus": -0.07499999999999996,
+        "VOC-motorbike": -0.2852
+      }
+    },
+    {
+      "key": "b4.0_l0.5",
+      "mean_gain": -0.1914,
+      "all_positive": false,
+      "lambda": 0.5,
+      "aps": {
+        "VOC-aeroplane": 0.613,
+        "VOC-boat": 0.3733,
+        "VOC-car": 0.3751,
+        "VOC-bus": 0.5592,
+        "VOC-motorbike": 0.4666
+      },
+      "gains": {
+        "VOC-aeroplane": -0.23519999999999996,
+        "VOC-boat": -0.1255,
+        "VOC-car": -0.13250000000000006,
+        "VOC-bus": -0.09719999999999995,
+        "VOC-motorbike": -0.36660000000000004
+      }
+    }
+  ],
+  "chosen": {
+    "beta": 1.0,
+    "lambda": 0.25,
+    "mean_gain": 0.0155,
+    "all_positive": true,
+    "selected_from": "passing (5/5 non-neg), rule=v2 protocol §1"
+  },
+  "note": "选择逻辑 2026-08-26 修正: 在 5/5 非负集合内取 mean_gain 最大(λ 最小保守优先); 旧版误取未过门槛的 b4.0_l0.0"
+}

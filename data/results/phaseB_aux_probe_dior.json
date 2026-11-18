@@ -1,0 +1,26 @@
+{
+  "domain": "DIOR (hard)",
+  "n_dior": 60,
+  "n_coco_b": 90,
+  "A_condition_dior": {
+    "pearson_r_zk_k": 0.481,
+    "acc_4way": 0.346,
+    "random": 0.25,
+    "pearson_r_abszc_k": -0.059
+  },
+  "B_ood": {
+    "auc_zk": 0.801,
+    "auc_zk_zc": 1.0,
+    "random": 0.5
+  },
+  "C_sample_selection": {
+    "auc_score": 0.904,
+    "auc_score_wzk": 0.903,
+    "w": 0.0
+  },
+  "D_ece": {
+    "baseline": 0.012,
+    "zk_temp_scaled": 0.012
+  },
+  "note": "DIOR 硬域重测: C/D 在 COCO 因无 headroom 为 null; DIOR 弱检测器应有 headroom, 此处定夺校准/风险支柱"
+}

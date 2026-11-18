@@ -1,0 +1,210 @@
+{
+  "config": {
+    "alpha": 1.5,
+    "beta_base": 1.0,
+    "lam_base": 0.25,
+    "detector": "all"
+  },
+  "results": {
+    "gdinob": {
+      "classes": {
+        "COCO-airplane": {
+          "n_pool": 97,
+          "n_test": 87,
+          "recall": 0.979,
+          "risk": 0.42,
+          "beta_eff": 1.63,
+          "lambda_eff": 0.4075,
+          "base50": 0.7922,
+          "fixed50": 0.8059,
+          "adapt50": 0.8086,
+          "gain_fixed": 0.0137,
+          "gain_adapt": 0.0164,
+          "adapt_vs_fixed": 0.0027
+        },
+        "COCO-boat": {
+          "n_pool": 121,
+          "n_test": 111,
+          "recall": 0.7453,
+          "risk": 0.68,
+          "beta_eff": 2.02,
+          "lambda_eff": 0.505,
+          "base50": 0.3233,
+          "fixed50": 0.3169,
+          "adapt50": 0.319,
+          "gain_fixed": -0.0065,
+          "gain_adapt": -0.0044,
+          "adapt_vs_fixed": 0.0021
+        },
+        "COCO-car": {
+          "n_pool": 535,
+          "n_test": 525,
+          "recall": 0.7424,
+          "risk": 0.59,
+          "beta_eff": 1.885,
+          "lambda_eff": 0.4713,
+          "base50": 0.1455,
+          "fixed50": 0.1776,
+          "adapt50": 0.262,
+          "gain_fixed": 0.0321,
+          "gain_adapt": 0.1165,
+          "adapt_vs_fixed": 0.0843
+        },
+        "COCO-truck": {
+          "n_pool": 250,
+          "n_test": 240,
+          "recall": 0.872,
+          "risk": 0.57,
+          "beta_eff": 1.855,
+          "lambda_eff": 0.4637,
+          "base50": 0.2408,
+          "fixed50": 0.2182,
+          "adapt50": 0.2899,
+          "gain_fixed": -0.0226,
+          "gain_adapt": 0.0492,
+          "adapt_vs_fixed": 0.0718
+        },
+        "COCO-bus": {
+          "n_pool": 189,
+          "n_test": 179,
+          "recall": 0.9399,
+          "risk": 0.53,
+          "beta_eff": 1.795,
+          "lambda_eff": 0.4487,
+          "base50": 0.5419,
+          "fixed50": 0.5221,
+          "adapt50": 0.6095,
+          "gain_fixed": -0.0198,
+          "gain_adapt": 0.0676,
+          "adapt_vs_fixed": 0.0874
+        },
+        "COCO-motorcycle": {
+          "n_pool": 159,
+          "n_test": 149,
+          "recall": 0.9019,
+          "risk": 0.8,
+          "beta_eff": 2.2,
+          "lambda_eff": 0.55,
+          "base50": 0.3782,
+          "fixed50": 0.4302,
+          "adapt50": 0.4752,
+          "gain_fixed": 0.0519,
+          "gain_adapt": 0.097,
+          "adapt_vs_fixed": 0.045
+        }
+      },
+      "mean": {
+        "base50": 0.4037,
+        "fixed50": 0.4118,
+        "adapt50": 0.4607,
+        "gain_fixed": 0.0081,
+        "gain_adapt": 0.057,
+        "adapt_vs_fixed": 0.0489,
+        "risk": 0.5983,
+        "beta_eff": 1.8975,
+        "lambda_eff": 0.4744
+      },
+      "n_pos_adapt": 5
+    },
+    "owlv2": {
+      "classes": {
+        "COCO-airplane": {
+          "n_pool": 97,
+          "n_test": 87,
+          "recall": 0.972,
+          "risk": 0.42,
+          "beta_eff": 1.63,
+          "lambda_eff": 0.4075,
+          "base50": 0.8706,
+          "fixed50": 0.8549,
+          "adapt50": 0.8648,
+          "gain_fixed": -0.0157,
+          "gain_adapt": -0.0058,
+          "adapt_vs_fixed": 0.0099
+        },
+        "COCO-boat": {
+          "n_pool": 121,
+          "n_test": 111,
+          "recall": 0.7783,
+          "risk": 0.68,
+          "beta_eff": 2.02,
+          "lambda_eff": 0.505,
+          "base50": 0.5196,
+          "fixed50": 0.4919,
+          "adapt50": 0.498,
+          "gain_fixed": -0.0277,
+          "gain_adapt": -0.0217,
+          "adapt_vs_fixed": 0.006
+        },
+        "COCO-car": {
+          "n_pool": 535,
+          "n_test": 525,
+          "recall": 0.8055,
+          "risk": 0.59,
+          "beta_eff": 1.885,
+          "lambda_eff": 0.4713,
+          "base50": 0.5708,
+          "fixed50": 0.5374,
+          "adapt50": 0.5549,
+          "gain_fixed": -0.0334,
+          "gain_adapt": -0.0159,
+          "adapt_vs_fixed": 0.0175
+        },
+        "COCO-truck": {
+          "n_pool": 250,
+          "n_test": 240,
+          "recall": 0.9638,
+          "risk": 0.57,
+          "beta_eff": 1.855,
+          "lambda_eff": 0.4637,
+          "base50": 0.5353,
+          "fixed50": 0.4468,
+          "adapt50": 0.4751,
+          "gain_fixed": -0.0885,
+          "gain_adapt": -0.0602,
+          "adapt_vs_fixed": 0.0283
+        },
+        "COCO-bus": {
+          "n_pool": 189,
+          "n_test": 179,
+          "recall": 0.9682,
+          "risk": 0.53,
+          "beta_eff": 1.795,
+          "lambda_eff": 0.4487,
+          "base50": 0.8648,
+          "fixed50": 0.8152,
+          "adapt50": 0.8334,
+          "gain_fixed": -0.0496,
+          "gain_adapt": -0.0314,
+          "adapt_vs_fixed": 0.0182
+        },
+        "COCO-motorcycle": {
+          "n_pool": 159,
+          "n_test": 149,
+          "recall": 0.921,
+          "risk": 0.8,
+          "beta_eff": 2.2,
+          "lambda_eff": 0.55,
+          "base50": 0.7189,
+          "fixed50": 0.6904,
+          "adapt50": 0.5644,
+          "gain_fixed": -0.0284,
+          "gain_adapt": -0.1545,
+          "adapt_vs_fixed": -0.126
+        }
+      },
+      "mean": {
+        "base50": 0.68,
+        "fixed50": 0.6394,
+        "adapt50": 0.6318,
+        "gain_fixed": -0.0406,
+        "gain_adapt": -0.0482,
+        "adapt_vs_fixed": -0.0077,
+        "risk": 0.5983,
+        "beta_eff": 1.8975,
+        "lambda_eff": 0.4744
+      },
+      "n_pos_adapt": 0
+    }
+  }
+}

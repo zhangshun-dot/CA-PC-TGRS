@@ -1,0 +1,52 @@
+{
+  "airplane": {
+    "ap_clean": 0.7757,
+    "res_blur": {
+      "ap_x": 0.7464,
+      "ap_xp": 0.7176,
+      "delta": -0.0288,
+      "recovery": 0.9251
+    },
+    "haze": {
+      "ap_x": 0.7482,
+      "ap_xp": 0.7192,
+      "delta": -0.029,
+      "recovery": 0.9273
+    }
+  },
+  "boat": {
+    "ap_clean": 0.1999,
+    "res_blur": {
+      "ap_x": 0.1754,
+      "ap_xp": 0.1599,
+      "delta": -0.0155,
+      "recovery": 0.7998
+    },
+    "haze": {
+      "ap_x": 0.1775,
+      "ap_xp": 0.1787,
+      "delta": 0.0012,
+      "recovery": 0.8941
+    }
+  },
+  "car": {
+    "ap_clean": 0.0949,
+    "res_blur": {
+      "ap_x": 0.0801,
+      "ap_xp": 0.0769,
+      "delta": -0.0031,
+      "recovery": 0.8107
+    },
+    "haze": {
+      "ap_x": 0.091,
+      "ap_xp": 0.0908,
+      "delta": -0.0002,
+      "recovery": 0.9562
+    }
+  },
+  "summary": {
+    "res_blur_delta_mean": -0.015799999999999998,
+    "haze_delta_mean": -0.009333333333333334,
+    "note": "合成污染机制验证; 非真实 DIOR->COCO 域偏移"
+  }
+}

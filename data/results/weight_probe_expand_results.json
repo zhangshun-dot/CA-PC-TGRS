@@ -1,0 +1,104 @@
+{
+  "COCO-airplane": {
+    "twofactor_grid_best": 0.7828245244409476,
+    "expanded_best": 0.8262908221931489,
+    "delta_extra": 0.0435,
+    "prev_2factor_best": 0.7809712160917087,
+    "best_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 1.0,
+      "rel": 0.5,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 1.0
+    },
+    "n_img": 30,
+    "n_gt": 45
+  },
+  "COCO-boat": {
+    "twofactor_grid_best": 0.21741232816055484,
+    "expanded_best": 0.22617954819871527,
+    "delta_extra": 0.0088,
+    "prev_2factor_best": 0.21853837827714023,
+    "best_weights": {
+      "gd": 1.0,
+      "vis": 1.0,
+      "clip": 1.0,
+      "rel": 0.5,
+      "unc": 0.0,
+      "cond": 0.5,
+      "cond_inv": 1.0
+    },
+    "n_img": 30,
+    "n_gt": 112
+  },
+  "COCO-car": {
+    "twofactor_grid_best": 0.10061403880621801,
+    "expanded_best": 0.3322574482012599,
+    "delta_extra": 0.2316,
+    "prev_2factor_best": 0.11447657720384444,
+    "best_weights": {
+      "gd": 0.0,
+      "vis": 0.0,
+      "clip": 0.5,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 0.0
+    },
+    "n_img": 30,
+    "n_gt": 84
+  },
+  "DIOR-airplane": {
+    "twofactor_grid_best": 0.4838093166749042,
+    "expanded_best": 0.5826995296603853,
+    "delta_extra": 0.0989,
+    "prev_2factor_best": 0.5234797166230725,
+    "best_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 1.0,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 1.0
+    },
+    "n_img": 20,
+    "n_gt": 162
+  },
+  "DIOR-ship": {
+    "twofactor_grid_best": 0.2313617482109338,
+    "expanded_best": 0.3867148946446573,
+    "delta_extra": 0.1554,
+    "prev_2factor_best": 0.2404102949178782,
+    "best_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 0.0,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.0,
+      "cond_inv": 1.0
+    },
+    "n_img": 20,
+    "n_gt": 435
+  },
+  "DIOR-vehicle": {
+    "twofactor_grid_best": 0.3078798641321575,
+    "expanded_best": 0.3750841917765598,
+    "delta_extra": 0.0672,
+    "prev_2factor_best": 0.3681077136578157,
+    "best_weights": {
+      "gd": 0.5,
+      "vis": 1.0,
+      "clip": 0.0,
+      "rel": 0.0,
+      "unc": 0.0,
+      "cond": 0.5,
+      "cond_inv": 1.0
+    },
+    "n_img": 20,
+    "n_gt": 127
+  }
+}

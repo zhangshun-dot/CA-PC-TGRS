@@ -1,0 +1,240 @@
+{
+  "config": {
+    "ssdd_root": "C:\\Users\\张三\\modeling\\sar_data\\SSDD\\data",
+    "units": [
+      [
+        "ship",
+        "boat"
+      ]
+    ],
+    "modalities": [
+      "opt",
+      "sar"
+    ],
+    "anchors": [
+      "over",
+      "sar"
+    ],
+    "n_per_arm": 200,
+    "B_boot": 1000,
+    "lam": 0.5,
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "zero_target_gt": true,
+    "axis": "REAL sensor change (optical RS vs SAR), no resampling",
+    "opt_target": "DIOR optical ship",
+    "sar_target": "SSDD SAR ship",
+    "source": "COCO boat prototypes",
+    "matched_pairs": [
+      "(opt,over)",
+      "(sar,sar)"
+    ],
+    "mismatched_pairs": [
+      "(opt,sar)",
+      "(sar,over)"
+    ],
+    "note": "target name ship != source name boat -> cond/vocab separable here"
+  },
+  "identity": {
+    "max_abs_dev_replay_vs_official": 0.0,
+    "criterion": "ap50_replay(tab) == RB.ap_of/ap_base for every cell and arm"
+  },
+  "rows": [
+    {
+      "target_sensor": "opt",
+      "anchor_env": "over",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.1654,
+      "gain_macro": {
+        "ca_pc": 0.039,
+        "cond": 0.0469,
+        "vocab": 0.0038,
+        "tge_nat": 0.0065,
+        "tge_star": 0.0098
+      },
+      "margin_ca_minus_tge_nat": 0.0325,
+      "ci_margin_nat": [
+        0.021,
+        0.0539
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0292,
+      "ci_margin_star": [
+        0.0195,
+        0.049
+      ],
+      "margin_cond_minus_vocab": 0.0431,
+      "ci_margin_cv": [
+        0.0279,
+        0.0663
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 200,
+          "base_ap": 0.1654,
+          "gamma": 2.0396,
+          "mag": 0.6051,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1654,
+            "ca_pc": 0.039,
+            "cond": 0.0469,
+            "vocab": 0.0038,
+            "tge_nat": 0.0065,
+            "tge_star": 0.0098
+          }
+        }
+      ]
+    },
+    {
+      "target_sensor": "opt",
+      "anchor_env": "sar",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.1654,
+      "gain_macro": {
+        "ca_pc": 0.0181,
+        "cond": 0.0029,
+        "vocab": 0.0163,
+        "tge_nat": 0.0065,
+        "tge_star": 0.0098
+      },
+      "margin_ca_minus_tge_nat": 0.0116,
+      "ci_margin_nat": [
+        0.0034,
+        0.0225
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0083,
+      "ci_margin_star": [
+        0.0009,
+        0.0182
+      ],
+      "margin_cond_minus_vocab": -0.0134,
+      "ci_margin_cv": [
+        -0.0451,
+        -0.0043
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 200,
+          "base_ap": 0.1654,
+          "gamma": 2.2233,
+          "mag": 0.6596,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1654,
+            "ca_pc": 0.0181,
+            "cond": 0.0029,
+            "vocab": 0.0163,
+            "tge_nat": 0.0065,
+            "tge_star": 0.0098
+          }
+        }
+      ]
+    },
+    {
+      "target_sensor": "sar",
+      "anchor_env": "over",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.258,
+      "gain_macro": {
+        "ca_pc": 0.1463,
+        "cond": 0.1442,
+        "vocab": 0.0646,
+        "tge_nat": 0.0555,
+        "tge_star": 0.0695
+      },
+      "margin_ca_minus_tge_nat": 0.0908,
+      "ci_margin_nat": [
+        0.0708,
+        0.1092
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0768,
+      "ci_margin_star": [
+        0.0594,
+        0.0966
+      ],
+      "margin_cond_minus_vocab": 0.0796,
+      "ci_margin_cv": [
+        0.0596,
+        0.1029
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 200,
+          "base_ap": 0.258,
+          "gamma": 2.0396,
+          "mag": 0.6051,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.258,
+            "ca_pc": 0.1463,
+            "cond": 0.1442,
+            "vocab": 0.0646,
+            "tge_nat": 0.0555,
+            "tge_star": 0.0695
+          }
+        }
+      ]
+    },
+    {
+      "target_sensor": "sar",
+      "anchor_env": "sar",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.258,
+      "gain_macro": {
+        "ca_pc": 0.0906,
+        "cond": 0.0509,
+        "vocab": 0.0196,
+        "tge_nat": 0.0555,
+        "tge_star": 0.0695
+      },
+      "margin_ca_minus_tge_nat": 0.0351,
+      "ci_margin_nat": [
+        0.003,
+        0.0686
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0211,
+      "ci_margin_star": [
+        -0.0107,
+        0.0573
+      ],
+      "margin_cond_minus_vocab": 0.0313,
+      "ci_margin_cv": [
+        0.0034,
+        0.0949
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 200,
+          "base_ap": 0.258,
+          "gamma": 2.2233,
+          "mag": 0.6596,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.258,
+            "ca_pc": 0.0906,
+            "cond": 0.0509,
+            "vocab": 0.0196,
+            "tge_nat": 0.0555,
+            "tge_star": 0.0695
+          }
+        }
+      ]
+    }
+  ]
+}

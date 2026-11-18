@@ -1,0 +1,174 @@
+{
+  "config": {
+    "protocol": "main protocol: all val2017 images with non-crowd ann of the class, first k_calib=10 held out (same eval view as run_table6/run_recall_k)",
+    "iou": 0.5,
+    "pre_filter": 0.03,
+    "small_box_drop": "<=10px (same as detect_and_encode)",
+    "pooled_def": "sum over images of covered GT / sum over images of GT (per-object)",
+    "macro_def": "mean over images (with >=1 GT) of covered-GT fraction (per-image, same view as the AP protocol and Table VII Recall@K)"
+  },
+  "detectors": {
+    "gdino-tiny": {
+      "classes": {
+        "airplane": {
+          "n_images": 87,
+          "n_gt": 128,
+          "pooled": 0.9766,
+          "macro": 0.9856,
+          "pool_mean": 21.93,
+          "pool_max": 73
+        },
+        "boat": {
+          "n_images": 111,
+          "n_gt": 397,
+          "pooled": 0.3854,
+          "macro": 0.6219,
+          "pool_mean": 7.28,
+          "pool_max": 32
+        },
+        "car": {
+          "n_images": 525,
+          "n_gt": 1883,
+          "pooled": 0.5358,
+          "macro": 0.6006,
+          "pool_mean": 17.75,
+          "pool_max": 113
+        },
+        "truck": {
+          "n_images": 240,
+          "n_gt": 398,
+          "pooled": 0.8819,
+          "macro": 0.9045,
+          "pool_mean": 38.32,
+          "pool_max": 140
+        },
+        "bus": {
+          "n_images": 179,
+          "n_gt": 270,
+          "pooled": 0.6963,
+          "macro": 0.813,
+          "pool_mean": 4.25,
+          "pool_max": 19
+        },
+        "motorcycle": {
+          "n_images": 149,
+          "n_gt": 342,
+          "pooled": 0.8363,
+          "macro": 0.9034,
+          "pool_mean": 31.36,
+          "pool_max": 105
+        }
+      },
+      "six_class_macro_pooled": 0.7187,
+      "six_class_macro_macro": 0.8048
+    },
+    "gdino-base": {
+      "classes": {
+        "airplane": {
+          "n_images": 87,
+          "n_gt": 128,
+          "pooled": 0.9766,
+          "macro": 0.9885,
+          "pool_mean": 23.67,
+          "pool_max": 87
+        },
+        "boat": {
+          "n_images": 111,
+          "n_gt": 397,
+          "pooled": 0.7456,
+          "macro": 0.8384,
+          "pool_mean": 46.05,
+          "pool_max": 131
+        },
+        "car": {
+          "n_images": 525,
+          "n_gt": 1883,
+          "pooled": 0.7334,
+          "macro": 0.782,
+          "pool_mean": 41.94,
+          "pool_max": 163
+        },
+        "truck": {
+          "n_images": 240,
+          "n_gt": 398,
+          "pooled": 0.8744,
+          "macro": 0.8856,
+          "pool_mean": 47.81,
+          "pool_max": 174
+        },
+        "bus": {
+          "n_images": 179,
+          "n_gt": 270,
+          "pooled": 0.937,
+          "macro": 0.9562,
+          "pool_mean": 41.31,
+          "pool_max": 131
+        },
+        "motorcycle": {
+          "n_images": 149,
+          "n_gt": 342,
+          "pooled": 0.9064,
+          "macro": 0.9498,
+          "pool_mean": 73.33,
+          "pool_max": 216
+        }
+      },
+      "six_class_macro_pooled": 0.8622,
+      "six_class_macro_macro": 0.9001
+    },
+    "owlv2": {
+      "classes": {
+        "airplane": {
+          "n_images": 87,
+          "n_gt": 128,
+          "pooled": 0.9766,
+          "macro": 0.9885,
+          "pool_mean": 10.95,
+          "pool_max": 53
+        },
+        "boat": {
+          "n_images": 111,
+          "n_gt": 397,
+          "pooled": 0.7657,
+          "macro": 0.8558,
+          "pool_mean": 29.04,
+          "pool_max": 193
+        },
+        "car": {
+          "n_images": 525,
+          "n_gt": 1883,
+          "pooled": 0.795,
+          "macro": 0.8302,
+          "pool_mean": 18.88,
+          "pool_max": 314
+        },
+        "truck": {
+          "n_images": 240,
+          "n_gt": 398,
+          "pooled": 0.9523,
+          "macro": 0.9477,
+          "pool_mean": 15.59,
+          "pool_max": 362
+        },
+        "bus": {
+          "n_images": 179,
+          "n_gt": 270,
+          "pooled": 0.9593,
+          "macro": 0.978,
+          "pool_mean": 12.89,
+          "pool_max": 79
+        },
+        "motorcycle": {
+          "n_images": 149,
+          "n_gt": 342,
+          "pooled": 0.924,
+          "macro": 0.9519,
+          "pool_mean": 32.85,
+          "pool_max": 487
+        }
+      },
+      "six_class_macro_pooled": 0.8955,
+      "six_class_macro_macro": 0.9254
+    }
+  }
+}

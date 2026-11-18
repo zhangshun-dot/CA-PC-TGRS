@@ -1,0 +1,41 @@
+{
+  "configs": {
+    "COCO_selected": {
+      "beta": 2.0,
+      "lambda": 0.5
+    },
+    "VOC_selected": {
+      "beta": 1.0,
+      "lambda": 0.25
+    },
+    "NWPU_selected": {
+      "beta": 2.0,
+      "lambda": 0.5
+    }
+  },
+  "coco_gains": {
+    "COCO_selected": 0.0646,
+    "VOC_selected": 0.0166,
+    "NWPU_selected": 0.0646
+  },
+  "voc_gains": {
+    "COCO_selected": 0.014099999999999968,
+    "VOC_selected": 0.015539999999999976,
+    "NWPU_selected": 0.014099999999999968
+  },
+  "voc_baseline": {
+    "VOC-aeroplane": 0.8482,
+    "VOC-boat": 0.4988,
+    "VOC-car": 0.5076,
+    "VOC-bus": 0.6564,
+    "VOC-motorbike": 0.8332
+  },
+  "voc_chosen": {
+    "beta": 1.0,
+    "lambda": 0.25,
+    "mean_gain": 0.0155,
+    "all_positive": true,
+    "selected_from": "passing (5/5 non-neg), rule=v2 protocol §1"
+  },
+  "note": "NWPU数据待补充；COCO选出(2.0,0.5)，VOC选出(1.0,0.25)"
+}

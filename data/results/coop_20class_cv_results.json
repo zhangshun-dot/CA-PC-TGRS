@@ -1,0 +1,64 @@
+{
+  "method": "CoOp_4fold_CV",
+  "folds": [
+    {
+      "fold": 1,
+      "test_classes": [
+        "airplane",
+        "train station",
+        "storage tank",
+        "airport",
+        "expressway toll station"
+      ],
+      "accuracy": 0.2,
+      "correct": 20,
+      "total": 100
+    },
+    {
+      "fold": 2,
+      "test_classes": [
+        "chimney",
+        "harbor",
+        "basketball court",
+        "vehicle",
+        "tennis court"
+      ],
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 100
+    },
+    {
+      "fold": 3,
+      "test_classes": [
+        "ship",
+        "baseball field",
+        "golf course",
+        "windmill",
+        "bridge"
+      ],
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 100
+    },
+    {
+      "fold": 4,
+      "test_classes": [
+        "overpass",
+        "expressway service area",
+        "ground track field",
+        "stadium",
+        "dam"
+      ],
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 100
+    }
+  ],
+  "mean_accuracy": 0.05,
+  "std_accuracy": 0.10000000000000002,
+  "zero_shot_20class": 0.4125,
+  "n_ctx": 8,
+  "epochs": 100,
+  "train_classes_per_fold": 15,
+  "test_classes_per_fold": 5
+}

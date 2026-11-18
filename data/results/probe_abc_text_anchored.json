@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "dior_cls": "airplane",
+      "coco_name": "airplane",
+      "n_imgs": 20,
+      "ap_raw": 0.474,
+      "ap_migrated": 0.4179,
+      "ap_unified": 0.4684,
+      "ap_delta_c_vs_a": -0.0056,
+      "ap_delta_c_vs_b": 0.0505,
+      "align_raw": 0.2578,
+      "align_migrated": 0.2588,
+      "align_unified": 0.2613,
+      "align_delta_c_vs_a": 0.0035,
+      "mean_best_sim_c": 0.2613
+    },
+    {
+      "dior_cls": "ship",
+      "coco_name": "ship",
+      "n_imgs": 20,
+      "ap_raw": 0.1972,
+      "ap_migrated": 0.162,
+      "ap_unified": 0.1949,
+      "ap_delta_c_vs_a": -0.0023,
+      "ap_delta_c_vs_b": 0.0329,
+      "align_raw": 0.2462,
+      "align_migrated": 0.2522,
+      "align_unified": 0.2524,
+      "align_delta_c_vs_a": 0.0062,
+      "mean_best_sim_c": 0.2524
+    },
+    {
+      "dior_cls": "vehicle",
+      "coco_name": "vehicle",
+      "n_imgs": 20,
+      "ap_raw": 0.2858,
+      "ap_migrated": 0.2116,
+      "ap_unified": 0.2853,
+      "ap_delta_c_vs_a": -0.0005,
+      "ap_delta_c_vs_b": 0.0737,
+      "align_raw": 0.228,
+      "align_migrated": 0.2286,
+      "align_unified": 0.2346,
+      "align_delta_c_vs_a": 0.0066,
+      "mean_best_sim_c": 0.2346
+    }
+  ],
+  "mean": {
+    "ap_raw": 0.319,
+    "ap_migrated": 0.2638,
+    "ap_unified": 0.3162,
+    "ap_delta_c_vs_a": -0.0028,
+    "ap_delta_c_vs_b": 0.0524,
+    "align_raw": 0.244,
+    "align_migrated": 0.2465,
+    "align_unified": 0.2494,
+    "align_delta_c_vs_a": 0.0054
+  },
+  "note": "A=原始DIOR; B=Reinhard迁COCO自然分布; C=文本锚定语义统一(CLIP空间朝类文本做温和光度搜索). 小样本方向性探针, 非显著性结论"
+}

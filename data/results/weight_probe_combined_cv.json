@@ -1,0 +1,736 @@
+{
+  "summary": {
+    "n_scenarios": 11,
+    "n_positive": 5,
+    "n_bootstrap_sig": 2,
+    "mean_delta": -0.0357
+  },
+  "scenarios": {
+    "COCO-airplane": {
+      "domain": "natural_scene",
+      "dior_cls": "airplane",
+      "n_img": 80,
+      "n_gt": 112,
+      "mean_baseline": 0.7613,
+      "mean_tuned": 0.6301,
+      "delta_unbiased": -0.1312,
+      "ci_low": -0.1847,
+      "ci_high": -0.0619,
+      "delta_std_folds": 0.0157,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.625,
+        "vis": 1.0,
+        "clip": 0.75,
+        "rel": 0.375,
+        "unc": 0.0,
+        "cond": 0.125,
+        "cond_inv": 0.5
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.5,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 1.0,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.5,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.5,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.0078,
+        0.0437,
+        0.0031,
+        0.0213
+      ]
+    },
+    "COCO-boat": {
+      "domain": "natural_scene",
+      "dior_cls": "ship",
+      "n_img": 80,
+      "n_gt": 244,
+      "mean_baseline": 0.2057,
+      "mean_tuned": 0.181,
+      "delta_unbiased": -0.0246,
+      "ci_low": -0.0716,
+      "ci_high": 0.0175,
+      "delta_std_folds": 0.025,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.375,
+        "cond": 0.25,
+        "cond_inv": 0.5
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 1.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        }
+      ],
+      "fold_deltas": [
+        0.0111,
+        0.0408,
+        -0.0288,
+        -0.0012
+      ]
+    },
+    "COCO-car": {
+      "domain": "natural_scene",
+      "dior_cls": "vehicle",
+      "n_img": 80,
+      "n_gt": 237,
+      "mean_baseline": 0.0944,
+      "mean_tuned": 0.1767,
+      "delta_unbiased": 0.0823,
+      "ci_low": 0.0187,
+      "ci_high": 0.1123,
+      "delta_std_folds": 0.0664,
+      "bootstrap_sig": "YES",
+      "avg_weights": {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.875,
+        "cond": 0.375,
+        "cond_inv": 0.75
+      },
+      "fold_weights": [
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 1.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 1.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 1.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        }
+      ],
+      "fold_deltas": [
+        0.2997,
+        0.2675,
+        0.1284,
+        0.1946
+      ]
+    },
+    "DIOR-airplane": {
+      "domain": "remote_sensing",
+      "dior_cls": "airplane",
+      "n_img": 20,
+      "n_gt": 162,
+      "mean_baseline": 0.4405,
+      "mean_tuned": 0.1819,
+      "delta_unbiased": -0.2585,
+      "ci_low": -0.4685,
+      "ci_high": -0.1156,
+      "delta_std_folds": 0.0738,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.75,
+        "rel": 0.125,
+        "unc": 0.25,
+        "cond": 0.0,
+        "cond_inv": 0.875
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.5,
+          "unc": 1.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        }
+      ],
+      "fold_deltas": [
+        0.0569,
+        0.1115,
+        0.1336,
+        -0.0571
+      ]
+    },
+    "DIOR-ship": {
+      "domain": "remote_sensing",
+      "dior_cls": "ship",
+      "n_img": 20,
+      "n_gt": 435,
+      "mean_baseline": 0.2263,
+      "mean_tuned": 0.2127,
+      "delta_unbiased": -0.0137,
+      "ci_low": -0.072,
+      "ci_high": 0.0906,
+      "delta_std_folds": 0.0742,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.375,
+        "vis": 1.0,
+        "clip": 0.125,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.0,
+        "cond_inv": 0.875
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.2227,
+        0.1916,
+        0.0758,
+        0.0476
+      ]
+    },
+    "DIOR-vehicle": {
+      "domain": "remote_sensing",
+      "dior_cls": "vehicle",
+      "n_img": 20,
+      "n_gt": 127,
+      "mean_baseline": 0.2562,
+      "mean_tuned": 0.1751,
+      "delta_unbiased": -0.0811,
+      "ci_low": -0.2492,
+      "ci_high": 0.0099,
+      "delta_std_folds": 0.0633,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.0,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.375,
+        "cond_inv": 0.875
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        }
+      ],
+      "fold_deltas": [
+        0.056,
+        0.2008,
+        0.0371,
+        0.0984
+      ]
+    },
+    "DIOR-harbor": {
+      "domain": "remote_sensing",
+      "dior_cls": "harbor",
+      "n_img": 20,
+      "n_gt": 99,
+      "mean_baseline": 0.1561,
+      "mean_tuned": 0.0878,
+      "delta_unbiased": -0.0682,
+      "ci_low": -0.164,
+      "ci_high": -0.0301,
+      "delta_std_folds": 0.0081,
+      "bootstrap_sig": "no",
+      "avg_weights": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.0,
+        "unc": 0.375,
+        "cond": 0.75,
+        "cond_inv": 1.0
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 1.0,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 1.0,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        }
+      ],
+      "fold_deltas": [
+        0.0322,
+        0.0239,
+        0.0121,
+        0.0313
+      ]
+    },
+    "DIOR-storage": {
+      "domain": "remote_sensing",
+      "dior_cls": "storage tank",
+      "n_img": 20,
+      "n_gt": 349,
+      "mean_baseline": 0.2039,
+      "mean_tuned": 0.23,
+      "delta_unbiased": 0.0261,
+      "ci_low": -0.206,
+      "ci_high": 0.1542,
+      "delta_std_folds": 0.1019,
+      "bootstrap_sig": "marginal",
+      "avg_weights": {
+        "gd": 0.125,
+        "vis": 0.875,
+        "clip": 0.0,
+        "rel": 0.125,
+        "unc": 0.0,
+        "cond": 0.5,
+        "cond_inv": 0.5
+      },
+      "fold_weights": [
+        {
+          "gd": 0.5,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.5,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 0.5,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.0159,
+        0.1588,
+        0.0087,
+        -0.1293
+      ]
+    },
+    "DIOR-tennis": {
+      "domain": "remote_sensing",
+      "dior_cls": "tennis court",
+      "n_img": 20,
+      "n_gt": 105,
+      "mean_baseline": 0.0096,
+      "mean_tuned": 0.016,
+      "delta_unbiased": 0.0063,
+      "ci_low": 0.0006,
+      "ci_high": 0.0331,
+      "delta_std_folds": 0.1056,
+      "bootstrap_sig": "YES",
+      "avg_weights": {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 0.375,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.875,
+        "cond_inv": 0.875
+      },
+      "fold_weights": [
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 1.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.2561,
+        0.0029,
+        0.0269,
+        0.0093
+      ]
+    },
+    "DIOR-baseball": {
+      "domain": "remote_sensing",
+      "dior_cls": "baseball field",
+      "n_img": 20,
+      "n_gt": 44,
+      "mean_baseline": 0.1286,
+      "mean_tuned": 0.1716,
+      "delta_unbiased": 0.043,
+      "ci_low": -0.04,
+      "ci_high": 0.0954,
+      "delta_std_folds": 0.0607,
+      "bootstrap_sig": "marginal",
+      "avg_weights": {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 0.125,
+        "rel": 0.0,
+        "unc": 0.0,
+        "cond": 0.75,
+        "cond_inv": 0.375
+      },
+      "fold_weights": [
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.0,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 1.0,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.0621,
+        0.1916,
+        0.1093,
+        0.2116
+      ]
+    },
+    "DIOR-bridge": {
+      "domain": "remote_sensing",
+      "dior_cls": "bridge",
+      "n_img": 20,
+      "n_gt": 26,
+      "mean_baseline": 0.0083,
+      "mean_tuned": 0.0351,
+      "delta_unbiased": 0.0268,
+      "ci_low": -0.0015,
+      "ci_high": 0.0505,
+      "delta_std_folds": 0.0218,
+      "bootstrap_sig": "marginal",
+      "avg_weights": {
+        "gd": 0.0,
+        "vis": 1.0,
+        "clip": 0.5,
+        "rel": 0.0,
+        "unc": 0.375,
+        "cond": 0.375,
+        "cond_inv": 0.25
+      },
+      "fold_weights": [
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 0.0,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.0,
+          "cond": 0.5,
+          "cond_inv": 0.0
+        },
+        {
+          "gd": 0.0,
+          "vis": 1.0,
+          "clip": 0.5,
+          "rel": 0.0,
+          "unc": 0.5,
+          "cond": 0.5,
+          "cond_inv": 0.5
+        }
+      ],
+      "fold_deltas": [
+        0.0052,
+        0.0342,
+        0.0514,
+        -0.0026
+      ]
+    }
+  }
+}

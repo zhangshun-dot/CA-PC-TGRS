@@ -1,0 +1,63 @@
+{
+  "config": {
+    "n_voc": 100,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "protocol": "DIOR->VOC2007, N=100/类, 逐图 AP50, 后同主表口径"
+  },
+  "classes": {
+    "VOC-aeroplane": {
+      "baseline": 0.8482,
+      "b2": 0.8636,
+      "tge_lam0": 0.8574,
+      "acspc": 0.8502,
+      "tge_gain": 0.0092,
+      "acspc_gain": 0.0019,
+      "n_images": 100
+    },
+    "VOC-boat": {
+      "baseline": 0.4988,
+      "b2": 0.5043,
+      "tge_lam0": 0.4976,
+      "acspc": 0.4754,
+      "tge_gain": -0.0012,
+      "acspc_gain": -0.0234,
+      "n_images": 100
+    },
+    "VOC-car": {
+      "baseline": 0.5076,
+      "b2": 0.544,
+      "tge_lam0": 0.5576,
+      "acspc": 0.5937,
+      "tge_gain": 0.05,
+      "acspc_gain": 0.0861,
+      "n_images": 100
+    },
+    "VOC-bus": {
+      "baseline": 0.6564,
+      "b2": 0.648,
+      "tge_lam0": 0.6734,
+      "acspc": 0.7222,
+      "tge_gain": 0.017,
+      "acspc_gain": 0.0659,
+      "n_images": 100
+    },
+    "VOC-motorbike": {
+      "baseline": 0.8332,
+      "b2": 0.8269,
+      "tge_lam0": 0.836,
+      "acspc": 0.7732,
+      "tge_gain": 0.0027,
+      "acspc_gain": -0.0601,
+      "n_images": 100
+    }
+  },
+  "mean": {
+    "baseline": 0.6688,
+    "b2": 0.6774,
+    "tge_lam0": 0.6844,
+    "acspc": 0.6829,
+    "tge_gain": 0.0155,
+    "acspc_gain": 0.0141
+  }
+}

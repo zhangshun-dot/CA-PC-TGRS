@@ -1,0 +1,52 @@
+{
+  "detector": "RT-DETR (local)",
+  "n_img": 250,
+  "shift": "fog+dark synthetic",
+  "base_ap50": 0.7527,
+  "capc_ap50": 0.5741,
+  "overall_gain": -0.1785,
+  "rho_dc_gain": -0.4949,
+  "per_class": {
+    "car": {
+      "base_ap": 0.1226,
+      "capc_ap": 0.0944,
+      "gain": -0.0282,
+      "dc_mag": 0.661
+    },
+    "truck": {
+      "base_ap": 0.1059,
+      "capc_ap": 0.0638,
+      "gain": -0.0421,
+      "dc_mag": 0.7314
+    },
+    "bus": {
+      "base_ap": 0.1344,
+      "capc_ap": 0.1251,
+      "gain": -0.0092,
+      "dc_mag": 0.6837
+    },
+    "motorcycle": {
+      "base_ap": 0.1249,
+      "capc_ap": 0.0941,
+      "gain": -0.0308,
+      "dc_mag": 0.7485
+    },
+    "boat": {
+      "base_ap": 0.1112,
+      "capc_ap": 0.0756,
+      "gain": -0.0356,
+      "dc_mag": 0.6999
+    },
+    "airplane": {
+      "base_ap": 0.1538,
+      "capc_ap": 0.1211,
+      "gain": -0.0327,
+      "dc_mag": 0.7165
+    }
+  },
+  "gate": {
+    "c0": 0.5511,
+    "ciqr": 0.4624,
+    "P_scale": 2.8296
+  }
+}

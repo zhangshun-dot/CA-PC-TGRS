@@ -1,0 +1,131 @@
+{
+  "results": {
+    "airplane": {
+      "class": "airplane",
+      "baseline_prompt": "an overhead image of airplane",
+      "baseline_dr": 0.8,
+      "tdm_dr": 0.8,
+      "fusion_best_dr": 0.85,
+      "best_dr": 0.85,
+      "best_prompt": "an overhead image of airplane, within its environment",
+      "agreement": false,
+      "cps_best": "an aerial view of airplane, surrounded by typical terrain",
+      "clip_best": "an overhead image of airplane, within its environment",
+      "consensus_dr": null,
+      "consensus_prompts": []
+    },
+    "ship": {
+      "class": "ship",
+      "baseline_prompt": "an overhead image of ship",
+      "baseline_dr": 0.7,
+      "tdm_dr": 0.7,
+      "fusion_best_dr": 0.55,
+      "best_dr": 0.7,
+      "best_prompt": "an overhead image of ship",
+      "agreement": false,
+      "cps_best": "an overhead image of ship, surrounded by typical terrain",
+      "clip_best": "an overhead image of ship, showing natural hues",
+      "consensus_dr": null,
+      "consensus_prompts": []
+    },
+    "stadium": {
+      "class": "stadium",
+      "baseline_prompt": "an overhead image of stadium",
+      "baseline_dr": 0.9,
+      "tdm_dr": 0.9,
+      "fusion_best_dr": 0.9,
+      "best_dr": 0.9,
+      "best_prompt": "an overhead image of stadium",
+      "agreement": false,
+      "cps_best": "a photo of stadium, within its environment, with visible material patterns",
+      "clip_best": "an overhead image of stadium, surrounded by typical terrain",
+      "consensus_dr": 0.7,
+      "consensus_prompts": [
+        "a photo of stadium, clearly visible in scale, featuring characteristic outlines",
+        "an overhead image of stadium, surrounded by typical terrain"
+      ]
+    },
+    "bridge": {
+      "class": "bridge",
+      "baseline_prompt": "an overhead image of bridge",
+      "baseline_dr": 0.85,
+      "tdm_dr": 0.85,
+      "fusion_best_dr": 0.65,
+      "best_dr": 0.85,
+      "best_prompt": "an overhead image of bridge",
+      "agreement": false,
+      "cps_best": "an overhead image of bridge, with well-defined shape, surrounded by typical terrain",
+      "clip_best": "an overhead image of bridge, showing surface texture",
+      "consensus_dr": 0.6,
+      "consensus_prompts": [
+        "an overhead image of bridge, showing natural hues"
+      ]
+    },
+    "harbor": {
+      "class": "harbor",
+      "baseline_prompt": "an overhead image of harbor",
+      "baseline_dr": 0.5,
+      "tdm_dr": 0.5,
+      "fusion_best_dr": 0.8,
+      "best_dr": 0.8,
+      "best_prompt": "a photo of harbor, large and prominent, with well-defined shape, with visible material patterns",
+      "agreement": false,
+      "cps_best": "a photo of harbor, large and prominent, with well-defined shape, with visible material patterns",
+      "clip_best": "an overhead image of harbor, with clearly visible surface features",
+      "consensus_dr": null,
+      "consensus_prompts": []
+    },
+    "overpass": {
+      "class": "overpass",
+      "baseline_prompt": "an overhead image of overpass",
+      "baseline_dr": 0.65,
+      "tdm_dr": 0.65,
+      "fusion_best_dr": 0.7,
+      "best_dr": 0.7,
+      "best_prompt": "an overhead image of overpass, showing clear geometry",
+      "agreement": false,
+      "cps_best": "an overhead image of overpass, showing natural hues",
+      "clip_best": "an overhead image of overpass, with well-defined shape",
+      "consensus_dr": null,
+      "consensus_prompts": []
+    },
+    "tennis court": {
+      "class": "tennis court",
+      "baseline_prompt": "an overhead image of tennis court",
+      "baseline_dr": 0.55,
+      "tdm_dr": 0.55,
+      "fusion_best_dr": 0.35,
+      "best_dr": 0.55,
+      "best_prompt": "an overhead image of tennis court",
+      "agreement": false,
+      "cps_best": "a photo of tennis court, surrounded by typical terrain",
+      "clip_best": "a satellite image of tennis court, with fine details, showing natural hues, showing surface texture",
+      "consensus_dr": 0.35,
+      "consensus_prompts": [
+        "a satellite image of tennis court, with fine details, showing natural hues, showing surface texture"
+      ]
+    },
+    "windmill": {
+      "class": "windmill",
+      "baseline_prompt": "an overhead image of windmill",
+      "baseline_dr": 0.95,
+      "tdm_dr": 0.95,
+      "fusion_best_dr": 0.95,
+      "best_dr": 0.95,
+      "best_prompt": "an overhead image of windmill",
+      "agreement": false,
+      "cps_best": "a photo of windmill",
+      "clip_best": "an overhead image of windmill, within its environment",
+      "consensus_dr": null,
+      "consensus_prompts": []
+    }
+  },
+  "summary": {
+    "mean_baseline": 0.7375,
+    "mean_tdm": 0.7375,
+    "mean_cps_only": 0.79375,
+    "mean_cps_clip": 0.71875,
+    "mean_consensus": 0.6875,
+    "mean_best": 0.7875
+  }
+}

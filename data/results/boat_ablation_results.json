@@ -1,0 +1,42 @@
+{
+  "config": {
+    "protocol": "目标域无关配置 (DIOR→VOC开发域选参), 全量COCO val2017",
+    "beta": 1.0,
+    "lam": 0.25,
+    "note": "用于确认boat转负的真实数值"
+  },
+  "per_class": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "ours": 0.7598,
+      "gain": 0.0113
+    },
+    "COCO-boat": {
+      "baseline": 0.1758,
+      "ours": 0.1659,
+      "gain": -0.01
+    },
+    "COCO-car": {
+      "baseline": 0.1245,
+      "ours": 0.127,
+      "gain": 0.0024
+    },
+    "COCO-truck": {
+      "baseline": 0.2345,
+      "ours": 0.2614,
+      "gain": 0.0268
+    },
+    "COCO-bus": {
+      "baseline": 0.5317,
+      "ours": 0.5326,
+      "gain": 0.0009
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.4092,
+      "ours": 0.4775,
+      "gain": 0.0683
+    }
+  },
+  "mean_gain": 0.0166,
+  "boat_gain": -0.01
+}

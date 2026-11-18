@@ -1,0 +1,26 @@
+{
+  "experiment": "Exp1b_owlv2_controlled_intervention",
+  "detector": "OWLv2",
+  "n_img": 250,
+  "clean_base_ap50": 0.7248,
+  "fog_levels": {
+    "light": {
+      "base_ap50": 0.7246,
+      "capc_ap50": 0.2357,
+      "gain": -0.4889,
+      "dc_mag_mean": 0.6625
+    },
+    "moderate": {
+      "base_ap50": 0.7241,
+      "capc_ap50": 0.234,
+      "gain": -0.4901,
+      "dc_mag_mean": 0.6815
+    },
+    "heavy": {
+      "base_ap50": 0.7266,
+      "capc_ap50": 0.237,
+      "gain": -0.4897,
+      "dc_mag_mean": 0.7079
+    }
+  }
+}

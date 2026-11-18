@@ -1,0 +1,39 @@
+{
+  "config": {
+    "detector": "GDINO-tiny",
+    "n_coco": 500,
+    "definition": "per-image per-GT recall, IoU>=0.5, pre-filter 0.03, 含小框, 逐图口径"
+  },
+  "classes": {
+    "airplane": {
+      "n_images": 97,
+      "n_gt": 143,
+      "recall_pf_perimg": 0.972
+    },
+    "boat": {
+      "n_images": 121,
+      "n_gt": 424,
+      "recall_pf_perimg": 0.4127
+    },
+    "car": {
+      "n_images": 500,
+      "n_gt": 1775,
+      "recall_pf_perimg": 0.578
+    },
+    "truck": {
+      "n_images": 250,
+      "n_gt": 414,
+      "recall_pf_perimg": 0.8865
+    },
+    "bus": {
+      "n_images": 189,
+      "n_gt": 283,
+      "recall_pf_perimg": 0.7138
+    },
+    "motorcycle": {
+      "n_images": 159,
+      "n_gt": 367,
+      "recall_pf_perimg": 0.8501
+    }
+  }
+}

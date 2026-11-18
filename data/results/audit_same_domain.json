@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "nature": "same-domain same-condition minimal audit (non-cross-domain)",
+    "n_img_train": 30,
+    "n_img_test": 30,
+    "k_list": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "check3a_head_k": {
+    "zk_to_k_acc": 0.3043,
+    "zc_to_k_acc": 0.3468
+  },
+  "check1_g_sensitivity": {
+    "d_zk_shuffle": 0.00285,
+    "d_zk_zero": 0.0175
+  },
+  "check23_ranking": {
+    "GDINO(仅检测分)": {
+      "ap50": 0.1769,
+      "rank_auc": 0.7341
+    },
+    "g(zc,zk)": {
+      "ap50": 0.2104,
+      "rank_auc": 0.8907
+    },
+    "g(zc,zk_shuffle)": {
+      "ap50": 0.2106,
+      "rank_auc": 0.891
+    },
+    "g(zc,0)": {
+      "ap50": 0.1941,
+      "rank_auc": 0.8805
+    },
+    "gd+g(zc,zk)": {
+      "ap50": 0.221,
+      "rank_auc": 0.8908
+    }
+  },
+  "verdict": "同域亦无差异 -> 正式结束该路径: 条件估计量不能直接当重排信号"
+}

@@ -1,0 +1,116 @@
+{
+  "task2_fixed_oracle_realization": {
+    "n_total": 22,
+    "n_valid": 20,
+    "n_excluded": 2,
+    "excluded_classes": [
+      "DIOR ship→boat",
+      "NWPU vehicle→truck"
+    ],
+    "mean_ap_fixed": 0.3867231369949359,
+    "mean_ap_adaptive": 0.3964098334225248,
+    "mean_ap_oracle": 0.4026414593805664,
+    "mean_gain_adaptive": 0.009686696427588903,
+    "mean_gain_oracle": 0.015918322385630512,
+    "n_positive": 14,
+    "oracle_realization_ratio": 0.6085249558919068
+  },
+  "task4_three_factor_validation": {
+    "cv_5fold": {
+      "size_only": {
+        "name": "仅尺寸方差",
+        "mean_rho": 0.7094495760778112,
+        "std_rho": 0.03314002212463443,
+        "mean_mae": 0.4701888860916969
+      },
+      "text_only": {
+        "name": "仅文本混淆度",
+        "mean_rho": 0.34268878301230765,
+        "std_rho": 0.09470188018953193,
+        "mean_mae": 0.6735745308598379
+      },
+      "nboxes_only": {
+        "name": "仅n_boxes",
+        "mean_rho": 0.39578433457745676,
+        "std_rho": 0.01380674221248545,
+        "mean_mae": 0.5668223482215631
+      },
+      "size+text": {
+        "name": "尺寸+文本（双因子）",
+        "mean_rho": 0.766800871466461,
+        "std_rho": 0.006992413724335198,
+        "mean_mae": 0.3961821135319553
+      },
+      "size+nboxes": {
+        "name": "尺寸+n_boxes",
+        "mean_rho": 0.6722078417692032,
+        "std_rho": 0.033792794406447176,
+        "mean_mae": 0.4867693678020578
+      },
+      "text+nboxes": {
+        "name": "文本+n_boxes",
+        "mean_rho": 0.6841616134170987,
+        "std_rho": 0.022505942350272402,
+        "mean_mae": 0.39157762078741043
+      },
+      "size+text+nboxes": {
+        "name": "三因子联合",
+        "mean_rho": 0.7523193928011022,
+        "std_rho": 0.006595864906543512,
+        "mean_mae": 0.37566553511941503
+      }
+    },
+    "loo": {
+      "size_only": {
+        "spearman_rho": 0.6703853565997824,
+        "spearman_p": 0.0006400548764799475,
+        "pearson_r": 0.6634136472262857,
+        "mae": 0.4593665991353099,
+        "rmse": 0.5744292145130351
+      },
+      "text_only": {
+        "spearman_rho": 0.1723857818356285,
+        "spearman_p": 0.4430019507716153,
+        "pearson_r": 0.205783692356106,
+        "mae": 0.696940880135275,
+        "rmse": 0.7587172580976386
+      },
+      "nboxes_only": {
+        "spearman_rho": 0.3618450813792454,
+        "spearman_p": 0.09797350751885502,
+        "pearson_r": 0.4825962750631964,
+        "mae": 0.5831531949209942,
+        "rmse": 0.6680047685973954
+      },
+      "size+text": {
+        "spearman_rho": 0.7439216029290379,
+        "spearman_p": 7.22254547004129e-05,
+        "pearson_r": 0.727832420942603,
+        "mae": 0.403791305670536,
+        "rmse": 0.5265734765957241
+      },
+      "size+nboxes": {
+        "spearman_rho": 0.6359237177161736,
+        "spearman_p": 0.0014674515457294857,
+        "pearson_r": 0.6318193470915204,
+        "mae": 0.4807303114371278,
+        "rmse": 0.5978489487956846
+      },
+      "text+nboxes": {
+        "spearman_rho": 0.6290302356813099,
+        "spearman_p": 0.0017123021457791051,
+        "pearson_r": 0.6877406466569105,
+        "mae": 0.4090821883874702,
+        "rmse": 0.5541866717764552
+      },
+      "size+text+nboxes": {
+        "spearman_rho": 0.7439216029290379,
+        "spearman_p": 7.22254547004129e-05,
+        "pearson_r": 0.7313965582892716,
+        "mae": 0.39530286408906695,
+        "rmse": 0.5230968213564043
+      }
+    }
+  },
+  "note": "任务2：修复Oracle实现率bug；任务4：三因子（尺寸方差+文本混淆度+n_boxes）联合验证"
+}

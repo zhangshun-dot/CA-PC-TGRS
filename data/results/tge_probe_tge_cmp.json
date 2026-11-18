@@ -1,0 +1,66 @@
+{
+  "config": {
+    "n_coco": 100,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "protocol": "gdino th=0 -> pre-filter 0.03 -> image-safe per-image AP50, 后90图测试, 同一框池只改打分规则"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "tge_lam0": 0.7563,
+      "acspc_lam05": 0.7601,
+      "tge_gain": 0.0079,
+      "neg_cond_gain": 0.0038,
+      "total_gain": 0.0117
+    },
+    "COCO-boat": {
+      "baseline": 0.1879,
+      "tge_lam0": 0.1811,
+      "acspc_lam05": 0.2277,
+      "tge_gain": -0.0068,
+      "neg_cond_gain": 0.0466,
+      "total_gain": 0.0398
+    },
+    "COCO-car": {
+      "baseline": 0.0858,
+      "tge_lam0": 0.1124,
+      "acspc_lam05": 0.1752,
+      "tge_gain": 0.0265,
+      "neg_cond_gain": 0.0628,
+      "total_gain": 0.0894
+    },
+    "COCO-truck": {
+      "baseline": 0.2631,
+      "tge_lam0": 0.3116,
+      "acspc_lam05": 0.3342,
+      "tge_gain": 0.0485,
+      "neg_cond_gain": 0.0226,
+      "total_gain": 0.0711
+    },
+    "COCO-bus": {
+      "baseline": 0.5651,
+      "tge_lam0": 0.5708,
+      "acspc_lam05": 0.6236,
+      "tge_gain": 0.0058,
+      "neg_cond_gain": 0.0528,
+      "total_gain": 0.0585
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.435,
+      "tge_lam0": 0.4965,
+      "acspc_lam05": 0.5557,
+      "tge_gain": 0.0615,
+      "neg_cond_gain": 0.0592,
+      "total_gain": 0.1207
+    }
+  },
+  "mean": {
+    "baseline": 0.3809,
+    "tge_lam0": 0.4048,
+    "acspc_lam05": 0.4461,
+    "tge_gain": 0.0239,
+    "neg_cond_gain": 0.0413,
+    "total_gain": 0.0652
+  }
+}

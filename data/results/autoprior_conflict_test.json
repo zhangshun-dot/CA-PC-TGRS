@@ -1,0 +1,175 @@
+{
+  "rows": [
+    {
+      "cell": "COCO-airplane",
+      "src_cls": "airplane",
+      "tgt_cls": "airplane",
+      "gain_extB2": -0.0058,
+      "label": 0
+    },
+    {
+      "cell": "COCO-boat",
+      "src_cls": "ship",
+      "tgt_cls": "boat",
+      "gain_extB2": 0.0365,
+      "label": 1
+    },
+    {
+      "cell": "COCO-car",
+      "src_cls": "vehicle",
+      "tgt_cls": "car",
+      "gain_extB2": 0.0983,
+      "label": 1
+    },
+    {
+      "cell": "COCO-truck",
+      "src_cls": "vehicle",
+      "tgt_cls": "truck",
+      "gain_extB2": 0.062,
+      "label": 1
+    },
+    {
+      "cell": "COCO-bus",
+      "src_cls": "vehicle",
+      "tgt_cls": "bus",
+      "gain_extB2": 0.1069,
+      "label": 1
+    },
+    {
+      "cell": "COCO-motorcycle",
+      "src_cls": "vehicle",
+      "tgt_cls": "motorcycle",
+      "gain_extB2": 0.0927,
+      "label": 1
+    },
+    {
+      "cell": "DOTA-plane",
+      "src_cls": "airplane",
+      "tgt_cls": "plane",
+      "gain_extB2": 0.03,
+      "label": 1
+    },
+    {
+      "cell": "DOTA-ship",
+      "src_cls": "ship",
+      "tgt_cls": "ship",
+      "gain_extB2": 0.0027,
+      "label": 1
+    },
+    {
+      "cell": "DOTA-storage-tank",
+      "src_cls": "storage tank",
+      "tgt_cls": "storage-tank",
+      "gain_extB2": 0.1339,
+      "label": 1
+    },
+    {
+      "cell": "DOTA-harbor",
+      "src_cls": "harbor",
+      "tgt_cls": "harbor",
+      "gain_extB2": -0.0733,
+      "label": 0
+    },
+    {
+      "cell": "DOTA-bridge",
+      "src_cls": "bridge",
+      "tgt_cls": "bridge",
+      "gain_extB2": -0.0004,
+      "label": 0
+    },
+    {
+      "cell": "DOTA-large-vehicle",
+      "src_cls": "vehicle",
+      "tgt_cls": "large-vehicle",
+      "gain_extB2": 0.0074,
+      "label": 1
+    },
+    {
+      "cell": "DOTA-small-vehicle",
+      "src_cls": "vehicle",
+      "tgt_cls": "small-vehicle",
+      "gain_extB2": 0.0956,
+      "label": 1
+    },
+    {
+      "cell": "VD-car",
+      "src_cls": "vehicle",
+      "tgt_cls": "car",
+      "gain_extB2": 0.038,
+      "label": 1
+    },
+    {
+      "cell": "VD-truck",
+      "src_cls": "vehicle",
+      "tgt_cls": "truck",
+      "gain_extB2": -0.0219,
+      "label": 0
+    },
+    {
+      "cell": "VD-bus",
+      "src_cls": "vehicle",
+      "tgt_cls": "bus",
+      "gain_extB2": 0.0917,
+      "label": 1
+    },
+    {
+      "cell": "VD-motor",
+      "src_cls": "vehicle",
+      "tgt_cls": "motor",
+      "gain_extB2": 0.0226,
+      "label": 1
+    },
+    {
+      "cell": "VOC-aeroplane",
+      "src_cls": "airplane",
+      "tgt_cls": "aeroplane",
+      "gain_extB2": -0.0134,
+      "label": 0
+    },
+    {
+      "cell": "VOC-boat",
+      "src_cls": "ship",
+      "tgt_cls": "boat",
+      "gain_extB2": -0.0289,
+      "label": 0
+    },
+    {
+      "cell": "VOC-car",
+      "src_cls": "vehicle",
+      "tgt_cls": "car",
+      "gain_extB2": 0.0497,
+      "label": 1
+    },
+    {
+      "cell": "VOC-bus",
+      "src_cls": "vehicle",
+      "tgt_cls": "bus",
+      "gain_extB2": 0.0742,
+      "label": 1
+    },
+    {
+      "cell": "VOC-motorbike",
+      "src_cls": "vehicle",
+      "tgt_cls": "motorbike",
+      "gain_extB2": -0.0537,
+      "label": 0
+    }
+  ],
+  "strict_conflicts": 2,
+  "weak_conflicts": 4,
+  "conflict_cells": [
+    "COCO-airplane",
+    "COCO-boat",
+    "COCO-motorcycle",
+    "COCO-truck",
+    "DOTA-plane",
+    "VD-motor",
+    "VD-truck",
+    "VOC-aeroplane",
+    "VOC-boat",
+    "VOC-motorbike"
+  ],
+  "target_invariant_upper_bound": 0.9090909090909091,
+  "n": 22,
+  "n_pos": 15
+}

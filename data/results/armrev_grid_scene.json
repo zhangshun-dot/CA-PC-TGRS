@@ -1,0 +1,1877 @@
+{
+ "config": {
+  "B": 1000,
+  "pairing": "scene-level, shared across arms/GSD/source",
+  "pool": "category"
+ },
+ "per_ds": {
+  "DIOR": {
+   "gdino": {
+    "n_cells": 24,
+    "n_cat": 3,
+    "n_scene": 291,
+    "B": 1000,
+    "mean_ap": {
+     "base_proto": 0.2128,
+     "full_m": 0.2333,
+     "cond_m": 0.2331,
+     "vocab_m": 0.1988,
+     "full_p": 0.165,
+     "cond_p": 0.1635,
+     "vocab_p": 0.1968,
+     "rand_p": 0.1935,
+     "neg_p": 0.2263
+    },
+    "gain_vs_proto": {
+     "full_m": 0.0205,
+     "cond_m": 0.0203,
+     "vocab_m": -0.014,
+     "full_p": -0.0478,
+     "cond_p": -0.0493,
+     "vocab_p": -0.016,
+     "rand_p": -0.0193,
+     "neg_p": 0.0135
+    },
+    "ci_vs_proto": {
+     "full_m": [
+      0.0227,
+      0.0147,
+      0.0313
+     ],
+     "cond_m": [
+      0.0228,
+      0.0143,
+      0.0313
+     ],
+     "vocab_m": [
+      -0.0129,
+      -0.0195,
+      -0.008
+     ],
+     "full_p": [
+      -0.0472,
+      -0.0564,
+      -0.0387
+     ],
+     "cond_p": [
+      -0.0478,
+      -0.0569,
+      -0.0391
+     ],
+     "vocab_p": [
+      -0.0153,
+      -0.0224,
+      -0.0085
+     ],
+     "rand_p": [
+      -0.0183,
+      -0.0251,
+      -0.0117
+     ],
+     "neg_p": [
+      0.0166,
+      0.008,
+      0.0256
+     ]
+    },
+    "paired_diff": {
+     "cond_m-vocab_m": [
+      0.0356,
+      0.0259,
+      0.0456
+     ],
+     "full_m-vocab_m": [
+      0.0356,
+      0.0264,
+      0.0456
+     ],
+     "full_m-cond_m": [
+      -0.0,
+      -0.0039,
+      0.0042
+     ],
+     "full_m-full_p": [
+      0.0699,
+      0.0565,
+      0.0841
+     ]
+    },
+    "cats": {
+     "vehicle": {
+      "base_proto": 0.0844,
+      "full_m": 0.1248,
+      "cond_m": 0.1213,
+      "vocab_m": 0.0522,
+      "full_p": 0.0323,
+      "cond_p": 0.0292,
+      "vocab_p": 0.058,
+      "rand_p": 0.0743,
+      "neg_p": 0.1045
+     },
+     "ship": {
+      "base_proto": 0.1826,
+      "full_m": 0.2044,
+      "cond_m": 0.2073,
+      "vocab_m": 0.1728,
+      "full_p": 0.1414,
+      "cond_p": 0.1399,
+      "vocab_p": 0.161,
+      "rand_p": 0.1541,
+      "neg_p": 0.2038
+     },
+     "airplane": {
+      "base_proto": 0.3715,
+      "full_m": 0.3706,
+      "cond_m": 0.3706,
+      "vocab_m": 0.3715,
+      "full_p": 0.3215,
+      "cond_p": 0.3215,
+      "vocab_p": 0.3715,
+      "rand_p": 0.352,
+      "neg_p": 0.3706
+     }
+    },
+    "n_img_per_cat": {
+     "vehicle": [
+      100
+     ],
+     "ship": [
+      100
+     ],
+     "airplane": [
+      100
+     ]
+    },
+    "cells": [
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1908,
+       "full_m": 0.2252,
+       "cond_m": 0.2313,
+       "vocab_m": 0.1602,
+       "full_p": 0.1521,
+       "cond_p": 0.1532,
+       "vocab_p": 0.1663,
+       "rand_p": 0.1895,
+       "neg_p": 0.2348
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1626,
+       "full_m": 0.2178,
+       "cond_m": 0.2059,
+       "vocab_m": 0.1506,
+       "full_p": 0.0771,
+       "cond_p": 0.0651,
+       "vocab_p": 0.143,
+       "rand_p": 0.1729,
+       "neg_p": 0.1977
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1105,
+       "full_m": 0.1193,
+       "cond_m": 0.088,
+       "vocab_m": 0.0387,
+       "full_p": 0.0221,
+       "cond_p": 0.0162,
+       "vocab_p": 0.0599,
+       "rand_p": 0.0327,
+       "neg_p": 0.0634
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1772,
+       "full_m": 0.1925,
+       "cond_m": 0.1355,
+       "vocab_m": 0.127,
+       "full_p": 0.0556,
+       "cond_p": 0.0271,
+       "vocab_p": 0.1337,
+       "rand_p": 0.1646,
+       "neg_p": 0.0695
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.2605,
+       "full_m": 0.3082,
+       "cond_m": 0.317,
+       "vocab_m": 0.2556,
+       "full_p": 0.2118,
+       "cond_p": 0.2099,
+       "vocab_p": 0.2413,
+       "rand_p": 0.1885,
+       "neg_p": 0.2956
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.5248,
+       "full_m": 0.5195,
+       "cond_m": 0.5195,
+       "vocab_m": 0.5248,
+       "full_p": 0.4924,
+       "cond_p": 0.4924,
+       "vocab_p": 0.5248,
+       "rand_p": 0.5008,
+       "neg_p": 0.5195
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1578,
+       "full_m": 0.1974,
+       "cond_m": 0.2052,
+       "vocab_m": 0.1007,
+       "full_p": 0.0692,
+       "cond_p": 0.0746,
+       "vocab_p": 0.151,
+       "rand_p": 0.1733,
+       "neg_p": 0.202
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.093,
+       "full_m": 0.1862,
+       "cond_m": 0.1847,
+       "vocab_m": 0.0704,
+       "full_p": 0.0336,
+       "cond_p": 0.0308,
+       "vocab_p": 0.0629,
+       "rand_p": 0.0862,
+       "neg_p": 0.1763
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0544,
+       "full_m": 0.0973,
+       "cond_m": 0.0476,
+       "vocab_m": 0.0171,
+       "full_p": 0.0114,
+       "cond_p": 0.0101,
+       "vocab_p": 0.0166,
+       "rand_p": 0.0141,
+       "neg_p": 0.0388
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1307,
+       "full_m": 0.1871,
+       "cond_m": 0.1327,
+       "vocab_m": 0.0511,
+       "full_p": 0.0193,
+       "cond_p": 0.0139,
+       "vocab_p": 0.0664,
+       "rand_p": 0.142,
+       "neg_p": 0.0488
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.2205,
+       "full_m": 0.2674,
+       "cond_m": 0.276,
+       "vocab_m": 0.2171,
+       "full_p": 0.176,
+       "cond_p": 0.1737,
+       "vocab_p": 0.2057,
+       "rand_p": 0.2339,
+       "neg_p": 0.271
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.475,
+       "full_m": 0.467,
+       "cond_m": 0.467,
+       "vocab_m": 0.475,
+       "full_p": 0.4279,
+       "cond_p": 0.4279,
+       "vocab_p": 0.475,
+       "rand_p": 0.4447,
+       "neg_p": 0.467
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1185,
+       "full_m": 0.1434,
+       "cond_m": 0.1449,
+       "vocab_m": 0.0416,
+       "full_p": 0.0272,
+       "cond_p": 0.0278,
+       "vocab_p": 0.0534,
+       "rand_p": 0.1308,
+       "neg_p": 0.1479
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.033,
+       "full_m": 0.1314,
+       "cond_m": 0.1357,
+       "vocab_m": 0.0234,
+       "full_p": 0.0129,
+       "cond_p": 0.0126,
+       "vocab_p": 0.0213,
+       "rand_p": 0.0184,
+       "neg_p": 0.0973
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0235,
+       "full_m": 0.0369,
+       "cond_m": 0.0543,
+       "vocab_m": 0.005,
+       "full_p": 0.0051,
+       "cond_p": 0.0052,
+       "vocab_p": 0.0051,
+       "rand_p": 0.0049,
+       "neg_p": 0.0392
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0388,
+       "full_m": 0.1021,
+       "cond_m": 0.1154,
+       "vocab_m": 0.0128,
+       "full_p": 0.006,
+       "cond_p": 0.0054,
+       "vocab_p": 0.014,
+       "rand_p": 0.0103,
+       "neg_p": 0.1058
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1444,
+       "full_m": 0.1561,
+       "cond_m": 0.1517,
+       "vocab_m": 0.144,
+       "full_p": 0.1231,
+       "cond_p": 0.1218,
+       "vocab_p": 0.1391,
+       "rand_p": 0.1414,
+       "neg_p": 0.1723
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3281,
+       "full_m": 0.3273,
+       "cond_m": 0.3273,
+       "vocab_m": 0.3281,
+       "full_p": 0.2439,
+       "cond_p": 0.2439,
+       "vocab_p": 0.3281,
+       "rand_p": 0.3296,
+       "neg_p": 0.3273
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0184,
+       "full_m": 0.0568,
+       "cond_m": 0.1027,
+       "vocab_m": 0.0158,
+       "full_p": 0.0125,
+       "cond_p": 0.0126,
+       "vocab_p": 0.0161,
+       "rand_p": 0.032,
+       "neg_p": 0.1026
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0138,
+       "full_m": 0.0327,
+       "cond_m": 0.041,
+       "vocab_m": 0.0115,
+       "full_p": 0.0071,
+       "cond_p": 0.0067,
+       "vocab_p": 0.0103,
+       "rand_p": 0.0094,
+       "neg_p": 0.0407
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0106,
+       "full_m": 0.0161,
+       "cond_m": 0.0338,
+       "vocab_m": 0.0027,
+       "full_p": 0.0024,
+       "cond_p": 0.0025,
+       "vocab_p": 0.0024,
+       "rand_p": 0.003,
+       "neg_p": 0.0256
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.016,
+       "full_m": 0.0546,
+       "cond_m": 0.0814,
+       "vocab_m": 0.0073,
+       "full_p": 0.003,
+       "cond_p": 0.0031,
+       "vocab_p": 0.006,
+       "rand_p": 0.0049,
+       "neg_p": 0.0822
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1051,
+       "full_m": 0.0857,
+       "cond_m": 0.0845,
+       "vocab_m": 0.0743,
+       "full_p": 0.0546,
+       "cond_p": 0.0543,
+       "vocab_p": 0.058,
+       "rand_p": 0.0526,
+       "neg_p": 0.0763
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.158,
+       "full_m": 0.1687,
+       "cond_m": 0.1687,
+       "vocab_m": 0.158,
+       "full_p": 0.1216,
+       "cond_p": 0.1216,
+       "vocab_p": 0.158,
+       "rand_p": 0.1329,
+       "neg_p": 0.1687
+      }
+     }
+    ]
+   },
+   "owlv2": {
+    "n_cells": 24,
+    "n_cat": 3,
+    "n_scene": 291,
+    "B": 1000,
+    "mean_ap": {
+     "base_proto": 0.4502,
+     "full_m": 0.4479,
+     "cond_m": 0.4439,
+     "vocab_m": 0.4268,
+     "full_p": 0.3963,
+     "cond_p": 0.3906,
+     "vocab_p": 0.42,
+     "rand_p": 0.4207,
+     "neg_p": 0.4412
+    },
+    "gain_vs_proto": {
+     "full_m": -0.0023,
+     "cond_m": -0.0063,
+     "vocab_m": -0.0234,
+     "full_p": -0.0539,
+     "cond_p": -0.0596,
+     "vocab_p": -0.0302,
+     "rand_p": -0.0295,
+     "neg_p": -0.009
+    },
+    "ci_vs_proto": {
+     "full_m": [
+      -0.0031,
+      -0.0109,
+      0.003
+     ],
+     "cond_m": [
+      -0.0069,
+      -0.0171,
+      0.0015
+     ],
+     "vocab_m": [
+      -0.0239,
+      -0.031,
+      -0.018
+     ],
+     "full_p": [
+      -0.0551,
+      -0.0665,
+      -0.0462
+     ],
+     "cond_p": [
+      -0.0603,
+      -0.0722,
+      -0.0504
+     ],
+     "vocab_p": [
+      -0.0297,
+      -0.0375,
+      -0.0232
+     ],
+     "rand_p": [
+      -0.0307,
+      -0.0391,
+      -0.0242
+     ],
+     "neg_p": [
+      -0.0096,
+      -0.0209,
+      -0.0004
+     ]
+    },
+    "paired_diff": {
+     "cond_m-vocab_m": [
+      0.0169,
+      0.0094,
+      0.0241
+     ],
+     "full_m-vocab_m": [
+      0.0207,
+      0.0159,
+      0.0259
+     ],
+     "full_m-cond_m": [
+      0.0038,
+      0.0001,
+      0.0083
+     ],
+     "full_m-full_p": [
+      0.052,
+      0.0444,
+      0.0606
+     ]
+    },
+    "cats": {
+     "vehicle": {
+      "base_proto": 0.2926,
+      "full_m": 0.2405,
+      "cond_m": 0.2183,
+      "vocab_m": 0.23,
+      "full_p": 0.1892,
+      "cond_p": 0.1761,
+      "vocab_p": 0.2164,
+      "rand_p": 0.2107,
+      "neg_p": 0.2107
+     },
+     "ship": {
+      "base_proto": 0.374,
+      "full_m": 0.4153,
+      "cond_m": 0.4256,
+      "vocab_m": 0.3662,
+      "full_p": 0.3239,
+      "cond_p": 0.3196,
+      "vocab_p": 0.3596,
+      "rand_p": 0.3687,
+      "neg_p": 0.4251
+     },
+     "airplane": {
+      "base_proto": 0.6841,
+      "full_m": 0.6878,
+      "cond_m": 0.6878,
+      "vocab_m": 0.6841,
+      "full_p": 0.6759,
+      "cond_p": 0.6759,
+      "vocab_p": 0.6841,
+      "rand_p": 0.6828,
+      "neg_p": 0.6878
+     }
+    },
+    "n_img_per_cat": {
+     "vehicle": [
+      100
+     ],
+     "ship": [
+      100
+     ],
+     "airplane": [
+      100
+     ]
+    },
+    "cells": [
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3539,
+       "full_m": 0.3316,
+       "cond_m": 0.3325,
+       "vocab_m": 0.3492,
+       "full_p": 0.3493,
+       "cond_p": 0.351,
+       "vocab_p": 0.3484,
+       "rand_p": 0.3505,
+       "neg_p": 0.3385
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.352,
+       "full_m": 0.3433,
+       "cond_m": 0.3263,
+       "vocab_m": 0.3514,
+       "full_p": 0.3182,
+       "cond_p": 0.3137,
+       "vocab_p": 0.3477,
+       "rand_p": 0.3553,
+       "neg_p": 0.3164
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.35,
+       "full_m": 0.1436,
+       "cond_m": 0.1252,
+       "vocab_m": 0.1643,
+       "full_p": 0.147,
+       "cond_p": 0.1284,
+       "vocab_p": 0.146,
+       "rand_p": 0.1419,
+       "neg_p": 0.1169
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3542,
+       "full_m": 0.2751,
+       "cond_m": 0.1571,
+       "vocab_m": 0.3274,
+       "full_p": 0.2205,
+       "cond_p": 0.1862,
+       "vocab_p": 0.2971,
+       "rand_p": 0.3019,
+       "neg_p": 0.1093
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.5418,
+       "full_m": 0.5902,
+       "cond_m": 0.5991,
+       "vocab_m": 0.5422,
+       "full_p": 0.4866,
+       "cond_p": 0.4826,
+       "vocab_p": 0.5317,
+       "rand_p": 0.5119,
+       "neg_p": 0.5967
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.8699,
+       "full_m": 0.8697,
+       "cond_m": 0.8697,
+       "vocab_m": 0.8699,
+       "full_p": 0.8662,
+       "cond_p": 0.8662,
+       "vocab_p": 0.8699,
+       "rand_p": 0.8698,
+       "neg_p": 0.8697
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3466,
+       "full_m": 0.3343,
+       "cond_m": 0.3343,
+       "vocab_m": 0.3434,
+       "full_p": 0.342,
+       "cond_p": 0.3435,
+       "vocab_p": 0.3444,
+       "rand_p": 0.3395,
+       "neg_p": 0.3368
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3463,
+       "full_m": 0.3348,
+       "cond_m": 0.322,
+       "vocab_m": 0.3353,
+       "full_p": 0.2905,
+       "cond_p": 0.2843,
+       "vocab_p": 0.335,
+       "rand_p": 0.3323,
+       "neg_p": 0.3165
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3396,
+       "full_m": 0.1444,
+       "cond_m": 0.1312,
+       "vocab_m": 0.1375,
+       "full_p": 0.1236,
+       "cond_p": 0.0625,
+       "vocab_p": 0.1208,
+       "rand_p": 0.1525,
+       "neg_p": 0.1487
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3469,
+       "full_m": 0.3018,
+       "cond_m": 0.2013,
+       "vocab_m": 0.2827,
+       "full_p": 0.1773,
+       "cond_p": 0.1179,
+       "vocab_p": 0.2578,
+       "rand_p": 0.2196,
+       "neg_p": 0.1576
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.4718,
+       "full_m": 0.5313,
+       "cond_m": 0.5444,
+       "vocab_m": 0.4711,
+       "full_p": 0.406,
+       "cond_p": 0.3994,
+       "vocab_p": 0.4621,
+       "rand_p": 0.4849,
+       "neg_p": 0.542
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.8319,
+       "full_m": 0.8353,
+       "cond_m": 0.8353,
+       "vocab_m": 0.8319,
+       "full_p": 0.8256,
+       "cond_p": 0.8256,
+       "vocab_p": 0.8319,
+       "rand_p": 0.8311,
+       "neg_p": 0.8353
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3004,
+       "full_m": 0.2985,
+       "cond_m": 0.3004,
+       "vocab_m": 0.2952,
+       "full_p": 0.2904,
+       "cond_p": 0.2885,
+       "vocab_p": 0.2988,
+       "rand_p": 0.3032,
+       "neg_p": 0.3018
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.2971,
+       "full_m": 0.2948,
+       "cond_m": 0.2876,
+       "vocab_m": 0.291,
+       "full_p": 0.2487,
+       "cond_p": 0.251,
+       "vocab_p": 0.2852,
+       "rand_p": 0.2852,
+       "neg_p": 0.2862
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.2925,
+       "full_m": 0.1303,
+       "cond_m": 0.1307,
+       "vocab_m": 0.1172,
+       "full_p": 0.0451,
+       "cond_p": 0.039,
+       "vocab_p": 0.0759,
+       "rand_p": 0.0412,
+       "neg_p": 0.1333
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.2968,
+       "full_m": 0.2637,
+       "cond_m": 0.2166,
+       "vocab_m": 0.2117,
+       "full_p": 0.1314,
+       "cond_p": 0.1187,
+       "vocab_p": 0.1878,
+       "rand_p": 0.1139,
+       "neg_p": 0.1915
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3658,
+       "full_m": 0.4184,
+       "cond_m": 0.4351,
+       "vocab_m": 0.3596,
+       "full_p": 0.2931,
+       "cond_p": 0.2867,
+       "vocab_p": 0.3522,
+       "rand_p": 0.3621,
+       "neg_p": 0.4383
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.6739,
+       "full_m": 0.6781,
+       "cond_m": 0.6781,
+       "vocab_m": 0.6739,
+       "full_p": 0.6634,
+       "cond_p": 0.6634,
+       "vocab_p": 0.6739,
+       "rand_p": 0.6767,
+       "neg_p": 0.6781
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1807,
+       "full_m": 0.1839,
+       "cond_m": 0.1841,
+       "vocab_m": 0.1744,
+       "full_p": 0.1681,
+       "cond_p": 0.1738,
+       "vocab_p": 0.1751,
+       "rand_p": 0.1773,
+       "neg_p": 0.1846
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1765,
+       "full_m": 0.1805,
+       "cond_m": 0.1817,
+       "vocab_m": 0.1663,
+       "full_p": 0.1343,
+       "cond_p": 0.1201,
+       "vocab_p": 0.1634,
+       "rand_p": 0.1568,
+       "neg_p": 0.1802
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "bus",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1712,
+       "full_m": 0.1098,
+       "cond_m": 0.0894,
+       "vocab_m": 0.0226,
+       "full_p": 0.0207,
+       "cond_p": 0.022,
+       "vocab_p": 0.0215,
+       "rand_p": 0.0505,
+       "neg_p": 0.0907
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "motorcycle",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1776,
+       "full_m": 0.178,
+       "cond_m": 0.1717,
+       "vocab_m": 0.1111,
+       "full_p": 0.0198,
+       "cond_p": 0.0177,
+       "vocab_p": 0.0577,
+       "rand_p": 0.049,
+       "neg_p": 0.1626
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.1167,
+       "full_m": 0.1212,
+       "cond_m": 0.1239,
+       "vocab_m": 0.092,
+       "full_p": 0.11,
+       "cond_p": 0.1097,
+       "vocab_p": 0.0923,
+       "rand_p": 0.1159,
+       "neg_p": 0.1233
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.3605,
+       "full_m": 0.3682,
+       "cond_m": 0.3682,
+       "vocab_m": 0.3605,
+       "full_p": 0.3485,
+       "cond_p": 0.3485,
+       "vocab_p": 0.3605,
+       "rand_p": 0.3538,
+       "neg_p": 0.3682
+      }
+     }
+    ]
+   }
+  },
+  "DOTA": {
+   "gdino": {
+    "n_cells": 16,
+    "n_cat": 4,
+    "n_scene": 262,
+    "B": 1000,
+    "mean_ap": {
+     "base_proto": 0.028,
+     "full_m": 0.041,
+     "cond_m": 0.0421,
+     "vocab_m": 0.0251,
+     "full_p": 0.0216,
+     "cond_p": 0.0211,
+     "vocab_p": 0.0244,
+     "rand_p": 0.0271,
+     "neg_p": 0.042
+    },
+    "gain_vs_proto": {
+     "full_m": 0.013,
+     "cond_m": 0.0141,
+     "vocab_m": -0.0029,
+     "full_p": -0.0064,
+     "cond_p": -0.0069,
+     "vocab_p": -0.0036,
+     "rand_p": -0.0009,
+     "neg_p": 0.014
+    },
+    "ci_vs_proto": {
+     "full_m": [
+      0.0143,
+      0.0078,
+      0.0221
+     ],
+     "cond_m": [
+      0.0175,
+      0.0111,
+      0.0259
+     ],
+     "vocab_m": [
+      -0.0026,
+      -0.005,
+      0.0005
+     ],
+     "full_p": [
+      -0.0065,
+      -0.0094,
+      -0.0038
+     ],
+     "cond_p": [
+      -0.0066,
+      -0.0096,
+      -0.0042
+     ],
+     "vocab_p": [
+      -0.0035,
+      -0.006,
+      -0.0012
+     ],
+     "rand_p": [
+      -0.0,
+      -0.0028,
+      0.0039
+     ],
+     "neg_p": [
+      0.0172,
+      0.011,
+      0.026
+     ]
+    },
+    "paired_diff": {
+     "cond_m-vocab_m": [
+      0.0201,
+      0.0138,
+      0.029
+     ],
+     "full_m-vocab_m": [
+      0.017,
+      0.0102,
+      0.0252
+     ],
+     "full_m-cond_m": [
+      -0.0031,
+      -0.0077,
+      0.0012
+     ],
+     "full_m-full_p": [
+      0.0208,
+      0.0136,
+      0.0295
+     ]
+    },
+    "cats": {
+     "plane": {
+      "base_proto": 0.0677,
+      "full_m": 0.0703,
+      "cond_m": 0.0734,
+      "vocab_m": 0.0618,
+      "full_p": 0.0556,
+      "cond_p": 0.0525,
+      "vocab_p": 0.0614,
+      "rand_p": 0.0648,
+      "neg_p": 0.0717
+     },
+     "ship": {
+      "base_proto": 0.0097,
+      "full_m": 0.0256,
+      "cond_m": 0.0309,
+      "vocab_m": 0.0093,
+      "full_p": 0.0074,
+      "cond_p": 0.0074,
+      "vocab_p": 0.0086,
+      "rand_p": 0.0108,
+      "neg_p": 0.0332
+     },
+     "small-vehicle": {
+      "base_proto": 0.0099,
+      "full_m": 0.0375,
+      "cond_m": 0.0298,
+      "vocab_m": 0.0089,
+      "full_p": 0.0064,
+      "cond_p": 0.0065,
+      "vocab_p": 0.0092,
+      "rand_p": 0.0111,
+      "neg_p": 0.0261
+     },
+     "large-vehicle": {
+      "base_proto": 0.0249,
+      "full_m": 0.0306,
+      "cond_m": 0.0343,
+      "vocab_m": 0.0203,
+      "full_p": 0.0169,
+      "cond_p": 0.018,
+      "vocab_p": 0.0183,
+      "rand_p": 0.0215,
+      "neg_p": 0.0373
+     }
+    },
+    "n_img_per_cat": {
+     "plane": [
+      51
+     ],
+     "ship": [
+      100
+     ],
+     "small-vehicle": [
+      100
+     ],
+     "large-vehicle": [
+      100
+     ]
+    },
+    "cells": [
+     {
+      "gsd": 1.0,
+      "cat": "plane",
+      "src": "airplane",
+      "n_img": 51,
+      "aps": {
+       "base_proto": 0.1485,
+       "full_m": 0.1513,
+       "cond_m": 0.1521,
+       "vocab_m": 0.1453,
+       "full_p": 0.1272,
+       "cond_p": 0.1123,
+       "vocab_p": 0.1453,
+       "rand_p": 0.1451,
+       "neg_p": 0.1518
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.022,
+       "full_m": 0.0378,
+       "cond_m": 0.0513,
+       "vocab_m": 0.0198,
+       "full_p": 0.0167,
+       "cond_p": 0.0168,
+       "vocab_p": 0.0182,
+       "rand_p": 0.028,
+       "neg_p": 0.0611
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "small-vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0223,
+       "full_m": 0.1016,
+       "cond_m": 0.0718,
+       "vocab_m": 0.0181,
+       "full_p": 0.0135,
+       "cond_p": 0.0135,
+       "vocab_p": 0.0206,
+       "rand_p": 0.0226,
+       "neg_p": 0.0598
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "large-vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0452,
+       "full_m": 0.055,
+       "cond_m": 0.0658,
+       "vocab_m": 0.0357,
+       "full_p": 0.0307,
+       "cond_p": 0.0333,
+       "vocab_p": 0.0329,
+       "rand_p": 0.0383,
+       "neg_p": 0.0768
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "plane",
+      "src": "airplane",
+      "n_img": 51,
+      "aps": {
+       "base_proto": 0.073,
+       "full_m": 0.0806,
+       "cond_m": 0.0878,
+       "vocab_m": 0.0667,
+       "full_p": 0.0635,
+       "cond_p": 0.065,
+       "vocab_p": 0.0653,
+       "rand_p": 0.0609,
+       "neg_p": 0.0792
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0129,
+       "full_m": 0.0311,
+       "cond_m": 0.0388,
+       "vocab_m": 0.0135,
+       "full_p": 0.0107,
+       "cond_p": 0.0106,
+       "vocab_p": 0.0126,
+       "rand_p": 0.0116,
+       "neg_p": 0.0385
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "small-vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0124,
+       "full_m": 0.0241,
+       "cond_m": 0.0273,
+       "vocab_m": 0.0118,
+       "full_p": 0.009,
+       "cond_p": 0.0092,
+       "vocab_p": 0.0118,
+       "rand_p": 0.0151,
+       "neg_p": 0.0273
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "large-vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0405,
+       "full_m": 0.0505,
+       "cond_m": 0.0551,
+       "vocab_m": 0.0332,
+       "full_p": 0.0282,
+       "cond_p": 0.0294,
+       "vocab_p": 0.0301,
+       "rand_p": 0.0362,
+       "neg_p": 0.0565
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "plane",
+      "src": "airplane",
+      "n_img": 51,
+      "aps": {
+       "base_proto": 0.0368,
+       "full_m": 0.0365,
+       "cond_m": 0.0406,
+       "vocab_m": 0.0247,
+       "full_p": 0.0224,
+       "cond_p": 0.0239,
+       "vocab_p": 0.025,
+       "rand_p": 0.0351,
+       "neg_p": 0.0427
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0028,
+       "full_m": 0.0303,
+       "cond_m": 0.0303,
+       "vocab_m": 0.0029,
+       "full_p": 0.0016,
+       "cond_p": 0.0015,
+       "vocab_p": 0.0026,
+       "rand_p": 0.0029,
+       "neg_p": 0.0303
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "small-vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0036,
+       "full_m": 0.0227,
+       "cond_m": 0.0182,
+       "vocab_m": 0.0047,
+       "full_p": 0.0025,
+       "cond_p": 0.0025,
+       "vocab_p": 0.0035,
+       "rand_p": 0.0055,
+       "neg_p": 0.0152
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "large-vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0112,
+       "full_m": 0.0138,
+       "cond_m": 0.0132,
+       "vocab_m": 0.0099,
+       "full_p": 0.0073,
+       "cond_p": 0.0076,
+       "vocab_p": 0.0084,
+       "rand_p": 0.0094,
+       "neg_p": 0.0126
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "plane",
+      "src": "airplane",
+      "n_img": 51,
+      "aps": {
+       "base_proto": 0.0125,
+       "full_m": 0.013,
+       "cond_m": 0.013,
+       "vocab_m": 0.0104,
+       "full_p": 0.0094,
+       "cond_p": 0.0087,
+       "vocab_p": 0.0101,
+       "rand_p": 0.0182,
+       "neg_p": 0.013
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0012,
+       "full_m": 0.003,
+       "cond_m": 0.0031,
+       "vocab_m": 0.0011,
+       "full_p": 0.0006,
+       "cond_p": 0.0005,
+       "vocab_p": 0.0011,
+       "rand_p": 0.0009,
+       "neg_p": 0.0028
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "small-vehicle",
+      "src": "car",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0012,
+       "full_m": 0.0016,
+       "cond_m": 0.0018,
+       "vocab_m": 0.0009,
+       "full_p": 0.0007,
+       "cond_p": 0.0008,
+       "vocab_p": 0.0009,
+       "rand_p": 0.0014,
+       "neg_p": 0.0019
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "large-vehicle",
+      "src": "truck",
+      "n_img": 100,
+      "aps": {
+       "base_proto": 0.0026,
+       "full_m": 0.0031,
+       "cond_m": 0.0032,
+       "vocab_m": 0.0023,
+       "full_p": 0.0016,
+       "cond_p": 0.0017,
+       "vocab_p": 0.0019,
+       "rand_p": 0.0019,
+       "neg_p": 0.0032
+      }
+     }
+    ]
+   }
+  },
+  "NWPU": {
+   "gdino": {
+    "n_cells": 12,
+    "n_cat": 3,
+    "n_scene": 169,
+    "B": 1000,
+    "mean_ap": {
+     "base_proto": 0.357,
+     "full_m": 0.3936,
+     "cond_m": 0.396,
+     "vocab_m": 0.3357,
+     "full_p": 0.2668,
+     "cond_p": 0.2684,
+     "vocab_p": 0.3274,
+     "rand_p": 0.349,
+     "neg_p": 0.3961
+    },
+    "gain_vs_proto": {
+     "full_m": 0.0366,
+     "cond_m": 0.039,
+     "vocab_m": -0.0213,
+     "full_p": -0.0902,
+     "cond_p": -0.0886,
+     "vocab_p": -0.0296,
+     "rand_p": -0.008,
+     "neg_p": 0.0391
+    },
+    "ci_vs_proto": {
+     "full_m": [
+      0.0339,
+      0.0224,
+      0.0461
+     ],
+     "cond_m": [
+      0.0372,
+      0.0221,
+      0.0518
+     ],
+     "vocab_m": [
+      -0.0221,
+      -0.0329,
+      -0.0115
+     ],
+     "full_p": [
+      -0.091,
+      -0.1105,
+      -0.0716
+     ],
+     "cond_p": [
+      -0.0888,
+      -0.1085,
+      -0.0692
+     ],
+     "vocab_p": [
+      -0.0282,
+      -0.0404,
+      -0.0168
+     ],
+     "rand_p": [
+      -0.0098,
+      -0.0174,
+      -0.0025
+     ],
+     "neg_p": [
+      0.037,
+      0.0206,
+      0.0526
+     ]
+    },
+    "paired_diff": {
+     "cond_m-vocab_m": [
+      0.0593,
+      0.0369,
+      0.0807
+     ],
+     "full_m-vocab_m": [
+      0.056,
+      0.0383,
+      0.0731
+     ],
+     "full_m-cond_m": [
+      -0.0033,
+      -0.0098,
+      0.0033
+     ],
+     "full_m-full_p": [
+      0.1249,
+      0.0999,
+      0.1521
+     ]
+    },
+    "cats": {
+     "airplane": {
+      "base_proto": 0.4054,
+      "full_m": 0.4073,
+      "cond_m": 0.4073,
+      "vocab_m": 0.4054,
+      "full_p": 0.3538,
+      "cond_p": 0.3538,
+      "vocab_p": 0.4054,
+      "rand_p": 0.3929,
+      "neg_p": 0.4073
+     },
+     "ship": {
+      "base_proto": 0.4302,
+      "full_m": 0.4744,
+      "cond_m": 0.4733,
+      "vocab_m": 0.3866,
+      "full_p": 0.2779,
+      "cond_p": 0.2781,
+      "vocab_p": 0.3616,
+      "rand_p": 0.4123,
+      "neg_p": 0.4709
+     },
+     "vehicle": {
+      "base_proto": 0.2353,
+      "full_m": 0.2991,
+      "cond_m": 0.3075,
+      "vocab_m": 0.215,
+      "full_p": 0.1688,
+      "cond_p": 0.1733,
+      "vocab_p": 0.2154,
+      "rand_p": 0.242,
+      "neg_p": 0.3102
+     }
+    },
+    "n_img_per_cat": {
+     "airplane": [
+      69
+     ],
+     "ship": [
+      35
+     ],
+     "vehicle": [
+      66
+     ]
+    },
+    "cells": [
+     {
+      "gsd": 1.0,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 69,
+      "aps": {
+       "base_proto": 0.6054,
+       "full_m": 0.6137,
+       "cond_m": 0.6137,
+       "vocab_m": 0.6054,
+       "full_p": 0.5748,
+       "cond_p": 0.5748,
+       "vocab_p": 0.6054,
+       "rand_p": 0.5835,
+       "neg_p": 0.6137
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 35,
+      "aps": {
+       "base_proto": 0.517,
+       "full_m": 0.5101,
+       "cond_m": 0.4892,
+       "vocab_m": 0.446,
+       "full_p": 0.368,
+       "cond_p": 0.3803,
+       "vocab_p": 0.4095,
+       "rand_p": 0.5199,
+       "neg_p": 0.4866
+      }
+     },
+     {
+      "gsd": 1.0,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 66,
+      "aps": {
+       "base_proto": 0.4693,
+       "full_m": 0.5366,
+       "cond_m": 0.5429,
+       "vocab_m": 0.4331,
+       "full_p": 0.3567,
+       "cond_p": 0.3647,
+       "vocab_p": 0.4316,
+       "rand_p": 0.4905,
+       "neg_p": 0.5412
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 69,
+      "aps": {
+       "base_proto": 0.5585,
+       "full_m": 0.5529,
+       "cond_m": 0.5529,
+       "vocab_m": 0.5585,
+       "full_p": 0.4863,
+       "cond_p": 0.4863,
+       "vocab_p": 0.5585,
+       "rand_p": 0.5353,
+       "neg_p": 0.5529
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 35,
+      "aps": {
+       "base_proto": 0.5121,
+       "full_m": 0.5059,
+       "cond_m": 0.4985,
+       "vocab_m": 0.4758,
+       "full_p": 0.3716,
+       "cond_p": 0.3697,
+       "vocab_p": 0.4464,
+       "rand_p": 0.3648,
+       "neg_p": 0.4982
+      }
+     },
+     {
+      "gsd": 0.5,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 66,
+      "aps": {
+       "base_proto": 0.3618,
+       "full_m": 0.4453,
+       "cond_m": 0.4627,
+       "vocab_m": 0.3248,
+       "full_p": 0.2328,
+       "cond_p": 0.2416,
+       "vocab_p": 0.328,
+       "rand_p": 0.3559,
+       "neg_p": 0.4723
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 69,
+      "aps": {
+       "base_proto": 0.3355,
+       "full_m": 0.3267,
+       "cond_m": 0.3267,
+       "vocab_m": 0.3355,
+       "full_p": 0.2735,
+       "cond_p": 0.2735,
+       "vocab_p": 0.3355,
+       "rand_p": 0.3374,
+       "neg_p": 0.3267
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 35,
+      "aps": {
+       "base_proto": 0.4207,
+       "full_m": 0.4773,
+       "cond_m": 0.4873,
+       "vocab_m": 0.3917,
+       "full_p": 0.2202,
+       "cond_p": 0.2154,
+       "vocab_p": 0.3658,
+       "rand_p": 0.4446,
+       "neg_p": 0.483
+      }
+     },
+     {
+      "gsd": 0.25,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 66,
+      "aps": {
+       "base_proto": 0.0901,
+       "full_m": 0.1904,
+       "cond_m": 0.1986,
+       "vocab_m": 0.0841,
+       "full_p": 0.0693,
+       "cond_p": 0.0706,
+       "vocab_p": 0.0834,
+       "rand_p": 0.1015,
+       "neg_p": 0.2006
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "airplane",
+      "src": "airplane",
+      "n_img": 69,
+      "aps": {
+       "base_proto": 0.1221,
+       "full_m": 0.1358,
+       "cond_m": 0.1358,
+       "vocab_m": 0.1221,
+       "full_p": 0.0808,
+       "cond_p": 0.0808,
+       "vocab_p": 0.1221,
+       "rand_p": 0.1153,
+       "neg_p": 0.1358
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "ship",
+      "src": "boat",
+      "n_img": 35,
+      "aps": {
+       "base_proto": 0.271,
+       "full_m": 0.4042,
+       "cond_m": 0.418,
+       "vocab_m": 0.233,
+       "full_p": 0.1518,
+       "cond_p": 0.147,
+       "vocab_p": 0.2246,
+       "rand_p": 0.3197,
+       "neg_p": 0.4159
+      }
+     },
+     {
+      "gsd": 0.125,
+      "cat": "vehicle",
+      "src": "car",
+      "n_img": 66,
+      "aps": {
+       "base_proto": 0.0202,
+       "full_m": 0.0241,
+       "cond_m": 0.0256,
+       "vocab_m": 0.018,
+       "full_p": 0.0162,
+       "cond_p": 0.0164,
+       "vocab_p": 0.0184,
+       "rand_p": 0.02,
+       "neg_p": 0.0267
+      }
+     }
+    ]
+   }
+  }
+ }
+}

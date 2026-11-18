@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "dino_raw_probe": 0.4625,
+    "clip_raw_probe": 0.425
+  },
+  "A_zc_content": {
+    "zc_probe_acc": 0.625,
+    "gc_head_acc": 0.785,
+    "eff_rank_zc": 21.897,
+    "pairwise_cos_zc": 0.1567,
+    "v3_ref_zc_probe": 0.238,
+    "zc_cross_cond_cos": 0.9682
+  },
+  "A_pass": true,
+  "B_zk_leak": {
+    "zk_probe_acc": 0.075
+  },
+  "B_pass": true,
+  "joint": {
+    "zc_probe": 0.625,
+    "joint65_probe": 0.7375,
+    "delta_joint_minus_zc": 0.1125
+  },
+  "Joint_pass": true,
+  "overall_accept": true,
+  "gate": {
+    "A_zc_content": true,
+    "B_zk_leak": true,
+    "joint_zc_zk": true
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "n": 22,
+  "n_helpful": 15,
+  "n_harmful": 7,
+  "gate_correct": 11,
+  "gate_acc": 0.5,
+  "baseline_all_open": 0.6818181818181818,
+  "baseline_all_closed": 0.3181818181818182,
+  "recall_bad": 0.8571428571428571,
+  "recall_good": 0.3333333333333333,
+  "n_open": 6,
+  "open_precision": 0.8333333333333334,
+  "wrongly_closed_helpful": [
+    "COCO-boat",
+    "COCO-truck",
+    "COCO-bus",
+    "DOTA-plane",
+    "DOTA-ship",
+    "DOTA-storage-tank",
+    "DOTA-large-vehicle",
+    "DOTA-small-vehicle",
+    "VD-bus",
+    "VOC-bus"
+  ],
+  "no_prior_cells": [
+    "DOTA-storage-tank",
+    "DOTA-harbor",
+    "DOTA-bridge",
+    "DOTA-large-vehicle",
+    "DOTA-small-vehicle"
+  ],
+  "routing_posthoc": {
+    "agree": {
+      "acc": 0.6818,
+      "n": 22,
+      "th": -0.0296,
+      "dir": 1
+    },
+    "sep_src": {
+      "acc": 0.7727,
+      "n": 22,
+      "th": 0.0649,
+      "dir": -1
+    },
+    "gd_hi_frac": {
+      "acc": 0.7727,
+      "n": 22,
+      "th": 0.0012,
+      "dir": 1
+    },
+    "small_frac": {
+      "acc": 0.6818,
+      "n": 22,
+      "th": 0.0214,
+      "dir": -1
+    },
+    "low_band_recovery": {
+      "acc": 0.8182,
+      "n": 22,
+      "th": 0.532,
+      "dir": 1
+    },
+    "low_band_lift": {
+      "acc": 0.8182,
+      "n": 22,
+      "th": -0.2396,
+      "dir": 1
+    },
+    "g1_roundtrip": {
+      "acc": 0.7273,
+      "n": 22,
+      "th": 0.0834,
+      "dir": -1
+    }
+  },
+  "rows": [
+    {
+      "cell": "COCO-airplane",
+      "gate_key": "airplane",
+      "gate": 0,
+      "gain_extB2": -0.0058,
+      "label_helpful": 0,
+      "base": 0.7484,
+      "b2": 0.7659,
+      "ext": 0.7601
+    },
+    {
+      "cell": "COCO-boat",
+      "gate_key": "boat",
+      "gate": 0,
+      "gain_extB2": 0.0365,
+      "label_helpful": 1,
+      "base": 0.1758,
+      "b2": 0.1646,
+      "ext": 0.2011
+    },
+    {
+      "cell": "COCO-car",
+      "gate_key": "car",
+      "gate": 1,
+      "gain_extB2": 0.0983,
+      "label_helpful": 1,
+      "base": 0.1245,
+      "b2": 0.1071,
+      "ext": 0.2054
+    },
+    {
+      "cell": "COCO-truck",
+      "gate_key": "truck",
+      "gate": 0,
+      "gain_extB2": 0.062,
+      "label_helpful": 1,
+      "base": 0.2345,
+      "b2": 0.2499,
+      "ext": 0.3119
+    },
+    {
+      "cell": "COCO-bus",
+      "gate_key": "bus",
+      "gate": 0,
+      "gain_extB2": 0.1069,
+      "label_helpful": 1,
+      "base": 0.5317,
+      "b2": 0.4983,
+      "ext": 0.6052
+    },
+    {
+      "cell": "COCO-motorcycle",
+      "gate_key": "motorcycle",
+      "gate": 1,
+      "gain_extB2": 0.0927,
+      "label_helpful": 1,
+      "base": 0.4092,
+      "b2": 0.4354,
+      "ext": 0.5281
+    },
+    {
+      "cell": "DOTA-plane",
+      "gate_key": "airplane",
+      "gate": 0,
+      "gain_extB2": 0.03,
+      "label_helpful": 1,
+      "base": 0.2836,
+      "b2": 0.3388,
+      "ext": 0.3688
+    },
+    {
+      "cell": "DOTA-ship",
+      "gate_key": "boat",
+      "gate": 0,
+      "gain_extB2": 0.0027,
+      "label_helpful": 1,
+      "base": 0.0053,
+      "b2": 0.0073,
+      "ext": 0.01
+    },
+    {
+      "cell": "DOTA-storage-tank",
+      "gate_key": null,
+      "gate": 0,
+      "gain_extB2": 0.1339,
+      "label_helpful": 1,
+      "base": 0.0409,
+      "b2": 0.0851,
+      "ext": 0.219
+    },
+    {
+      "cell": "DOTA-harbor",
+      "gate_key": null,
+      "gate": 0,
+      "gain_extB2": -0.0733,
+      "label_helpful": 0,
+      "base": 0.1453,
+      "b2": 0.1446,
+      "ext": 0.0713
+    },
+    {
+      "cell": "DOTA-bridge",
+      "gate_key": null,
+      "gate": 0,
+      "gain_extB2": -0.0004,
+      "label_helpful": 0,
+      "base": 0.0006,
+      "b2": 0.0006,
+      "ext": 0.0002
+    },
+    {
+      "cell": "DOTA-large-vehicle",
+      "gate_key": null,
+      "gate": 0,
+      "gain_extB2": 0.0074,
+      "label_helpful": 1,
+      "base": 0.0532,
+      "b2": 0.061,
+      "ext": 0.0684
+    },
+    {
+      "cell": "DOTA-small-vehicle",
+      "gate_key": null,
+      "gate": 0,
+      "gain_extB2": 0.0956,
+      "label_helpful": 1,
+      "base": 0.0257,
+      "b2": 0.036,
+      "ext": 0.1316
+    },
+    {
+      "cell": "VD-car",
+      "gate_key": "car",
+      "gate": 1,
+      "gain_extB2": 0.038,
+      "label_helpful": 1,
+      "base": 0.4452,
+      "b2": 0.401,
+      "ext": 0.439
+    },
+    {
+      "cell": "VD-truck",
+      "gate_key": "truck",
+      "gate": 0,
+      "gain_extB2": -0.0219,
+      "label_helpful": 0,
+      "base": 0.173,
+      "b2": 0.1088,
+      "ext": 0.0869
+    },
+    {
+      "cell": "VD-bus",
+      "gate_key": "bus",
+      "gate": 0,
+      "gain_extB2": 0.0917,
+      "label_helpful": 1,
+      "base": 0.1195,
+      "b2": 0.0693,
+      "ext": 0.161
+    },
+    {
+      "cell": "VD-motor",
+      "gate_key": "motorcycle",
+      "gate": 1,
+      "gain_extB2": 0.0226,
+      "label_helpful": 1,
+      "base": 0.1695,
+      "b2": 0.1859,
+      "ext": 0.2085
+    },
+    {
+      "cell": "VOC-aeroplane",
+      "gate_key": "airplane",
+      "gate": 0,
+      "gain_extB2": -0.0134,
+      "label_helpful": 0,
+      "base": 0.8482,
+      "b2": 0.8636,
+      "ext": 0.8502
+    },
+    {
+      "cell": "VOC-boat",
+      "gate_key": "boat",
+      "gate": 0,
+      "gain_extB2": -0.0289,
+      "label_helpful": 0,
+      "base": 0.4988,
+      "b2": 0.5043,
+      "ext": 0.4754
+    },
+    {
+      "cell": "VOC-car",
+      "gate_key": "car",
+      "gate": 1,
+      "gain_extB2": 0.0497,
+      "label_helpful": 1,
+      "base": 0.5076,
+      "b2": 0.544,
+      "ext": 0.5937
+    },
+    {
+      "cell": "VOC-bus",
+      "gate_key": "bus",
+      "gate": 0,
+      "gain_extB2": 0.0742,
+      "label_helpful": 1,
+      "base": 0.6564,
+      "b2": 0.648,
+      "ext": 0.7222
+    },
+    {
+      "cell": "VOC-motorbike",
+      "gate_key": "motorcycle",
+      "gate": 1,
+      "gain_extB2": -0.0537,
+      "label_helpful": 0,
+      "base": 0.8332,
+      "b2": 0.8269,
+      "ext": 0.7732
+    }
+  ]
+}

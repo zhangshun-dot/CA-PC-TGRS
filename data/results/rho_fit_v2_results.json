@@ -1,0 +1,147 @@
+{
+  "rho": 0.41500000000000004,
+  "c": 0.06999999999999999,
+  "mse": 0.48294830740917766,
+  "r_squared": 0.3840708859541089,
+  "spearman_rho": 0.3591966999342721,
+  "spearman_p": 0.2515064450411826,
+  "loco_r_squared": -0.12154339886265597,
+  "loco_spearman_rho": 0.014367867997370882,
+  "loco_spearman_p": 0.9646513053606096,
+  "n_samples": 12,
+  "alpha_max": 2.0,
+  "samples": [
+    {
+      "src": "DIOR",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0": 0.113273024559021,
+      "mu_c": 0.025744371116161346,
+      "alpha_grid": 0.2,
+      "alpha_pred": 0.8204080101847829,
+      "alpha_pred_loco": 0.8599222694308047,
+      "residual": -0.6204080101847829
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.15387392044067383,
+      "mu_c": 0.034729477018117905,
+      "alpha_grid": 0.1,
+      "alpha_pred": 0.5263202080358714,
+      "alpha_pred_loco": 0.5363981023795555,
+      "residual": -0.42632020803587145
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0": 0.047403693199157715,
+      "mu_c": 0.014319458045065403,
+      "alpha_grid": 2.0,
+      "alpha_pred": 1.796977329384775,
+      "alpha_pred_loco": 1.686919877276697,
+      "residual": 0.20302267061522494
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0": 0.12967565655708313,
+      "mu_c": 0.033775098621845245,
+      "alpha_grid": 0.0,
+      "alpha_pred": 0.5913440628145531,
+      "alpha_pred_loco": 0.6017067268564464,
+      "residual": -0.5913440628145531
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.2150467336177826,
+      "mu_c": 0.03394024074077606,
+      "alpha_grid": 1.0,
+      "alpha_pred": 0.4123933225358488,
+      "alpha_pred_loco": 0.3313410196554318,
+      "residual": 0.5876066774641512
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0": 0.07165080308914185,
+      "mu_c": 0.012245469726622105,
+      "alpha_grid": 2.0,
+      "alpha_pred": 1.962721261031604,
+      "alpha_pred_loco": 1.9341392623158598,
+      "residual": 0.03727873896839595
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "plane",
+      "target_cls": "aeroplane",
+      "m_0": 0.1590263843536377,
+      "mu_c": 0.021690232679247856,
+      "alpha_grid": 0.0,
+      "alpha_pred": 0.8260931710699705,
+      "alpha_pred_loco": 0.9017154047173623,
+      "residual": -0.8260931710699705
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.18821966648101807,
+      "mu_c": 0.03406255319714546,
+      "alpha_grid": 0.1,
+      "alpha_pred": 0.46604326030554505,
+      "alpha_pred_loco": 0.4763184736160178,
+      "residual": -0.366043260305545
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "small-vehicle",
+      "target_cls": "car",
+      "m_0": 0.07089531421661377,
+      "mu_c": 0.03018329106271267,
+      "alpha_grid": 2.0,
+      "alpha_pred": 0.7980351763096383,
+      "alpha_pred_loco": 0.7108315075579787,
+      "residual": 1.2019648236903617
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "car",
+      "target_cls": "car",
+      "m_0": 0.19118636846542358,
+      "mu_c": 0.010775637812912464,
+      "alpha_grid": 2.0,
+      "alpha_pred": 1.453923607997163,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.5460763920028371
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "bus",
+      "target_cls": "bus",
+      "m_0": 0.11596515774726868,
+      "mu_c": 0.02024092711508274,
+      "alpha_grid": 0.0,
+      "alpha_pred": 1.0341640399511722,
+      "alpha_pred_loco": 1.2175248943728885,
+      "residual": -1.0341640399511722
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "motor",
+      "target_cls": "motorbike",
+      "m_0": 0.11563050746917725,
+      "mu_c": 0.03667520731687546,
+      "alpha_grid": 1.5,
+      "alpha_pred": 0.5713904844790098,
+      "alpha_pred_loco": 0.542760789466574,
+      "residual": 0.9286095155209902
+    }
+  ]
+}

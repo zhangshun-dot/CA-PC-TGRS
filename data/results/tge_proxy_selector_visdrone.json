@@ -1,0 +1,77 @@
+{
+  "config": {
+    "protocol": "v3 proxy 补齐: DIOR→VisDrone 4 类 (N=20, vehicle 粗到细), 代理与 gain 均与 13/24 类同协议",
+    "beta": 2.0,
+    "lam": 0.5
+  },
+  "proxy": {
+    "VD-car": {
+      "agree_spearman": -0.1759,
+      "agree_kendall": -0.117,
+      "sep_src": 0.1123,
+      "gd_hi_frac": 0.0,
+      "small_frac": 0.13,
+      "n_boxes": 1415
+    },
+    "VD-truck": {
+      "agree_spearman": -0.0958,
+      "agree_kendall": -0.0649,
+      "sep_src": 0.134,
+      "gd_hi_frac": 0.0018,
+      "small_frac": 0.2707,
+      "n_boxes": 1112
+    },
+    "VD-bus": {
+      "agree_spearman": -0.1979,
+      "agree_kendall": -0.1283,
+      "sep_src": 0.142,
+      "gd_hi_frac": 0.0,
+      "small_frac": 0.2488,
+      "n_boxes": 217
+    },
+    "VD-motor": {
+      "agree_spearman": -0.1079,
+      "agree_kendall": -0.0749,
+      "sep_src": 0.1126,
+      "gd_hi_frac": 0.0075,
+      "small_frac": 0.3127,
+      "n_boxes": 3076
+    }
+  },
+  "gain_map": {
+    "VD-car": 0.038,
+    "VD-truck": -0.022,
+    "VD-bus": 0.0917,
+    "VD-motor": 0.0226
+  },
+  "gains": {
+    "VD-car": {
+      "base": 0.4452,
+      "b2": 0.401,
+      "ext": 0.439,
+      "gain": 0.038,
+      "n_img": 20
+    },
+    "VD-truck": {
+      "base": 0.173,
+      "b2": 0.1088,
+      "ext": 0.0869,
+      "gain": -0.022,
+      "n_img": 20
+    },
+    "VD-bus": {
+      "base": 0.1195,
+      "b2": 0.0693,
+      "ext": 0.161,
+      "gain": 0.0917,
+      "n_img": 20
+    },
+    "VD-motor": {
+      "base": 0.1695,
+      "b2": 0.1859,
+      "ext": 0.2085,
+      "gain": 0.0226,
+      "n_img": 20
+    }
+  }
+}

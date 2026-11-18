@@ -1,0 +1,402 @@
+{
+  "config": {
+    "dev_set": "DIOR→COCO 6类",
+    "test_set": "VOC→COCO 20类",
+    "beta_range": [
+      0.0,
+      4.0
+    ],
+    "lambda_range": [
+      0.0,
+      2.0
+    ],
+    "grid_size": "17x9",
+    "polynomial_degree": 2,
+    "mlp_hidden": 8
+  },
+  "development_set": {
+    "categories": [
+      "COCO-airplane",
+      "COCO-boat",
+      "COCO-car",
+      "COCO-truck",
+      "COCO-bus",
+      "COCO-motorcycle"
+    ],
+    "risks": [
+      0.42000000000000004,
+      0.6799999999999999,
+      0.59,
+      0.57,
+      0.53,
+      0.7999999999999999
+    ],
+    "optimals": [
+      {
+        "category": "COCO-airplane",
+        "risk": 0.42000000000000004,
+        "beta_opt": 0.0,
+        "lambda_opt": 0.75,
+        "gain_opt": 0.027201669310494503
+      },
+      {
+        "category": "COCO-boat",
+        "risk": 0.6799999999999999,
+        "beta_opt": 0.0,
+        "lambda_opt": 1.0,
+        "gain_opt": 0.05601335634260704
+      },
+      {
+        "category": "COCO-car",
+        "risk": 0.59,
+        "beta_opt": 2.75,
+        "lambda_opt": 0.5,
+        "gain_opt": 0.13183852492396717
+      },
+      {
+        "category": "COCO-truck",
+        "risk": 0.57,
+        "beta_opt": 2.0,
+        "lambda_opt": 0.5,
+        "gain_opt": 0.07735257037704424
+      },
+      {
+        "category": "COCO-bus",
+        "risk": 0.53,
+        "beta_opt": 2.25,
+        "lambda_opt": 0.5,
+        "gain_opt": 0.07806630589589436
+      },
+      {
+        "category": "COCO-motorcycle",
+        "risk": 0.7999999999999999,
+        "beta_opt": 1.0,
+        "lambda_opt": 0.75,
+        "gain_opt": 0.12218079362682738
+      }
+    ],
+    "mappers": {
+      "linear": {
+        "a_beta": -0.37394213737451987,
+        "b_beta": 1.5570753788624208,
+        "a_lambda": 0.5510726234993089,
+        "b_lambda": 0.3369415469395805
+      },
+      "polynomial": {
+        "degree": 2,
+        "coeffs_beta": [
+          -13.210864945943156,
+          49.595934572736596,
+          -40.66117948692864
+        ],
+        "coeffs_lambda": [
+          1.7990476976338126,
+          -4.396216062693823,
+          4.025677197683505
+        ]
+      }
+    }
+  },
+  "test_set_results": {
+    "fixed": {
+      "mean_gain": 0.03667377728460741,
+      "n_positive": 18,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.071971489107138,
+        "COCO-bicycle": 0.035922520869368285,
+        "COCO-car": 0.0022905334668619215,
+        "COCO-motorcycle": 0.07272066397978916,
+        "COCO-airplane": 0.024000059871682855,
+        "COCO-bus": 0.028601165361685,
+        "COCO-train": 0.005484542072324627,
+        "COCO-boat": 0.008820694841552817,
+        "COCO-bird": 0.03315783004777423,
+        "COCO-cat": 0.0704245796845484,
+        "COCO-dog": 0.05263690077435146,
+        "COCO-horse": 0.043321005848432015,
+        "COCO-sheep": 0.04190175139060914,
+        "COCO-cow": 0.015979571704118456,
+        "COCO-bottle": 0.05051541641032317,
+        "COCO-chair": 0.05544658669525479,
+        "COCO-couch": 0.03993814517047206,
+        "COCO-potted plant": -0.0007669818805069728,
+        "COCO-tv": 0.04443529299176141
+      }
+    },
+    "alpha_scan": {
+      "alpha": 1.5,
+      "mean_gain": 0.03980011508130485,
+      "n_positive": 18,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.07988471478245217,
+        "COCO-bicycle": 0.04150032555777697,
+        "COCO-car": 0.005895584135442999,
+        "COCO-motorcycle": 0.07485184265546341,
+        "COCO-airplane": 0.02552263898612983,
+        "COCO-bus": 0.03861627246364696,
+        "COCO-train": -0.001125673722174314,
+        "COCO-boat": 0.01029690336422695,
+        "COCO-bird": 0.029800525600074734,
+        "COCO-cat": 0.07871654188113286,
+        "COCO-dog": 0.05641098530139721,
+        "COCO-horse": 0.045008255327852464,
+        "COCO-sheep": 0.045998627787688484,
+        "COCO-cow": 0.008937783335146166,
+        "COCO-bottle": 0.05974823691496958,
+        "COCO-chair": 0.05755556833180017,
+        "COCO-couch": 0.0409036987883884,
+        "COCO-potted plant": 0.03078978204396421,
+        "COCO-tv": 0.02688957300941286
+      }
+    },
+    "auto_linear": {
+      "mean_gain": 0.045877221734131536,
+      "n_positive": 17,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.09815952187567366,
+        "COCO-bicycle": 0.07202492078007103,
+        "COCO-car": 0.059012353684928964,
+        "COCO-motorcycle": 0.06247555225300666,
+        "COCO-airplane": 0.029477433639830575,
+        "COCO-bus": 0.0472558128269025,
+        "COCO-train": -0.015874785750208287,
+        "COCO-boat": 0.02177190304783258,
+        "COCO-bird": 0.02819655688893269,
+        "COCO-cat": 0.08074055053092721,
+        "COCO-dog": 0.05508752865800548,
+        "COCO-horse": 0.032700683192193325,
+        "COCO-sheep": 0.03700885894433459,
+        "COCO-cow": -0.015323423745959297,
+        "COCO-bottle": 0.0766050942298169,
+        "COCO-chair": 0.0611507734219314,
+        "COCO-couch": 0.046044028479097276,
+        "COCO-potted plant": 0.06136663154125144,
+        "COCO-tv": 0.0337872184499306
+      }
+    },
+    "auto_polynomial": {
+      "degree": 2,
+      "mean_gain": 0.04673958672013191,
+      "n_positive": 17,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.09629364802214883,
+        "COCO-bicycle": 0.07901598850741778,
+        "COCO-car": 0.05607910270481653,
+        "COCO-motorcycle": 0.05104797858632604,
+        "COCO-airplane": 0.02829770350140215,
+        "COCO-bus": 0.04701263054887328,
+        "COCO-train": -0.011401965671902325,
+        "COCO-boat": 0.018808167467846942,
+        "COCO-bird": 0.021030676646490387,
+        "COCO-cat": 0.0783368612121812,
+        "COCO-dog": 0.055453307433425914,
+        "COCO-horse": 0.0347998339600214,
+        "COCO-sheep": 0.04167634386589525,
+        "COCO-cow": -0.006165335564982555,
+        "COCO-bottle": 0.06983047107296556,
+        "COCO-chair": 0.06194690144076917,
+        "COCO-couch": 0.04551820707440807,
+        "COCO-potted plant": 0.0839035492762964,
+        "COCO-tv": 0.03656807759810643
+      }
+    },
+    "auto_mlp": {
+      "hidden_dim": 8,
+      "mean_gain": 0.04550365026782113,
+      "n_positive": 17,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.09088447395452766,
+        "COCO-bicycle": 0.05809363378604174,
+        "COCO-car": 0.05933125598107661,
+        "COCO-motorcycle": 0.07155986513527351,
+        "COCO-airplane": 0.024223436189178882,
+        "COCO-bus": 0.051055520424951206,
+        "COCO-train": -0.021646484261307997,
+        "COCO-boat": 0.018808167467846942,
+        "COCO-bird": 0.03182850705151502,
+        "COCO-cat": 0.07924647549892383,
+        "COCO-dog": 0.05504582898518939,
+        "COCO-horse": 0.034592962749147915,
+        "COCO-sheep": 0.03879363944929337,
+        "COCO-cow": -0.010750739201547566,
+        "COCO-bottle": 0.07903181176377175,
+        "COCO-chair": 0.06304864527980711,
+        "COCO-couch": 0.049156609080200975,
+        "COCO-potted plant": 0.058624207646166326,
+        "COCO-tv": 0.033641538108544866
+      }
+    },
+    "oracle": {
+      "mean_gain": 0.07325257331688165,
+      "n_positive": 19,
+      "n_total": 19,
+      "gains": {
+        "COCO-person": 0.15549508710841242,
+        "COCO-bicycle": 0.07186970539558543,
+        "COCO-car": 0.2141190517856623,
+        "COCO-motorcycle": 0.0762427434372211,
+        "COCO-airplane": 0.03075153963065813,
+        "COCO-bus": 0.05966250463479161,
+        "COCO-train": 0.006525300993013072,
+        "COCO-boat": 0.04513465522833429,
+        "COCO-bird": 0.03315783004777423,
+        "COCO-cat": 0.08123649840707714,
+        "COCO-dog": 0.05634070353196208,
+        "COCO-horse": 0.043321005848432015,
+        "COCO-sheep": 0.04598727520134127,
+        "COCO-cow": 0.020379443178959566,
+        "COCO-bottle": 0.12328434810983399,
+        "COCO-chair": 0.06581809191467516,
+        "COCO-couch": 0.05823356751891512,
+        "COCO-potted plant": 0.1380778431292968,
+        "COCO-tv": 0.06616169791880544
+      },
+      "params": {
+        "COCO-person": {
+          "beta": 0.0,
+          "lambda": 1.0,
+          "gain": 0.15549508710841242
+        },
+        "COCO-bicycle": {
+          "beta": 0.0,
+          "lambda": 1.0,
+          "gain": 0.07186970539558543
+        },
+        "COCO-car": {
+          "beta": 0.0,
+          "lambda": 1.0,
+          "gain": 0.2141190517856623
+        },
+        "COCO-motorcycle": {
+          "beta": 0.25,
+          "lambda": 0.5,
+          "gain": 0.0762427434372211
+        },
+        "COCO-airplane": {
+          "beta": 3.75,
+          "lambda": 0.25,
+          "gain": 0.03075153963065813
+        },
+        "COCO-bus": {
+          "beta": 0.0,
+          "lambda": 0.75,
+          "gain": 0.05966250463479161
+        },
+        "COCO-train": {
+          "beta": 0.0,
+          "lambda": 0.0,
+          "gain": 0.006525300993013072
+        },
+        "COCO-boat": {
+          "beta": 0.0,
+          "lambda": 1.0,
+          "gain": 0.04513465522833429
+        },
+        "COCO-bird": {
+          "beta": 0.0,
+          "lambda": 0.25,
+          "gain": 0.03315783004777423
+        },
+        "COCO-cat": {
+          "beta": 0.0,
+          "lambda": 0.5,
+          "gain": 0.08123649840707714
+        },
+        "COCO-dog": {
+          "beta": 0.0,
+          "lambda": 0.5,
+          "gain": 0.05634070353196208
+        },
+        "COCO-horse": {
+          "beta": 0.0,
+          "lambda": 0.25,
+          "gain": 0.043321005848432015
+        },
+        "COCO-sheep": {
+          "beta": 0.0,
+          "lambda": 0.5,
+          "gain": 0.04598727520134127
+        },
+        "COCO-cow": {
+          "beta": 0.0,
+          "lambda": 0.0,
+          "gain": 0.020379443178959566
+        },
+        "COCO-bottle": {
+          "beta": 0.0,
+          "lambda": 1.0,
+          "gain": 0.12328434810983399
+        },
+        "COCO-chair": {
+          "beta": 0.0,
+          "lambda": 0.75,
+          "gain": 0.06581809191467516
+        },
+        "COCO-couch": {
+          "beta": 0.5,
+          "lambda": 0.75,
+          "gain": 0.05823356751891512
+        },
+        "COCO-potted plant": {
+          "beta": 4.0,
+          "lambda": 0.5,
+          "gain": 0.1380778431292968
+        },
+        "COCO-tv": {
+          "beta": 0.0,
+          "lambda": 0.5,
+          "gain": 0.06616169791880544
+        }
+      }
+    }
+  },
+  "summary": {
+    "fixed": {
+      "mean_gain": 0.03667377728460741,
+      "n_positive": 18,
+      "n_total": 19,
+      "vs_fixed": 0.0,
+      "vs_oracle": 0.5006483134177574
+    },
+    "alpha_scan": {
+      "mean_gain": 0.03980011508130485,
+      "n_positive": 18,
+      "n_total": 19,
+      "vs_fixed": 0.003126337796697437,
+      "vs_oracle": 0.5433271935599372
+    },
+    "auto_linear": {
+      "mean_gain": 0.045877221734131536,
+      "n_positive": 17,
+      "n_total": 19,
+      "vs_fixed": 0.009203444449524124,
+      "vs_oracle": 0.626288192438951
+    },
+    "auto_polynomial": {
+      "mean_gain": 0.04673958672013191,
+      "n_positive": 17,
+      "n_total": 19,
+      "vs_fixed": 0.0100658094355245,
+      "vs_oracle": 0.6380606796971103
+    },
+    "auto_mlp": {
+      "mean_gain": 0.04550365026782113,
+      "n_positive": 17,
+      "n_total": 19,
+      "vs_fixed": 0.008829872983213721,
+      "vs_oracle": 0.6211884198385486
+    },
+    "oracle": {
+      "mean_gain": 0.07325257331688165,
+      "n_positive": 19,
+      "n_total": 19,
+      "vs_fixed": 0.036578796032274236,
+      "vs_oracle": 1.0
+    }
+  }
+}

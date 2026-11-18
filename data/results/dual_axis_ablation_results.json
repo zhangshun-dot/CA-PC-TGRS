@@ -1,0 +1,529 @@
+{
+  "per_class": {
+    "airplane": {
+      "baseline": 0.8,
+      "single": {
+        "granularity": 0.8,
+        "spatial": 0.8,
+        "geometric": 0.8,
+        "scale": 1.0,
+        "spectral": 0.8,
+        "texture": 0.8
+      },
+      "pairs": {
+        "granularity+spatial": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "granularity+geometric": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "granularity+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "granularity+spectral": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "granularity+texture": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "spatial+geometric": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "spatial+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+spectral": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "spatial+texture": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "geometric+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+spectral": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "geometric+texture": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "scale+spectral": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "scale+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spectral+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        }
+      }
+    },
+    "airport": {
+      "baseline": 1.0,
+      "single": {
+        "granularity": 0.8,
+        "spatial": 1.0,
+        "geometric": 0.8,
+        "scale": 1.0,
+        "spectral": 0.8,
+        "texture": 0.8
+      },
+      "pairs": {
+        "granularity+spatial": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+geometric": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+spectral": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+texture": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.19999999999999996
+        },
+        "spatial+geometric": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "spatial+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+spectral": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "spatial+texture": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "geometric+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "geometric+spectral": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.19999999999999996
+        },
+        "geometric+texture": {
+          "actual": 0.8,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.19999999999999996
+        },
+        "scale+spectral": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "scale+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "spectral+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.6000000000000001,
+          "interaction": 0.3999999999999999
+        }
+      }
+    },
+    "stadium": {
+      "baseline": 1.0,
+      "single": {
+        "granularity": 0.8,
+        "spatial": 1.0,
+        "geometric": 1.0,
+        "scale": 1.0,
+        "spectral": 1.0,
+        "texture": 1.0
+      },
+      "pairs": {
+        "granularity+spatial": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+geometric": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+spectral": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "granularity+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "spatial+geometric": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+spectral": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+scale": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+spectral": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "scale+spectral": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "scale+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spectral+texture": {
+          "actual": 1.0,
+          "baseline": 1.0,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        }
+      }
+    },
+    "golf course": {
+      "baseline": 0.8,
+      "single": {
+        "granularity": 0.8,
+        "spatial": 1.0,
+        "geometric": 0.8,
+        "scale": 1.0,
+        "spectral": 1.0,
+        "texture": 1.0
+      },
+      "pairs": {
+        "granularity+spatial": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": -0.19999999999999996
+        },
+        "granularity+geometric": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.0
+        },
+        "granularity+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "granularity+spectral": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "granularity+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+geometric": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": -0.19999999999999996
+        },
+        "spatial+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        },
+        "spatial+spectral": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        },
+        "spatial+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        },
+        "geometric+scale": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+spectral": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "geometric+texture": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": -0.19999999999999996
+        },
+        "scale+spectral": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        },
+        "scale+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        },
+        "spectral+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.2,
+          "interaction": -0.19999999999999996
+        }
+      }
+    },
+    "vehicle": {
+      "baseline": 0.8,
+      "single": {
+        "granularity": 0.8,
+        "spatial": 0.6,
+        "geometric": 0.8,
+        "scale": 0.6,
+        "spectral": 0.6,
+        "texture": 1.0
+      },
+      "pairs": {
+        "granularity+spatial": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 1.1102230246251565e-16
+        },
+        "granularity+geometric": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": -0.20000000000000007
+        },
+        "granularity+scale": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 1.1102230246251565e-16
+        },
+        "granularity+spectral": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 1.1102230246251565e-16
+        },
+        "granularity+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "spatial+geometric": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 1.1102230246251565e-16
+        },
+        "spatial+scale": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.3999999999999999,
+          "interaction": 0.40000000000000013
+        },
+        "spatial+spectral": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.3999999999999999,
+          "interaction": 0.20000000000000007
+        },
+        "spatial+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "geometric+scale": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 1.1102230246251565e-16
+        },
+        "geometric+spectral": {
+          "actual": 0.8,
+          "baseline": 0.8,
+          "predicted_additive": 0.5999999999999999,
+          "interaction": 0.20000000000000018
+        },
+        "geometric+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 1.0,
+          "interaction": 0.0
+        },
+        "scale+spectral": {
+          "actual": 0.6,
+          "baseline": 0.8,
+          "predicted_additive": 0.3999999999999999,
+          "interaction": 0.20000000000000007
+        },
+        "scale+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        },
+        "spectral+texture": {
+          "actual": 1.0,
+          "baseline": 0.8,
+          "predicted_additive": 0.8,
+          "interaction": 0.19999999999999996
+        }
+      }
+    }
+  },
+  "summary": {
+    "n_classes": 5,
+    "n_pairs": 15,
+    "mean_interaction": 0.04266666666666668,
+    "std_interaction": 0.13968854243956044,
+    "mae_interaction": 0.096,
+    "n_neg": 10,
+    "n_pos": 29,
+    "conclusion": "交互项MAE=0.0960，主效应可加性近似成立"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "config": {
+    "n_val": 80,
+    "pre_filter": 0.03,
+    "regime": "B-zero-annotation transductive learned projector (CORAL/MMD dist-align)",
+    "src_classes": [
+      "airplane",
+      "ship",
+      "vehicle"
+    ],
+    "projector": "MLP 512-256-512 near-identity, coral loss",
+    "hypothesis": "零标注学习投影器能否破 +1.25% 天花板"
+  },
+  "per_class": {
+    "airplane": {
+      "n_crops": 3245,
+      "baseline_raw": 0.7903,
+      "baseline_tge": 0.7882,
+      "linear_coral_raw": 0.7869,
+      "linear_coral_tge": 0.7671,
+      "mlp_proj_raw": 0.7795,
+      "mlp_proj_tge": 0.7796,
+      "delta_lin_vs_base_raw": -0.0034,
+      "delta_lin_vs_base_tge": -0.0212,
+      "delta_mlp_vs_base_raw": -0.0109,
+      "delta_mlp_vs_base_tge": -0.0086
+    },
+    "boat": {
+      "n_crops": 522,
+      "baseline_raw": 0.2021,
+      "baseline_tge": 0.2028,
+      "linear_coral_raw": 0.2276,
+      "linear_coral_tge": 0.2273,
+      "mlp_proj_raw": 0.2037,
+      "mlp_proj_tge": 0.2037,
+      "delta_lin_vs_base_raw": 0.0256,
+      "delta_lin_vs_base_tge": 0.0245,
+      "delta_mlp_vs_base_raw": 0.0017,
+      "delta_mlp_vs_base_tge": 0.0009
+    },
+    "car": {
+      "n_crops": 2364,
+      "baseline_raw": 0.1641,
+      "baseline_tge": 0.1729,
+      "linear_coral_raw": 0.135,
+      "linear_coral_tge": 0.1374,
+      "mlp_proj_raw": 0.1455,
+      "mlp_proj_tge": 0.1591,
+      "delta_lin_vs_base_raw": -0.0291,
+      "delta_lin_vs_base_tge": -0.0354,
+      "delta_mlp_vs_base_raw": -0.0187,
+      "delta_mlp_vs_base_tge": -0.0138
+    },
+    "truck": {
+      "n_crops": 3888,
+      "baseline_raw": 0.2679,
+      "baseline_tge": 0.2788,
+      "linear_coral_raw": 0.2666,
+      "linear_coral_tge": 0.2716,
+      "mlp_proj_raw": 0.2759,
+      "mlp_proj_tge": 0.2935,
+      "delta_lin_vs_base_raw": -0.0013,
+      "delta_lin_vs_base_tge": -0.0073,
+      "delta_mlp_vs_base_raw": 0.008,
+      "delta_mlp_vs_base_tge": 0.0146
+    },
+    "bus": {
+      "n_crops": 205,
+      "baseline_raw": 0.5257,
+      "baseline_tge": 0.5444,
+      "linear_coral_raw": 0.5432,
+      "linear_coral_tge": 0.5391,
+      "mlp_proj_raw": 0.5409,
+      "mlp_proj_tge": 0.5412,
+      "delta_lin_vs_base_raw": 0.0175,
+      "delta_lin_vs_base_tge": -0.0053,
+      "delta_mlp_vs_base_raw": 0.0152,
+      "delta_mlp_vs_base_tge": -0.0032
+    },
+    "motorcycle": {
+      "n_crops": 3512,
+      "baseline_raw": 0.3659,
+      "baseline_tge": 0.4242,
+      "linear_coral_raw": 0.4222,
+      "linear_coral_tge": 0.4192,
+      "mlp_proj_raw": 0.4093,
+      "mlp_proj_tge": 0.3623,
+      "delta_lin_vs_base_raw": 0.0563,
+      "delta_lin_vs_base_tge": -0.005,
+      "delta_mlp_vs_base_raw": 0.0434,
+      "delta_mlp_vs_base_tge": -0.0619
+    }
+  },
+  "summary": {
+    "n_crops": 2289.3333,
+    "baseline_raw": 0.386,
+    "baseline_tge": 0.4019,
+    "linear_coral_raw": 0.3969,
+    "linear_coral_tge": 0.3936,
+    "mlp_proj_raw": 0.3925,
+    "mlp_proj_tge": 0.3899,
+    "delta_lin_vs_base_raw": 0.0109,
+    "delta_lin_vs_base_tge": -0.0083,
+    "delta_mlp_vs_base_raw": 0.0065,
+    "delta_mlp_vs_base_tge": -0.012
+  }
+}

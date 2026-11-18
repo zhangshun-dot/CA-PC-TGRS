@@ -1,0 +1,47 @@
+{
+  "config": {
+    "method": "label_free_entropy_min",
+    "n_ctx": 4,
+    "lr": 0.005,
+    "steps": 300,
+    "ent_reg": 0.01,
+    "n_val": 80,
+    "device": "cuda"
+  },
+  "classes": {
+    "airplane": {
+      "gdino_only": 0.769987275619879,
+      "frozen_text": 0.7923762471187527,
+      "tuned_text": 0.7215975175407995
+    },
+    "boat": {
+      "gdino_only": 0.223411593646894,
+      "frozen_text": 0.2586324046327863,
+      "tuned_text": 0.23255867155239549
+    },
+    "car": {
+      "gdino_only": 0.13081315703671795,
+      "frozen_text": 0.17510864088256622,
+      "tuned_text": 0.15503942086566028
+    },
+    "truck": {
+      "gdino_only": 0.24680199133753467,
+      "frozen_text": 0.33269246751700776,
+      "tuned_text": 0.15222172956206903
+    },
+    "bus": {
+      "gdino_only": 0.5440878640099398,
+      "frozen_text": 0.5732146639076762,
+      "tuned_text": 0.4788167433300768
+    },
+    "motorcycle": {
+      "gdino_only": 0.411689151723788,
+      "frozen_text": 0.4983136128916135,
+      "tuned_text": 0.4568247799100837
+    }
+  },
+  "mean_frozen": 0.4383896728250671,
+  "mean_tuned": 0.3661764771268475,
+  "mean_gdino_only": 0.38779850556245893,
+  "delta_tuned_minus_frozen": -0.0722131956982196
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "paper": "CD-TDM (Cross-Domain Token Distribution Modulation)",
+    "setting": "few-shot cross-domain open-vocabulary detection",
+    "source_domain": "DIOR (remote sensing, overhead view)",
+    "target_domain": "COCO (natural scene, side view)",
+    "backbone": "dinov2-base (768-dim, L12)",
+    "detector": "grounding-dino-tiny",
+    "protocol": "GDINO th=0.0 -> pre-filter 0.03 -> dataset-level 11-point AP50",
+    "date": "2026-08-14",
+    "category_mapping": {"COCO-boat": "ship", "COCO-car": "vehicle", "COCO-airplane": "airplane"}
+  },
+  "final_method": {
+    "name": "CDVM + few-shot target-domain prototype calibration",
+    "formula": "P_cal = normalize(alpha * P_src + (1-alpha) * P_tgt); vis = max(0, f@P_cal - lambda * f@P_neg); score = sqrt(gd * vis)",
+    "hyperparams": {"layer": 12, "K": 10, "alpha": 0.5, "neg_lambda": 0.5, "neg_topk": 3}
+  },
+  "main_table": {
+    "columns": ["baseline", "CDVM_zero_shot", "CDVM_few_shot"],
+    "rows": {
+      "COCO-airplane": [0.7891, 0.7814, 0.8015],
+      "COCO-boat":     [0.2453, 0.2361, 0.2680],
+      "COCO-car":      [0.1494, 0.2591, 0.3198],
+      "DIOR-airplane": [0.4365, 0.5326, 0.5326],
+      "DIOR-ship":     [0.2311, 0.2540, 0.2540],
+      "DIOR-vehicle":  [0.2505, 0.3920, 0.3920]
+    },
+    "means": {
+      "cross_domain": [0.3946, 0.4256, 0.4631],
+      "same_domain":  [0.3060, 0.3928, 0.3928],
+      "total":        [0.3503, 0.4092, 0.4280]
+    },
+    "delta_vs_baseline": {
+      "COCO-airplane": {"zero": -0.0076, "fewshot": 0.0124},
+      "COCO-boat":     {"zero": -0.0092, "fewshot": 0.0226},
+      "COCO-car":      {"zero": 0.1097, "fewshot": 0.1704},
+      "DIOR-airplane": {"zero": 0.0961, "fewshot": 0.0961},
+      "DIOR-ship":     {"zero": 0.0229, "fewshot": 0.0229},
+      "DIOR-vehicle":  {"zero": 0.1415, "fewshot": 0.1415}
+    },
+    "total_mean_delta": {"zero_shot": 0.0589, "few_shot": 0.0777}
+  },
+  "robustness": {
+    "protocol": "N=5 random splits, K=10 few-shot images, alpha=0.5, seed=42",
+    "rows": {
+      "COCO-airplane": {"zero": [0.7680, 0.0165], "fewshot": [0.7962, 0.0091]},
+      "COCO-boat":     {"zero": [0.2377, 0.0165], "fewshot": [0.2990, 0.0075]},
+      "COCO-car":      {"zero": [0.2589, 0.0154], "fewshot": [0.2983, 0.0074]}
+    },
+    "cross_domain_mean": {"zero": 0.4215, "fewshot": 0.4645, "delta": 0.0430},
+    "observation": "few-shot lowers std (0.007-0.009 vs 0.015-0.017), raises mean, robust to split"
+  },
+  "k_sensitivity": {
+    "protocol": "K in {5,10,20} x alpha=0.5, few_shot_ksweep.py",
+    "rows": {
+      "COCO-airplane": {"K5": 0.7668, "K10": 0.8015, "K20": 0.8186},
+      "COCO-boat":     {"K5": 0.2739, "K10": 0.2680, "K20": 0.2919},
+      "COCO-car":      {"K5": 0.3102, "K10": 0.3198, "K20": 0.3007}
+    },
+    "conclusion": "boat rescue stable across K; alpha=0.5 robust; K=10 enough"
+  },
+  "stronger_backbone_negative_result": {
+    "model": "dinov2-large (1024-dim)",
+    "few_shot_calibration_total_mean": 0.4016,
+    "vs_base_total_mean": 0.4631,
+    "conclusion": "large degrades CDVM",
+    "layer_scan": {
+      "COCO-boat": {"baseline": 0.2535, "all_layers_delta_range": [-0.0053, 0.0024], "best_layer": "L7", "best_ap": 0.2559, "L12_ap": 0.2482},
+      "COCO-car":  {"baseline": 0.1477, "best_layer": "L3", "best_ap": 0.1610, "best_delta": 0.0132, "L12_ap": 0.1578}
+    },
+    "vs_base": {"base_car_L12_cdvm_delta": 0.110, "large_car_best_delta": 0.013},
+    "mechanism": "feature collapse: large L12 source-target cosine 0.95-0.97 vs base 0.36-0.62",
+    "insight": "stronger backbone does not always help; over-semanticized self-supervised features lose fine-grained discriminative power"
+  },
+  "conclusion": "dinov2-base L12 + CDVM + few-shot calibration (alpha=0.5, K=10) is final; 6/6 classes positive, total mean +0.078; boat rescued from -0.009 (zero-shot) to +0.023 (few-shot)"
+}

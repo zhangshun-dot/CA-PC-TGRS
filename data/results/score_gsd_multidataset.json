@@ -1,0 +1,219 @@
+{
+  "per_ds": {
+    "dota": {
+      "per_gsd": {
+        "1.0": {
+          "k": 1.0,
+          "n": 4,
+          "base": 0.0407,
+          "full_g": 0.0456,
+          "vocab_g": 0.0139,
+          "cond_g": 0.0445,
+          "wrong_g": 0.0063,
+          "margin_fv": 0.0317,
+          "drift_dF": 0.0
+        },
+        "0.5": {
+          "k": 2.0,
+          "n": 4,
+          "base": 0.0328,
+          "full_g": 0.0138,
+          "vocab_g": -0.0015,
+          "cond_g": 0.0195,
+          "wrong_g": -0.005,
+          "margin_fv": 0.0153,
+          "drift_dF": 0.0957
+        },
+        "0.25": {
+          "k": 4.0,
+          "n": 4,
+          "base": 0.0145,
+          "full_g": 0.0113,
+          "vocab_g": -0.0039,
+          "cond_g": 0.0111,
+          "wrong_g": -0.0061,
+          "margin_fv": 0.0153,
+          "drift_dF": 0.1783
+        },
+        "0.125": {
+          "k": 8.0,
+          "n": 4,
+          "base": 0.005,
+          "full_g": 0.0002,
+          "vocab_g": -0.0013,
+          "cond_g": 0.0004,
+          "wrong_g": -0.0019,
+          "margin_fv": 0.0015,
+          "drift_dF": 0.2565
+        }
+      },
+      "per_cls": {
+        "plane": {
+          "n": 4,
+          "full_g": 0.018,
+          "vocab_g": 0.0094,
+          "cond_g": 0.021
+        },
+        "ship": {
+          "n": 4,
+          "full_g": 0.0166,
+          "vocab_g": 0.0004,
+          "cond_g": 0.0219
+        },
+        "small-vehicle": {
+          "n": 4,
+          "full_g": 0.0302,
+          "vocab_g": 0.0016,
+          "cond_g": 0.0225
+        },
+        "large-vehicle": {
+          "n": 4,
+          "full_g": 0.0063,
+          "vocab_g": -0.0041,
+          "cond_g": 0.01
+        }
+      },
+      "mean_all": {
+        "full_g": 0.0177,
+        "vocab_g": 0.0018,
+        "cond_g": 0.0188,
+        "wrong_g": -0.0017
+      },
+      "n_cells": 16,
+      "corr": {
+        "base": [
+          -0.9493,
+          0.0
+        ],
+        "full_g": [
+          -0.8055,
+          0.0546
+        ],
+        "vocab_g": [
+          -0.556,
+          0.3441
+        ],
+        "cond_g": [
+          -0.8713,
+          0.012
+        ],
+        "drift_dF": [
+          0.9457,
+          0.0
+        ]
+      }
+    },
+    "nwpu": {
+      "per_gsd": {
+        "1.0": {
+          "k": 1.0,
+          "n": 3,
+          "base": 0.4869,
+          "full_g": 0.0666,
+          "vocab_g": 0.008,
+          "cond_g": 0.0618,
+          "wrong_g": -0.0537,
+          "margin_fv": 0.0586,
+          "drift_dF": 0.0
+        },
+        "0.5": {
+          "k": 2.0,
+          "n": 3,
+          "base": 0.4299,
+          "full_g": 0.0715,
+          "vocab_g": 0.0231,
+          "cond_g": 0.0748,
+          "wrong_g": -0.0663,
+          "margin_fv": 0.0483,
+          "drift_dF": 0.1339
+        },
+        "0.25": {
+          "k": 4.0,
+          "n": 3,
+          "base": 0.2787,
+          "full_g": 0.0527,
+          "vocab_g": -0.0083,
+          "cond_g": 0.0588,
+          "wrong_g": -0.091,
+          "margin_fv": 0.061,
+          "drift_dF": 0.2101
+        },
+        "0.125": {
+          "k": 8.0,
+          "n": 3,
+          "base": 0.1446,
+          "full_g": 0.0435,
+          "vocab_g": -0.0202,
+          "cond_g": 0.0486,
+          "wrong_g": -0.0617,
+          "margin_fv": 0.0637,
+          "drift_dF": 0.2845
+        }
+      },
+      "per_cls": {
+        "airplane": {
+          "n": 4,
+          "full_g": -0.0018,
+          "vocab_g": -0.0037,
+          "cond_g": -0.0018
+        },
+        "ship": {
+          "n": 4,
+          "full_g": 0.0614,
+          "vocab_g": -0.0263,
+          "cond_g": 0.0603
+        },
+        "vehicle": {
+          "n": 4,
+          "full_g": 0.1161,
+          "vocab_g": 0.0319,
+          "cond_g": 0.1244
+        }
+      },
+      "mean_all": {
+        "full_g": 0.0586,
+        "vocab_g": 0.0006,
+        "cond_g": 0.061,
+        "wrong_g": -0.0682
+      },
+      "n_cells": 12,
+      "corr": {
+        "base": [
+          -0.9814,
+          0.0
+        ],
+        "full_g": [
+          -0.9256,
+          0.0005
+        ],
+        "vocab_g": [
+          -0.8561,
+          0.0192
+        ],
+        "cond_g": [
+          -0.7939,
+          0.0648
+        ],
+        "drift_dF": [
+          0.9107,
+          0.0018
+        ]
+      }
+    }
+  },
+  "config": {
+    "datasets": [
+      "dota",
+      "nwpu"
+    ],
+    "gsd_levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "lam": 0.5,
+    "zero_target_gt": true,
+    "detector": "grounding-dino-tiny"
+  }
+}

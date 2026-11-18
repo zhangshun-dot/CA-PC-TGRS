@@ -1,0 +1,165 @@
+{
+  "configs": {
+    "C1_原始USC": {
+      "domain_aps": {
+        "DIOR": 0.39503496031123103,
+        "NWPU": 0.3952518127270412,
+        "DOTA": 0.39438791741142754,
+        "VisDrone": 0.33711298599944717
+      },
+      "overall_ap": 0.38438636757709044,
+      "config": {
+        "gamma": 0.0,
+        "alpha": 0.5,
+        "template": "an overhead image of {}",
+        "sensor_gamma": false,
+        "adaptive_alpha": false,
+        "soft_gate": false,
+        "sensor_template": false
+      }
+    },
+    "C2_仿射固定全局": {
+      "domain_aps": {
+        "DIOR": 0.39516374439207097,
+        "NWPU": 0.40296834977907564,
+        "DOTA": 0.3970130057594927,
+        "VisDrone": 0.3338390844423396
+      },
+      "overall_ap": 0.3866466789705998,
+      "config": {
+        "gamma": -2.0,
+        "alpha": 0.0,
+        "template": "an overhead image of {}",
+        "sensor_gamma": false,
+        "adaptive_alpha": false,
+        "soft_gate": false,
+        "sensor_template": false
+      }
+    },
+    "C3_传感器感知γ": {
+      "domain_aps": {
+        "DIOR": 0.39516374439207097,
+        "NWPU": 0.40296834977907564,
+        "DOTA": 0.3970130057594927,
+        "VisDrone": 0.33563589819933803
+      },
+      "overall_ap": 0.3869733723809631,
+      "config": {
+        "gamma": null,
+        "alpha": 0.0,
+        "template": "an overhead image of {}",
+        "sensor_gamma": true,
+        "adaptive_alpha": false,
+        "soft_gate": false,
+        "sensor_template": false
+      }
+    },
+    "C4_+自适应α": {
+      "domain_aps": {
+        "DIOR": 0.40170896177421006,
+        "NWPU": 0.40673843255600706,
+        "DOTA": 0.40171230443282363,
+        "VisDrone": 0.33216307857611993
+      },
+      "overall_ap": 0.39043684122194205,
+      "config": {
+        "gamma": null,
+        "alpha": null,
+        "template": "an overhead image of {}",
+        "sensor_gamma": true,
+        "adaptive_alpha": true,
+        "soft_gate": false,
+        "sensor_template": false
+      }
+    },
+    "C5_+软门控": {
+      "domain_aps": {
+        "DIOR": 0.39594857271298456,
+        "NWPU": 0.4070334990577545,
+        "DOTA": 0.4029303576948407,
+        "VisDrone": 0.3348792275480775
+      },
+      "overall_ap": 0.38977234031753577,
+      "config": {
+        "gamma": null,
+        "alpha": null,
+        "template": "an overhead image of {}",
+        "sensor_gamma": true,
+        "adaptive_alpha": true,
+        "soft_gate": true,
+        "sensor_template": false
+      }
+    },
+    "C6_+传感器模板": {
+      "domain_aps": {
+        "DIOR": 0.39594857271298456,
+        "NWPU": 0.4070334990577545,
+        "DOTA": 0.4029303576948407,
+        "VisDrone": 0.3285187008605418
+      },
+      "overall_ap": 0.38861588091980204,
+      "config": {
+        "gamma": null,
+        "alpha": null,
+        "template": null,
+        "sensor_gamma": true,
+        "adaptive_alpha": true,
+        "soft_gate": true,
+        "sensor_template": true
+      }
+    },
+    "C7_完整框架": {
+      "domain_aps": {
+        "DIOR": 0.39594857271298456,
+        "NWPU": 0.4070334990577545,
+        "DOTA": 0.4029303576948407,
+        "VisDrone": 0.3285187008605418
+      },
+      "overall_ap": 0.38861588091980204,
+      "config": {
+        "gamma": null,
+        "alpha": null,
+        "template": null,
+        "sensor_gamma": true,
+        "adaptive_alpha": true,
+        "soft_gate": true,
+        "sensor_template": true
+      }
+    }
+  },
+  "oracle_ap": 0.39688041089680204,
+  "n_classes": 22,
+  "n_domains": 4,
+  "sensor_config": {
+    "DIOR": {
+      "gamma": -2.0,
+      "template": "an overhead image of {}"
+    },
+    "NWPU": {
+      "gamma": -2.0,
+      "template": "an overhead image of {}"
+    },
+    "DOTA": {
+      "gamma": -2.0,
+      "template": "an overhead image of {}"
+    },
+    "VisDrone": {
+      "gamma": -1.0,
+      "template": "a drone view of {}"
+    }
+  },
+  "det_stats_correlation": {
+    "det_mean": {
+      "rho": 0.3169056450960325,
+      "p": 0.1507174200587306
+    },
+    "det_var": {
+      "rho": 0.2780648417973544,
+      "p": 0.2102062403438626
+    },
+    "n_boxes": {
+      "rho": -0.6111541549345026,
+      "p": 0.0025135767017826012
+    }
+  }
+}

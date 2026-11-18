@@ -1,0 +1,415 @@
+{
+  "config": {
+    "datasets": [
+      "DIOR",
+      "DOTA",
+      "NWPU"
+    ],
+    "detectors": [
+      "gdino"
+    ],
+    "thrs": [
+      1.0,
+      0.65,
+      0.5
+    ],
+    "B_boot": 1000,
+    "lam": 0.5,
+    "beta_grid": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0
+    ],
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "protocol": "deployment order: score -> per-image NMS -> 11-pt AP50",
+    "note": "thr=1.0 == no NMS (identity check vs score_gsd_tge_multids.json)"
+  },
+  "identity": {},
+  "rows": [
+    {
+      "dataset": "DIOR",
+      "detector": "gdino",
+      "nms_iou": 1.0,
+      "n_cells": 24,
+      "base_abs_macro": 0.1272,
+      "gain_macro": {
+        "ca_pc": 0.0519,
+        "tge_nat": 0.0227,
+        "tge_star": 0.0279,
+        "tge_gate": 0.0091,
+        "cond": 0.05,
+        "vocab": -0.0016
+      },
+      "margin_ca_minus_tge_nat": 0.0292,
+      "ci_margin_nat": [
+        0.0255,
+        0.0381
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.024,
+      "ci_margin_star": [
+        0.0216,
+        0.0351
+      ],
+      "margin_cond_minus_vocab": 0.0516,
+      "ci_margin_cv": [
+        0.0451,
+        0.0593
+      ],
+      "boot_mean_ca_gain": 0.0509,
+      "boot_mean_tge_gain": 0.0191,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 21,
+      "n_cells_ca_gt_tge_star": 19
+    },
+    {
+      "dataset": "DIOR",
+      "detector": "gdino",
+      "nms_iou": 0.65,
+      "n_cells": 24,
+      "base_abs_macro": 0.141,
+      "gain_macro": {
+        "ca_pc": 0.0503,
+        "tge_nat": 0.0242,
+        "tge_star": 0.0286,
+        "tge_gate": 0.0138,
+        "cond": 0.0472,
+        "vocab": -0.0012
+      },
+      "margin_ca_minus_tge_nat": 0.0261,
+      "ci_margin_nat": [
+        0.0227,
+        0.035
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0217,
+      "ci_margin_star": [
+        0.0189,
+        0.033
+      ],
+      "margin_cond_minus_vocab": 0.0485,
+      "ci_margin_cv": [
+        0.0418,
+        0.0566
+      ],
+      "boot_mean_ca_gain": 0.0494,
+      "boot_mean_tge_gain": 0.0206,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 21,
+      "n_cells_ca_gt_tge_star": 20
+    },
+    {
+      "dataset": "DIOR",
+      "detector": "gdino",
+      "nms_iou": 0.5,
+      "n_cells": 24,
+      "base_abs_macro": 0.1471,
+      "gain_macro": {
+        "ca_pc": 0.0496,
+        "tge_nat": 0.0248,
+        "tge_star": 0.0288,
+        "tge_gate": 0.0157,
+        "cond": 0.0466,
+        "vocab": -0.0013
+      },
+      "margin_ca_minus_tge_nat": 0.0249,
+      "ci_margin_nat": [
+        0.0211,
+        0.0342
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0209,
+      "ci_margin_star": [
+        0.0179,
+        0.0321
+      ],
+      "margin_cond_minus_vocab": 0.0479,
+      "ci_margin_cv": [
+        0.0411,
+        0.0559
+      ],
+      "boot_mean_ca_gain": 0.0489,
+      "boot_mean_tge_gain": 0.0216,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 21,
+      "n_cells_ca_gt_tge_star": 20
+    },
+    {
+      "dataset": "DOTA",
+      "detector": "gdino",
+      "nms_iou": 1.0,
+      "n_cells": 16,
+      "base_abs_macro": 0.0233,
+      "gain_macro": {
+        "ca_pc": 0.0177,
+        "tge_nat": 0.0048,
+        "tge_star": 0.0104,
+        "tge_gate": 0.0042,
+        "cond": 0.0188,
+        "vocab": 0.0018
+      },
+      "margin_ca_minus_tge_nat": 0.013,
+      "ci_margin_nat": [
+        0.0079,
+        0.0208
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0074,
+      "ci_margin_star": [
+        0.0011,
+        0.0159
+      ],
+      "margin_cond_minus_vocab": 0.017,
+      "ci_margin_cv": [
+        0.0142,
+        0.0268
+      ],
+      "boot_mean_ca_gain": 0.0189,
+      "boot_mean_tge_gain": 0.0052,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 14,
+      "n_cells_ca_gt_tge_star": 13
+    },
+    {
+      "dataset": "DOTA",
+      "detector": "gdino",
+      "nms_iou": 0.65,
+      "n_cells": 16,
+      "base_abs_macro": 0.0279,
+      "gain_macro": {
+        "ca_pc": 0.0166,
+        "tge_nat": 0.0052,
+        "tge_star": 0.0104,
+        "tge_gate": 0.0052,
+        "cond": 0.0174,
+        "vocab": 0.0024
+      },
+      "margin_ca_minus_tge_nat": 0.0114,
+      "ci_margin_nat": [
+        0.0066,
+        0.0189
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0062,
+      "ci_margin_star": [
+        -0.0005,
+        0.0144
+      ],
+      "margin_cond_minus_vocab": 0.015,
+      "ci_margin_cv": [
+        0.0123,
+        0.0251
+      ],
+      "boot_mean_ca_gain": 0.0179,
+      "boot_mean_tge_gain": 0.0056,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 13,
+      "n_cells_ca_gt_tge_star": 14
+    },
+    {
+      "dataset": "DOTA",
+      "detector": "gdino",
+      "nms_iou": 0.5,
+      "n_cells": 16,
+      "base_abs_macro": 0.0298,
+      "gain_macro": {
+        "ca_pc": 0.0164,
+        "tge_nat": 0.0054,
+        "tge_star": 0.0106,
+        "tge_gate": 0.0058,
+        "cond": 0.0169,
+        "vocab": 0.0026
+      },
+      "margin_ca_minus_tge_nat": 0.011,
+      "ci_margin_nat": [
+        0.0063,
+        0.0184
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0058,
+      "ci_margin_star": [
+        -0.0006,
+        0.0143
+      ],
+      "margin_cond_minus_vocab": 0.0143,
+      "ci_margin_cv": [
+        0.0117,
+        0.025
+      ],
+      "boot_mean_ca_gain": 0.0177,
+      "boot_mean_tge_gain": 0.0057,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 14,
+      "n_cells_ca_gt_tge_star": 13
+    },
+    {
+      "dataset": "NWPU",
+      "detector": "gdino",
+      "nms_iou": 1.0,
+      "n_cells": 12,
+      "base_abs_macro": 0.335,
+      "gain_macro": {
+        "ca_pc": 0.0586,
+        "tge_nat": 0.0174,
+        "tge_star": 0.0224,
+        "tge_gate": -0.0153,
+        "cond": 0.061,
+        "vocab": 0.0006
+      },
+      "margin_ca_minus_tge_nat": 0.0412,
+      "ci_margin_nat": [
+        0.0289,
+        0.048
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0361,
+      "ci_margin_star": [
+        0.0248,
+        0.0427
+      ],
+      "margin_cond_minus_vocab": 0.0603,
+      "ci_margin_cv": [
+        0.0464,
+        0.0744
+      ],
+      "boot_mean_ca_gain": 0.0578,
+      "boot_mean_tge_gain": 0.0189,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 9,
+      "n_cells_ca_gt_tge_star": 8
+    },
+    {
+      "dataset": "NWPU",
+      "detector": "gdino",
+      "nms_iou": 0.65,
+      "n_cells": 12,
+      "base_abs_macro": 0.356,
+      "gain_macro": {
+        "ca_pc": 0.0564,
+        "tge_nat": 0.0194,
+        "tge_star": 0.0224,
+        "tge_gate": -0.0066,
+        "cond": 0.0588,
+        "vocab": 0.0024
+      },
+      "margin_ca_minus_tge_nat": 0.0369,
+      "ci_margin_nat": [
+        0.0245,
+        0.0437
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0339,
+      "ci_margin_star": [
+        0.0225,
+        0.041
+      ],
+      "margin_cond_minus_vocab": 0.0564,
+      "ci_margin_cv": [
+        0.0423,
+        0.0697
+      ],
+      "boot_mean_ca_gain": 0.0552,
+      "boot_mean_tge_gain": 0.0209,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 8,
+      "n_cells_ca_gt_tge_star": 8
+    },
+    {
+      "dataset": "NWPU",
+      "detector": "gdino",
+      "nms_iou": 0.5,
+      "n_cells": 12,
+      "base_abs_macro": 0.3638,
+      "gain_macro": {
+        "ca_pc": 0.056,
+        "tge_nat": 0.0206,
+        "tge_star": 0.0229,
+        "tge_gate": -0.0019,
+        "cond": 0.0589,
+        "vocab": 0.0035
+      },
+      "margin_ca_minus_tge_nat": 0.0354,
+      "ci_margin_nat": [
+        0.0236,
+        0.0429
+      ],
+      "ci_margin_nat_excludes_zero": true,
+      "margin_ca_minus_tge_star": 0.0332,
+      "ci_margin_star": [
+        0.022,
+        0.0404
+      ],
+      "margin_cond_minus_vocab": 0.0554,
+      "ci_margin_cv": [
+        0.0398,
+        0.0687
+      ],
+      "boot_mean_ca_gain": 0.055,
+      "boot_mean_tge_gain": 0.0216,
+      "lead_every_gsd_vs_tge_nat": {
+        "1.0": true,
+        "0.5": true,
+        "0.25": true,
+        "0.125": true
+      },
+      "lead_all": true,
+      "n_cells_ca_gt_tge_nat": 8,
+      "n_cells_ca_gt_tge_star": 9
+    }
+  ]
+}

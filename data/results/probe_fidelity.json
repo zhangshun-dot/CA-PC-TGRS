@@ -1,0 +1,278 @@
+{
+  "A 我原实现 (δ=src/src, 负池6类)": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.7627,
+        "plus": 0.0148,
+        "minus": 0.0106,
+        "beta0": 0.0191,
+        "rand": 0.0169
+      },
+      "ship->boat": {
+        "baseline": 0.17,
+        "plus": -0.0069,
+        "minus": -0.0296,
+        "beta0": -0.0116,
+        "rand": -0.0209
+      },
+      "vehicle->car": {
+        "baseline": 0.1079,
+        "plus": 0.07,
+        "minus": -0.0411,
+        "beta0": 0.0084,
+        "rand": -0.0119
+      },
+      "vehicle->truck": {
+        "baseline": 0.265,
+        "plus": 0.0255,
+        "minus": -0.046,
+        "beta0": 0.0085,
+        "rand": 0.018
+      },
+      "vehicle->bus": {
+        "baseline": 0.5404,
+        "plus": -0.0187,
+        "minus": -0.1266,
+        "beta0": -0.0337,
+        "rand": -0.0873
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.4113,
+        "plus": -0.0032,
+        "minus": -0.0142,
+        "beta0": 0.0186,
+        "rand": -0.0332
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.506,
+        "plus": 0.0438,
+        "minus": 0.0293,
+        "beta0": 0.038,
+        "rand": 0.0365
+      },
+      "boat->ship": {
+        "baseline": 0.2466,
+        "plus": 0.08,
+        "minus": -0.0052,
+        "beta0": 0.0254,
+        "rand": 0.0458
+      },
+      "car->vehicle": {
+        "baseline": 0.1124,
+        "plus": 0.1196,
+        "minus": 0.0564,
+        "beta0": 0.0905,
+        "rand": 0.1076
+      }
+    }
+  },
+  "B 汇报稿 δ 口径 (δ=tgt/src, 负池6类)": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.7627,
+        "plus": 0.0148,
+        "minus": 0.0106,
+        "beta0": 0.0191,
+        "rand": 0.0165
+      },
+      "ship->boat": {
+        "baseline": 0.17,
+        "plus": 0.0267,
+        "minus": -0.0557,
+        "beta0": -0.0116,
+        "rand": -0.0239
+      },
+      "vehicle->car": {
+        "baseline": 0.1079,
+        "plus": 0.1005,
+        "minus": -0.0534,
+        "beta0": 0.0084,
+        "rand": -0.0103
+      },
+      "vehicle->truck": {
+        "baseline": 0.265,
+        "plus": 0.0754,
+        "minus": -0.1797,
+        "beta0": 0.0085,
+        "rand": -0.0552
+      },
+      "vehicle->bus": {
+        "baseline": 0.5404,
+        "plus": 0.0709,
+        "minus": -0.3622,
+        "beta0": -0.0337,
+        "rand": -0.1309
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.4113,
+        "plus": 0.1015,
+        "minus": -0.3478,
+        "beta0": 0.0186,
+        "rand": -0.0226
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.506,
+        "plus": 0.0438,
+        "minus": 0.0293,
+        "beta0": 0.038,
+        "rand": 0.0409
+      },
+      "boat->ship": {
+        "baseline": 0.2466,
+        "plus": 0.0772,
+        "minus": -0.0497,
+        "beta0": 0.0254,
+        "rand": 0.0419
+      },
+      "car->vehicle": {
+        "baseline": 0.1124,
+        "plus": 0.1136,
+        "minus": 0.0651,
+        "beta0": 0.0905,
+        "rand": 0.1028
+      }
+    }
+  },
+  "C 负原型池扩到 DIOR20 (δ=src/src)": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.7627,
+        "plus": 0.0147,
+        "minus": 0.0122,
+        "beta0": 0.0186,
+        "rand": 0.0106
+      },
+      "ship->boat": {
+        "baseline": 0.17,
+        "plus": -0.0125,
+        "minus": -0.0286,
+        "beta0": -0.0109,
+        "rand": -0.0127
+      },
+      "vehicle->car": {
+        "baseline": 0.1079,
+        "plus": 0.071,
+        "minus": -0.0393,
+        "beta0": 0.0094,
+        "rand": 0.0444
+      },
+      "vehicle->truck": {
+        "baseline": 0.265,
+        "plus": 0.0266,
+        "minus": -0.094,
+        "beta0": 0.0124,
+        "rand": -0.0014
+      },
+      "vehicle->bus": {
+        "baseline": 0.5404,
+        "plus": -0.0106,
+        "minus": -0.1065,
+        "beta0": -0.0292,
+        "rand": -0.0546
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.4113,
+        "plus": 0.0103,
+        "minus": -0.0003,
+        "beta0": 0.0209,
+        "rand": 0.0269
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.506,
+        "plus": 0.0438,
+        "minus": 0.0293,
+        "beta0": 0.038,
+        "rand": 0.0292
+      },
+      "boat->ship": {
+        "baseline": 0.2466,
+        "plus": 0.08,
+        "minus": -0.0052,
+        "beta0": 0.0254,
+        "rand": 0.0258
+      },
+      "car->vehicle": {
+        "baseline": 0.1124,
+        "plus": 0.1196,
+        "minus": 0.0564,
+        "beta0": 0.0905,
+        "rand": 0.1003
+      }
+    }
+  },
+  "D 两者都用汇报稿口径 (δ=tgt/src, 负池20类)": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.7627,
+        "plus": 0.0147,
+        "minus": 0.0122,
+        "beta0": 0.0186,
+        "rand": 0.0103
+      },
+      "ship->boat": {
+        "baseline": 0.17,
+        "plus": 0.0301,
+        "minus": -0.0504,
+        "beta0": -0.0109,
+        "rand": -0.005
+      },
+      "vehicle->car": {
+        "baseline": 0.1079,
+        "plus": 0.1009,
+        "minus": -0.0528,
+        "beta0": 0.0094,
+        "rand": -0.0181
+      },
+      "vehicle->truck": {
+        "baseline": 0.265,
+        "plus": 0.0774,
+        "minus": -0.1769,
+        "beta0": 0.0124,
+        "rand": -0.0586
+      },
+      "vehicle->bus": {
+        "baseline": 0.5404,
+        "plus": 0.0726,
+        "minus": -0.3617,
+        "beta0": -0.0292,
+        "rand": -0.1727
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.4113,
+        "plus": 0.1009,
+        "minus": -0.3466,
+        "beta0": 0.0209,
+        "rand": -0.138
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.506,
+        "plus": 0.0438,
+        "minus": 0.0293,
+        "beta0": 0.038,
+        "rand": 0.0413
+      },
+      "boat->ship": {
+        "baseline": 0.2466,
+        "plus": 0.0772,
+        "minus": -0.0497,
+        "beta0": 0.0254,
+        "rand": 0.0227
+      },
+      "car->vehicle": {
+        "baseline": 0.1124,
+        "plus": 0.1136,
+        "minus": 0.0651,
+        "beta0": 0.0905,
+        "rand": 0.093
+      }
+    }
+  }
+}

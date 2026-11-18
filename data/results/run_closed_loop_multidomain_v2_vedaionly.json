@@ -1,0 +1,79 @@
+{
+  "config": {
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "n0": 16.0,
+    "n_iqr": 24.0,
+    "detector": "gdino-tiny",
+    "target": "COCO",
+    "reuse_cache": "probe_bidir_cache",
+    "version": "v2 (+VEDAI 4th source)",
+    "sources_ran": [
+      "vedai"
+    ],
+    "device": "cpu"
+  },
+  "results": {
+    "vedai_plane->airplane": {
+      "eval": "airplane",
+      "base": 0.7789684740894114,
+      "ap_star": 0.7800661939658057,
+      "beta_star": 0.5,
+      "dc_mag": 0.5686103105545044,
+      "max_conf": 0.31919154950550627,
+      "n_pred": 1692,
+      "ap_dc": 0.7802439132126774,
+      "ap_dc_x_conf": 0.7742845144420787,
+      "ap_dc_x_count": 0.7789684740894114,
+      "oracle%_dc_conf": 99.25882193479848,
+      "oracle%_dc": 100.02278258540704,
+      "gain_dc_conf_vs_base": -0.004683959647332703
+    },
+    "vedai_boat->boat": {
+      "eval": "boat",
+      "base": 0.16156609764172228,
+      "ap_star": 0.187602494436262,
+      "beta_star": 2.5,
+      "dc_mag": 0.524617612361908,
+      "max_conf": 0.1146610627323389,
+      "n_pred": 813,
+      "ap_dc": 0.157969423214559,
+      "ap_dc_x_conf": 0.15651049373075432,
+      "ap_dc_x_count": 0.16156609764172228,
+      "oracle%_dc_conf": 83.42665922490107,
+      "oracle%_dc": 84.2043298460667,
+      "gain_dc_conf_vs_base": -0.00505560391096796
+    },
+    "vedai_car->car": {
+      "eval": "car",
+      "base": 0.1166478030987658,
+      "ap_star": 0.1848588195247061,
+      "beta_star": 2.5,
+      "dc_mag": 0.5105705261230469,
+      "max_conf": 0.18862321779131888,
+      "n_pred": 1877,
+      "ap_dc": 0.1189954514137833,
+      "ap_dc_x_conf": 0.171750452129001,
+      "ap_dc_x_count": 0.1166478030987658,
+      "oracle%_dc_conf": 92.90898458109369,
+      "oracle%_dc": 64.37098955826652,
+      "gain_dc_conf_vs_base": 0.05510264903023521
+    },
+    "vedai_truck->truck": {
+      "eval": "truck",
+      "base": 0.27712949332227715,
+      "ap_star": 0.2777374219800674,
+      "beta_star": 1.0,
+      "dc_mag": 0.5312055945396423,
+      "max_conf": 0.3166022130846977,
+      "n_pred": 3971,
+      "ap_dc": 0.27500548296122873,
+      "ap_dc_x_conf": 0.2628313236092727,
+      "ap_dc_x_count": 0.27712949332227715,
+      "oracle%_dc_conf": 94.633024867688,
+      "oracle%_dc": 99.01635904900323,
+      "gain_dc_conf_vs_base": -0.01429816971300446
+    }
+  },
+  "elapsed_s": 61.012123584747314
+}

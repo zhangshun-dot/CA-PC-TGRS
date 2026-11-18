@@ -1,0 +1,25 @@
+{
+  "experiment": "Exp1_controlled_intervention",
+  "n_img": 250,
+  "clean_base_ap50": 0.7492,
+  "fog_levels": {
+    "light": {
+      "base_ap50": 0.7526,
+      "capc_ap50": 0.5675,
+      "gain": -0.1851,
+      "dc_mag_mean": 0.6625
+    },
+    "moderate": {
+      "base_ap50": 0.7527,
+      "capc_ap50": 0.5912,
+      "gain": -0.1615,
+      "dc_mag_mean": 0.6815
+    },
+    "heavy": {
+      "base_ap50": 0.7515,
+      "capc_ap50": 0.5836,
+      "gain": -0.1679,
+      "dc_mag_mean": 0.7079
+    }
+  }
+}

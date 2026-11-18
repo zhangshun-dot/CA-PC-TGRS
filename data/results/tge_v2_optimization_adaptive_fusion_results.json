@@ -1,0 +1,128 @@
+{
+  "config": {
+    "best_beta": 2.5,
+    "best_lambda": 0.5,
+    "best_w": 0.4,
+    "best_tau_det": 2.0,
+    "best_tau_vis": 2.0,
+    "best_a": -2.0,
+    "best_b": 0.0,
+    "best_c": 0.0,
+    "heldout_skip": 60
+  },
+  "dev_gains": {
+    "baseline": 0.07369748977580008,
+    "C_fixed": 0.0720513500605408,
+    "C_adaptive": 0.08022311205276329
+  },
+  "results_voc": {
+    "baseline": {
+      "mean_gain": 0.032821788484886684,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.026186083503449087,
+        "COCO-boat": 0.010250235453084566,
+        "COCO-car": 0.006618845508271243,
+        "COCO-motorcycle": 0.07430090173399517,
+        "COCO-bus": 0.04192821906950661,
+        "COCO-train": -0.0031336667362162896,
+        "COCO-bicycle": 0.04076869035419839,
+        "COCO-bottle": 0.06137843936578738,
+        "COCO-chair": 0.058460496066924744,
+        "COCO-couch": 0.041766885475999105,
+        "COCO-potted plant": 0.07095686059165737,
+        "COCO-tv": -0.03562052856801712
+      }
+    },
+    "C_fixed": {
+      "mean_gain": 0.059666460161943026,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.022507324491950698,
+        "COCO-boat": 0.04137243285411099,
+        "COCO-car": 0.11762430813320368,
+        "COCO-motorcycle": 0.07141428820081364,
+        "COCO-bus": 0.07290252315333334,
+        "COCO-train": -0.041837070269590826,
+        "COCO-bicycle": 0.09935663770425604,
+        "COCO-bottle": 0.12362654512861856,
+        "COCO-chair": 0.1073736555869185,
+        "COCO-couch": 0.0602649641397745,
+        "COCO-potted plant": 0.10968546870961571,
+        "COCO-tv": -0.0682935558896885
+      }
+    },
+    "C_adaptive": {
+      "mean_gain": 0.05074143347021006,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.016578870368779586,
+        "COCO-boat": 0.0280267808912274,
+        "COCO-car": 0.08666179599038895,
+        "COCO-motorcycle": 0.08470236081345062,
+        "COCO-bus": 0.061966138555589745,
+        "COCO-train": -0.029206885268990512,
+        "COCO-bicycle": 0.08079150677063027,
+        "COCO-bottle": 0.10295556299279471,
+        "COCO-chair": 0.09568545822233018,
+        "COCO-couch": 0.05545418579795114,
+        "COCO-potted plant": 0.09626431268035746,
+        "COCO-tv": -0.07098288617198883
+      }
+    },
+    "oracle": {
+      "mean_gain": 0.07751463424555295,
+      "n_positive": 12,
+      "n_total": 12
+    }
+  },
+  "results_dior": {
+    "baseline": {
+      "mean_gain": 0.043158789811510445,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": -0.0013021239048506272,
+        "DIOR-COCO-boat": 0.011054566065942156,
+        "DIOR-COCO-car": 0.08313796077875565,
+        "DIOR-COCO-truck": 0.058491970808287275,
+        "DIOR-COCO-bus": 0.06487826662829788,
+        "DIOR-COCO-motorcycle": 0.04269209849263034
+      }
+    },
+    "C_fixed": {
+      "mean_gain": 0.04506062841673634,
+      "n_positive": 6,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": 0.0038058920585011258,
+        "DIOR-COCO-boat": 0.01993485969344483,
+        "DIOR-COCO-car": 0.09130582362012724,
+        "DIOR-COCO-truck": 0.06658611455140778,
+        "DIOR-COCO-bus": 0.053638957348501215,
+        "DIOR-COCO-motorcycle": 0.035092123228435856
+      }
+    },
+    "C_adaptive": {
+      "mean_gain": 0.04237356748001688,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": -0.007102295114178481,
+        "DIOR-COCO-boat": 0.01637499427114797,
+        "DIOR-COCO-car": 0.08304005773808762,
+        "DIOR-COCO-truck": 0.058016934341536375,
+        "DIOR-COCO-bus": 0.06370414304817429,
+        "DIOR-COCO-motorcycle": 0.04020757059533353
+      }
+    },
+    "oracle": {
+      "mean_gain": 0.06870048855435755,
+      "n_positive": 6,
+      "n_total": 6
+    }
+  }
+}

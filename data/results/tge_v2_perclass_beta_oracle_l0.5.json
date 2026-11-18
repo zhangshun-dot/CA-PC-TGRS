@@ -1,0 +1,131 @@
+{
+  "config": {
+    "protocol": "per-class beta experiment",
+    "scheme": "oracle",
+    "detector": "gdino-tiny",
+    "pre_filter": 0.03,
+    "neg_lam": 0.5,
+    "per_class_beta": {
+      "COCO-airplane": 0.0,
+      "COCO-boat": 1.5,
+      "COCO-car": 3.5,
+      "COCO-truck": 2.5,
+      "COCO-bus": 2.5,
+      "COCO-motorcycle": 3.5
+    },
+    "seeds": [
+      42,
+      20260823,
+      7
+    ],
+    "r_boot": 1000
+  },
+  "classes": {
+    "COCO-airplane": {
+      "n_pool": 97,
+      "n_test": 87,
+      "beta": 0.0,
+      "recall": 0.972,
+      "base50": 0.7484,
+      "ours50": 0.7659,
+      "gain50": 0.0175,
+      "base_coco": 0.6404,
+      "ours_coco": 0.6543,
+      "gain_coco": 0.014
+    },
+    "COCO-boat": {
+      "n_pool": 121,
+      "n_test": 111,
+      "beta": 1.5,
+      "recall": 0.4057,
+      "base50": 0.1758,
+      "ours50": 0.1814,
+      "gain50": 0.0056,
+      "base_coco": 0.1054,
+      "ours_coco": 0.1027,
+      "gain_coco": -0.0027
+    },
+    "COCO-car": {
+      "n_pool": 535,
+      "n_test": 525,
+      "beta": 3.5,
+      "recall": 0.5537,
+      "base50": 0.1245,
+      "ours50": 0.1712,
+      "gain50": 0.0466,
+      "base_coco": 0.058,
+      "ours_coco": 0.0852,
+      "gain_coco": 0.0272
+    },
+    "COCO-truck": {
+      "n_pool": 250,
+      "n_test": 240,
+      "beta": 2.5,
+      "recall": 0.8816,
+      "base50": 0.2345,
+      "ours50": 0.2889,
+      "gain50": 0.0544,
+      "base_coco": 0.1572,
+      "ours_coco": 0.2044,
+      "gain_coco": 0.0472
+    },
+    "COCO-bus": {
+      "n_pool": 189,
+      "n_test": 179,
+      "beta": 2.5,
+      "recall": 0.7138,
+      "base50": 0.5317,
+      "ours50": 0.6056,
+      "gain50": 0.074,
+      "base_coco": 0.4668,
+      "ours_coco": 0.5363,
+      "gain_coco": 0.0694
+    },
+    "COCO-motorcycle": {
+      "n_pool": 159,
+      "n_test": 149,
+      "beta": 3.5,
+      "recall": 0.8392,
+      "base50": 0.4092,
+      "ours50": 0.2931,
+      "gain50": -0.1161,
+      "base_coco": 0.2955,
+      "ours_coco": 0.1736,
+      "gain_coco": -0.1219
+    }
+  },
+  "mean": {
+    "base50": 0.3707,
+    "ours50": 0.3843,
+    "gain50": 0.0137,
+    "base_coco": 0.2872,
+    "ours_coco": 0.2928,
+    "gain_coco": 0.0055
+  },
+  "bootstrap": {
+    "42": {
+      "mean": 0.014800084014897503,
+      "ci95": [
+        -0.001230826948378208,
+        0.030535683589267823
+      ],
+      "p_neg_frac": 0.042
+    },
+    "20260823": {
+      "mean": 0.014089560665619312,
+      "ci95": [
+        -0.0006333376215140815,
+        0.02941384840259894
+      ],
+      "p_neg_frac": 0.033
+    },
+    "7": {
+      "mean": 0.014230315181791464,
+      "ci95": [
+        -0.0011099004632688422,
+        0.02936835076459967
+      ],
+      "p_neg_frac": 0.035
+    }
+  }
+}

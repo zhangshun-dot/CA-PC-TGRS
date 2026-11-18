@@ -1,0 +1,23 @@
+{
+  "n_valid": 22,
+  "essence": {
+    "features": [
+      "diversity",
+      "align_var",
+      "GSD",
+      "view",
+      "sem_mig"
+    ],
+    "spearman_rho_pred_vs_oracle": -0.3711720710069646,
+    "mae": 0.7757455397416169
+  },
+  "det_stats": {
+    "features": [
+      "det_mean",
+      "det_var",
+      "n_boxes"
+    ],
+    "spearman_rho_pred_vs_oracle": 0.4069152789034142,
+    "mae": 0.5575924979875772
+  }
+}

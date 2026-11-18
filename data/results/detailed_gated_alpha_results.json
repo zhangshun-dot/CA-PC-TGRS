@@ -1,0 +1,313 @@
+{
+  "overall": {
+    "baseline(α=0)": {
+      "mean": 0.0,
+      "std": 0.0,
+      "pos": 0
+    },
+    "fixed α=2.0": {
+      "mean": 0.011038670240095408,
+      "std": 0.027928606858770473,
+      "pos": 14
+    },
+    "fixed α=2.5": {
+      "mean": 0.013148216478937911,
+      "std": 0.03552640027962766,
+      "pos": 14
+    },
+    "closed_form(无门控)": {
+      "mean": 0.012402882741261768,
+      "std": 0.026875219214252594,
+      "pos": 14
+    },
+    "门控+闭式解(α_max=2.0)": {
+      "mean": 0.014903998939667805,
+      "std": 0.024503665198794447,
+      "pos": 10
+    },
+    "门控+固定α=2.5": {
+      "mean": 0.019188461791708297,
+      "std": 0.029991825458886224,
+      "pos": 10
+    },
+    "Oracle": {
+      "mean": 0.02533189957914078,
+      "std": 0.03353158835244787,
+      "pos": 23
+    }
+  },
+  "per_sample": [
+    {
+      "src": "DIOR",
+      "target_cls": "airplane",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 0.5,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0005594070098210446
+    },
+    {
+      "src": "DIOR",
+      "target_cls": "boat",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 6.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.025862414523885963
+    },
+    {
+      "src": "DIOR",
+      "target_cls": "car",
+      "domain": "COCO",
+      "gate": 1.0,
+      "best_alpha": 5.0,
+      "gated_fixed_gain": 0.0831164346208193,
+      "gated_cf_gain": 0.07879443482837392,
+      "oracle_gain": 0.10123349403895793
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "airplane",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 1.5,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0020617066462672584
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "boat",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 6.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.02890265792415478
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "car",
+      "domain": "COCO",
+      "gate": 1.0,
+      "best_alpha": 5.0,
+      "gated_fixed_gain": 0.07980964908681965,
+      "gated_cf_gain": 0.07666981234970041,
+      "oracle_gain": 0.09771401082327918
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "airplane",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 0.1,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0003385445550304622
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "boat",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 5.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.01220960471514193
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "car",
+      "domain": "COCO",
+      "gate": 1.0,
+      "best_alpha": 2.5,
+      "gated_fixed_gain": 0.07964453070255159,
+      "gated_cf_gain": 0.03194547808065032,
+      "oracle_gain": 0.07964453070255159
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "truck",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 1.5,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.011546211196476974
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "bicycle",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 0.5,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0012909321501440862
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "car",
+      "domain": "COCO",
+      "gate": 1.0,
+      "best_alpha": 6.0,
+      "gated_fixed_gain": 0.06401855805601664,
+      "gated_cf_gain": 0.016542695625859888,
+      "oracle_gain": 0.08871542485475684
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "bus",
+      "domain": "COCO",
+      "gate": 0.0,
+      "best_alpha": 1.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0007230065329184576
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "motorcycle",
+      "domain": "COCO",
+      "gate": 1.0,
+      "best_alpha": 3.0,
+      "gated_fixed_gain": 0.08228549026741822,
+      "gated_cf_gain": 0.07384780336456181,
+      "oracle_gain": 0.08657001328675318
+    },
+    {
+      "src": "DIOR",
+      "target_cls": "aeroplane",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.2,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.00042149587717099646
+    },
+    {
+      "src": "DIOR",
+      "target_cls": "boat",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.1,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0008689858229286029
+    },
+    {
+      "src": "DIOR",
+      "target_cls": "car",
+      "domain": "VOC",
+      "gate": 1.0,
+      "best_alpha": 3.0,
+      "gated_fixed_gain": 0.036725669637309166,
+      "gated_cf_gain": 0.031571109037286216,
+      "oracle_gain": 0.0381641895750513
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "aeroplane",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "boat",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 1.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0008629090808576212
+    },
+    {
+      "src": "NWPU",
+      "target_cls": "car",
+      "domain": "VOC",
+      "gate": 1.0,
+      "best_alpha": 3.0,
+      "gated_fixed_gain": 0.028711959837876222,
+      "gated_cf_gain": 0.029045065971968653,
+      "oracle_gain": 0.03105098688625696
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "aeroplane",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "boat",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.1,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0006024899754032975
+    },
+    {
+      "src": "DOTA",
+      "target_cls": "car",
+      "domain": "VOC",
+      "gate": 1.0,
+      "best_alpha": 2.5,
+      "gated_fixed_gain": 0.03275450863294549,
+      "gated_cf_gain": 0.030615907460149416,
+      "oracle_gain": 0.03275450863294549
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "bicycle",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "car",
+      "domain": "VOC",
+      "gate": 1.0,
+      "best_alpha": 3.0,
+      "gated_fixed_gain": 0.017796426606946025,
+      "gated_cf_gain": 0.012219060947391114,
+      "oracle_gain": 0.018255512401348817
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "bus",
+      "domain": "VOC",
+      "gate": 0.0,
+      "best_alpha": 0.0,
+      "gated_fixed_gain": 0.0,
+      "gated_cf_gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "src": "VisDrone",
+      "target_cls": "motorbike",
+      "domain": "VOC",
+      "gate": 1.0,
+      "best_alpha": 1.5,
+      "gated_fixed_gain": 0.013225240927421611,
+      "gated_cf_gain": 0.021156603705088983,
+      "oracle_gain": 0.023608251424698357
+    }
+  ],
+  "best_method": "门控+固定α=2.5",
+  "best_gain": 0.019188461791708297
+}

@@ -1,0 +1,829 @@
+{
+  "remote_sensing": {
+    "domain": "remote_sensing",
+    "static": {
+      "per_class": {
+        "airplane": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.20540540540540542,
+          "exp_f1": 0.20540540540540542
+        },
+        "airport": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.05235137533274187
+          ],
+          "base_f1": 0.47826086956521735,
+          "exp_f1": 0.5306122448979592
+        },
+        "baseball field": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.20512820512820512,
+          "exp_f1": 0.20512820512820512
+        },
+        "basketball court": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.11428571428571428,
+          "exp_f1": 0.11428571428571428
+        },
+        "bridge": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.04761904761904762,
+          "exp_f1": 0.04761904761904762
+        },
+        "chimney": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.47500000000000003,
+          "exp_f1": 0.47500000000000003
+        },
+        "dam": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.1702127659574468,
+          "exp_f1": 0.1702127659574468
+        },
+        "expressway service area": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.030508474576271205
+          ],
+          "base_f1": 0.1694915254237288,
+          "exp_f1": 0.2
+        },
+        "expressway toll station": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.12499999999999997,
+          "exp_f1": 0.12499999999999997
+        },
+        "golf course": {
+          "modifiers": [
+            "large and prominent",
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.13675213675213682,
+            0.13675213675213682
+          ],
+          "base_f1": 0.30769230769230765,
+          "exp_f1": 0.5811965811965814
+        },
+        "ground track field": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.24561403508771928,
+          "exp_f1": 0.24561403508771928
+        },
+        "harbor": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.0761904761904762,
+          "exp_f1": 0.0761904761904762
+        },
+        "overpass": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.04646464646464646
+          ],
+          "base_f1": 0.04444444444444444,
+          "exp_f1": 0.0909090909090909
+        },
+        "ship": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.022421524663677132,
+          "exp_f1": 0.022421524663677132
+        },
+        "stadium": {
+          "modifiers": [
+            "with distinct structural features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.03846153846153855,
+            0.03296703296703307
+          ],
+          "base_f1": 0.5384615384615384,
+          "exp_f1": 0.60989010989011
+        },
+        "storage tank": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.04851752021563342,
+          "exp_f1": 0.04851752021563342
+        },
+        "tennis court": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.01754385964912281,
+          "exp_f1": 0.01754385964912281
+        },
+        "train station": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.125,
+          "exp_f1": 0.125
+        },
+        "vehicle": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.22929936305732485,
+          "exp_f1": 0.22929936305732485
+        },
+        "windmill": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.17204301075268816,
+          "exp_f1": 0.17204301075268816
+        }
+      },
+      "modifiers": {
+        "airplane": [],
+        "airport": [
+          "large and prominent"
+        ],
+        "baseball field": [],
+        "basketball court": [],
+        "bridge": [],
+        "chimney": [],
+        "dam": [],
+        "expressway service area": [
+          "large and prominent"
+        ],
+        "expressway toll station": [],
+        "golf course": [
+          "large and prominent",
+          "with clearly visible surface features"
+        ],
+        "ground track field": [],
+        "harbor": [],
+        "overpass": [
+          "large and prominent"
+        ],
+        "ship": [],
+        "stadium": [
+          "with distinct structural features",
+          "with fine details"
+        ],
+        "storage tank": [],
+        "tennis court": [],
+        "train station": [],
+        "vehicle": [],
+        "windmill": []
+      },
+      "base_f1": {
+        "airplane": 0.20540540540540542,
+        "airport": 0.47826086956521735,
+        "baseball field": 0.20512820512820512,
+        "basketball court": 0.11428571428571428,
+        "bridge": 0.04761904761904762,
+        "chimney": 0.47500000000000003,
+        "dam": 0.1702127659574468,
+        "expressway service area": 0.1694915254237288,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.30769230769230765,
+        "ground track field": 0.24561403508771928,
+        "harbor": 0.0761904761904762,
+        "overpass": 0.04444444444444444,
+        "ship": 0.022421524663677132,
+        "stadium": 0.5384615384615384,
+        "storage tank": 0.04851752021563342,
+        "tennis court": 0.01754385964912281,
+        "train station": 0.125,
+        "vehicle": 0.22929936305732485,
+        "windmill": 0.17204301075268816
+      },
+      "exp_f1": {
+        "airplane": 0.20540540540540542,
+        "airport": 0.5306122448979592,
+        "baseball field": 0.20512820512820512,
+        "basketball court": 0.11428571428571428,
+        "bridge": 0.04761904761904762,
+        "chimney": 0.47500000000000003,
+        "dam": 0.1702127659574468,
+        "expressway service area": 0.2,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.5811965811965814,
+        "ground track field": 0.24561403508771928,
+        "harbor": 0.0761904761904762,
+        "overpass": 0.0909090909090909,
+        "ship": 0.022421524663677132,
+        "stadium": 0.60989010989011,
+        "storage tank": 0.04851752021563342,
+        "tennis court": 0.01754385964912281,
+        "train station": 0.125,
+        "vehicle": 0.22929936305732485,
+        "windmill": 0.17204301075268816
+      },
+      "mean_base_f1": 0.1908815806799849,
+      "mean_exp_f1": 0.21459444774531017,
+      "mean_gain": 0.02371286706532527,
+      "modifier_frequency": {
+        "large and prominent": 4,
+        "with clearly visible surface features": 1,
+        "with distinct structural features": 1,
+        "with fine details": 1
+      }
+    },
+    "dtdm": {
+      "per_class": {
+        "airplane": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.20540540540540542,
+          "exp_f1": 0.20540540540540542
+        },
+        "airport": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.05235137533274187
+          ],
+          "base_f1": 0.47826086956521735,
+          "exp_f1": 0.5306122448979592
+        },
+        "baseball field": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.20512820512820512,
+          "exp_f1": 0.20512820512820512
+        },
+        "basketball court": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.11428571428571428,
+          "exp_f1": 0.11428571428571428
+        },
+        "bridge": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.04761904761904762,
+          "exp_f1": 0.04761904761904762
+        },
+        "chimney": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.47500000000000003,
+          "exp_f1": 0.47500000000000003
+        },
+        "dam": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.1702127659574468,
+          "exp_f1": 0.1702127659574468
+        },
+        "expressway service area": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.030508474576271205
+          ],
+          "base_f1": 0.1694915254237288,
+          "exp_f1": 0.2
+        },
+        "expressway toll station": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.12499999999999997,
+          "exp_f1": 0.12499999999999997
+        },
+        "golf course": {
+          "modifiers": [
+            "large and prominent",
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.13675213675213682,
+            0.13675213675213682
+          ],
+          "base_f1": 0.30769230769230765,
+          "exp_f1": 0.5811965811965814
+        },
+        "ground track field": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.24561403508771928,
+          "exp_f1": 0.24561403508771928
+        },
+        "harbor": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.0761904761904762,
+          "exp_f1": 0.0761904761904762
+        },
+        "overpass": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.04646464646464646
+          ],
+          "base_f1": 0.04444444444444444,
+          "exp_f1": 0.0909090909090909
+        },
+        "ship": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.022421524663677132,
+          "exp_f1": 0.022421524663677132
+        },
+        "stadium": {
+          "modifiers": [
+            "with distinct structural features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.03846153846153855,
+            0.03296703296703307
+          ],
+          "base_f1": 0.5384615384615384,
+          "exp_f1": 0.60989010989011
+        },
+        "storage tank": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.04851752021563342,
+          "exp_f1": 0.04851752021563342
+        },
+        "tennis court": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.01754385964912281,
+          "exp_f1": 0.01754385964912281
+        },
+        "train station": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.125,
+          "exp_f1": 0.125
+        },
+        "vehicle": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.22929936305732485,
+          "exp_f1": 0.22929936305732485
+        },
+        "windmill": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.17204301075268816,
+          "exp_f1": 0.17204301075268816
+        }
+      },
+      "modifiers": {
+        "airplane": [],
+        "airport": [
+          "large and prominent"
+        ],
+        "baseball field": [],
+        "basketball court": [],
+        "bridge": [],
+        "chimney": [],
+        "dam": [],
+        "expressway service area": [
+          "large and prominent"
+        ],
+        "expressway toll station": [],
+        "golf course": [
+          "large and prominent",
+          "with clearly visible surface features"
+        ],
+        "ground track field": [],
+        "harbor": [],
+        "overpass": [
+          "large and prominent"
+        ],
+        "ship": [],
+        "stadium": [
+          "with distinct structural features",
+          "with fine details"
+        ],
+        "storage tank": [],
+        "tennis court": [],
+        "train station": [],
+        "vehicle": [],
+        "windmill": []
+      },
+      "base_f1": {
+        "airplane": 0.20540540540540542,
+        "airport": 0.47826086956521735,
+        "baseball field": 0.20512820512820512,
+        "basketball court": 0.11428571428571428,
+        "bridge": 0.04761904761904762,
+        "chimney": 0.47500000000000003,
+        "dam": 0.1702127659574468,
+        "expressway service area": 0.1694915254237288,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.30769230769230765,
+        "ground track field": 0.24561403508771928,
+        "harbor": 0.0761904761904762,
+        "overpass": 0.04444444444444444,
+        "ship": 0.022421524663677132,
+        "stadium": 0.5384615384615384,
+        "storage tank": 0.04851752021563342,
+        "tennis court": 0.01754385964912281,
+        "train station": 0.125,
+        "vehicle": 0.22929936305732485,
+        "windmill": 0.17204301075268816
+      },
+      "exp_f1": {
+        "airplane": 0.20540540540540542,
+        "airport": 0.5306122448979592,
+        "baseball field": 0.20512820512820512,
+        "basketball court": 0.11428571428571428,
+        "bridge": 0.04761904761904762,
+        "chimney": 0.47500000000000003,
+        "dam": 0.1702127659574468,
+        "expressway service area": 0.2,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.5811965811965814,
+        "ground track field": 0.24561403508771928,
+        "harbor": 0.0761904761904762,
+        "overpass": 0.0909090909090909,
+        "ship": 0.022421524663677132,
+        "stadium": 0.60989010989011,
+        "storage tank": 0.04851752021563342,
+        "tennis court": 0.01754385964912281,
+        "train station": 0.125,
+        "vehicle": 0.22929936305732485,
+        "windmill": 0.17204301075268816
+      },
+      "mean_base_f1": 0.1908815806799849,
+      "mean_exp_f1": 0.21459444774531017,
+      "mean_gain": 0.02371286706532527,
+      "modifier_frequency": {
+        "large and prominent": 4,
+        "with clearly visible surface features": 1,
+        "with distinct structural features": 1,
+        "with fine details": 1
+      }
+    },
+    "oracle": {
+      "per_class": {
+        "airplane": {
+          "modifiers": [
+            "large and prominent",
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.016816816816816793,
+            0.011985898942420664
+          ],
+          "base_f1": 0.20540540540540542,
+          "exp_f1": 0.23420812116464287
+        },
+        "airport": {
+          "modifiers": [
+            "large and prominent",
+            "in its natural setting"
+          ],
+          "deltas": [
+            0.05235137533274187,
+            0.02173913043478265
+          ],
+          "base_f1": 0.47826086956521735,
+          "exp_f1": 0.5523513753327418
+        },
+        "baseball field": {
+          "modifiers": [
+            "with clearly visible surface features",
+            "large and prominent"
+          ],
+          "deltas": [
+            0.022144522144522144,
+            0.017094017094017144
+          ],
+          "base_f1": 0.20512820512820512,
+          "exp_f1": 0.2443667443667444
+        },
+        "basketball court": {
+          "modifiers": [
+            "with clearly visible surface features",
+            "in its natural setting"
+          ],
+          "deltas": [
+            0.003361344537815128,
+            0.0016563146997929656
+          ],
+          "base_f1": 0.11428571428571428,
+          "exp_f1": 0.11930337352332238
+        },
+        "bridge": {
+          "modifiers": [
+            "with distinct structural features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.005012531328320795,
+            0.003663003663003664
+          ],
+          "base_f1": 0.04761904761904762,
+          "exp_f1": 0.05629458261037208
+        },
+        "chimney": {
+          "modifiers": [
+            "in its natural setting"
+          ],
+          "deltas": [
+            0.024999999999999967
+          ],
+          "base_f1": 0.47500000000000003,
+          "exp_f1": 0.5
+        },
+        "dam": {
+          "modifiers": [
+            "with distinct structural features",
+            "with natural coloring"
+          ],
+          "deltas": [
+            0.007565011820330952,
+            0.007565011820330952
+          ],
+          "base_f1": 0.1702127659574468,
+          "exp_f1": 0.1853427895981087
+        },
+        "expressway service area": {
+          "modifiers": [
+            "large and prominent"
+          ],
+          "deltas": [
+            0.030508474576271205
+          ],
+          "base_f1": 0.1694915254237288,
+          "exp_f1": 0.2
+        },
+        "expressway toll station": {
+          "modifiers": [],
+          "deltas": [],
+          "base_f1": 0.12499999999999997,
+          "exp_f1": 0.12499999999999997
+        },
+        "golf course": {
+          "modifiers": [
+            "large and prominent",
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.13675213675213682,
+            0.13675213675213682
+          ],
+          "base_f1": 0.30769230769230765,
+          "exp_f1": 0.5811965811965814
+        },
+        "ground track field": {
+          "modifiers": [
+            "with natural coloring",
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.023616734143049933,
+            0.023616734143049933
+          ],
+          "base_f1": 0.24561403508771928,
+          "exp_f1": 0.29284750337381915
+        },
+        "harbor": {
+          "modifiers": [
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.01640211640211639
+          ],
+          "base_f1": 0.0761904761904762,
+          "exp_f1": 0.09259259259259259
+        },
+        "overpass": {
+          "modifiers": [
+            "large and prominent",
+            "with natural coloring"
+          ],
+          "deltas": [
+            0.04646464646464646,
+            0.004336043360433611
+          ],
+          "base_f1": 0.04444444444444444,
+          "exp_f1": 0.09524513426952451
+        },
+        "ship": {
+          "modifiers": [
+            "in its natural setting"
+          ],
+          "deltas": [
+            0.0043641896220371484
+          ],
+          "base_f1": 0.022421524663677132,
+          "exp_f1": 0.02678571428571428
+        },
+        "stadium": {
+          "modifiers": [
+            "with distinct structural features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.03846153846153855,
+            0.03296703296703307
+          ],
+          "base_f1": 0.5384615384615384,
+          "exp_f1": 0.60989010989011
+        },
+        "storage tank": {
+          "modifiers": [
+            "with distinct structural features"
+          ],
+          "deltas": [
+            0.00013112843301522903
+          ],
+          "base_f1": 0.04851752021563342,
+          "exp_f1": 0.04864864864864865
+        },
+        "tennis court": {
+          "modifiers": [
+            "with natural coloring",
+            "with fine details"
+          ],
+          "deltas": [
+            0.0006379585326953749,
+            0.00015525539512498132
+          ],
+          "base_f1": 0.01754385964912281,
+          "exp_f1": 0.018337073576943166
+        },
+        "train station": {
+          "modifiers": [
+            "with clearly visible surface features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.008333333333333331,
+            0.0054347826086956486
+          ],
+          "base_f1": 0.125,
+          "exp_f1": 0.13876811594202898
+        },
+        "vehicle": {
+          "modifiers": [
+            "with clearly visible surface features"
+          ],
+          "deltas": [
+            0.014603075967065421
+          ],
+          "base_f1": 0.22929936305732485,
+          "exp_f1": 0.24390243902439027
+        },
+        "windmill": {
+          "modifiers": [
+            "with distinct structural features",
+            "with fine details"
+          ],
+          "deltas": [
+            0.011865035224323334,
+            0.0077322701461882415
+          ],
+          "base_f1": 0.17204301075268816,
+          "exp_f1": 0.19164031612319973
+        }
+      },
+      "modifiers": {
+        "airplane": [
+          "large and prominent",
+          "with clearly visible surface features"
+        ],
+        "airport": [
+          "large and prominent",
+          "in its natural setting"
+        ],
+        "baseball field": [
+          "with clearly visible surface features",
+          "large and prominent"
+        ],
+        "basketball court": [
+          "with clearly visible surface features",
+          "in its natural setting"
+        ],
+        "bridge": [
+          "with distinct structural features",
+          "with fine details"
+        ],
+        "chimney": [
+          "in its natural setting"
+        ],
+        "dam": [
+          "with distinct structural features",
+          "with natural coloring"
+        ],
+        "expressway service area": [
+          "large and prominent"
+        ],
+        "expressway toll station": [],
+        "golf course": [
+          "large and prominent",
+          "with clearly visible surface features"
+        ],
+        "ground track field": [
+          "with natural coloring",
+          "with clearly visible surface features"
+        ],
+        "harbor": [
+          "with clearly visible surface features"
+        ],
+        "overpass": [
+          "large and prominent",
+          "with natural coloring"
+        ],
+        "ship": [
+          "in its natural setting"
+        ],
+        "stadium": [
+          "with distinct structural features",
+          "with fine details"
+        ],
+        "storage tank": [
+          "with distinct structural features"
+        ],
+        "tennis court": [
+          "with natural coloring",
+          "with fine details"
+        ],
+        "train station": [
+          "with clearly visible surface features",
+          "with fine details"
+        ],
+        "vehicle": [
+          "with clearly visible surface features"
+        ],
+        "windmill": [
+          "with distinct structural features",
+          "with fine details"
+        ]
+      },
+      "base_f1": {
+        "airplane": 0.20540540540540542,
+        "airport": 0.47826086956521735,
+        "baseball field": 0.20512820512820512,
+        "basketball court": 0.11428571428571428,
+        "bridge": 0.04761904761904762,
+        "chimney": 0.47500000000000003,
+        "dam": 0.1702127659574468,
+        "expressway service area": 0.1694915254237288,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.30769230769230765,
+        "ground track field": 0.24561403508771928,
+        "harbor": 0.0761904761904762,
+        "overpass": 0.04444444444444444,
+        "ship": 0.022421524663677132,
+        "stadium": 0.5384615384615384,
+        "storage tank": 0.04851752021563342,
+        "tennis court": 0.01754385964912281,
+        "train station": 0.125,
+        "vehicle": 0.22929936305732485,
+        "windmill": 0.17204301075268816
+      },
+      "exp_f1": {
+        "airplane": 0.23420812116464287,
+        "airport": 0.5523513753327418,
+        "baseball field": 0.2443667443667444,
+        "basketball court": 0.11930337352332238,
+        "bridge": 0.05629458261037208,
+        "chimney": 0.5,
+        "dam": 0.1853427895981087,
+        "expressway service area": 0.2,
+        "expressway toll station": 0.12499999999999997,
+        "golf course": 0.5811965811965814,
+        "ground track field": 0.29284750337381915,
+        "harbor": 0.09259259259259259,
+        "overpass": 0.09524513426952451,
+        "ship": 0.02678571428571428,
+        "stadium": 0.60989010989011,
+        "storage tank": 0.04864864864864865,
+        "tennis court": 0.018337073576943166,
+        "train station": 0.13876811594202898,
+        "vehicle": 0.24390243902439027,
+        "windmill": 0.19164031612319973
+      },
+      "mean_base_f1": 0.1908815806799849,
+      "mean_exp_f1": 0.22783606077597426,
+      "mean_gain": 0.03695448009598937,
+      "modifier_frequency": {
+        "large and prominent": 6,
+        "with clearly visible surface features": 8,
+        "in its natural setting": 4,
+        "with distinct structural features": 5,
+        "with fine details": 5,
+        "with natural coloring": 4
+      }
+    }
+  }
+}

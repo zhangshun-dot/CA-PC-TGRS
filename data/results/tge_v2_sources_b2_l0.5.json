@@ -1,0 +1,107 @@
+{
+  "config": {
+    "protocol": "v2: NWPU/DOTA→COCO, COCO val2017 全量, β=2.00 λ=0.50, K=10 calib, per-image AP50"
+  },
+  "nwpu": {
+    "classes": {
+      "COCO-airplane": {
+        "base": 0.7484,
+        "ours": 0.7583,
+        "gain": 0.0099,
+        "recall": 0.972,
+        "n_test": 87
+      },
+      "COCO-boat": {
+        "base": 0.1758,
+        "ours": 0.2055,
+        "gain": 0.0297,
+        "recall": 0.4057,
+        "n_test": 111
+      },
+      "COCO-car": {
+        "base": 0.1245,
+        "ours": 0.1979,
+        "gain": 0.0734,
+        "recall": 0.5537,
+        "n_test": 525
+      },
+      "COCO-truck": {
+        "base": 0.2345,
+        "ours": 0.2908,
+        "gain": 0.0563,
+        "recall": 0.8816,
+        "n_test": 240
+      },
+      "COCO-bus": {
+        "base": 0.5317,
+        "ours": 0.5986,
+        "gain": 0.0669,
+        "recall": 0.7138,
+        "n_test": 179
+      },
+      "COCO-motorcycle": {
+        "base": 0.4092,
+        "ours": 0.5203,
+        "gain": 0.1111,
+        "recall": 0.8392,
+        "n_test": 149
+      }
+    },
+    "mean": {
+      "base": 0.3707,
+      "ours": 0.4286,
+      "gain": 0.0579
+    }
+  },
+  "dota": {
+    "classes": {
+      "COCO-airplane": {
+        "base": 0.7484,
+        "ours": 0.7517,
+        "gain": 0.0033,
+        "recall": 0.972,
+        "n_test": 87
+      },
+      "COCO-boat": {
+        "base": 0.1758,
+        "ours": 0.1959,
+        "gain": 0.02,
+        "recall": 0.4057,
+        "n_test": 111
+      },
+      "COCO-car": {
+        "base": 0.1245,
+        "ours": 0.1943,
+        "gain": 0.0698,
+        "recall": 0.5537,
+        "n_test": 525
+      },
+      "COCO-truck": {
+        "base": 0.2345,
+        "ours": 0.308,
+        "gain": 0.0735,
+        "recall": 0.8816,
+        "n_test": 240
+      },
+      "COCO-bus": {
+        "base": 0.5317,
+        "ours": 0.602,
+        "gain": 0.0703,
+        "recall": 0.7138,
+        "n_test": 179
+      },
+      "COCO-motorcycle": {
+        "base": 0.4092,
+        "ours": 0.5233,
+        "gain": 0.1141,
+        "recall": 0.8392,
+        "n_test": 149
+      }
+    },
+    "mean": {
+      "base": 0.3707,
+      "ours": 0.4292,
+      "gain": 0.0585
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "device": "cuda",
+  "n_proto": 20,
+  "n_anchor": 6,
+  "n_crops_per_img": 50,
+  "offline_src_crop_ms": 57.46929999986605,
+  "offline_src_crop_per_crop_ms": 2.8734649999933026,
+  "offline_anchor_text_ms": 8.348000000069078,
+  "offline_anchor_text_per_prompt_ms": 1.3913333333448463,
+  "online_modulation_ms_per_img": 0.07930000015221594,
+  "online_modulation_ms_per_box": 0.0015860000030443189,
+  "capc_offline_incremental_ms": 8.348000000069078,
+  "capc_online_incremental_ms": 0.07930000015221594,
+  "gpu_vram_delta_mib": 0.0,
+  "base_detector_fwd_unchanged": true
+}

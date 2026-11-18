@@ -1,0 +1,50 @@
+{
+  "config": {
+    "detector": "rtdetr-r50vd-coco-o365",
+    "weights": "C:\\Users\\张三\\Desktop\\实验数据\\rtdetr_r50vd_coco_o365",
+    "n_eval": 100,
+    "pre_filter": 0.03
+  },
+  "results": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "n_img": 77,
+        "n_box": 1872
+      },
+      "ship->boat": {
+        "n_img": 100,
+        "n_box": 5386
+      },
+      "vehicle->car": {
+        "n_img": 100,
+        "n_box": 2873
+      },
+      "vehicle->truck": {
+        "n_img": 100,
+        "n_box": 1792
+      },
+      "vehicle->bus": {
+        "n_img": 100,
+        "n_box": 841
+      },
+      "vehicle->motorcycle": {
+        "n_img": 100,
+        "n_box": 3832
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "n_img": 100,
+        "n_box": 6229
+      },
+      "boat->ship": {
+        "n_img": 100,
+        "n_box": 17575
+      },
+      "car->vehicle": {
+        "n_img": 100,
+        "n_box": 16387
+      }
+    }
+  }
+}

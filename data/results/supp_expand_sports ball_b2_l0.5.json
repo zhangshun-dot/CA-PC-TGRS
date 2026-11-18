@@ -1,0 +1,35 @@
+{
+  "config": {
+    "detector": "gdino-tiny",
+    "beta": 2.0,
+    "lam": 0.5,
+    "pre_filter": 0.03,
+    "K_calib": 10,
+    "note": "expansion classes with source-prototype ranking AUC"
+  },
+  "classes": {
+    "sports ball": {
+      "src_cls": "basketball court",
+      "mapping": "place2obj",
+      "n_pool": 169,
+      "n_test": 159,
+      "src_auc": 0.7227,
+      "recall": 0.58,
+      "base50": 0.2682,
+      "ours50": 0.1888,
+      "gain50": -0.0794,
+      "base_coco": 0.1562,
+      "ours_coco": 0.122,
+      "gain_coco": -0.0342
+    }
+  },
+  "mean": {
+    "base50": 0.2682,
+    "ours50": 0.1888,
+    "gain50": -0.0794,
+    "base_coco": 0.1562,
+    "ours_coco": 0.122,
+    "gain_coco": -0.0342,
+    "src_auc": 0.7227
+  }
+}

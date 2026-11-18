@@ -1,0 +1,383 @@
+{
+  "domain": "natural_scene",
+  "prefix": "a photo of",
+  "dataset": "COCO 2017 val",
+  "model": "GDINO-tiny",
+  "n_images_per_class": 20,
+  "threshold": 0.25,
+  "classes": {
+    "person": {
+      "base": 0.09090909000000001,
+      "best_prefix": "a picture of",
+      "prefix_scores": {
+        "a photo of": 0.0,
+        "an image of": 0.0,
+        "a picture of": 0.09090909000000001,
+        "a natural image of": 0.0
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": 0.07438016582769848,
+        "spectral": 4.5454544295164823e-10,
+        "texture": -0.09090909000000001
+      }
+    },
+    "car": {
+      "base": 0.09090909000000001,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.09090909000000001,
+        "an image of": 0.09090909000000001,
+        "a picture of": 0.09090909000000001,
+        "a natural image of": 0.09090909000000001
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": 0.0,
+        "spectral": 0.0,
+        "texture": -0.09090909000000001
+      }
+    },
+    "dog": {
+      "base": 0.5232040680697655,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.5232040680697655,
+        "an image of": 0.44628099120586023,
+        "a picture of": 0.44628099120586023,
+        "a natural image of": 0.44628099120586023
+      },
+      "deltas": {
+        "granularity": -0.07692307686390526,
+        "spatial": -0.06865861397885642,
+        "geometric": -0.06865861397885642,
+        "scale": -0.09463264006419958,
+        "spectral": -0.08518753974895416,
+        "texture": -0.06865861397885642
+      }
+    },
+    "chair": {
+      "base": 0.0606060604040404,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.0606060604040404,
+        "an image of": 0.04545454534090909,
+        "a picture of": 0.04545454534090909,
+        "a natural image of": 0.0606060604040404
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": -0.015151515176767674,
+        "spectral": 0.03030302959595961,
+        "texture": 0.03030302959595961
+      }
+    },
+    "bottle": {
+      "base": 0.0,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.0,
+        "an image of": 0.0,
+        "a picture of": 0.0,
+        "a natural image of": 0.0
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": 0.0,
+        "spectral": 0.0,
+        "texture": 0.0
+      }
+    },
+    "cup": {
+      "base": 0.0,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.0,
+        "an image of": 0.0,
+        "a picture of": 0.0,
+        "a natural image of": 0.0
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": 0.009090909081818182,
+        "spectral": 0.0,
+        "texture": 0.0
+      }
+    },
+    "boat": {
+      "base": 0.09090909000000001,
+      "best_prefix": "a picture of",
+      "prefix_scores": {
+        "a photo of": 0.0,
+        "an image of": 0.0,
+        "a picture of": 0.09090909000000001,
+        "a natural image of": 0.0
+      },
+      "deltas": {
+        "granularity": -0.09090909000000001,
+        "spatial": -0.09090909000000001,
+        "geometric": -0.09090909000000001,
+        "scale": 4.5454544295164823e-10,
+        "spectral": 4.5454544295164823e-10,
+        "texture": -0.09090909000000001
+      }
+    },
+    "airplane": {
+      "base": 0.5454545450909091,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.5454545450909091,
+        "an image of": 0.5454545450909091,
+        "a picture of": 0.5454545450909091,
+        "a natural image of": 0.5454545450649351
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": -2.5974000728012925e-11,
+        "geometric": -2.5974000728012925e-11,
+        "scale": -2.5974000728012925e-11,
+        "spectral": -2.5974000728012925e-11,
+        "texture": -2.5974000728012925e-11
+      }
+    },
+    "bird": {
+      "base": 0.2662337660081801,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.2662337660081801,
+        "an image of": 0.2613636360866477,
+        "a picture of": 0.2606060603882461,
+        "a natural image of": 0.2613636361486312
+      },
+      "deltas": {
+        "granularity": -0.004870129859548933,
+        "spatial": -0.005627705619934031,
+        "geometric": -0.005627705619934031,
+        "scale": -0.025072150167095686,
+        "spectral": -0.00487012995399988,
+        "texture": -0.08441558435528757
+      }
+    },
+    "potted plant": {
+      "base": 0.09090909000000001,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.09090909000000001,
+        "an image of": 0.09090909000000001,
+        "a picture of": 0.09090909000000001,
+        "a natural image of": 0.09090909000000001
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": -0.045454544772727284,
+        "spectral": -0.045454544772727284,
+        "texture": 0.0
+      }
+    },
+    "dining table": {
+      "base": 0.26446280953919354,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.26446280953919354,
+        "an image of": 0.26446280953919354,
+        "a picture of": 0.26446280953919354,
+        "a natural image of": 0.26446280953919354
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": -0.009917355430102581,
+        "spectral": -0.0008264462876784173,
+        "texture": -0.0008264462876784173
+      }
+    },
+    "couch": {
+      "base": 0.13636363602272727,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.13636363602272727,
+        "an image of": 0.09090909000000001,
+        "a picture of": 0.09090909000000001,
+        "a natural image of": 0.04545454522727273
+      },
+      "deltas": {
+        "granularity": -0.07575757561868687,
+        "spatial": -0.07575757561868687,
+        "geometric": -0.09090909079545455,
+        "scale": -0.02347652327382782,
+        "spectral": -0.04545454602272726,
+        "texture": -0.09090909079545455
+      }
+    },
+    "motorcycle": {
+      "base": 0.18181818145454545,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.18181818145454545,
+        "an image of": 0.18181818145454545,
+        "a picture of": 0.18181818145454545,
+        "a natural image of": 0.18181818145454545
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": -0.09090909077272727,
+        "geometric": 0.0,
+        "scale": 0.07575757579834055,
+        "spectral": 6.060604795798952e-11,
+        "texture": -0.09090909077272727
+      }
+    },
+    "cat": {
+      "base": 0.5454545449586775,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.5454545449586775,
+        "an image of": 0.3535353529910213,
+        "a picture of": 0.5303030297095959,
+        "a natural image of": 0.454545454040404
+      },
+      "deltas": {
+        "granularity": -0.09090909086776844,
+        "spatial": -0.2987012988826107,
+        "geometric": -0.27272727268595026,
+        "scale": -0.037780401656495655,
+        "spectral": -0.23232323261299853,
+        "texture": -0.4545454545041321
+      }
+    },
+    "tv": {
+      "base": 0.18181818136363637,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.18181818136363637,
+        "an image of": 0.18181818136363637,
+        "a picture of": 0.18181818136363637,
+        "a natural image of": 0.18181818136363637
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": -0.018181818327272725,
+        "spectral": 0.0,
+        "texture": 0.0
+      }
+    },
+    "laptop": {
+      "base": 0.15584415562152135,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.15584415562152135,
+        "an image of": 0.15584415562152135,
+        "a picture of": 0.15584415562152135,
+        "a natural image of": 0.13636363619318181
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0389610389053803,
+        "geometric": 0.10259740247810759,
+        "scale": -0.04486422660114385,
+        "spectral": 0.0389610389053803,
+        "texture": 0.025974025893630154
+      }
+    },
+    "sink": {
+      "base": 0.04545454522727273,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.04545454522727273,
+        "an image of": 0.0,
+        "a picture of": 0.0,
+        "a natural image of": 0.0
+      },
+      "deltas": {
+        "granularity": -0.04545454522727273,
+        "spatial": -0.04545454522727273,
+        "geometric": 0.045454544772727284,
+        "scale": -0.015151515025252527,
+        "spectral": -0.04545454522727273,
+        "texture": -0.04545454522727273
+      }
+    },
+    "refrigerator": {
+      "base": 0.5303030297348484,
+      "best_prefix": "a picture of",
+      "prefix_scores": {
+        "a photo of": 0.5194805189290868,
+        "an image of": 0.454545454040404,
+        "a picture of": 0.5303030297348484,
+        "a natural image of": 0.454545454040404
+      },
+      "deltas": {
+        "granularity": -0.07575757569444447,
+        "spatial": -0.07575757569444447,
+        "geometric": 0.0,
+        "scale": -0.04388036235743542,
+        "spectral": 0.008158508157088629,
+        "texture": 0.0
+      }
+    },
+    "book": {
+      "base": 0.09090909045454545,
+      "best_prefix": "a photo of",
+      "prefix_scores": {
+        "a photo of": 0.09090909045454545,
+        "an image of": 0.09090909045454545,
+        "a picture of": 0.09090909045454545,
+        "a natural image of": 0.09090909045454545
+      },
+      "deltas": {
+        "granularity": 0.0,
+        "spatial": 0.0,
+        "geometric": 0.0,
+        "scale": -4.5454544295164823e-10,
+        "spectral": -4.5454544295164823e-10,
+        "texture": -4.5454544295164823e-10
+      }
+    },
+    "clock": {
+      "base": 0.4277389264522444,
+      "best_prefix": "an image of",
+      "prefix_scores": {
+        "a photo of": 0.416065414794824,
+        "an image of": 0.4277389264522444,
+        "a picture of": 0.4129170480023488,
+        "a natural image of": 0.4255411242429174
+      },
+      "deltas": {
+        "granularity": -0.05652680649896158,
+        "spatial": -0.045454545437062954,
+        "geometric": -0.07123268883664202,
+        "scale": -0.10955710932156248,
+        "spectral": -0.08367327110822254,
+        "texture": -0.21837253587581895
+      }
+    }
+  },
+  "mean_deltas": {
+    "granularity": -0.025855394531529415,
+    "spatial": -0.03791345011760946,
+    "geometric": -0.022600625734598822,
+    "scale": -0.016194575574600002,
+    "spectral": -0.023291083929348737,
+    "texture": -0.06352707883940789
+  },
+  "prefix_distribution": {
+    "a picture of": 3,
+    "a photo of": 16,
+    "an image of": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "content_accuracy": {
+    "n_samples": 150,
+    "n_classes": 10,
+    "acc_zc": 0.22,
+    "acc_clip": 0.92,
+    "acc_dino": 0.7667,
+    "random_baseline": 0.1,
+    "zc_retains_content": true,
+    "zc_pairwise_cos_mean": 0.9619,
+    "zc_pairwise_cos_std": 0.0756,
+    "zc_eff_rank": 1.83,
+    "zc_dim": 64
+  },
+  "cond_explicit": {
+    "zc_consistency": 0.9854,
+    "zk_consistency": 0.9984,
+    "delta_zc_minus_zk": -0.0129,
+    "true_disentangle": false,
+    "zk_to_c_mse": 0.0807,
+    "v0_mse": 0.0875,
+    "zk_to_c_per_dim_r": {
+      "brightness": 0.128,
+      "contrast": 0.069,
+      "blur": 0.314
+    }
+  },
+  "counterfactual_swap": {
+    "cos_zc_s_zc1": 0.9826,
+    "cos_zk_s_zk2": 0.9914,
+    "true_disentangle": true,
+    "n_samples": 8
+  },
+  "note": "诚实诊断 v0: 不称\"验证成功\"。zc 防塌缩 / zk 显式 / 反事实交换三关。"
+}

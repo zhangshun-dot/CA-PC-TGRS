@@ -1,0 +1,33 @@
+{
+  "experiment": "Exp5_crossdomain_2x2",
+  "detector": "RT-DETR",
+  "n_coco": 250,
+  "n_dior": 60,
+  "n_dior_dets": 274,
+  "dc_mag_mean": 0.5882,
+  "P_scale": 3.4001,
+  "coco": {
+    "raw_ap50": 0.7492,
+    "l2align_ap50": 0.7421,
+    "capc_ap50": 0.7421
+  },
+  "dior": {
+    "raw_ap50": 0.1142,
+    "l2align_ap50": 0.116,
+    "capc_ap50": 0.1058,
+    "cross_domain_drop": -0.635,
+    "l2_gain": 0.0018,
+    "dc_marginal": -0.0102,
+    "total_capc_gain": -0.0084,
+    "per_class_raw": {
+      "airplane": 0.4337,
+      "ship": 0.0942,
+      "vehicle": 0.0394
+    }
+  },
+  "coco_per_class_raw": {
+    "airplane": 0.9239,
+    "ship": 0.6615,
+    "vehicle": 0.7274
+  }
+}

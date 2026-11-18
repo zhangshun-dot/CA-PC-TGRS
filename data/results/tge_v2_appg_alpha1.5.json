@@ -1,0 +1,105 @@
+{
+  "config": {
+    "alpha": 1.5,
+    "beta_base": 1.0,
+    "lam_base": 0.25,
+    "prior_source": "human"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "n_pool": 97,
+      "n_test": 87,
+      "recall": 0.972,
+      "risk": 0.365,
+      "beta_eff": 1.5475,
+      "lambda_eff": 0.3869,
+      "base50": 0.7484,
+      "fixed50": 0.7598,
+      "adapt50": 0.7592,
+      "gain_fixed": 0.0113,
+      "gain_adapt": 0.0108,
+      "adapt_vs_fixed": -0.0005
+    },
+    "COCO-boat": {
+      "n_pool": 121,
+      "n_test": 111,
+      "recall": 0.4057,
+      "risk": 0.5975,
+      "beta_eff": 1.8962,
+      "lambda_eff": 0.4741,
+      "base50": 0.1758,
+      "fixed50": 0.1659,
+      "adapt50": 0.1807,
+      "gain_fixed": -0.01,
+      "gain_adapt": 0.0048,
+      "adapt_vs_fixed": 0.0148
+    },
+    "COCO-car": {
+      "n_pool": 535,
+      "n_test": 525,
+      "recall": 0.5537,
+      "risk": 0.505,
+      "beta_eff": 1.7575,
+      "lambda_eff": 0.4394,
+      "base50": 0.1245,
+      "fixed50": 0.127,
+      "adapt50": 0.1867,
+      "gain_fixed": 0.0024,
+      "gain_adapt": 0.0621,
+      "adapt_vs_fixed": 0.0597
+    },
+    "COCO-truck": {
+      "n_pool": 250,
+      "n_test": 240,
+      "recall": 0.8816,
+      "risk": 0.4875,
+      "beta_eff": 1.7313,
+      "lambda_eff": 0.4328,
+      "base50": 0.2345,
+      "fixed50": 0.2614,
+      "adapt50": 0.2892,
+      "gain_fixed": 0.0268,
+      "gain_adapt": 0.0547,
+      "adapt_vs_fixed": 0.0278
+    },
+    "COCO-bus": {
+      "n_pool": 189,
+      "n_test": 179,
+      "recall": 0.7138,
+      "risk": 0.4775,
+      "beta_eff": 1.7163,
+      "lambda_eff": 0.4291,
+      "base50": 0.5317,
+      "fixed50": 0.5326,
+      "adapt50": 0.5744,
+      "gain_fixed": 0.0009,
+      "gain_adapt": 0.0428,
+      "adapt_vs_fixed": 0.0418
+    },
+    "COCO-motorcycle": {
+      "n_pool": 159,
+      "n_test": 149,
+      "recall": 0.8392,
+      "risk": 0.7025,
+      "beta_eff": 2.0537,
+      "lambda_eff": 0.5134,
+      "base50": 0.4092,
+      "fixed50": 0.4775,
+      "adapt50": 0.5207,
+      "gain_fixed": 0.0683,
+      "gain_adapt": 0.1115,
+      "adapt_vs_fixed": 0.0432
+    }
+  },
+  "mean": {
+    "base50": 0.3707,
+    "fixed50": 0.3874,
+    "adapt50": 0.4185,
+    "gain_fixed": 0.0166,
+    "gain_adapt": 0.0478,
+    "adapt_vs_fixed": 0.0311,
+    "risk": 0.5225,
+    "beta_eff": 1.7838,
+    "lambda_eff": 0.446
+  }
+}

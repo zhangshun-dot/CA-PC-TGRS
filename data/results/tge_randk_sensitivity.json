@@ -1,0 +1,73 @@
+{
+  "seeds": [
+    1,
+    7,
+    42,
+    2026,
+    2027
+  ],
+  "per_seed": {
+    "1": {
+      "per_class": {
+        "COCO-airplane": 0.0107,
+        "COCO-boat": 0.0252,
+        "COCO-car": 0.0804,
+        "COCO-truck": 0.0751,
+        "COCO-bus": 0.0694,
+        "COCO-motorcycle": 0.1023
+      },
+      "mean_gain": 0.0605
+    },
+    "7": {
+      "per_class": {
+        "COCO-airplane": 0.0128,
+        "COCO-boat": 0.025,
+        "COCO-car": 0.0811,
+        "COCO-truck": 0.0805,
+        "COCO-bus": 0.0676,
+        "COCO-motorcycle": 0.1132
+      },
+      "mean_gain": 0.0634
+    },
+    "42": {
+      "per_class": {
+        "COCO-airplane": 0.008,
+        "COCO-boat": 0.0267,
+        "COCO-car": 0.0801,
+        "COCO-truck": 0.0751,
+        "COCO-bus": 0.0808,
+        "COCO-motorcycle": 0.1144
+      },
+      "mean_gain": 0.0642
+    },
+    "2026": {
+      "per_class": {
+        "COCO-airplane": 0.0111,
+        "COCO-boat": 0.0272,
+        "COCO-car": 0.0805,
+        "COCO-truck": 0.0788,
+        "COCO-bus": 0.0751,
+        "COCO-motorcycle": 0.1151
+      },
+      "mean_gain": 0.0646
+    },
+    "2027": {
+      "per_class": {
+        "COCO-airplane": 0.0072,
+        "COCO-boat": 0.0289,
+        "COCO-car": 0.0808,
+        "COCO-truck": 0.0734,
+        "COCO-bus": 0.0761,
+        "COCO-motorcycle": 0.1002
+      },
+      "mean_gain": 0.0611
+    }
+  },
+  "mean_dist": {
+    "min": 0.0605,
+    "max": 0.0646,
+    "mean": 0.06276,
+    "std": 0.0016572265988693278
+  },
+  "main_table_ref": 0.0646
+}

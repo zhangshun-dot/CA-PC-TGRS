@@ -1,0 +1,317 @@
+{
+  "source": "DOTA_V1.5 local train+val",
+  "splits": {
+    "train": {
+      "images": 1411,
+      "classes": [
+        "baseball-diamond",
+        "basketball-court",
+        "bridge",
+        "container-crane",
+        "ground-track-field",
+        "harbor",
+        "helicopter",
+        "large-vehicle",
+        "plane",
+        "roundabout",
+        "ship",
+        "small-vehicle",
+        "soccer-ball-field",
+        "storage-tank",
+        "swimming-pool",
+        "tennis-court"
+      ],
+      "class_imgs": {
+        "plane": 198,
+        "small-vehicle": 904,
+        "storage-tank": 202,
+        "large-vehicle": 545,
+        "ship": 435,
+        "harbor": 340,
+        "ground-track-field": 180,
+        "soccer-ball-field": 130,
+        "tennis-court": 308,
+        "swimming-pool": 226,
+        "baseball-diamond": 121,
+        "roundabout": 182,
+        "basketball-court": 116,
+        "bridge": 213,
+        "helicopter": 32,
+        "container-crane": 7
+      },
+      "class_boxes": {
+        "small-vehicle": 126501,
+        "large-vehicle": 22218,
+        "plane": 8072,
+        "storage-tank": 5346,
+        "ship": 32973,
+        "harbor": 6016,
+        "ground-track-field": 331,
+        "soccer-ball-field": 338,
+        "tennis-court": 2425,
+        "swimming-pool": 2181,
+        "baseball-diamond": 412,
+        "roundabout": 437,
+        "basketball-court": 529,
+        "bridge": 2075,
+        "helicopter": 635,
+        "container-crane": 142
+      },
+      "class_boxes_10": {
+        "small-vehicle": 83758,
+        "large-vehicle": 20928,
+        "plane": 8067,
+        "storage-tank": 4858,
+        "ship": 31707,
+        "harbor": 6016,
+        "ground-track-field": 331,
+        "soccer-ball-field": 334,
+        "tennis-court": 2424,
+        "swimming-pool": 2151,
+        "baseball-diamond": 412,
+        "roundabout": 436,
+        "basketball-court": 529,
+        "bridge": 1957,
+        "helicopter": 635,
+        "container-crane": 142
+      }
+    },
+    "val": {
+      "images": 458,
+      "classes": [
+        "baseball-diamond",
+        "basketball-court",
+        "bridge",
+        "container-crane",
+        "ground-track-field",
+        "harbor",
+        "helicopter",
+        "large-vehicle",
+        "plane",
+        "roundabout",
+        "ship",
+        "small-vehicle",
+        "soccer-ball-field",
+        "storage-tank",
+        "swimming-pool",
+        "tennis-court"
+      ],
+      "class_imgs": {
+        "small-vehicle": 275,
+        "large-vehicle": 158,
+        "ship": 138,
+        "harbor": 116,
+        "soccer-ball-field": 59,
+        "baseball-diamond": 53,
+        "ground-track-field": 71,
+        "swimming-pool": 62,
+        "roundabout": 67,
+        "tennis-court": 93,
+        "basketball-court": 39,
+        "plane": 71,
+        "helicopter": 16,
+        "bridge": 75,
+        "storage-tank": 60,
+        "container-crane": 2
+      },
+      "class_boxes": {
+        "small-vehicle": 43337,
+        "large-vehicle": 5139,
+        "ship": 10765,
+        "harbor": 2102,
+        "baseball-diamond": 213,
+        "soccer-ball-field": 149,
+        "ground-track-field": 145,
+        "swimming-pool": 576,
+        "roundabout": 185,
+        "tennis-court": 763,
+        "basketball-court": 143,
+        "plane": 2550,
+        "helicopter": 78,
+        "bridge": 466,
+        "storage-tank": 2940,
+        "container-crane": 14
+      },
+      "class_boxes_10": {
+        "small-vehicle": 28318,
+        "large-vehicle": 4904,
+        "ship": 10610,
+        "harbor": 2101,
+        "baseball-diamond": 213,
+        "soccer-ball-field": 148,
+        "ground-track-field": 145,
+        "swimming-pool": 479,
+        "roundabout": 184,
+        "tennis-court": 763,
+        "basketball-court": 143,
+        "plane": 2550,
+        "helicopter": 78,
+        "bridge": 458,
+        "storage-tank": 2401,
+        "container-crane": 14
+      }
+    }
+  },
+  "avg_tiles_per_image": 8.491970021413277,
+  "dior2dota_pairs": [
+    {
+      "dior_src": "airplane",
+      "dota_tgt": "plane",
+      "train_imgs": 198,
+      "val_imgs": 71,
+      "train_boxes10": 8067,
+      "val_boxes10": 2550,
+      "total_imgs": 269
+    },
+    {
+      "dior_src": "ship",
+      "dota_tgt": "ship",
+      "train_imgs": 435,
+      "val_imgs": 138,
+      "train_boxes10": 31707,
+      "val_boxes10": 10610,
+      "total_imgs": 573
+    },
+    {
+      "dior_src": "vehicle",
+      "dota_tgt": "large-vehicle",
+      "train_imgs": 545,
+      "val_imgs": 158,
+      "train_boxes10": 20928,
+      "val_boxes10": 4904,
+      "total_imgs": 703
+    },
+    {
+      "dior_src": "vehicle",
+      "dota_tgt": "small-vehicle",
+      "train_imgs": 904,
+      "val_imgs": 275,
+      "train_boxes10": 83758,
+      "val_boxes10": 28318,
+      "total_imgs": 1179
+    },
+    {
+      "dior_src": "storage tank",
+      "dota_tgt": "storage-tank",
+      "train_imgs": 202,
+      "val_imgs": 60,
+      "train_boxes10": 4858,
+      "val_boxes10": 2401,
+      "total_imgs": 262
+    },
+    {
+      "dior_src": "bridge",
+      "dota_tgt": "bridge",
+      "train_imgs": 213,
+      "val_imgs": 75,
+      "train_boxes10": 1957,
+      "val_boxes10": 458,
+      "total_imgs": 288
+    },
+    {
+      "dior_src": "harbor",
+      "dota_tgt": "harbor",
+      "train_imgs": 340,
+      "val_imgs": 116,
+      "train_boxes10": 6016,
+      "val_boxes10": 2101,
+      "total_imgs": 456
+    },
+    {
+      "dior_src": "baseball field",
+      "dota_tgt": "baseball-diamond",
+      "train_imgs": 121,
+      "val_imgs": 53,
+      "train_boxes10": 412,
+      "val_boxes10": 213,
+      "total_imgs": 174
+    },
+    {
+      "dior_src": "basketball court",
+      "dota_tgt": "basketball-court",
+      "train_imgs": 116,
+      "val_imgs": 39,
+      "train_boxes10": 529,
+      "val_boxes10": 143,
+      "total_imgs": 155
+    },
+    {
+      "dior_src": "ground track field",
+      "dota_tgt": "ground-track-field",
+      "train_imgs": 180,
+      "val_imgs": 71,
+      "train_boxes10": 331,
+      "val_boxes10": 145,
+      "total_imgs": 251
+    },
+    {
+      "dior_src": "tennis court",
+      "dota_tgt": "tennis-court",
+      "train_imgs": 308,
+      "val_imgs": 93,
+      "train_boxes10": 2424,
+      "val_boxes10": 763,
+      "total_imgs": 401
+    }
+  ],
+  "n_pairs": 11,
+  "n_dior_concepts": 10,
+  "compute_est": {
+    "plane": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "ship": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "large-vehicle": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "small-vehicle": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "storage-tank": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "bridge": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "harbor": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "baseball-diamond": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "basketball-court": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "ground-track-field": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    },
+    "tennis-court": {
+      "sample_imgs": 100,
+      "est_tiles": 849,
+      "est_min": 5.7
+    }
+  },
+  "total_est_min": 62.7
+}

@@ -1,0 +1,94 @@
+{
+  "baseline_gated_fixed_2_5": 0.019188461791708297,
+  "best_physical_prior": {
+    "alpha_base": 2.5,
+    "gamma": 0.0,
+    "use_vp": false,
+    "mean_gain": 0.019188461791708297,
+    "pos": 10,
+    "alpha_std": 0.0
+  },
+  "oracle": 0.02533189957914078,
+  "top10_configs": [
+    {
+      "alpha_base": 2.5,
+      "gamma": 0.0,
+      "use_vp": false,
+      "mean_gain": 0.019188461791708297,
+      "pos": 10,
+      "alpha_std": 0.0
+    },
+    {
+      "alpha_base": 3.5,
+      "gamma": 0.1,
+      "use_vp": true,
+      "mean_gain": 0.01890853458104766,
+      "pos": 10,
+      "alpha_std": 0.0747829997958764
+    },
+    {
+      "alpha_base": 3.0,
+      "gamma": 0.2,
+      "use_vp": true,
+      "mean_gain": 0.018877619005486675,
+      "pos": 10,
+      "alpha_std": 0.00795038815012834
+    },
+    {
+      "alpha_base": 3.0,
+      "gamma": 0.3,
+      "use_vp": true,
+      "mean_gain": 0.018780989489961587,
+      "pos": 10,
+      "alpha_std": 0.09950142301029956
+    },
+    {
+      "alpha_base": 3.5,
+      "gamma": 0.0,
+      "use_vp": true,
+      "mean_gain": 0.01874688858474008,
+      "pos": 10,
+      "alpha_std": 0.13999999999999985
+    },
+    {
+      "alpha_base": 2.5,
+      "gamma": 0.1,
+      "use_vp": false,
+      "mean_gain": 0.018704824001067606,
+      "pos": 10,
+      "alpha_std": 0.09149352269025143
+    },
+    {
+      "alpha_base": 2.0,
+      "gamma": 0.3,
+      "use_vp": false,
+      "mean_gain": 0.018691511549210664,
+      "pos": 9,
+      "alpha_std": 0.27998115677469626
+    },
+    {
+      "alpha_base": 4.0,
+      "gamma": 0.0,
+      "use_vp": true,
+      "mean_gain": 0.018640620647709476,
+      "pos": 10,
+      "alpha_std": 0.15999999999999998
+    },
+    {
+      "alpha_base": 2.5,
+      "gamma": 0.5,
+      "use_vp": true,
+      "mean_gain": 0.018429227847125165,
+      "pos": 9,
+      "alpha_std": 0.2981423969999721
+    },
+    {
+      "alpha_base": 3.5,
+      "gamma": 0.2,
+      "use_vp": true,
+      "mean_gain": 0.018412544472842636,
+      "pos": 10,
+      "alpha_std": 0.009275452841816368
+    }
+  ]
+}

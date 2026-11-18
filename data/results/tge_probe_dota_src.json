@@ -1,0 +1,62 @@
+{
+  "config": {
+    "source": "DOTA v1.5 (16 类, 每类 10 大图)",
+    "target": "COCO val2017",
+    "n_coco": 100,
+    "k": 10,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "pre_filter": 0.03,
+    "protocol": "GDINO boxes + A-CSPC rerank, N=100/类, K=10, 后90图, 逐图 AP50, pre-filter 0.03, sqrt(gd*vis), 与主表完全一致",
+    "note": "β/λ 沿用 DIOR->COCO 主表固定值, 未针对 DOTA 调整 (第三源域验证)"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "src_cls": "plane",
+      "baseline": 0.7484,
+      "acspc": 0.7517,
+      "gain": 0.0033,
+      "recall": 0.972
+    },
+    "COCO-boat": {
+      "src_cls": "ship",
+      "baseline": 0.1879,
+      "acspc": 0.2137,
+      "gain": 0.0258,
+      "recall": 0.4406
+    },
+    "COCO-car": {
+      "src_cls": "vehicle",
+      "baseline": 0.0858,
+      "acspc": 0.1576,
+      "gain": 0.0718,
+      "recall": 0.5955
+    },
+    "COCO-truck": {
+      "src_cls": "vehicle",
+      "baseline": 0.2631,
+      "acspc": 0.3414,
+      "gain": 0.0783,
+      "recall": 0.8742
+    },
+    "COCO-bus": {
+      "src_cls": "vehicle",
+      "baseline": 0.5651,
+      "acspc": 0.6214,
+      "gain": 0.0563,
+      "recall": 0.7338
+    },
+    "COCO-motorcycle": {
+      "src_cls": "vehicle",
+      "baseline": 0.435,
+      "acspc": 0.5508,
+      "gain": 0.1159,
+      "recall": 0.8515
+    }
+  },
+  "mean": {
+    "baseline": 0.3809,
+    "acspc": 0.4394,
+    "gain": 0.0585
+  }
+}

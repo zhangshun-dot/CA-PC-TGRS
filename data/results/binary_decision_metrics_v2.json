@@ -1,0 +1,46 @@
+{
+  "all_37_sign": {
+    "n": 37,
+    "n_pos": 35,
+    "n_neg": 2,
+    "optimal_threshold_z": -0.202,
+    "tp": 25,
+    "fp": 1,
+    "tn": 1,
+    "fn": 10,
+    "accuracy": 0.7027,
+    "precision": 0.9615,
+    "sensitivity": 0.7143,
+    "specificity": 0.5,
+    "f1": 0.8197,
+    "mcc": 0.106,
+    "auroc": 0.4143,
+    "note": "高度不平衡(35/37正), 二值符号预测意义有限"
+  },
+  "all_37_median_split": {
+    "n": 37,
+    "n_high": 18,
+    "n_low": 19,
+    "median_gain": 0.0703,
+    "optimal_threshold_z": -0.181,
+    "tp": 16,
+    "fp": 7,
+    "tn": 12,
+    "fn": 2,
+    "accuracy": 0.7568,
+    "precision": 0.6957,
+    "sensitivity": 0.8889,
+    "specificity": 0.6316,
+    "f1": 0.7805,
+    "mcc": 0.5364,
+    "auroc": 0.7749
+  },
+  "voc_5": {
+    "n": 5,
+    "n_pos": 3,
+    "n_neg": 2,
+    "accuracy": 0.6,
+    "mcc": 0.1667,
+    "auroc": 0.3333
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "n_proto": 20,
+  "offline_clip_ms": 37.174224853515625,
+  "offline_per_crop_ms": 1.8587112426757812,
+  "online_per_image_ms": 0.0,
+  "n_crops_per_img": 50,
+  "online_per_box_ms": 0.0
+}

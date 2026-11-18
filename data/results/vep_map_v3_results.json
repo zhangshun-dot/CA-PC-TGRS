@@ -1,0 +1,239 @@
+{
+  "config": {
+    "alpha": 0.25,
+    "beta": 0.25,
+    "gamma": 0.5,
+    "iou_thresh": 0.5,
+    "K": 5
+  },
+  "per_class": {
+    "airplane": {
+      "class": "airplane",
+      "ap_baseline": 0.17272727261643356,
+      "ap_vep": 0.46460786144654076,
+      "delta_ap": 0.2918805888301072,
+      "n_images": 20,
+      "n_gt_boxes": 162,
+      "n_bl_preds": 29,
+      "n_ve_preds": 2086,
+      "avg_sam_iou": 0.2591351429243134
+    },
+    "airport": {
+      "class": "airport",
+      "ap_baseline": 0.1333992085400735,
+      "ap_vep": 0.32836734895310865,
+      "delta_ap": 0.19496814041303515,
+      "n_images": 20,
+      "n_gt_boxes": 20,
+      "n_bl_preds": 26,
+      "n_ve_preds": 2347,
+      "avg_sam_iou": 0.23188808453190407
+    },
+    "baseball field": {
+      "class": "baseball field",
+      "ap_baseline": 0.05050505047699214,
+      "ap_vep": 0.2033436918250486,
+      "delta_ap": 0.15283864134805647,
+      "n_images": 20,
+      "n_gt_boxes": 44,
+      "n_bl_preds": 39,
+      "n_ve_preds": 2634,
+      "avg_sam_iou": 0.21195865665991145
+    },
+    "basketball court": {
+      "class": "basketball court",
+      "ap_baseline": 0.030303030252525252,
+      "ap_vep": 0.08085017137009254,
+      "delta_ap": 0.050547141117567286,
+      "n_images": 20,
+      "n_gt_boxes": 57,
+      "n_bl_preds": 14,
+      "n_ve_preds": 2283,
+      "avg_sam_iou": 0.24426814570571206
+    },
+    "bridge": {
+      "class": "bridge",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.015287275380658893,
+      "delta_ap": 0.015287275380658893,
+      "n_images": 20,
+      "n_gt_boxes": 26,
+      "n_bl_preds": 19,
+      "n_ve_preds": 2778,
+      "avg_sam_iou": 0.1939418845050612
+    },
+    "chimney": {
+      "class": "chimney",
+      "ap_baseline": 0.28567757677355893,
+      "ap_vep": 0.5311473781873768,
+      "delta_ap": 0.24546980141381786,
+      "n_images": 20,
+      "n_gt_boxes": 45,
+      "n_bl_preds": 35,
+      "n_ve_preds": 2404,
+      "avg_sam_iou": 0.23101524980407356
+    },
+    "dam": {
+      "class": "dam",
+      "ap_baseline": 0.09090909000000001,
+      "ap_vep": 0.16924755388235319,
+      "delta_ap": 0.07833846388235317,
+      "n_images": 20,
+      "n_gt_boxes": 22,
+      "n_bl_preds": 25,
+      "n_ve_preds": 2518,
+      "avg_sam_iou": 0.21410282774118924
+    },
+    "expressway service area": {
+      "class": "expressway service area",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.1361417249916169,
+      "delta_ap": 0.1361417249916169,
+      "n_images": 20,
+      "n_gt_boxes": 40,
+      "n_bl_preds": 20,
+      "n_ve_preds": 2483,
+      "avg_sam_iou": 0.22185364251547862
+    },
+    "expressway toll station": {
+      "class": "expressway toll station",
+      "ap_baseline": 0.032085561478452346,
+      "ap_vep": 0.3260398131846031,
+      "delta_ap": 0.29395425170615075,
+      "n_images": 20,
+      "n_gt_boxes": 22,
+      "n_bl_preds": 27,
+      "n_ve_preds": 2422,
+      "avg_sam_iou": 0.22209442159567389
+    },
+    "golf course": {
+      "class": "golf course",
+      "ap_baseline": 0.18181818121212123,
+      "ap_vep": 0.304215747108301,
+      "delta_ap": 0.12239756589617978,
+      "n_images": 20,
+      "n_gt_boxes": 21,
+      "n_bl_preds": 19,
+      "n_ve_preds": 2298,
+      "avg_sam_iou": 0.2371646822513731
+    },
+    "ground track field": {
+      "class": "ground track field",
+      "ap_baseline": 0.0779220778942486,
+      "ap_vep": 0.21858127744213957,
+      "delta_ap": 0.14065919954789097,
+      "n_images": 20,
+      "n_gt_boxes": 28,
+      "n_bl_preds": 29,
+      "n_ve_preds": 2113,
+      "avg_sam_iou": 0.25991619109790765
+    },
+    "harbor": {
+      "class": "harbor",
+      "ap_baseline": 0.09090909060606062,
+      "ap_vep": 0.18358734439044194,
+      "delta_ap": 0.09267825378438133,
+      "n_images": 20,
+      "n_gt_boxes": 99,
+      "n_bl_preds": 12,
+      "n_ve_preds": 2768,
+      "avg_sam_iou": 0.19943575815150583
+    },
+    "overpass": {
+      "class": "overpass",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.03494289104800853,
+      "delta_ap": 0.03494289104800853,
+      "n_images": 20,
+      "n_gt_boxes": 27,
+      "n_bl_preds": 19,
+      "n_ve_preds": 2281,
+      "avg_sam_iou": 0.2362033511106313
+    },
+    "ship": {
+      "class": "ship",
+      "ap_baseline": 0.09090909045454545,
+      "ap_vep": 0.23648985371426418,
+      "delta_ap": 0.14558076325971872,
+      "n_images": 20,
+      "n_gt_boxes": 435,
+      "n_bl_preds": 16,
+      "n_ve_preds": 2552,
+      "avg_sam_iou": 0.2164735437099451
+    },
+    "stadium": {
+      "class": "stadium",
+      "ap_baseline": 0.5252525246552295,
+      "ap_vep": 0.6868647214199022,
+      "delta_ap": 0.16161219676467264,
+      "n_images": 20,
+      "n_gt_boxes": 23,
+      "n_bl_preds": 30,
+      "n_ve_preds": 1918,
+      "avg_sam_iou": 0.289461012642085
+    },
+    "storage tank": {
+      "class": "storage tank",
+      "ap_baseline": 0.09090909045454545,
+      "ap_vep": 0.22634798237809003,
+      "delta_ap": 0.13543889192354458,
+      "n_images": 20,
+      "n_gt_boxes": 349,
+      "n_bl_preds": 25,
+      "n_ve_preds": 2103,
+      "avg_sam_iou": 0.26571818665146385
+    },
+    "tennis court": {
+      "class": "tennis court",
+      "ap_baseline": 0.0,
+      "ap_vep": 0.017121442124114507,
+      "delta_ap": 0.017121442124114507,
+      "n_images": 20,
+      "n_gt_boxes": 105,
+      "n_bl_preds": 14,
+      "n_ve_preds": 2549,
+      "avg_sam_iou": 0.21625649809308642
+    },
+    "train station": {
+      "class": "train station",
+      "ap_baseline": 0.00826446280616078,
+      "ap_vep": 0.0510815974880747,
+      "delta_ap": 0.04281713468191392,
+      "n_images": 20,
+      "n_gt_boxes": 21,
+      "n_bl_preds": 32,
+      "n_ve_preds": 2394,
+      "avg_sam_iou": 0.23120959926780474
+    },
+    "vehicle": {
+      "class": "vehicle",
+      "ap_baseline": 0.11713286702881254,
+      "ap_vep": 0.30088863026544116,
+      "delta_ap": 0.18375576323662862,
+      "n_images": 20,
+      "n_gt_boxes": 127,
+      "n_bl_preds": 32,
+      "n_ve_preds": 2261,
+      "avg_sam_iou": 0.24456033330625124
+    },
+    "windmill": {
+      "class": "windmill",
+      "ap_baseline": 0.0303030302020202,
+      "ap_vep": 0.08731323886002063,
+      "delta_ap": 0.057010208658000425,
+      "n_images": 20,
+      "n_gt_boxes": 64,
+      "n_bl_preds": 31,
+      "n_ve_preds": 1649,
+      "avg_sam_iou": 0.317447916506403
+    }
+  },
+  "summary": {
+    "mAP_baseline": 0.10045136027258901,
+    "mAP_vep": 0.23012337727300994,
+    "mAP_delta": 0.1296720170004209,
+    "mAP_weak_baseline": 0.05303030281565657,
+    "mAP_weak_vep": 0.1311279697722103,
+    "mAP_weak_delta": 0.07809766695655374
+  }
+}

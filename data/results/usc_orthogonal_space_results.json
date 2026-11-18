@@ -1,0 +1,165 @@
+{
+  "all_results": {
+    "original": {
+      "DIOR": {
+        "ap": 0.3883981634796961,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.0,
+          "theta": -30
+        },
+        "gain_vs_original": 0.0004981634796960566
+      },
+      "NWPU": {
+        "ap": 0.3909778589700883,
+        "params": {
+          "gamma": -2.0,
+          "alpha": 0.1,
+          "theta": -30
+        },
+        "gain_vs_original": 0.004277858970088311
+      },
+      "DOTA": {
+        "ap": 0.39034210167640043,
+        "params": {
+          "gamma": 0.5,
+          "alpha": 1.0,
+          "theta": 30
+        },
+        "gain_vs_original": -0.0002578983235995702
+      },
+      "VisDrone": {
+        "ap": 0.3442730530817029,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.5,
+          "theta": -30
+        },
+        "gain_vs_original": 0.0022730530817028916
+      }
+    },
+    "hadamard": {
+      "DIOR": {
+        "ap": 0.3883981634796961,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.0,
+          "theta": -30
+        },
+        "gain_vs_original": 0.0004981634796960566
+      },
+      "NWPU": {
+        "ap": 0.3909778589700883,
+        "params": {
+          "gamma": -2.0,
+          "alpha": 0.1,
+          "theta": -30
+        },
+        "gain_vs_original": 0.004277858970088311
+      },
+      "DOTA": {
+        "ap": 0.39034210167640043,
+        "params": {
+          "gamma": 0.5,
+          "alpha": 1.0,
+          "theta": -30
+        },
+        "gain_vs_original": -0.0002578983235995702
+      },
+      "VisDrone": {
+        "ap": 0.3442730530817029,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.5,
+          "theta": 30
+        },
+        "gain_vs_original": 0.0022730530817028916
+      }
+    },
+    "dct": {
+      "DIOR": {
+        "ap": 0.3883981634796961,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.0,
+          "theta": -30
+        },
+        "gain_vs_original": 0.0004981634796960566
+      },
+      "NWPU": {
+        "ap": 0.3909778589700883,
+        "params": {
+          "gamma": -2.0,
+          "alpha": 0.1,
+          "theta": -30
+        },
+        "gain_vs_original": 0.004277858970088311
+      },
+      "DOTA": {
+        "ap": 0.39034210167640043,
+        "params": {
+          "gamma": 0.5,
+          "alpha": 1.0,
+          "theta": 30
+        },
+        "gain_vs_original": -0.0002578983235995702
+      },
+      "VisDrone": {
+        "ap": 0.3442730530817029,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.5,
+          "theta": 30
+        },
+        "gain_vs_original": 0.0022730530817028916
+      }
+    },
+    "random_ortho": {
+      "DIOR": {
+        "ap": 0.3883981634796961,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.0,
+          "theta": 30
+        },
+        "gain_vs_original": 0.0004981634796960566
+      },
+      "NWPU": {
+        "ap": 0.3909778589700883,
+        "params": {
+          "gamma": -2.0,
+          "alpha": 0.1,
+          "theta": 30
+        },
+        "gain_vs_original": 0.004277858970088311
+      },
+      "DOTA": {
+        "ap": 0.39034210167640043,
+        "params": {
+          "gamma": 0.5,
+          "alpha": 1.0,
+          "theta": 30
+        },
+        "gain_vs_original": -0.0002578983235995702
+      },
+      "VisDrone": {
+        "ap": 0.3442730530817029,
+        "params": {
+          "gamma": 1.0,
+          "alpha": 1.5,
+          "theta": -30
+        },
+        "gain_vs_original": 0.0022730530817028916
+      }
+    }
+  },
+  "original_baseline": {
+    "DIOR": 0.3879,
+    "NWPU": 0.3867,
+    "DOTA": 0.3906,
+    "VisDrone": 0.342
+  },
+  "n_domains": 4,
+  "n_components": 30,
+  "feature_dim": 512
+}

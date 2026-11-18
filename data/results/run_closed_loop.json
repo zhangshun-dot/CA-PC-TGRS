@@ -1,0 +1,250 @@
+{
+  "config": {
+    "n_sub": 30,
+    "beta_grid": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0
+    ],
+    "lam": 0.5,
+    "zero_target_gt": true
+  },
+  "spearman_rho_prior_gain": 0.8786687791935092,
+  "spearman_p_prior_gain": 0.001815796324563422,
+  "spearman_rho_beta": 0.3014639334060612,
+  "spearman_p_beta": 0.4304922829995054,
+  "cand_corr_beta": {
+    "dc_mag": [
+      0.5609370628308221,
+      0.11611858465690846
+    ],
+    "cls_mig": [
+      0.5028542945443409,
+      0.16765155660956504
+    ],
+    "dom_gap": [
+      0.24930536125814318,
+      0.5176943613388485
+    ],
+    "src_align": [
+      0.07093269021319086,
+      0.8561016212412511
+    ],
+    "n_pred_log": [
+      -0.46106248638574054,
+      0.2116162366418276
+    ]
+  },
+  "cand_corr_gain": {
+    "dc_mag": [
+      0.8786687791935092,
+      0.001815796324563422
+    ],
+    "cls_mig": [
+      0.6751595780557778,
+      0.04598782612848241
+    ],
+    "dom_gap": [
+      0.3765723339400754,
+      0.3178226816985236
+    ],
+    "src_align": [
+      0.016666666666666666,
+      0.9660548039946862
+    ],
+    "n_pred_log": [
+      -0.3,
+      0.43284532670948234
+    ]
+  },
+  "loo_top2": [
+    "dc_mag",
+    "cls_mig"
+  ],
+  "ap_beta_auto": 0.38139999999999996,
+  "ap_beta_star": 0.41855555555555557,
+  "ap_beta_prior": 0.40861111111111115,
+  "ap_base": 0.36033333333333334,
+  "ap_fixed2": 0.40924444444444447,
+  "oracle_ratio": 0.9762410406158748,
+  "rows": [
+    {
+      "tname": "fwd_dior2coco",
+      "src": "airplane",
+      "eval": "airplane",
+      "baseline": 0.7818,
+      "beta_star": 0.0,
+      "ap_beta_star": 0.7818,
+      "ap_fixed2": 0.7775,
+      "dc_mag": 0.4958,
+      "cls_mig": 0.0,
+      "dom_gap": 0.4958,
+      "src_align": -0.039,
+      "n_pred": 1692,
+      "gain": 0.0,
+      "beta_auto": 1.183,
+      "ap_beta_auto": 0.7818,
+      "beta_prior": 1.671,
+      "ap_beta_prior": 0.7801
+    },
+    {
+      "tname": "fwd_dior2coco",
+      "src": "ship",
+      "eval": "boat",
+      "baseline": 0.1585,
+      "beta_star": 2.5,
+      "ap_beta_star": 0.1976,
+      "ap_fixed2": 0.1968,
+      "dc_mag": 0.5991,
+      "cls_mig": 0.335,
+      "dom_gap": 0.5246,
+      "src_align": 0.001,
+      "n_pred": 813,
+      "gain": 0.0391,
+      "beta_auto": 1.974,
+      "ap_beta_auto": 0.1973,
+      "beta_prior": 2.019,
+      "ap_beta_prior": 0.1975
+    },
+    {
+      "tname": "fwd_dior2coco",
+      "src": "vehicle",
+      "eval": "car",
+      "baseline": 0.1164,
+      "beta_star": 2.5,
+      "ap_beta_star": 0.2579,
+      "ap_fixed2": 0.2084,
+      "dc_mag": 0.6061,
+      "cls_mig": 0.3228,
+      "dom_gap": 0.5106,
+      "src_align": 0.009,
+      "n_pred": 1877,
+      "gain": 0.1416,
+      "beta_auto": 1.876,
+      "ap_beta_auto": 0.1996,
+      "beta_prior": 2.043,
+      "ap_beta_prior": 0.2109
+    },
+    {
+      "tname": "fwd_dior2coco",
+      "src": "vehicle",
+      "eval": "truck",
+      "baseline": 0.2736,
+      "beta_star": 2.0,
+      "ap_beta_star": 0.3404,
+      "ap_fixed2": 0.3404,
+      "dc_mag": 0.6523,
+      "cls_mig": 0.393,
+      "dom_gap": 0.5312,
+      "src_align": -0.0,
+      "n_pred": 3971,
+      "gain": 0.0668,
+      "beta_auto": 2.188,
+      "ap_beta_auto": 0.3447,
+      "beta_prior": 2.199,
+      "ap_beta_prior": 0.345
+    },
+    {
+      "tname": "fwd_dior2coco",
+      "src": "vehicle",
+      "eval": "bus",
+      "baseline": 0.5067,
+      "beta_star": 2.5,
+      "ap_beta_star": 0.6202,
+      "ap_fixed2": 0.6113,
+      "dc_mag": 0.6635,
+      "cls_mig": 0.4298,
+      "dom_gap": 0.5168,
+      "src_align": -0.002,
+      "n_pred": 467,
+      "gain": 0.1135,
+      "beta_auto": 2.248,
+      "ap_beta_auto": 0.6145,
+      "beta_prior": 2.236,
+      "ap_beta_prior": 0.6145
+    },
+    {
+      "tname": "fwd_dior2coco",
+      "src": "vehicle",
+      "eval": "motorcycle",
+      "baseline": 0.4299,
+      "beta_star": 2.0,
+      "ap_beta_star": 0.5127,
+      "ap_fixed2": 0.5127,
+      "dc_mag": 0.6957,
+      "cls_mig": 0.4951,
+      "dom_gap": 0.5502,
+      "src_align": 0.003,
+      "n_pred": 3340,
+      "gain": 0.0827,
+      "beta_auto": 2.843,
+      "ap_beta_auto": 0.3606,
+      "beta_prior": 2.345,
+      "ap_beta_prior": 0.477
+    },
+    {
+      "tname": "rev_coco2dior",
+      "src": "airplane",
+      "eval": "airplane",
+      "baseline": 0.5248,
+      "beta_star": 1.0,
+      "ap_beta_star": 0.5269,
+      "ap_fixed2": 0.5066,
+      "dc_mag": 0.4958,
+      "cls_mig": 0.0,
+      "dom_gap": 0.4958,
+      "src_align": 0.017,
+      "n_pred": 10348,
+      "gain": 0.002,
+      "beta_auto": 0.5,
+      "ap_beta_auto": 0.5268,
+      "beta_prior": 1.671,
+      "ap_beta_prior": 0.5191
+    },
+    {
+      "tname": "rev_coco2dior",
+      "src": "boat",
+      "eval": "ship",
+      "baseline": 0.2605,
+      "beta_star": 2.0,
+      "ap_beta_star": 0.3087,
+      "ap_fixed2": 0.3087,
+      "dc_mag": 0.6051,
+      "cls_mig": 0.335,
+      "dom_gap": 0.5319,
+      "src_align": -0.005,
+      "n_pred": 11351,
+      "gain": 0.0481,
+      "beta_auto": 2.021,
+      "ap_beta_auto": 0.3082,
+      "beta_prior": 2.04,
+      "ap_beta_prior": 0.3082
+    },
+    {
+      "tname": "rev_coco2dior",
+      "src": "car",
+      "eval": "vehicle",
+      "baseline": 0.1908,
+      "beta_star": 2.0,
+      "ap_beta_star": 0.2208,
+      "ap_fixed2": 0.2208,
+      "dc_mag": 0.527,
+      "cls_mig": 0.3228,
+      "dom_gap": 0.5177,
+      "src_align": 0.016,
+      "n_pred": 12126,
+      "gain": 0.03,
+      "beta_auto": 4.0,
+      "ap_beta_auto": 0.0991,
+      "beta_prior": 1.776,
+      "ap_beta_prior": 0.2252
+    }
+  ],
+  "elapsed_s": 49.68720722198486
+}

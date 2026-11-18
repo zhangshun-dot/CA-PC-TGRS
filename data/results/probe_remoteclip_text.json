@@ -1,0 +1,122 @@
+{
+  "names": [
+    "airplane",
+    "boat",
+    "bridge",
+    "bus",
+    "car",
+    "harbor",
+    "motorcycle",
+    "ship",
+    "storage tank",
+    "truck",
+    "vehicle"
+  ],
+  "results": {
+    "clip_b32_tx": {
+      "per_class": {
+        "airplane": {
+          "cos_photo_over": 0.8771,
+          "dc_mag": 0.4958
+        },
+        "boat": {
+          "cos_photo_over": 0.8624,
+          "dc_mag": 0.5246
+        },
+        "bridge": {
+          "cos_photo_over": 0.8461,
+          "dc_mag": 0.5548
+        },
+        "bus": {
+          "cos_photo_over": 0.8665,
+          "dc_mag": 0.5168
+        },
+        "car": {
+          "cos_photo_over": 0.8697,
+          "dc_mag": 0.5106
+        },
+        "harbor": {
+          "cos_photo_over": 0.8486,
+          "dc_mag": 0.5504
+        },
+        "motorcycle": {
+          "cos_photo_over": 0.8486,
+          "dc_mag": 0.5502
+        },
+        "ship": {
+          "cos_photo_over": 0.8586,
+          "dc_mag": 0.5319
+        },
+        "storage tank": {
+          "cos_photo_over": 0.8633,
+          "dc_mag": 0.5228
+        },
+        "truck": {
+          "cos_photo_over": 0.8589,
+          "dc_mag": 0.5312
+        },
+        "vehicle": {
+          "cos_photo_over": 0.866,
+          "dc_mag": 0.5177
+        }
+      },
+      "mean_cos": 0.8605,
+      "mean_dc_mag": 0.5279,
+      "min_dc_mag": 0.4958,
+      "max_dc_mag": 0.5548
+    },
+    "remoteclip_b32": {
+      "per_class": {
+        "airplane": {
+          "cos_photo_over": 0.9406,
+          "dc_mag": 0.3448
+        },
+        "boat": {
+          "cos_photo_over": 0.8756,
+          "dc_mag": 0.4989
+        },
+        "bridge": {
+          "cos_photo_over": 0.8526,
+          "dc_mag": 0.543
+        },
+        "bus": {
+          "cos_photo_over": 0.856,
+          "dc_mag": 0.5366
+        },
+        "car": {
+          "cos_photo_over": 0.9004,
+          "dc_mag": 0.4463
+        },
+        "harbor": {
+          "cos_photo_over": 0.8878,
+          "dc_mag": 0.4736
+        },
+        "motorcycle": {
+          "cos_photo_over": 0.9201,
+          "dc_mag": 0.3998
+        },
+        "ship": {
+          "cos_photo_over": 0.8903,
+          "dc_mag": 0.4684
+        },
+        "storage tank": {
+          "cos_photo_over": 0.8713,
+          "dc_mag": 0.5073
+        },
+        "truck": {
+          "cos_photo_over": 0.8877,
+          "dc_mag": 0.4738
+        },
+        "vehicle": {
+          "cos_photo_over": 0.9618,
+          "dc_mag": 0.2766
+        }
+      },
+      "mean_cos": 0.8949,
+      "mean_dc_mag": 0.4517,
+      "min_dc_mag": 0.2766,
+      "max_dc_mag": 0.543
+    }
+  },
+  "note": "text-only anchor geometry; RemoteCLIP-B32 vs CLIP-B32 same arch"
+}

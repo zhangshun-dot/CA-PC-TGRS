@@ -1,0 +1,108 @@
+{
+  "config": {
+    "method": "zero-GT text geometry",
+    "prior": "dom_gap=||E_photo(c)-E_overhead(c)||"
+  },
+  "rows": [
+    {
+      "class": "baseball diamond",
+      "dom_gap": 0.5953,
+      "group": "infra"
+    },
+    {
+      "class": "dam",
+      "dom_gap": 0.5727,
+      "group": "infra"
+    },
+    {
+      "class": "chimney",
+      "dom_gap": 0.5581,
+      "group": "infra"
+    },
+    {
+      "class": "bridge",
+      "dom_gap": 0.5548,
+      "group": "infra"
+    },
+    {
+      "class": "train station",
+      "dom_gap": 0.5526,
+      "group": "transport"
+    },
+    {
+      "class": "harbor",
+      "dom_gap": 0.5504,
+      "group": "infra"
+    },
+    {
+      "class": "stadium",
+      "dom_gap": 0.5476,
+      "group": "infra"
+    },
+    {
+      "class": "expressway toll station",
+      "dom_gap": 0.5373,
+      "group": "infra"
+    },
+    {
+      "class": "ground track field",
+      "dom_gap": 0.5334,
+      "group": "infra"
+    },
+    {
+      "class": "ship",
+      "dom_gap": 0.5319,
+      "group": "transport"
+    },
+    {
+      "class": "airport",
+      "dom_gap": 0.528,
+      "group": "transport"
+    },
+    {
+      "class": "tennis court",
+      "dom_gap": 0.5278,
+      "group": "infra"
+    },
+    {
+      "class": "wind turbine",
+      "dom_gap": 0.5254,
+      "group": "infra"
+    },
+    {
+      "class": "storage tank",
+      "dom_gap": 0.5228,
+      "group": "infra"
+    },
+    {
+      "class": "overpass",
+      "dom_gap": 0.5178,
+      "group": "infra"
+    },
+    {
+      "class": "vehicle",
+      "dom_gap": 0.5177,
+      "group": "transport"
+    },
+    {
+      "class": "airplane",
+      "dom_gap": 0.4958,
+      "group": "transport"
+    },
+    {
+      "class": "basketball court",
+      "dom_gap": 0.4927,
+      "group": "infra"
+    }
+  ],
+  "mean_transport": 0.5252,
+  "n_transport": 5,
+  "mean_infra": 0.5413,
+  "n_infra": 13,
+  "group_diff": 0.0161,
+  "mannwhitney_p": 0.14437441643323998,
+  "welch_t_p": 0.2057558625476242,
+  "range": 0.1026,
+  "prior_discriminative": false,
+  "elapsed_s": 6.829114675521851
+}

@@ -1,0 +1,326 @@
+{
+  "config": {
+    "protocol": "DIOR→NWPU target-domain selector validation",
+    "beta": 2.0,
+    "lam": 0.5,
+    "high_thr": 0.3,
+    "low_pct": 30,
+    "r1_rule": "low_band_recovery > NWPU-median (high→harmful)",
+    "r1b_thr": 0.499,
+    "r2": "4dom logistic C=1.0",
+    "r3_thr": 0.08,
+    "eval": "k0 all images, per-image AP50, R=1000 seed 42",
+    "frozen_before_nwpu_gain": true
+  },
+  "classes": {
+    "airplane": {
+      "n_img": 90,
+      "base": 0.7093,
+      "b2": 0.7599,
+      "ext": 0.7831,
+      "gain_ext": 0.0737,
+      "feats": {
+        "agree": -0.0491,
+        "sep_src": 0.076,
+        "gd_hi_frac": 0.0129,
+        "small_frac": 0.2026,
+        "gd_mean_conf": 0.0658,
+        "gd_entropy": 1.1415,
+        "boxes_per_img": 90.44,
+        "high_band_ext_agree": 0.0491,
+        "low_band_recovery": 0.5941,
+        "low_band_lift": -0.2607,
+        "n_boxes": 8140,
+        "g1_roundtrip": 0.0636
+      }
+    },
+    "ship": {
+      "n_img": 57,
+      "base": 0.664,
+      "b2": 0.7954,
+      "ext": 0.8031,
+      "gain_ext": 0.139,
+      "feats": {
+        "agree": 0.0,
+        "sep_src": 0.1311,
+        "gd_hi_frac": 0.0,
+        "small_frac": 0.0916,
+        "gd_mean_conf": 0.0625,
+        "gd_entropy": 1.0958,
+        "boxes_per_img": 45.95,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5038,
+        "low_band_lift": -0.2864,
+        "n_boxes": 2619,
+        "g1_roundtrip": 0.1041
+      }
+    },
+    "storage tank": {
+      "n_img": 28,
+      "base": 0.0873,
+      "b2": 0.1888,
+      "ext": 0.2015,
+      "gain_ext": 0.1142,
+      "feats": {
+        "agree": -0.1282,
+        "sep_src": 0.1536,
+        "gd_hi_frac": 0.0,
+        "small_frac": 0.0483,
+        "gd_mean_conf": 0.0575,
+        "gd_entropy": 0.9959,
+        "boxes_per_img": 62.14,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5082,
+        "low_band_lift": -0.2689,
+        "n_boxes": 1740,
+        "g1_roundtrip": 0.0973
+      }
+    },
+    "baseball diamond": {
+      "n_img": 176,
+      "base": 0.1343,
+      "b2": 0.1703,
+      "ext": 0.2503,
+      "gain_ext": 0.116,
+      "feats": {
+        "agree": -0.088,
+        "sep_src": 0.0658,
+        "gd_hi_frac": 0.008,
+        "small_frac": 0.2479,
+        "gd_mean_conf": 0.0584,
+        "gd_entropy": 1.0072,
+        "boxes_per_img": 129.91,
+        "high_band_ext_agree": -0.1811,
+        "low_band_recovery": 0.5226,
+        "low_band_lift": -0.2854,
+        "n_boxes": 22864,
+        "g1_roundtrip": 0.1277
+      }
+    },
+    "tennis court": {
+      "n_img": 108,
+      "base": 0.0071,
+      "b2": 0.0094,
+      "ext": 0.0092,
+      "gain_ext": 0.0021,
+      "feats": {
+        "agree": -0.1454,
+        "sep_src": 0.1094,
+        "gd_hi_frac": 0.0001,
+        "small_frac": 0.2719,
+        "gd_mean_conf": 0.0541,
+        "gd_entropy": 0.9072,
+        "boxes_per_img": 87.13,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5336,
+        "low_band_lift": -0.2625,
+        "n_boxes": 9410,
+        "g1_roundtrip": 0.095
+      }
+    },
+    "basketball court": {
+      "n_img": 86,
+      "base": 0.0281,
+      "b2": 0.0509,
+      "ext": 0.079,
+      "gain_ext": 0.0509,
+      "feats": {
+        "agree": -0.0359,
+        "sep_src": 0.0605,
+        "gd_hi_frac": 0.0009,
+        "small_frac": 0.2456,
+        "gd_mean_conf": 0.0555,
+        "gd_entropy": 0.9471,
+        "boxes_per_img": 93.85,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5466,
+        "low_band_lift": -0.2342,
+        "n_boxes": 8071,
+        "g1_roundtrip": 0.0577
+      }
+    },
+    "ground track field": {
+      "n_img": 163,
+      "base": 0.2913,
+      "b2": 0.399,
+      "ext": 0.5154,
+      "gain_ext": 0.2241,
+      "feats": {
+        "agree": -0.1539,
+        "sep_src": 0.0732,
+        "gd_hi_frac": 0.0016,
+        "small_frac": 0.1464,
+        "gd_mean_conf": 0.0608,
+        "gd_entropy": 1.0656,
+        "boxes_per_img": 42.71,
+        "high_band_ext_agree": 0.4182,
+        "low_band_recovery": 0.5358,
+        "low_band_lift": -0.275,
+        "n_boxes": 6961,
+        "g1_roundtrip": 0.0894
+      }
+    },
+    "harbor": {
+      "n_img": 27,
+      "base": 0.0503,
+      "b2": 0.0543,
+      "ext": 0.0554,
+      "gain_ext": 0.0051,
+      "feats": {
+        "agree": -0.2075,
+        "sep_src": 0.049,
+        "gd_hi_frac": 0.0,
+        "small_frac": 0.0421,
+        "gd_mean_conf": 0.0546,
+        "gd_entropy": 0.9008,
+        "boxes_per_img": 13.19,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5264,
+        "low_band_lift": -0.2953,
+        "n_boxes": 356,
+        "g1_roundtrip": 0.0973
+      }
+    },
+    "bridge": {
+      "n_img": 67,
+      "base": 0.0129,
+      "b2": 0.0927,
+      "ext": 0.0922,
+      "gain_ext": 0.0793,
+      "feats": {
+        "agree": -0.0943,
+        "sep_src": 0.0777,
+        "gd_hi_frac": 0.0017,
+        "small_frac": 0.1273,
+        "gd_mean_conf": 0.0532,
+        "gd_entropy": 0.8936,
+        "boxes_per_img": 62.39,
+        "high_band_ext_agree": null,
+        "low_band_recovery": 0.5201,
+        "low_band_lift": -0.2965,
+        "n_boxes": 4180,
+        "g1_roundtrip": 0.1093
+      }
+    },
+    "vehicle": {
+      "n_img": 86,
+      "base": 0.4207,
+      "b2": 0.5133,
+      "ext": 0.591,
+      "gain_ext": 0.1703,
+      "feats": {
+        "agree": 0.0022,
+        "sep_src": 0.0979,
+        "gd_hi_frac": 0.0059,
+        "small_frac": 0.1317,
+        "gd_mean_conf": 0.0614,
+        "gd_entropy": 1.0715,
+        "boxes_per_img": 133.27,
+        "high_band_ext_agree": 0.142,
+        "low_band_recovery": 0.546,
+        "low_band_lift": -0.2894,
+        "n_boxes": 11461,
+        "g1_roundtrip": 0.0906
+      }
+    }
+  },
+  "preds": {
+    "airplane": {
+      "R1": true,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "ship": {
+      "R1": false,
+      "R1b": true,
+      "R2": false,
+      "R3": false
+    },
+    "storage tank": {
+      "R1": false,
+      "R1b": true,
+      "R2": false,
+      "R3": false
+    },
+    "baseball diamond": {
+      "R1": false,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "tennis court": {
+      "R1": true,
+      "R1b": true,
+      "R2": false,
+      "R3": false
+    },
+    "basketball court": {
+      "R1": true,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "ground track field": {
+      "R1": true,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "harbor": {
+      "R1": false,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "bridge": {
+      "R1": false,
+      "R1b": true,
+      "R2": true,
+      "R3": true
+    },
+    "vehicle": {
+      "R1": true,
+      "R1b": true,
+      "R2": false,
+      "R3": false
+    }
+  },
+  "judgment": {
+    "r1_median_thr": 0.53,
+    "back_cls": [
+      "airplane",
+      "tennis court",
+      "basketball court",
+      "ground track field",
+      "vehicle"
+    ],
+    "j2_hit": 0,
+    "j2_total": 5,
+    "j2_rate": 0.0,
+    "strat_gain": [
+      0.4461,
+      [
+        0.3386,
+        0.5483
+      ]
+    ],
+    "allext_gain": [
+      0.9532,
+      [
+        0.8272,
+        1.0811
+      ]
+    ],
+    "delta": [
+      -0.5072,
+      [
+        -0.5788,
+        -0.4428
+      ]
+    ],
+    "j1": false,
+    "j2": false,
+    "verdict": "STOP → §4.9 定稿措辞为终局"
+  }
+}

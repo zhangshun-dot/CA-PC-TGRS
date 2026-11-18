@@ -1,0 +1,1216 @@
+[
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, with natural coloring, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a satellite image of airplane, surrounded by typical terrain",
+    "dr": 0.75,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, surrounded by typical terrain",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, showing natural hues",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, with natural coloring, surrounded by typical terrain, with sharp edges",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent, showing surface texture, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, with distinct structural features, with fine details",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, surrounded by typical terrain",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, showing natural hues",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge",
+    "dr": 0.85,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a high-resolution overhead view of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a satellite image of bridge, surrounded by typical terrain",
+    "dr": 0.2,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a picture of harbor, large and prominent, surrounded by typical terrain, showing natural hues",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, surrounded by typical terrain",
+    "dr": 0.45,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, showing natural hues",
+    "dr": 0.4,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass",
+    "dr": 0.65,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, large and prominent",
+    "dr": 0.65,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a satellite image of overpass, surrounded by typical terrain",
+    "dr": 0.05,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a remote sensing image of tennis court, surrounded by typical terrain",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a satellite image of tennis court, surrounded by typical terrain",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+    "dr": 0.25,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+    "dr": 0.2,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a high-resolution overhead view of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+    "dr": 0.15,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, with fine details",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, showing intricate details",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+    "dr": 0.85,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a high-resolution overhead view of windmill, within its environment, with sharp edges, featuring characteristic outlines",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, at full resolution, with sharp edges, featuring characteristic outlines",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, with fine details",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, large and prominent",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, large and prominent",
+    "dr": 1.0,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, with fine details",
+    "dr": 0.15,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, with distinct structural features",
+    "dr": 0.65,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, large and prominent",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with fine details",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with natural coloring",
+    "dr": 0.85,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, with fine details",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, in its natural setting",
+    "dr": 0.75,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, with natural coloring",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, with clearly visible surface features",
+    "dr": 0.55,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, with fine details",
+    "dr": 0.5,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, large and prominent",
+    "dr": 0.85,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with natural coloring",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, in its natural setting",
+    "dr": 0.3,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, large and prominent",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, large and prominent",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, with natural coloring",
+    "dr": 0.35,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a photo of tennis court, with natural coloring",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with distinct structural features",
+    "dr": 0.15,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, in its natural setting",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with fine details",
+    "dr": 0.1,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, showing clear geometry",
+    "dr": 0.95,
+    "cps_score": 0.00994931161403656,
+    "is_weak": false
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, surrounded by typical terrain",
+    "dr": 0.9,
+    "cps_score": 0.02366335690021515,
+    "is_weak": false
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, featuring characteristic outlines",
+    "dr": 0.8,
+    "cps_score": 0.010114513337612152,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "an overhead image of airport",
+    "dr": 1.0,
+    "cps_score": -0.010263320058584213,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "an overhead image of airport, large and prominent",
+    "dr": 1.0,
+    "cps_score": 0.015497826039791107,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "a photo of airport, large and prominent",
+    "dr": 1.0,
+    "cps_score": 0.03220844268798828,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "an overhead image of airport, surrounded by typical terrain",
+    "dr": 0.95,
+    "cps_score": 0.027048636227846146,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "a photo of airport, surrounded by typical terrain",
+    "dr": 0.6,
+    "cps_score": 0.03869445621967316,
+    "is_weak": false
+  },
+  {
+    "class": "airport",
+    "prompt": "a photo of airport, within its environment",
+    "dr": 0.55,
+    "cps_score": 0.0273720882833004,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "a photo of baseball field, surrounded by typical terrain",
+    "dr": 1.0,
+    "cps_score": 0.058609671890735626,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "a photo of baseball field, large and prominent",
+    "dr": 1.0,
+    "cps_score": 0.03671561926603317,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "a photo of baseball field, with visible material patterns",
+    "dr": 1.0,
+    "cps_score": 0.022895172238349915,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "a photo of baseball field, featuring characteristic outlines",
+    "dr": 1.0,
+    "cps_score": 0.019238263368606567,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "an overhead image of baseball field",
+    "dr": 0.95,
+    "cps_score": -0.010884422808885574,
+    "is_weak": false
+  },
+  {
+    "class": "baseball field",
+    "prompt": "an overhead image of baseball field, surrounded by typical terrain",
+    "dr": 0.95,
+    "cps_score": 0.03193603456020355,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "a photo of basketball court, with well-defined shape",
+    "dr": 0.85,
+    "cps_score": 0.009543359279632568,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "a photo of basketball court, surrounded by typical terrain",
+    "dr": 0.75,
+    "cps_score": 0.023243486881256104,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "a photo of basketball court, with visible material patterns",
+    "dr": 0.75,
+    "cps_score": 0.014356151223182678,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "a photo of basketball court, showing natural hues",
+    "dr": 0.7,
+    "cps_score": 0.010118141770362854,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "an overhead image of basketball court",
+    "dr": 0.65,
+    "cps_score": -0.009017564356327057,
+    "is_weak": false
+  },
+  {
+    "class": "basketball court",
+    "prompt": "an overhead image of basketball court, surrounded by typical terrain",
+    "dr": 0.6,
+    "cps_score": 0.018217697739601135,
+    "is_weak": false
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, featuring detailed structures",
+    "dr": 0.7,
+    "cps_score": 0.003640979528427124,
+    "is_weak": false
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, showing surface texture",
+    "dr": 0.65,
+    "cps_score": 0.006637886166572571,
+    "is_weak": false
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, featuring characteristic outlines",
+    "dr": 0.65,
+    "cps_score": 0.006020069122314453,
+    "is_weak": false
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, showing natural hues",
+    "dr": 0.5,
+    "cps_score": 0.0035675540566444397,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "an overhead image of chimney",
+    "dr": 1.0,
+    "cps_score": 0.002517241984605789,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "a photo of chimney, large and prominent",
+    "dr": 1.0,
+    "cps_score": 0.08118318021297455,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "an overhead image of chimney, in its natural setting",
+    "dr": 0.95,
+    "cps_score": 0.005107879638671875,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "a photo of chimney, surrounded by typical terrain",
+    "dr": 0.35,
+    "cps_score": 0.006263166666030884,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "a photo of chimney, within its environment",
+    "dr": 0.3,
+    "cps_score": 0.014600925147533417,
+    "is_weak": false
+  },
+  {
+    "class": "chimney",
+    "prompt": "a photo of chimney, in its natural setting",
+    "dr": 0.0,
+    "cps_score": 0.006220221519470215,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "an overhead image of dam",
+    "dr": 1.0,
+    "cps_score": -0.00943467766046524,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "an overhead image of dam, surrounded by typical terrain",
+    "dr": 0.95,
+    "cps_score": 0.0053223781287670135,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "an overhead image of dam, with natural coloring",
+    "dr": 0.9,
+    "cps_score": 0.0020636804401874542,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "an overhead image of dam, showing clear geometry",
+    "dr": 0.9,
+    "cps_score": 0.001062929630279541,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "an overhead image of dam, showing natural hues",
+    "dr": 0.85,
+    "cps_score": 0.006798051297664642,
+    "is_weak": false
+  },
+  {
+    "class": "dam",
+    "prompt": "a photo of dam, featuring characteristic outlines",
+    "dr": 0.0,
+    "cps_score": 0.00044201314449310303,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "a photo of expressway service area, large and prominent",
+    "dr": 1.0,
+    "cps_score": -0.005993278697133064,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "an overhead image of expressway service area, large and prominent",
+    "dr": 0.9,
+    "cps_score": -0.018997855484485626,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "an overhead image of expressway service area",
+    "dr": 0.85,
+    "cps_score": -0.017695747315883636,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "a photo of expressway service area, surrounded by typical terrain",
+    "dr": 0.75,
+    "cps_score": -0.00028680264949798584,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "a photo of expressway service area, dominating the view",
+    "dr": 0.7,
+    "cps_score": -0.006586823612451553,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "a photo of expressway service area, with fine details",
+    "dr": 0.7,
+    "cps_score": -0.007401447743177414,
+    "is_weak": false
+  },
+  {
+    "class": "expressway service area",
+    "prompt": "a photo of expressway service area, showing natural hues",
+    "dr": 0.55,
+    "cps_score": -0.0043353121727705,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "an overhead image of expressway toll station",
+    "dr": 0.95,
+    "cps_score": -0.031590428203344345,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "a photo of expressway toll station, with natural coloring",
+    "dr": 0.95,
+    "cps_score": -0.018158242106437683,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "a photo of expressway toll station, showing natural hues",
+    "dr": 0.55,
+    "cps_score": -0.015574844554066658,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "a photo of expressway toll station, with realistic tones",
+    "dr": 0.55,
+    "cps_score": -0.02003622055053711,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "a photo of expressway toll station, surrounded by typical terrain",
+    "dr": 0.55,
+    "cps_score": -0.020836995914578438,
+    "is_weak": false
+  },
+  {
+    "class": "expressway toll station",
+    "prompt": "a photo of expressway toll station",
+    "dr": 0.05,
+    "cps_score": -0.022198045626282692,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "a photo of golf course, large and prominent, showing surface texture",
+    "dr": 1.0,
+    "cps_score": 0.19771435856819153,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "a photo of golf course, large and prominent, with natural coloring",
+    "dr": 1.0,
+    "cps_score": 0.1909772753715515,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "a photo of golf course, large and prominent, with clearly visible surface features",
+    "dr": 1.0,
+    "cps_score": 0.17866013944149017,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "a photo of golf course, with clearly visible surface features, with natural coloring",
+    "dr": 1.0,
+    "cps_score": 0.163574680685997,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "an overhead image of golf course, large and prominent, with clearly visible surface features",
+    "dr": 0.95,
+    "cps_score": 0.1333182007074356,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "an overhead image of golf course, large and prominent, with natural coloring",
+    "dr": 0.95,
+    "cps_score": 0.17000135779380798,
+    "is_weak": false
+  },
+  {
+    "class": "golf course",
+    "prompt": "an overhead image of golf course",
+    "dr": 0.85,
+    "cps_score": 0.0390874445438385,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "an overhead image of ground track field",
+    "dr": 0.9,
+    "cps_score": 0.003301132470369339,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "an overhead image of ground track field, surrounded by typical terrain",
+    "dr": 0.9,
+    "cps_score": 0.019495971500873566,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "an overhead image of ground track field, with natural coloring",
+    "dr": 0.9,
+    "cps_score": 0.018953002989292145,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "an overhead image of ground track field, featuring characteristic outlines",
+    "dr": 0.9,
+    "cps_score": 0.01518278568983078,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "an overhead image of ground track field, showing natural hues",
+    "dr": 0.85,
+    "cps_score": 0.02042822167277336,
+    "is_weak": false
+  },
+  {
+    "class": "ground track field",
+    "prompt": "a photo of ground track field, surrounded by typical terrain",
+    "dr": 0.75,
+    "cps_score": 0.01928485929965973,
+    "is_weak": false
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, set against the background",
+    "dr": 0.45,
+    "cps_score": 0.002328392118215561,
+    "is_weak": true
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, with clearly visible surface features",
+    "dr": 0.35,
+    "cps_score": 0.006900854408740997,
+    "is_weak": true
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, showing natural hues",
+    "dr": 0.15,
+    "cps_score": 0.012136280536651611,
+    "is_weak": true
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, surrounded by typical terrain",
+    "dr": 0.0,
+    "cps_score": 0.017607789486646652,
+    "is_weak": true
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with well-defined shape",
+    "dr": 0.7,
+    "cps_score": 0.011803988367319107,
+    "is_weak": false
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, showing natural hues",
+    "dr": 0.45,
+    "cps_score": 0.03176224231719971,
+    "is_weak": false
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, surrounded by typical terrain",
+    "dr": 0.35,
+    "cps_score": 0.0330732986330986,
+    "is_weak": false
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, featuring characteristic outlines",
+    "dr": 0.3,
+    "cps_score": 0.011698365211486816,
+    "is_weak": false
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, large and prominent",
+    "dr": 0.7,
+    "cps_score": 0.004788383841514587,
+    "is_weak": true
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, within its environment",
+    "dr": 0.65,
+    "cps_score": 0.0015320032835006714,
+    "is_weak": true
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, set against the background",
+    "dr": 0.6,
+    "cps_score": 0.0047560036182403564,
+    "is_weak": true
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, surrounded by typical terrain",
+    "dr": 0.2,
+    "cps_score": 0.013495493680238724,
+    "is_weak": true
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with well-defined shape",
+    "dr": 0.85,
+    "cps_score": 0.035876162350177765,
+    "is_weak": false
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, featuring characteristic outlines",
+    "dr": 0.75,
+    "cps_score": 0.038813427090644836,
+    "is_weak": false
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, surrounded by typical terrain",
+    "dr": 0.65,
+    "cps_score": 0.07013928890228271,
+    "is_weak": false
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, showing natural hues",
+    "dr": 0.6,
+    "cps_score": 0.03940565884113312,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "an overhead image of storage tank",
+    "dr": 0.8,
+    "cps_score": -0.009497597813606262,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "an overhead image of storage tank, featuring characteristic outlines",
+    "dr": 0.8,
+    "cps_score": 0.0023947209119796753,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "an overhead image of storage tank, showing natural hues",
+    "dr": 0.75,
+    "cps_score": 0.0016844682395458221,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "an overhead image of storage tank, surrounded by typical terrain",
+    "dr": 0.7,
+    "cps_score": 0.01208379864692688,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "a photo of storage tank, surrounded by typical terrain",
+    "dr": 0.45,
+    "cps_score": 0.035175666213035583,
+    "is_weak": false
+  },
+  {
+    "class": "storage tank",
+    "prompt": "a photo of storage tank, featuring characteristic outlines",
+    "dr": 0.35,
+    "cps_score": 0.0013106539845466614,
+    "is_weak": false
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a photo of tennis court, surrounded by typical terrain",
+    "dr": 0.75,
+    "cps_score": 0.02357954904437065,
+    "is_weak": true
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a photo of tennis court, with well-defined shape",
+    "dr": 0.7,
+    "cps_score": 0.002989165484905243,
+    "is_weak": true
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, featuring characteristic outlines",
+    "dr": 0.6,
+    "cps_score": 0.007735610008239746,
+    "is_weak": true
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, surrounded by typical terrain",
+    "dr": 0.5,
+    "cps_score": 0.01564665138721466,
+    "is_weak": true
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, showing natural hues",
+    "dr": 0.45,
+    "cps_score": 0.007272940129041672,
+    "is_weak": true
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, showing surface texture",
+    "dr": 0.4,
+    "cps_score": 0.00931502878665924,
+    "is_weak": true
+  },
+  {
+    "class": "train station",
+    "prompt": "an overhead image of train station",
+    "dr": 1.0,
+    "cps_score": -0.009095802903175354,
+    "is_weak": false
+  },
+  {
+    "class": "train station",
+    "prompt": "an overhead image of train station, surrounded by typical terrain",
+    "dr": 1.0,
+    "cps_score": 0.011483259499073029,
+    "is_weak": false
+  },
+  {
+    "class": "train station",
+    "prompt": "an overhead image of train station, showing natural hues",
+    "dr": 1.0,
+    "cps_score": 0.007075980305671692,
+    "is_weak": false
+  },
+  {
+    "class": "train station",
+    "prompt": "a photo of train station, surrounded by typical terrain",
+    "dr": 0.95,
+    "cps_score": 0.02380463480949402,
+    "is_weak": false
+  },
+  {
+    "class": "train station",
+    "prompt": "a photo of train station, within its environment",
+    "dr": 0.95,
+    "cps_score": 0.00416981428861618,
+    "is_weak": false
+  },
+  {
+    "class": "train station",
+    "prompt": "a photo of train station, featuring characteristic outlines",
+    "dr": 0.9,
+    "cps_score": 0.0038592666387557983,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "a photo of vehicle",
+    "dr": 0.95,
+    "cps_score": -0.004617622122168541,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "an overhead image of vehicle",
+    "dr": 0.85,
+    "cps_score": -0.008726239204406738,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "an overhead image of vehicle, within its environment",
+    "dr": 0.85,
+    "cps_score": -0.006587998941540718,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "an overhead image of vehicle, surrounded by typical terrain",
+    "dr": 0.75,
+    "cps_score": 0.0013567283749580383,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "an overhead image of vehicle, showing clear geometry",
+    "dr": 0.75,
+    "cps_score": -0.0031652450561523438,
+    "is_weak": false
+  },
+  {
+    "class": "vehicle",
+    "prompt": "an overhead image of vehicle, showing natural hues",
+    "dr": 0.75,
+    "cps_score": -0.004565373063087463,
+    "is_weak": false
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, in true color",
+    "dr": 0.6,
+    "cps_score": 0.00010474398732185364,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with accurate color rendition",
+    "dr": 0.45,
+    "cps_score": 0.002676837146282196,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, at full resolution",
+    "dr": 0.4,
+    "cps_score": 0.003941528499126434,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with realistic tones",
+    "dr": 0.3,
+    "cps_score": 0.002088993787765503,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, within its environment",
+    "dr": 0.3,
+    "cps_score": -0.00014595314860343933,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill",
+    "dr": 0.15,
+    "cps_score": 0.004680633544921875,
+    "is_weak": true
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, in its natural setting",
+    "dr": 0.1,
+    "cps_score": 0.003751259297132492,
+    "is_weak": true
+  }
+]

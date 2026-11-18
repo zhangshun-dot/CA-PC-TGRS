@@ -1,0 +1,72 @@
+{
+  "configs": {
+    "baseline(z_k=0)": {
+      "region_acc": 0.4692737430167598,
+      "per_class_acc": {
+        "airplane": 0.13157894736842105,
+        "ship": 0.9066666666666666,
+        "vehicle": 0.21428571428571427
+      },
+      "mAP": 0.04831417257418579,
+      "ap_per_class": {
+        "airplane": 0.009657331832235745,
+        "ship": 0.03146021802911885,
+        "vehicle": 0.10382496786120278
+      }
+    },
+    "z_k-add-global": {
+      "region_acc": 0.4301675977653631,
+      "per_class_acc": {
+        "airplane": 0.02631578947368421,
+        "ship": 1.0,
+        "vehicle": 0.0
+      },
+      "mAP": 0.010380062192823553,
+      "ap_per_class": {
+        "airplane": 0.013785405338969792,
+        "ship": 0.010419726633354427,
+        "vehicle": 0.00693505460614644
+      }
+    },
+    "z_k-add-perclass": {
+      "region_acc": 0.45251396648044695,
+      "per_class_acc": {
+        "airplane": 0.07894736842105263,
+        "ship": 1.0,
+        "vehicle": 0.0
+      },
+      "mAP": 0.02130708837972176,
+      "ap_per_class": {
+        "airplane": 0.021241615094757058,
+        "ship": 0.026317120587466384,
+        "vehicle": 0.016362529456941843
+      }
+    },
+    "z_k-gate-global": {
+      "region_acc": 0.4692737430167598,
+      "per_class_acc": {
+        "airplane": 0.13157894736842105,
+        "ship": 0.9066666666666666,
+        "vehicle": 0.21428571428571427
+      },
+      "mAP": 0.04831417257418579,
+      "ap_per_class": {
+        "airplane": 0.009657331832235745,
+        "ship": 0.03146021802911885,
+        "vehicle": 0.10382496786120278
+      }
+    },
+    "shuffled-z_k": {
+      "region_acc": 0.4301675977653631,
+      "per_class_acc": {
+        "airplane": 0.02631578947368421,
+        "ship": 1.0,
+        "vehicle": 0.0
+      },
+      "mAP": null,
+      "ap_per_class": null
+    }
+  },
+  "k_calib": 20,
+  "note": "DIOR校准/DIOR测; adaptive>baseline=潜力兑现"
+}

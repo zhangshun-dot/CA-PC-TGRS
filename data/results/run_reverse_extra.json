@@ -1,0 +1,28 @@
+{
+  "config": {
+    "beta": 2.0,
+    "lam": 0.5,
+    "n_proto": 20,
+    "note": "reverse EXTRA pairs, reuse rev_coco2dior_vehicle cache (zero GPU)"
+  },
+  "results": {
+    "truck->vehicle": {
+      "baseline": 0.1124,
+      "n_img": 100,
+      "plus_delta": 0.2156,
+      "gain": 0.1032
+    },
+    "bus->vehicle": {
+      "baseline": 0.1124,
+      "n_img": 100,
+      "plus_delta": 0.129,
+      "gain": 0.0166
+    },
+    "motorcycle->vehicle": {
+      "baseline": 0.1124,
+      "n_img": 100,
+      "plus_delta": 0.2149,
+      "gain": 0.1025
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "gains_at_2_mean": 0.011038670240095408,
+  "gains_at_best_mean": 0.02533189957914078,
+  "best_constant_alpha": 2.5,
+  "best_constant_gain": 0.013148216478937911,
+  "headroom": 0.012183683100202868,
+  "best_method": "viewpoint",
+  "best_method_gain": 0.014913204321649488,
+  "capture_rate": 14.486488430433555
+}

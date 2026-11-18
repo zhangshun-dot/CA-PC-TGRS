@@ -1,0 +1,155 @@
+{
+ "note": "constant injection length, 4 arms, L in {0.8,0.9,1.0,1.1}",
+ "per_ds": {
+  "DIOR": {
+   "gdino": {
+    "base": 0.212821,
+    "gain": {
+     "full_m@L0.8": 0.015463,
+     "cond_m@L0.8": 0.017869,
+     "vocab_m@L0.8": -0.004088,
+     "full_p@L0.8": -0.032253,
+     "full_m@L0.9": 0.015009,
+     "cond_m@L0.9": 0.020146,
+     "vocab_m@L0.9": -0.005985,
+     "full_p@L0.9": -0.039775,
+     "full_m@L1.0": 0.015348,
+     "cond_m@L1.0": 0.020432,
+     "vocab_m@L1.0": -0.007284,
+     "full_p@L1.0": -0.046738,
+     "full_m@L1.1": 0.015136,
+     "cond_m@L1.1": 0.019422,
+     "vocab_m@L1.1": -0.009544,
+     "full_p@L1.1": -0.05478,
+     "current": 0.02045
+    },
+    "paired": {
+     "cond-vocab@L0.8": 0.021957,
+     "full-cond@L0.8": -0.002406,
+     "full-fullp@L0.8": 0.047715,
+     "cond-vocab@L0.9": 0.026131,
+     "full-cond@L0.9": -0.005137,
+     "full-fullp@L0.9": 0.054784,
+     "cond-vocab@L1.0": 0.027716,
+     "full-cond@L1.0": -0.005084,
+     "full-fullp@L1.0": 0.062086,
+     "cond-vocab@L1.1": 0.028967,
+     "full-cond@L1.1": -0.004286,
+     "full-fullp@L1.1": 0.069916
+    }
+   },
+   "owlv2": {
+    "base": 0.450248,
+    "gain": {
+     "full_m@L0.8": 0.008517,
+     "cond_m@L0.8": 0.008324,
+     "vocab_m@L0.8": -0.002773,
+     "full_p@L0.8": -0.018712,
+     "full_m@L0.9": 0.009131,
+     "cond_m@L0.9": 0.00815,
+     "vocab_m@L0.9": -0.004292,
+     "full_p@L0.9": -0.02465,
+     "full_m@L1.0": 0.009463,
+     "cond_m@L1.0": 0.006239,
+     "vocab_m@L1.0": -0.00696,
+     "full_p@L1.0": -0.032586,
+     "full_m@L1.1": 0.008128,
+     "cond_m@L1.1": 0.001944,
+     "vocab_m@L1.1": -0.011367,
+     "full_p@L1.1": -0.041172,
+     "current": -0.002383
+    },
+    "paired": {
+     "cond-vocab@L0.8": 0.011097,
+     "full-cond@L0.8": 0.000193,
+     "full-fullp@L0.8": 0.027229,
+     "cond-vocab@L0.9": 0.012441,
+     "full-cond@L0.9": 0.000982,
+     "full-fullp@L0.9": 0.033782,
+     "cond-vocab@L1.0": 0.013199,
+     "full-cond@L1.0": 0.003224,
+     "full-fullp@L1.0": 0.04205,
+     "cond-vocab@L1.1": 0.013311,
+     "full-cond@L1.1": 0.006184,
+     "full-fullp@L1.1": 0.049301
+    }
+   }
+  },
+  "DOTA": {
+   "gdino": {
+    "base": 0.028039,
+    "gain": {
+     "full_m@L0.8": 0.00812,
+     "cond_m@L0.8": 0.006849,
+     "vocab_m@L0.8": -0.002274,
+     "full_p@L0.8": -0.005354,
+     "full_m@L0.9": 0.012055,
+     "cond_m@L0.9": 0.009628,
+     "vocab_m@L0.9": -0.002958,
+     "full_p@L0.9": -0.006359,
+     "full_m@L1.0": 0.013686,
+     "cond_m@L1.0": 0.014334,
+     "vocab_m@L1.0": -0.00392,
+     "full_p@L1.0": -0.007348,
+     "full_m@L1.1": 0.015183,
+     "cond_m@L1.1": 0.01733,
+     "vocab_m@L1.1": -0.005001,
+     "full_p@L1.1": -0.008537,
+     "current": 0.012955
+    },
+    "paired": {
+     "cond-vocab@L0.8": 0.009124,
+     "full-cond@L0.8": 0.00127,
+     "full-fullp@L0.8": 0.013474,
+     "cond-vocab@L0.9": 0.012586,
+     "full-cond@L0.9": 0.002427,
+     "full-fullp@L0.9": 0.018414,
+     "cond-vocab@L1.0": 0.018254,
+     "full-cond@L1.0": -0.000647,
+     "full-fullp@L1.0": 0.021034,
+     "cond-vocab@L1.1": 0.022331,
+     "full-cond@L1.1": -0.002147,
+     "full-fullp@L1.1": 0.02372
+    }
+   }
+  },
+  "NWPU": {
+   "gdino": {
+    "base": 0.356989,
+    "gain": {
+     "full_m@L0.8": 0.029699,
+     "cond_m@L0.8": 0.033572,
+     "vocab_m@L0.8": -0.010345,
+     "full_p@L0.8": -0.058298,
+     "full_m@L0.9": 0.032851,
+     "cond_m@L0.9": 0.038051,
+     "vocab_m@L0.9": -0.013293,
+     "full_p@L0.9": -0.068145,
+     "full_m@L1.0": 0.032431,
+     "cond_m@L1.0": 0.037348,
+     "vocab_m@L1.0": -0.017966,
+     "full_p@L1.0": -0.081197,
+     "full_m@L1.1": 0.029127,
+     "cond_m@L1.1": 0.035301,
+     "vocab_m@L1.1": -0.023267,
+     "full_p@L1.1": -0.096889,
+     "current": 0.036599
+    },
+    "paired": {
+     "cond-vocab@L0.8": 0.043916,
+     "full-cond@L0.8": -0.003872,
+     "full-fullp@L0.8": 0.087997,
+     "cond-vocab@L0.9": 0.051344,
+     "full-cond@L0.9": -0.0052,
+     "full-fullp@L0.9": 0.100996,
+     "cond-vocab@L1.0": 0.055314,
+     "full-cond@L1.0": -0.004917,
+     "full-fullp@L1.0": 0.113628,
+     "cond-vocab@L1.1": 0.058568,
+     "full-cond@L1.1": -0.006175,
+     "full-fullp@L1.1": 0.126016
+    }
+   }
+  }
+ }
+}

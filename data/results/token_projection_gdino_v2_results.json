@@ -1,0 +1,48 @@
+{
+  "per_class": {
+    "airplane": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "ship": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "stadium": {
+      "baseline": 1.0,
+      "cd_tdm": 1.0,
+      "token_proj": 1.0
+    },
+    "bridge": {
+      "baseline": 0.9,
+      "cd_tdm": 0.9,
+      "token_proj": 1.0
+    },
+    "harbor": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "overpass": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "tennis court": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "windmill": {
+      "baseline": 1.0,
+      "cd_tdm": 1.0,
+      "token_proj": 1.0
+    }
+  },
+  "mean_baseline": 0.7374999999999999,
+  "mean_cd_tdm": 0.7374999999999999,
+  "mean_token_proj": 1.0,
+  "projection_retention_cos": 0.8314170837402344
+}

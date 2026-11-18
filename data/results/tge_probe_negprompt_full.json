@@ -1,0 +1,49 @@
+{
+  "config": {
+    "n_coco": 100000,
+    "k_shot": 16,
+    "m_neg": 3,
+    "n_ctx": 8,
+    "epochs": 10,
+    "lam": 0.5,
+    "seed": 42,
+    "protocol": "NegPrompt 式训练负提示 (CVPR24 思想), DIOR K=16 训练, COCO 框 crop 打分, N=100 逐图 AP50"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "negprompt_fs": 0.7795,
+      "fs_gain": 0.0311
+    },
+    "COCO-boat": {
+      "baseline": 0.1758,
+      "negprompt_fs": 0.2018,
+      "fs_gain": 0.0259
+    },
+    "COCO-car": {
+      "baseline": 0.1245,
+      "negprompt_fs": 0.1466,
+      "fs_gain": 0.0221
+    },
+    "COCO-truck": {
+      "baseline": 0.2345,
+      "negprompt_fs": 0.2943,
+      "fs_gain": 0.0598
+    },
+    "COCO-bus": {
+      "baseline": 0.5317,
+      "negprompt_fs": 0.5803,
+      "fs_gain": 0.0486
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.4092,
+      "negprompt_fs": 0.5027,
+      "fs_gain": 0.0936
+    }
+  },
+  "mean": {
+    "baseline": 0.3707,
+    "negprompt_fs": 0.4175,
+    "fs_gain": 0.0469
+  }
+}

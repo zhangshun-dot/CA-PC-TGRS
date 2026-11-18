@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "clean": 0.194,
+    "deg": 0.194,
+    "all": 0.194
+  },
+  "+zk": {
+    "clean": 0.194,
+    "deg": 0.187,
+    "all": 0.189
+  },
+  "+oracle": {
+    "clean": 0.228,
+    "deg": 0.209,
+    "all": 0.214
+  },
+  "n_total": 480,
+  "n_train_orig": 84,
+  "n_test_orig": 36,
+  "delta_deg_zk_minus_base": -0.007,
+  "delta_deg_oracle_minus_base": 0.015,
+  "delta_deg_oracle_minus_zk": 0.022,
+  "note": "退化域鲁棒性增量 = [\"+zk\"|\"+oracle\"][\"deg\"] - [\"baseline\"][\"deg\"]; oracle 为上界(真实退化等级)。zk≈base 且 oracle>base ⇒ 框架有效但 CondEncoder 弱; oracle≈base ⇒ 条件感知训练无用; zk>base ⇒ z_k 直接可用。"
+}

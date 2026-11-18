@@ -1,0 +1,601 @@
+[
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, with natural coloring, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a satellite image of airplane, surrounded by typical terrain",
+    "dr": 0.75,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, surrounded by typical terrain",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, showing natural hues",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, with natural coloring, surrounded by typical terrain, with sharp edges",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent, showing surface texture, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, with distinct structural features, with fine details",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, surrounded by typical terrain",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, showing natural hues",
+    "dr": 0.9,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge",
+    "dr": 0.85,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a high-resolution overhead view of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a satellite image of bridge, surrounded by typical terrain",
+    "dr": 0.2,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a picture of harbor, large and prominent, surrounded by typical terrain, showing natural hues",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, surrounded by typical terrain",
+    "dr": 0.45,
+    "source": "cps_search"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, showing natural hues",
+    "dr": 0.4,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass",
+    "dr": 0.65,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, large and prominent",
+    "dr": 0.65,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, showing natural hues",
+    "dr": 0.6,
+    "source": "cps_search"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a satellite image of overpass, surrounded by typical terrain",
+    "dr": 0.05,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a remote sensing image of tennis court, surrounded by typical terrain",
+    "dr": 0.55,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a satellite image of tennis court, surrounded by typical terrain",
+    "dr": 0.5,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+    "dr": 0.25,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+    "dr": 0.2,
+    "source": "cps_search"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a high-resolution overhead view of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+    "dr": 0.15,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, with fine details",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, showing intricate details",
+    "dr": 0.95,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+    "dr": 0.85,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a high-resolution overhead view of windmill, within its environment, with sharp edges, featuring characteristic outlines",
+    "dr": 0.8,
+    "source": "cps_search"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, at full resolution, with sharp edges, featuring characteristic outlines",
+    "dr": 0.7,
+    "source": "cps_search"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, with fine details",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, large and prominent",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, large and prominent",
+    "dr": 1.0,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, with fine details",
+    "dr": 0.15,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, with distinct structural features",
+    "dr": 0.65,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, large and prominent",
+    "dr": 0.9,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with fine details",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with natural coloring",
+    "dr": 0.85,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, large and prominent",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, with fine details",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, in its natural setting",
+    "dr": 0.75,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "bridge",
+    "prompt": "a photo of bridge, with natural coloring",
+    "dr": 0.7,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, with clearly visible surface features",
+    "dr": 0.55,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, with fine details",
+    "dr": 0.5,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor, large and prominent",
+    "dr": 0.85,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, with natural coloring",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, in its natural setting",
+    "dr": 0.3,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "overpass",
+    "prompt": "a photo of overpass, large and prominent",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, large and prominent",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, with natural coloring",
+    "dr": 0.35,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a photo of tennis court, with natural coloring",
+    "dr": 0.6,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with distinct structural features",
+    "dr": 0.15,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, in its natural setting",
+    "dr": 0.95,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "windmill",
+    "prompt": "a photo of windmill, with fine details",
+    "dr": 0.1,
+    "source": "cps_adapter"
+  },
+  {
+    "class": "airplane",
+    "prompt": "a photo of airplane, in true color, showing clear geometry",
+    "dr": 0.95
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane",
+    "dr": 0.8
+  },
+  {
+    "class": "airplane",
+    "prompt": "an overhead image of airplane, surrounded by typical terrain",
+    "dr": 0.8
+  },
+  {
+    "class": "airplane",
+    "prompt": "an aerial view of airplane, showing surface texture, with well-defined shape, in its natural setting",
+    "dr": 0.75
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship",
+    "dr": 0.7
+  },
+  {
+    "class": "ship",
+    "prompt": "an overhead image of ship, showing surface texture",
+    "dr": 0.6
+  },
+  {
+    "class": "ship",
+    "prompt": "a photo of ship, showing natural hues, surrounded by typical terrain",
+    "dr": 0.2
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium",
+    "dr": 0.9
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, with distinct structural features, with fine details",
+    "dr": 0.9
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, surrounded by typical terrain",
+    "dr": 0.9
+  },
+  {
+    "class": "stadium",
+    "prompt": "an overhead image of stadium, showing natural hues",
+    "dr": 0.9
+  },
+  {
+    "class": "stadium",
+    "prompt": "a photo of stadium, with distinct structural features, with fine details",
+    "dr": 0.65
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge",
+    "dr": 0.85
+  },
+  {
+    "class": "bridge",
+    "prompt": "an overhead image of bridge, with distinct structural features",
+    "dr": 0.7
+  },
+  {
+    "class": "bridge",
+    "prompt": "an aerial view of bridge",
+    "dr": 0.2
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor",
+    "dr": 0.5
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, showing surface texture",
+    "dr": 0.5
+  },
+  {
+    "class": "harbor",
+    "prompt": "an overhead image of harbor, clearly visible in scale",
+    "dr": 0.5
+  },
+  {
+    "class": "harbor",
+    "prompt": "a photo of harbor",
+    "dr": 0.0
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, with fine details, surrounded by typical terrain, showing clear geometry",
+    "dr": 0.7
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass",
+    "dr": 0.65
+  },
+  {
+    "class": "overpass",
+    "prompt": "an overhead image of overpass, large and prominent",
+    "dr": 0.65
+  },
+  {
+    "class": "overpass",
+    "prompt": "an aerial view of overpass, featuring detailed structures, in context of surroundings",
+    "dr": 0.35
+  },
+  {
+    "class": "overpass",
+    "prompt": "an aerial view of overpass",
+    "dr": 0.2
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court",
+    "dr": 0.55
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an aerial view of tennis court",
+    "dr": 0.55
+  },
+  {
+    "class": "tennis court",
+    "prompt": "an overhead image of tennis court, with fine details",
+    "dr": 0.55
+  },
+  {
+    "class": "tennis court",
+    "prompt": "a remote sensing image of tennis court",
+    "dr": 0.5
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill",
+    "dr": 0.95
+  },
+  {
+    "class": "windmill",
+    "prompt": "an overhead image of windmill, surrounded by typical terrain",
+    "dr": 0.9
+  },
+  {
+    "class": "windmill",
+    "prompt": "an aerial view of windmill",
+    "dr": 0.1
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "config": {
+    "dev_set": "18类",
+    "test_set": "VOC→COCO 12类",
+    "modes": [
+      "forward",
+      "backward",
+      "select",
+      "fuse_sim",
+      "max"
+    ],
+    "best_tau": 0.01,
+    "delta_gate_threshold": 0.01
+  },
+  "best_non_oracle": {
+    "key": "forward_proto_gate",
+    "mean_gain": 0.04093828480273528
+  },
+  "baseline_forward_dior": 0.03774987314729214,
+  "results": {
+    "forward_dior": {
+      "mode": "forward",
+      "strategy": "dior_only",
+      "mean_gain": 0.03774987314729214,
+      "n_positive": 11,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.023315448551799567,
+        "COCO-boat": 0.01150738356942857,
+        "COCO-car": 0.006846527215534498,
+        "COCO-motorcycle": 0.0739325196188263,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": -0.005950618467867486,
+        "COCO-bicycle": 0.036136539655366895,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.04549024837356269,
+        "COCO-potted plant": 0.05959128119349105,
+        "COCO-tv": 0.029630446739437932
+      }
+    },
+    "forward_proto_gate": {
+      "mode": "forward",
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.04093828480273528,
+      "n_positive": 11,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.027520994983830538,
+        "COCO-boat": 0.01815656784516853,
+        "COCO-car": 0.0073874862839885536,
+        "COCO-motorcycle": 0.07273830753479132,
+        "COCO-bus": 0.04430560373827974,
+        "COCO-train": -0.0037858565278722223,
+        "COCO-bicycle": 0.0505259781043815,
+        "COCO-bottle": 0.06322147965482097,
+        "COCO-chair": 0.05817023524431594,
+        "COCO-couch": 0.0433451904491442,
+        "COCO-potted plant": 0.08399082790235107,
+        "COCO-tv": 0.02568260241962317
+      }
+    },
+    "forward_oracle": {
+      "mode": "forward",
+      "strategy": "oracle",
+      "mean_gain": 0.05181937708982091,
+      "n_positive": 12,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.025751727416117864,
+        "COCO-boat": 0.021901837027316323,
+        "COCO-car": 0.008526122603018188,
+        "COCO-motorcycle": 0.07533517518023913,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": 0.00149612397904475,
+        "COCO-bicycle": 0.09325483518572533,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": 0.10399892368136718,
+        "COCO-tv": 0.058555604508804815
+      }
+    },
+    "backward_dior": {
+      "mode": "backward",
+      "strategy": "dior_only",
+      "mean_gain": 0.03212895621944559,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.0143203164294321,
+        "COCO-boat": 0.01150738356942857,
+        "COCO-car": 0.006846527215534498,
+        "COCO-motorcycle": 0.07276820253675209,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": -0.005950618467867486,
+        "COCO-bicycle": 0.036136539655366895,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": -0.023699774924554398,
+        "COCO-tv": 0.04060672312303737
+      }
+    },
+    "backward_proto_gate": {
+      "mode": "backward",
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.03420350801398266,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.020885398401864652,
+        "COCO-boat": 0.01815656784516853,
+        "COCO-car": 0.0073874862839885536,
+        "COCO-motorcycle": 0.07478750876261725,
+        "COCO-bus": 0.04430560373827974,
+        "COCO-train": -0.0037858565278722223,
+        "COCO-bicycle": 0.0505259781043815,
+        "COCO-bottle": 0.06322147965482097,
+        "COCO-chair": 0.05817023524431594,
+        "COCO-couch": 0.053742157591886164,
+        "COCO-potted plant": -0.024824569329927895,
+        "COCO-tv": 0.04787010639826872
+      }
+    },
+    "backward_oracle": {
+      "mode": "backward",
+      "strategy": "oracle",
+      "mean_gain": 0.05181937708982091,
+      "n_positive": 12,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.025751727416117864,
+        "COCO-boat": 0.021901837027316323,
+        "COCO-car": 0.008526122603018188,
+        "COCO-motorcycle": 0.07533517518023913,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": 0.00149612397904475,
+        "COCO-bicycle": 0.09325483518572533,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": 0.10399892368136718,
+        "COCO-tv": 0.058555604508804815
+      }
+    },
+    "select_dior": {
+      "mode": "select",
+      "strategy": "dior_only",
+      "mean_gain": 0.030711925380615502,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.023315448551799567,
+        "COCO-boat": 0.01150738356942857,
+        "COCO-car": 0.006846527215534498,
+        "COCO-motorcycle": 0.07276820253675209,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": -0.005950618467867486,
+        "COCO-bicycle": 0.036136539655366895,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.04549024837356269,
+        "COCO-potted plant": -0.023699774924554398,
+        "COCO-tv": 0.029630446739437932
+      }
+    },
+    "select_proto_gate": {
+      "mode": "select",
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.032907515730926026,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.027520994983830538,
+        "COCO-boat": 0.01815656784516853,
+        "COCO-car": 0.0073874862839885536,
+        "COCO-motorcycle": 0.07478750876261725,
+        "COCO-bus": 0.04430560373827974,
+        "COCO-train": -0.0037858565278722223,
+        "COCO-bicycle": 0.0505259781043815,
+        "COCO-bottle": 0.06322147965482097,
+        "COCO-chair": 0.05817023524431594,
+        "COCO-couch": 0.053742157591886164,
+        "COCO-potted plant": -0.024824569329927895,
+        "COCO-tv": 0.02568260241962317
+      }
+    },
+    "select_oracle": {
+      "mode": "select",
+      "strategy": "oracle",
+      "mean_gain": 0.05181937708982091,
+      "n_positive": 12,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.025751727416117864,
+        "COCO-boat": 0.021901837027316323,
+        "COCO-car": 0.008526122603018188,
+        "COCO-motorcycle": 0.07533517518023913,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": 0.00149612397904475,
+        "COCO-bicycle": 0.09325483518572533,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": 0.10399892368136718,
+        "COCO-tv": 0.058555604508804815
+      }
+    },
+    "fuse_sim_dior": {
+      "mode": "fuse_sim",
+      "strategy": "dior_only",
+      "mean_gain": 0.037146738650587006,
+      "n_positive": 11,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.02324863584495851,
+        "COCO-boat": 0.01150738356942857,
+        "COCO-car": 0.006846527215534498,
+        "COCO-motorcycle": 0.07623152425756896,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": -0.005950618467867486,
+        "COCO-bicycle": 0.036136539655366895,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.05000229899783831,
+        "COCO-potted plant": 0.016620802398305823,
+        "COCO-tv": 0.058619069017984304
+      }
+    },
+    "fuse_sim_proto_gate": {
+      "mode": "fuse_sim",
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.03944529343979819,
+      "n_positive": 11,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.023653837082890594,
+        "COCO-boat": 0.01815656784516853,
+        "COCO-car": 0.0073874862839885536,
+        "COCO-motorcycle": 0.07413865666544084,
+        "COCO-bus": 0.04430560373827974,
+        "COCO-train": -0.0037858565278722223,
+        "COCO-bicycle": 0.0505259781043815,
+        "COCO-bottle": 0.06322147965482097,
+        "COCO-chair": 0.05817023524431594,
+        "COCO-couch": 0.046543607069992554,
+        "COCO-potted plant": 0.024189810825390318,
+        "COCO-tv": 0.06683611529078093
+      }
+    },
+    "fuse_sim_oracle": {
+      "mode": "fuse_sim",
+      "strategy": "oracle",
+      "mean_gain": 0.05181937708982091,
+      "n_positive": 12,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.025751727416117864,
+        "COCO-boat": 0.021901837027316323,
+        "COCO-car": 0.008526122603018188,
+        "COCO-motorcycle": 0.07533517518023913,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": 0.00149612397904475,
+        "COCO-bicycle": 0.09325483518572533,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": 0.10399892368136718,
+        "COCO-tv": 0.058555604508804815
+      }
+    },
+    "max_dior": {
+      "mode": "max",
+      "strategy": "dior_only",
+      "mean_gain": 0.033688582722127096,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.023126295678592257,
+        "COCO-boat": 0.01150738356942857,
+        "COCO-car": 0.006846527215534498,
+        "COCO-motorcycle": 0.06922578184290318,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": -0.005950618467867486,
+        "COCO-bicycle": 0.036136539655366895,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.049209693011500744,
+        "COCO-potted plant": -0.010167431625664067,
+        "COCO-tv": 0.051830120467804885
+      }
+    },
+    "max_proto_gate": {
+      "mode": "max",
+      "strategy": "proto_sim_gate",
+      "mean_gain": 0.035496020772744816,
+      "n_positive": 10,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.023378040809601375,
+        "COCO-boat": 0.01815656784516853,
+        "COCO-car": 0.0073874862839885536,
+        "COCO-motorcycle": 0.06841242212949133,
+        "COCO-bus": 0.04430560373827974,
+        "COCO-train": -0.0037858565278722223,
+        "COCO-bicycle": 0.0505259781043815,
+        "COCO-bottle": 0.06322147965482097,
+        "COCO-chair": 0.05817023524431594,
+        "COCO-couch": 0.04481658434914293,
+        "COCO-potted plant": -0.0018341644480742297,
+        "COCO-tv": 0.05319787208969329
+      }
+    },
+    "max_oracle": {
+      "mode": "max",
+      "strategy": "oracle",
+      "mean_gain": 0.05181937708982091,
+      "n_positive": 12,
+      "n_total": 12,
+      "gains": {
+        "COCO-airplane": 0.025751727416117864,
+        "COCO-boat": 0.021901837027316323,
+        "COCO-car": 0.008526122603018188,
+        "COCO-motorcycle": 0.07533517518023913,
+        "COCO-bus": 0.04615060708889007,
+        "COCO-train": 0.00149612397904475,
+        "COCO-bicycle": 0.09325483518572533,
+        "COCO-bottle": 0.06361585395927907,
+        "COCO-chair": 0.06273224026975652,
+        "COCO-couch": 0.060513474178291726,
+        "COCO-potted plant": 0.10399892368136718,
+        "COCO-tv": 0.058555604508804815
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "oracle": 0.02533189957914078,
+  "baseline_gated_fixed_2_5": 0.019188461791708297,
+  "best_closed_form": {
+    "rho": 0.05,
+    "mu_scale": 0.001,
+    "mean_gain": 0.0,
+    "pos": 0,
+    "alpha_std": 0.0,
+    "alpha_zero_ratio": 1.0
+  },
+  "best_gated_closed_form": {
+    "rho": 0.13,
+    "mu_scale": 0.1,
+    "mean_gain": 0.017742675958017637,
+    "pos": 9,
+    "alpha_std": 1.6520655157211992
+  }
+}

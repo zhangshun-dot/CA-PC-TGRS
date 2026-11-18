@@ -1,0 +1,1033 @@
+{
+  "baseline_results": {
+    "airplane": 0.8,
+    "ship": 0.7,
+    "stadium": 0.9,
+    "bridge": 0.85,
+    "harbor": 0.5,
+    "overpass": 0.65,
+    "tennis court": 0.55,
+    "windmill": 0.95
+  },
+  "tdm_results": {
+    "airplane": 0.8,
+    "ship": 0.7,
+    "stadium": 0.9,
+    "bridge": 0.85,
+    "harbor": 0.5,
+    "overpass": 0.65,
+    "tennis court": 0.55,
+    "windmill": 0.95
+  },
+  "final_results": {
+    "airplane": {
+      "baseline_dr": 0.8,
+      "tdm_dr": 0.8,
+      "cps_best_dr": 0.95,
+      "gdino_best_dr": 0.95,
+      "gdino_best_prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+      "all_tested": [
+        [
+          "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+          0.95
+        ],
+        [
+          "an overhead image of airplane, with natural coloring, large and prominent, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+          0.9
+        ],
+        [
+          "an overhead image of airplane",
+          0.8
+        ],
+        [
+          "an overhead image of airplane, surrounded by typical terrain",
+          0.8
+        ],
+        [
+          "a satellite image of airplane, surrounded by typical terrain",
+          0.75
+        ]
+      ],
+      "cps_best_prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+      "cps_score": 0.12558114528656006
+    },
+    "ship": {
+      "baseline_dr": 0.7,
+      "tdm_dr": 0.7,
+      "cps_best_dr": 0.7,
+      "gdino_best_dr": 0.8,
+      "gdino_best_prompt": "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+      "all_tested": [
+        [
+          "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+          0.8
+        ],
+        [
+          "an overhead image of ship",
+          0.7
+        ],
+        [
+          "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+          0.7
+        ],
+        [
+          "an overhead image of ship, surrounded by typical terrain",
+          0.55
+        ],
+        [
+          "an overhead image of ship, showing natural hues",
+          0.55
+        ],
+        [
+          "a photo of ship, with natural coloring, surrounded by typical terrain, with sharp edges",
+          0.5
+        ]
+      ],
+      "cps_best_prompt": "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+      "cps_score": 0.11613819003105164
+    },
+    "stadium": {
+      "baseline_dr": 0.9,
+      "tdm_dr": 0.9,
+      "cps_best_dr": 0.95,
+      "gdino_best_dr": 0.95,
+      "gdino_best_prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "all_tested": [
+        [
+          "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "a photo of stadium, large and prominent, showing surface texture, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "a photo of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "an overhead image of stadium",
+          0.9
+        ],
+        [
+          "an overhead image of stadium, with distinct structural features, with fine details",
+          0.9
+        ],
+        [
+          "an overhead image of stadium, surrounded by typical terrain",
+          0.9
+        ],
+        [
+          "an overhead image of stadium, showing natural hues",
+          0.9
+        ]
+      ],
+      "cps_best_prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "cps_score": 0.1271170973777771
+    },
+    "bridge": {
+      "baseline_dr": 0.85,
+      "tdm_dr": 0.85,
+      "cps_best_dr": 0.95,
+      "gdino_best_dr": 0.95,
+      "gdino_best_prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+      "all_tested": [
+        [
+          "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+          0.95
+        ],
+        [
+          "an overhead image of bridge",
+          0.85
+        ],
+        [
+          "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing natural hues",
+          0.6
+        ],
+        [
+          "an overhead image of bridge, showing natural hues",
+          0.6
+        ],
+        [
+          "a high-resolution overhead view of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+          0.5
+        ],
+        [
+          "a satellite image of bridge, surrounded by typical terrain",
+          0.2
+        ]
+      ],
+      "cps_best_prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+      "cps_score": 0.054895371198654175
+    },
+    "harbor": {
+      "baseline_dr": 0.5,
+      "tdm_dr": 0.5,
+      "cps_best_dr": 0.8,
+      "gdino_best_dr": 0.8,
+      "gdino_best_prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "all_tested": [
+        [
+          "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.8
+        ],
+        [
+          "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.8
+        ],
+        [
+          "a picture of harbor, large and prominent, surrounded by typical terrain, showing natural hues",
+          0.7
+        ],
+        [
+          "an overhead image of harbor",
+          0.5
+        ],
+        [
+          "an overhead image of harbor, surrounded by typical terrain",
+          0.45
+        ],
+        [
+          "an overhead image of harbor, showing natural hues",
+          0.4
+        ]
+      ],
+      "cps_best_prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "cps_score": 0.09437617659568787
+    },
+    "overpass": {
+      "baseline_dr": 0.65,
+      "tdm_dr": 0.65,
+      "cps_best_dr": 0.95,
+      "gdino_best_dr": 0.95,
+      "gdino_best_prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "all_tested": [
+        [
+          "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "a photo of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+          0.95
+        ],
+        [
+          "a photo of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.95
+        ],
+        [
+          "an overhead image of overpass",
+          0.65
+        ],
+        [
+          "an overhead image of overpass, large and prominent",
+          0.65
+        ],
+        [
+          "an overhead image of overpass, showing natural hues",
+          0.6
+        ],
+        [
+          "a satellite image of overpass, surrounded by typical terrain",
+          0.05
+        ]
+      ],
+      "cps_best_prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+      "cps_score": 0.1655736267566681
+    },
+    "tennis court": {
+      "baseline_dr": 0.55,
+      "tdm_dr": 0.55,
+      "cps_best_dr": 0.2,
+      "gdino_best_dr": 0.55,
+      "gdino_best_prompt": "an overhead image of tennis court",
+      "all_tested": [
+        [
+          "an overhead image of tennis court",
+          0.55
+        ],
+        [
+          "a remote sensing image of tennis court, surrounded by typical terrain",
+          0.55
+        ],
+        [
+          "a satellite image of tennis court, surrounded by typical terrain",
+          0.5
+        ],
+        [
+          "an overhead image of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+          0.25
+        ],
+        [
+          "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+          0.2
+        ],
+        [
+          "a high-resolution overhead view of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+          0.15
+        ]
+      ],
+      "cps_best_prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+      "cps_score": 0.05819298326969147
+    },
+    "windmill": {
+      "baseline_dr": 0.95,
+      "tdm_dr": 0.95,
+      "cps_best_dr": 0.85,
+      "gdino_best_dr": 0.95,
+      "gdino_best_prompt": "an overhead image of windmill",
+      "all_tested": [
+        [
+          "an overhead image of windmill",
+          0.95
+        ],
+        [
+          "an overhead image of windmill, with fine details",
+          0.95
+        ],
+        [
+          "an overhead image of windmill, showing intricate details",
+          0.95
+        ],
+        [
+          "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+          0.85
+        ],
+        [
+          "a high-resolution overhead view of windmill, within its environment, with sharp edges, featuring characteristic outlines",
+          0.8
+        ],
+        [
+          "a photo of windmill, at full resolution, with sharp edges, featuring characteristic outlines",
+          0.7
+        ]
+      ],
+      "cps_best_prompt": "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+      "cps_score": 0.02041366696357727
+    }
+  },
+  "evolution_results": {
+    "airplane": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of airplane, surrounded by typical terrain",
+          "best_score": 0.04547552764415741,
+          "avg_top_score": 0.008550544269382954,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an overhead image of airplane, with sharp edges, surrounded by typical terrain",
+          "best_score": 0.07776989042758942,
+          "avg_top_score": 0.03209108114242554,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "an overhead image of airplane, with sharp edges, surrounded by typical terrain, large and prominent",
+          "best_score": 0.10529729723930359,
+          "avg_top_score": 0.06225467845797539,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+          "best_score": 0.12015533447265625,
+          "avg_top_score": 0.09588510543107986,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+          "best_score": 0.12015533447265625,
+          "avg_top_score": 0.09887252748012543,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+          "best_score": 0.12558114528656006,
+          "avg_top_score": 0.10819880664348602,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent",
+          0.12558114528656006
+        ],
+        [
+          "an overhead image of airplane, large and prominent, surrounded by typical terrain, with sharp edges",
+          0.12015533447265625
+        ],
+        [
+          "an overhead image of airplane, with natural coloring, large and prominent, surrounded by typical terrain",
+          0.11509492993354797
+        ],
+        [
+          "an overhead image of airplane, large and prominent, surrounded by typical terrain, with realistic tones",
+          0.11103211343288422
+        ],
+        [
+          "an overhead image of airplane, large and prominent, surrounded by typical terrain",
+          0.10991072654724121
+        ],
+        [
+          "an overhead image of airplane, showing natural hues, surrounded by typical terrain, large and prominent",
+          0.10557088255882263
+        ],
+        [
+          "an overhead image of airplane, with sharp edges, surrounded by typical terrain, with natural coloring",
+          0.100496307015419
+        ],
+        [
+          "an overhead image of airplane, with natural coloring, with sharp edges, surrounded by typical terrain",
+          0.09889118373394012
+        ],
+        [
+          "an overhead image of airplane, large and prominent, showing surface texture, surrounded by typical terrain",
+          0.09840452671051025
+        ],
+        [
+          "a high-resolution overhead view of airplane, showing surface texture, large and prominent, surrounded by typical terrain",
+          0.09685096144676208
+        ]
+      ],
+      "best_prompt": "an overhead image of airplane, with natural coloring, surrounded by typical terrain, large and prominent"
+    },
+    "ship": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of ship, surrounded by typical terrain",
+          "best_score": 0.01921309530735016,
+          "avg_top_score": 0.0030000607948750257,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an overhead image of ship, surrounded by typical terrain, showing natural hues",
+          "best_score": 0.055589914321899414,
+          "avg_top_score": 0.021510859951376915,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "an overhead image of ship, surrounded by typical terrain, showing natural hues, large and prominent",
+          "best_score": 0.0696316733956337,
+          "avg_top_score": 0.045748330652713776,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "an overhead image of ship, with natural coloring, surrounded by typical terrain, dominating the view",
+          "best_score": 0.07578636705875397,
+          "avg_top_score": 0.06429100036621094,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+          "best_score": 0.0960254967212677,
+          "avg_top_score": 0.07144373655319214,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+          "best_score": 0.11613819003105164,
+          "avg_top_score": 0.08825879544019699,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+          0.11613819003105164
+        ],
+        [
+          "a photo of ship, with natural coloring, surrounded by typical terrain, with sharp edges",
+          0.10889771580696106
+        ],
+        [
+          "a photo of ship, surrounded by typical terrain, large and prominent, with sharp edges",
+          0.0960254967212677
+        ],
+        [
+          "a picture of ship, large and prominent, surrounded by typical terrain, featuring characteristic outlines",
+          0.0957360714673996
+        ],
+        [
+          "a picture of ship, with natural coloring, surrounded by typical terrain, dominating the view",
+          0.08710871636867523
+        ],
+        [
+          "a picture of ship, large and prominent, surrounded by typical terrain",
+          0.08655361831188202
+        ],
+        [
+          "a high-resolution overhead view of ship, surrounded by typical terrain, large and prominent, featuring characteristic outlines",
+          0.07718111574649811
+        ],
+        [
+          "an overhead image of ship, with natural coloring, large and prominent, surrounded by typical terrain",
+          0.07309836894273758
+        ],
+        [
+          "an overhead image of ship, large and prominent, with natural coloring, surrounded by typical terrain",
+          0.07172093540430069
+        ],
+        [
+          "an overhead image of ship, large and prominent, surrounded by typical terrain, showing natural hues",
+          0.07012772560119629
+        ]
+      ],
+      "best_prompt": "a picture of ship, large and prominent, with natural coloring, surrounded by typical terrain"
+    },
+    "stadium": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of stadium, surrounded by typical terrain",
+          "best_score": 0.032365232706069946,
+          "avg_top_score": 0.017414560541510582,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an image of stadium, surrounded by typical terrain",
+          "best_score": 0.06316781789064407,
+          "avg_top_score": 0.038178347051143646,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "a photo of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+          "best_score": 0.1160012036561966,
+          "avg_top_score": 0.06961618363857269,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "a photo of stadium, large and prominent, showing surface texture, surrounded by typical terrain",
+          "best_score": 0.12287575006484985,
+          "avg_top_score": 0.09612809121608734,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+          "best_score": 0.1271170973777771,
+          "avg_top_score": 0.10848639160394669,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+          "best_score": 0.1271170973777771,
+          "avg_top_score": 0.10865743458271027,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.1271170973777771
+        ],
+        [
+          "a photo of stadium, large and prominent, showing surface texture, surrounded by typical terrain",
+          0.12287575006484985
+        ],
+        [
+          "a photo of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+          0.1160012036561966
+        ],
+        [
+          "a photo of stadium, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.11575637757778168
+        ],
+        [
+          "an image of stadium, showing natural hues, large and prominent, surrounded by typical terrain",
+          0.11130908131599426
+        ],
+        [
+          "an image of stadium, large and prominent, surrounded by typical terrain, with well-defined shape",
+          0.10688374936580658
+        ],
+        [
+          "a photo of stadium, featuring surface details, large and prominent, surrounded by typical terrain",
+          0.10570323467254639
+        ],
+        [
+          "an image of stadium, large and prominent, surrounded by typical terrain",
+          0.10064136981964111
+        ],
+        [
+          "a photo of stadium, surrounded by typical terrain, large and prominent, showing natural hues",
+          0.09036530554294586
+        ],
+        [
+          "an image of stadium, showing surface texture, large and prominent, surrounded by typical terrain",
+          0.08992120623588562
+        ]
+      ],
+      "best_prompt": "a photo of stadium, large and prominent, with well-defined shape, surrounded by typical terrain"
+    },
+    "bridge": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of bridge, showing natural hues",
+          "best_score": 0.011408735066652298,
+          "avg_top_score": 0.0027642715722322464,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an image of bridge, showing surface texture, surrounded by typical terrain",
+          "best_score": 0.02813303843140602,
+          "avg_top_score": 0.013595866039395332,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "an overhead image of bridge, with natural coloring, showing surface texture, surrounded by typical terrain",
+          "best_score": 0.03894776105880737,
+          "avg_top_score": 0.023076359182596207,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing intricate details",
+          "best_score": 0.040964290499687195,
+          "avg_top_score": 0.03565271571278572,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing natural hues",
+          "best_score": 0.05226697027683258,
+          "avg_top_score": 0.04307395592331886,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+          "best_score": 0.054895371198654175,
+          "avg_top_score": 0.044691331684589386,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a photo of bridge, showing surface texture, large and prominent, with natural coloring",
+          0.054895371198654175
+        ],
+        [
+          "a high-resolution overhead view of bridge, showing surface texture, surrounded by typical terrain, showing natural hues",
+          0.05226697027683258
+        ],
+        [
+          "a high-resolution overhead view of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+          0.048962198197841644
+        ],
+        [
+          "an image of bridge, featuring characteristic outlines, surrounded by typical terrain, large and prominent",
+          0.04800716042518616
+        ],
+        [
+          "an image of bridge, showing surface texture, large and prominent, with natural coloring",
+          0.04607691615819931
+        ],
+        [
+          "a photo of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+          0.04484981298446655
+        ],
+        [
+          "an overhead image of bridge, showing surface texture, with natural coloring, surrounded by typical terrain",
+          0.03940238803625107
+        ],
+        [
+          "an overhead image of bridge, with natural coloring, surrounded by typical terrain",
+          0.039396241307258606
+        ],
+        [
+          "an overhead image of bridge, surrounded by typical terrain, with natural coloring",
+          0.03697263449430466
+        ],
+        [
+          "an overhead image of bridge, showing natural hues, showing surface texture, surrounded by typical terrain",
+          0.03608361631631851
+        ]
+      ],
+      "best_prompt": "a photo of bridge, showing surface texture, large and prominent, with natural coloring"
+    },
+    "harbor": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of harbor, surrounded by typical terrain",
+          "best_score": 0.01900680735707283,
+          "avg_top_score": -0.0018113997066393495,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an overhead image of harbor, with clearly visible surface features, surrounded by typical terrain",
+          "best_score": 0.03184324502944946,
+          "avg_top_score": 0.011672524735331535,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "an overhead image of harbor, surrounded by typical terrain, with well-defined shape, showing natural hues",
+          "best_score": 0.04778393357992172,
+          "avg_top_score": 0.03669126704335213,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+          "best_score": 0.08089233934879303,
+          "avg_top_score": 0.05000218003988266,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+          "best_score": 0.08089233934879303,
+          "avg_top_score": 0.04771466925740242,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+          "best_score": 0.09437617659568787,
+          "avg_top_score": 0.06381703913211823,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.09437617659568787
+        ],
+        [
+          "a picture of harbor, large and prominent, surrounded by typical terrain, showing natural hues",
+          0.08405795693397522
+        ],
+        [
+          "a photo of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.08089233934879303
+        ],
+        [
+          "a photo of harbor, large and prominent, surrounded by typical terrain",
+          0.07236230373382568
+        ],
+        [
+          "a picture of harbor, with well-defined shape, surrounded by typical terrain, large and prominent",
+          0.06899121403694153
+        ],
+        [
+          "a photo of harbor, with well-defined shape, surrounded by typical terrain",
+          0.05355820804834366
+        ],
+        [
+          "a high-resolution overhead view of harbor, with well-defined shape, surrounded by typical terrain, large and prominent",
+          0.049993038177490234
+        ],
+        [
+          "an overhead image of harbor, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.0471591055393219
+        ],
+        [
+          "an overhead image of harbor, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.044151969254016876
+        ],
+        [
+          "a photo of harbor, featuring surface details, large and prominent, with well-defined shape",
+          0.04262816160917282
+        ]
+      ],
+      "best_prompt": "a photo of harbor, large and prominent, with well-defined shape, surrounded by typical terrain"
+    },
+    "overpass": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of overpass, showing natural hues",
+          "best_score": 0.009004391729831696,
+          "avg_top_score": 0.002790943020954728,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "a picture of overpass, large and prominent, with well-defined shape",
+          "best_score": 0.09532743692398071,
+          "avg_top_score": 0.02649478055536747,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "a picture of overpass, large and prominent, with well-defined shape",
+          "best_score": 0.09532743692398071,
+          "avg_top_score": 0.04693634435534477,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "an image of overpass, large and prominent, surrounded by typical terrain",
+          "best_score": 0.1293523907661438,
+          "avg_top_score": 0.07238321751356125,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a photo of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+          "best_score": 0.15661513805389404,
+          "avg_top_score": 0.11849812418222427,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+          "best_score": 0.1655736267566681,
+          "avg_top_score": 0.13153952360153198,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain",
+          0.1655736267566681
+        ],
+        [
+          "a photo of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+          0.15661513805389404
+        ],
+        [
+          "a photo of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.14505134522914886
+        ],
+        [
+          "a picture of overpass, with well-defined shape, surrounded by typical terrain, large and prominent",
+          0.142780601978302
+        ],
+        [
+          "a picture of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.13264228403568268
+        ],
+        [
+          "a picture of overpass, surrounded by typical terrain, large and prominent",
+          0.12397202849388123
+        ],
+        [
+          "a photo of overpass, surrounded by typical terrain, featuring characteristic outlines, large and prominent",
+          0.1194828450679779
+        ],
+        [
+          "a photo of overpass, large and prominent, showing natural hues",
+          0.11799442768096924
+        ],
+        [
+          "a photo of overpass, large and prominent, with well-defined shape",
+          0.11001439392566681
+        ],
+        [
+          "an image of overpass, with well-defined shape, large and prominent, surrounded by typical terrain",
+          0.10126836597919464
+        ]
+      ],
+      "best_prompt": "a photo of overpass, large and prominent, with well-defined shape, surrounded by typical terrain"
+    },
+    "tennis court": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "an overhead image of tennis court, surrounded by typical terrain",
+          "best_score": 0.01564665138721466,
+          "avg_top_score": 0.005341633222997189,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "an overhead image of tennis court, surrounded by typical terrain, showing natural hues",
+          "best_score": 0.031231515109539032,
+          "avg_top_score": 0.018984070047736168,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "an overhead image of tennis court, showing surface texture, featuring characteristic outlines, surrounded by typical terrain",
+          "best_score": 0.037729375064373016,
+          "avg_top_score": 0.03370950371026993,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "a satellite image of tennis court, with natural coloring, showing surface texture, surrounded by typical terrain",
+          "best_score": 0.04850742220878601,
+          "avg_top_score": 0.0400819256901741,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+          "best_score": 0.05819298326969147,
+          "avg_top_score": 0.047557078301906586,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+          "best_score": 0.05819298326969147,
+          "avg_top_score": 0.051408905535936356,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain",
+          0.05819298326969147
+        ],
+        [
+          "an overhead image of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+          0.05766460299491882
+        ],
+        [
+          "a high-resolution overhead view of tennis court, with natural coloring, surrounded by typical terrain, featuring characteristic outlines",
+          0.05472951382398605
+        ],
+        [
+          "a photo of tennis court, showing surface texture, surrounded by typical terrain, showing natural hues",
+          0.051192715764045715
+        ],
+        [
+          "a picture of tennis court, featuring characteristic outlines, surrounded by typical terrain, with clearly visible surface features",
+          0.05066420137882233
+        ],
+        [
+          "a picture of tennis court, with natural coloring, featuring characteristic outlines, surrounded by typical terrain",
+          0.049430541694164276
+        ],
+        [
+          "a picture of tennis court, with natural coloring, showing surface texture, surrounded by typical terrain",
+          0.049020521342754364
+        ],
+        [
+          "a satellite image of tennis court, with natural coloring, showing surface texture, surrounded by typical terrain",
+          0.04850742220878601
+        ],
+        [
+          "a high-resolution overhead view of tennis court, with natural coloring, showing surface texture, surrounded by typical terrain",
+          0.04833371937274933
+        ],
+        [
+          "a satellite image of tennis court, showing surface texture, with natural coloring, surrounded by typical terrain",
+          0.04635278135538101
+        ]
+      ],
+      "best_prompt": "a satellite image of tennis court, with natural coloring, with visible material patterns, surrounded by typical terrain"
+    },
+    "windmill": {
+      "history": [
+        {
+          "generation": 0,
+          "best_prompt": "a photo of windmill",
+          "best_score": 0.004680652171373367,
+          "avg_top_score": -0.0020376190077513456,
+          "diversity": 10
+        },
+        {
+          "generation": 1,
+          "best_prompt": "a photo of windmill",
+          "best_score": 0.004680652171373367,
+          "avg_top_score": -0.0004404725623317063,
+          "diversity": 10
+        },
+        {
+          "generation": 2,
+          "best_prompt": "a photo of windmill, with sharp edges, in true color, featuring characteristic outlines",
+          "best_score": 0.006629563868045807,
+          "avg_top_score": 0.002090709051117301,
+          "diversity": 10
+        },
+        {
+          "generation": 3,
+          "best_prompt": "a photo of windmill, with sharp edges, in true color, featuring characteristic outlines",
+          "best_score": 0.006629563868045807,
+          "avg_top_score": 0.0026715039275586605,
+          "diversity": 10
+        },
+        {
+          "generation": 4,
+          "best_prompt": "a photo of windmill, with sharp edges, with natural coloring, featuring characteristic outlines",
+          "best_score": 0.008328735828399658,
+          "avg_top_score": 0.004828246776014566,
+          "diversity": 10
+        },
+        {
+          "generation": 5,
+          "best_prompt": "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+          "best_score": 0.02041366696357727,
+          "avg_top_score": 0.008550411090254784,
+          "diversity": 10
+        }
+      ],
+      "final_ranking": [
+        [
+          "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture",
+          0.02041366696357727
+        ],
+        [
+          "a high-resolution overhead view of windmill, within its environment, with sharp edges, featuring characteristic outlines",
+          0.012100905179977417
+        ],
+        [
+          "a photo of windmill, at full resolution, with sharp edges, featuring characteristic outlines",
+          0.008622393012046814
+        ],
+        [
+          "a photo of windmill, with sharp edges, with natural coloring, featuring characteristic outlines",
+          0.008328735828399658
+        ],
+        [
+          "a photo of windmill, featuring characteristic outlines, with natural coloring, with sharp edges",
+          0.00830882415175438
+        ],
+        [
+          "a high-resolution overhead view of windmill, within its environment, showing surface texture",
+          0.007632046937942505
+        ],
+        [
+          "a photo of windmill, within its environment, with sharp edges, featuring characteristic outlines",
+          0.006340883672237396
+        ],
+        [
+          "a photo of windmill, at full resolution, featuring characteristic outlines",
+          0.005022633820772171
+        ],
+        [
+          "a high-resolution overhead view of windmill, within its environment, showing intricate details, featuring characteristic outlines",
+          0.004792489111423492
+        ],
+        [
+          "a photo of windmill, at full resolution",
+          0.003941535949707031
+        ]
+      ],
+      "best_prompt": "a high-resolution overhead view of windmill, within its environment, featuring characteristic outlines, showing surface texture"
+    }
+  },
+  "summary": {
+    "mean_baseline": 0.7375,
+    "mean_tdm": 0.7375,
+    "mean_cps_best": 0.79375,
+    "mean_gdino_best": 0.8625,
+    "mean_gain": 0.125
+  }
+}

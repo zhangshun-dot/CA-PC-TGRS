@@ -1,0 +1,82 @@
+{
+  "config": {
+    "source": "NWPU VHR-10",
+    "target": "COCO val2017",
+    "n_coco": 100,
+    "k": 10,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "protocol": "NWPU->COCO, N=100/类, K=10, 后90图, 逐图 AP50, 同主表口径",
+    "note": "β/λ 沿用 DIOR->COCO 主表固定值, 未针对 NWPU 调整 (留一源域验证)"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "src_cls": "airplane",
+      "baseline": 0.7484,
+      "b2": 0.7653,
+      "tge_lam0": 0.7633,
+      "acspc": 0.7583,
+      "tge_gain": 0.0149,
+      "acspc_gain": 0.0099,
+      "n_test": 87
+    },
+    "COCO-boat": {
+      "src_cls": "ship",
+      "baseline": 0.1879,
+      "b2": 0.183,
+      "tge_lam0": 0.1872,
+      "acspc": 0.2249,
+      "tge_gain": -0.0007,
+      "acspc_gain": 0.037,
+      "n_test": 90
+    },
+    "COCO-car": {
+      "src_cls": "vehicle",
+      "baseline": 0.0858,
+      "b2": 0.0985,
+      "tge_lam0": 0.1106,
+      "acspc": 0.1618,
+      "tge_gain": 0.0247,
+      "acspc_gain": 0.0759,
+      "n_test": 90
+    },
+    "COCO-truck": {
+      "src_cls": "vehicle",
+      "baseline": 0.2631,
+      "b2": 0.2847,
+      "tge_lam0": 0.3103,
+      "acspc": 0.3224,
+      "tge_gain": 0.0472,
+      "acspc_gain": 0.0593,
+      "n_test": 90
+    },
+    "COCO-bus": {
+      "src_cls": "vehicle",
+      "baseline": 0.5651,
+      "b2": 0.5308,
+      "tge_lam0": 0.5743,
+      "acspc": 0.6148,
+      "tge_gain": 0.0092,
+      "acspc_gain": 0.0497,
+      "n_test": 90
+    },
+    "COCO-motorcycle": {
+      "src_cls": "vehicle",
+      "baseline": 0.435,
+      "b2": 0.462,
+      "tge_lam0": 0.4997,
+      "acspc": 0.5565,
+      "tge_gain": 0.0648,
+      "acspc_gain": 0.1216,
+      "n_test": 90
+    }
+  },
+  "mean": {
+    "baseline": 0.3809,
+    "b2": 0.3874,
+    "tge_lam0": 0.4076,
+    "acspc": 0.4398,
+    "tge_gain": 0.0267,
+    "acspc_gain": 0.0589
+  }
+}

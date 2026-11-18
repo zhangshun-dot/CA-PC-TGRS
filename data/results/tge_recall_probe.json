@@ -1,0 +1,94 @@
+{
+  "config": {
+    "n_coco": 100,
+    "pre_filter": 0.03,
+    "protocol": "recall@proposal: GT covered by any pool box IoU>=0.5, same dets cache as main table (tge_probe_dets_*.pkl)",
+    "recall_definition": "per-GT hit, no mutual exclusion"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "n_images": 97,
+      "n_gt": 143,
+      "n_boxes_full": 87300,
+      "n_boxes_pf": 2394,
+      "n_boxes_pf_nosmall": 2213,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 24.7,
+      "recall_full": 0.993,
+      "recall_pf": 0.979,
+      "recall_pf_nosmall": 0.979
+    },
+    "COCO-boat": {
+      "n_images": 100,
+      "n_gt": 320,
+      "n_boxes_full": 90000,
+      "n_boxes_pf": 803,
+      "n_boxes_pf_nosmall": 777,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 8.0,
+      "recall_full": 0.9313,
+      "recall_pf": 0.4906,
+      "recall_pf_nosmall": 0.4875
+    },
+    "COCO-car": {
+      "n_images": 100,
+      "n_gt": 314,
+      "n_boxes_full": 90000,
+      "n_boxes_pf": 1988,
+      "n_boxes_pf_nosmall": 1912,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 19.9,
+      "recall_full": 0.965,
+      "recall_pf": 0.6656,
+      "recall_pf_nosmall": 0.6529
+    },
+    "COCO-truck": {
+      "n_images": 100,
+      "n_gt": 151,
+      "n_boxes_full": 90000,
+      "n_boxes_pf": 4105,
+      "n_boxes_pf_nosmall": 3950,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 41.0,
+      "recall_full": 1.0,
+      "recall_pf": 0.9338,
+      "recall_pf_nosmall": 0.9272
+    },
+    "COCO-bus": {
+      "n_images": 100,
+      "n_gt": 154,
+      "n_boxes_full": 90000,
+      "n_boxes_pf": 452,
+      "n_boxes_pf_nosmall": 451,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 4.5,
+      "recall_full": 0.9935,
+      "recall_pf": 0.7922,
+      "recall_pf_nosmall": 0.7922
+    },
+    "COCO-motorcycle": {
+      "n_images": 100,
+      "n_gt": 229,
+      "n_boxes_full": 90000,
+      "n_boxes_pf": 3354,
+      "n_boxes_pf_nosmall": 3246,
+      "avg_boxes_per_img_full": 900.0,
+      "avg_boxes_per_img_pf": 33.5,
+      "recall_full": 0.9956,
+      "recall_pf": 0.9214,
+      "recall_pf_nosmall": 0.9127
+    }
+  },
+  "mean": {
+    "n_images": 100,
+    "n_gt": 218,
+    "n_boxes_full": 89550,
+    "n_boxes_pf": 2182,
+    "n_boxes_pf_nosmall": 2091,
+    "avg_boxes_per_img_full": 900.0,
+    "avg_boxes_per_img_pf": 21.9333,
+    "recall_full": 0.9797,
+    "recall_pf": 0.7971,
+    "recall_pf_nosmall": 0.7919
+  }
+}

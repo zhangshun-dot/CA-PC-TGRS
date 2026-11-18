@@ -1,0 +1,25 @@
+{
+  "n_coco_clean": 180,
+  "n_dior": 180,
+  "A_condition": {
+    "pearson_r_zk_k": 0.575,
+    "acc_4way": 0.467,
+    "random": 0.25,
+    "pearson_r_abszc_k": 0.003
+  },
+  "B_ood": {
+    "auc_zk": 0.641,
+    "auc_zk_zc": 1.0,
+    "random": 0.5
+  },
+  "C_sample_selection": {
+    "auc_score": 0.942,
+    "auc_score_wzk": 0.941,
+    "w": 0.0
+  },
+  "D_ece": {
+    "baseline": 0.009,
+    "zk_temp_scaled": 0.009
+  },
+  "verdict_note": "A: z_k 在全图 intended 分布能否读条件; B: 域OOD; C/D: 降级集上 z_k 能否改善风险/校准"
+}

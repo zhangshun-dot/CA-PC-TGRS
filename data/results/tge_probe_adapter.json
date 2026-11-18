@@ -1,0 +1,47 @@
+{
+  "config": {
+    "n_coco": 100,
+    "k_shot": 16,
+    "epochs": 20,
+    "lr": 0.001,
+    "seed": 42,
+    "protocol": "CLIP-Adapter (NeurIPS22): DIOR K=16 GT-crop 训练残差适配器, COCO 框 crop 打分, 逐图 AP50, 后90图测试"
+  },
+  "classes": {
+    "COCO-airplane": {
+      "baseline": 0.7484,
+      "adapter_fs": 0.7571,
+      "fs_gain": 0.0087
+    },
+    "COCO-boat": {
+      "baseline": 0.1879,
+      "adapter_fs": 0.2266,
+      "fs_gain": 0.0387
+    },
+    "COCO-car": {
+      "baseline": 0.0858,
+      "adapter_fs": 0.165,
+      "fs_gain": 0.0792
+    },
+    "COCO-truck": {
+      "baseline": 0.2631,
+      "adapter_fs": 0.3497,
+      "fs_gain": 0.0865
+    },
+    "COCO-bus": {
+      "baseline": 0.5651,
+      "adapter_fs": 0.6186,
+      "fs_gain": 0.0535
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.435,
+      "adapter_fs": 0.5498,
+      "fs_gain": 0.1149
+    }
+  },
+  "mean": {
+    "baseline": 0.3809,
+    "adapter_fs": 0.4445,
+    "fs_gain": 0.0636
+  }
+}

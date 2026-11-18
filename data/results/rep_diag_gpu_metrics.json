@@ -1,0 +1,80 @@
+{
+  "z_c_probe_accuracy": {
+    "COCO-airplane": 0.8587992785364597,
+    "COCO-boat": 0.4212698412698413,
+    "COCO-car": 0.6677462887989204,
+    "DIOR-airplane": 0.8587992785364597,
+    "DIOR-ship": 0.4212698412698413,
+    "DIOR-vehicle": 0.6677462887989204,
+    "DIOR-harbor": 0.7190143435086429,
+    "DIOR-storage": 0.7486734201640135,
+    "DIOR-tennis": 0.6524415264669676,
+    "DIOR-baseball": 0.7108721624850657,
+    "DIOR-bridge": 0.8182495344506517
+  },
+  "effective_rank_zc": {
+    "COCO-airplane": 168.9911651611328,
+    "COCO-boat": 213.95132446289062,
+    "COCO-car": 256.67669677734375,
+    "DIOR-airplane": 209.70172119140625,
+    "DIOR-ship": 246.2716522216797,
+    "DIOR-vehicle": 250.3653106689453,
+    "DIOR-harbor": 247.81044006347656,
+    "DIOR-storage": 247.85243225097656,
+    "DIOR-tennis": 248.03878784179688,
+    "DIOR-baseball": 238.79739379882812,
+    "DIOR-bridge": 221.35794067382812
+  },
+  "z_k_content_leakage": {
+    "COCO-airplane": 0.5205045858998337,
+    "COCO-boat": 0.4180278209855753,
+    "COCO-car": 0.3890727355745464,
+    "DIOR-airplane": 0.4881316336914533,
+    "DIOR-ship": 0.41218733859769086,
+    "DIOR-vehicle": 0.5954063230369971,
+    "DIOR-harbor": 0.3381007843610961,
+    "DIOR-storage": 0.5745103261494158,
+    "DIOR-tennis": 0.5200454859486665,
+    "DIOR-baseball": 0.5880840331596665,
+    "DIOR-bridge": 0.5868210700777728
+  },
+  "unc_score": {
+    "COCO-airplane": 0.9672263425771871,
+    "COCO-boat": 0.9313598721183065,
+    "COCO-car": 0.9363046207365069,
+    "DIOR-airplane": 0.9574469139152763,
+    "DIOR-ship": 0.8968141034775337,
+    "DIOR-vehicle": 0.9118344390012351,
+    "DIOR-harbor": 0.88545400303634,
+    "DIOR-storage": 0.9033965388689419,
+    "DIOR-tennis": 0.882295841397775,
+    "DIOR-baseball": 0.8840407601901493,
+    "DIOR-bridge": 0.9016874134374064
+  },
+  "cond_inv_score": {
+    "COCO-airplane": 0.5291043691233073,
+    "COCO-boat": 0.5640556203457635,
+    "COCO-car": 0.5769302476155177,
+    "DIOR-airplane": 0.5388941684384462,
+    "DIOR-ship": 0.5714272793845276,
+    "DIOR-vehicle": 0.5012664431638584,
+    "DIOR-harbor": 0.5976175579923003,
+    "DIOR-storage": 0.5064893593958651,
+    "DIOR-tennis": 0.5234333844301297,
+    "DIOR-baseball": 0.5023251179144327,
+    "DIOR-bridge": 0.4995498055297347
+  },
+  "n_crop": {
+    "COCO-airplane": 1862,
+    "COCO-boat": 647,
+    "COCO-car": 1497,
+    "DIOR-airplane": 2019,
+    "DIOR-ship": 2503,
+    "DIOR-vehicle": 2208,
+    "DIOR-harbor": 2719,
+    "DIOR-storage": 2073,
+    "DIOR-tennis": 2437,
+    "DIOR-baseball": 2511,
+    "DIOR-bridge": 2685
+  }
+}

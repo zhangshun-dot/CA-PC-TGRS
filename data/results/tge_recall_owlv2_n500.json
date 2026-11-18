@@ -1,0 +1,51 @@
+{
+  "config": {
+    "detector": "OWLv2-base-patch16-ensemble",
+    "n_coco": 500,
+    "definition": "per-image per-GT recall, IoU>=0.5, logit 尺度 pre-filter 0.03, 含小框"
+  },
+  "classes": {
+    "airplane": {
+      "n_images": 97,
+      "n_gt": 143,
+      "recall_pf_perimg": 0.979,
+      "reused_from_n100": 97,
+      "newly_detected": 0
+    },
+    "boat": {
+      "n_images": 121,
+      "n_gt": 424,
+      "recall_pf_perimg": 0.9009,
+      "reused_from_n100": 100,
+      "newly_detected": 21
+    },
+    "car": {
+      "n_images": 500,
+      "n_gt": 1775,
+      "recall_pf_perimg": 0.9245,
+      "reused_from_n100": 100,
+      "newly_detected": 400
+    },
+    "truck": {
+      "n_images": 250,
+      "n_gt": 414,
+      "recall_pf_perimg": 0.9855,
+      "reused_from_n100": 100,
+      "newly_detected": 150
+    },
+    "bus": {
+      "n_images": 189,
+      "n_gt": 283,
+      "recall_pf_perimg": 0.9753,
+      "reused_from_n100": 100,
+      "newly_detected": 89
+    },
+    "motorcycle": {
+      "n_images": 159,
+      "n_gt": 367,
+      "recall_pf_perimg": 0.9455,
+      "reused_from_n100": 100,
+      "newly_detected": 59
+    }
+  }
+}

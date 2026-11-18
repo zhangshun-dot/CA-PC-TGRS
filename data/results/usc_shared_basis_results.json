@@ -1,0 +1,48 @@
+{
+  "shared_results": {
+    "DIOR": {
+      "shared_best_ap": 0.38429726053187063,
+      "shared_best_params": {
+        "gamma": -2.0,
+        "alpha": 1.0
+      },
+      "original_best_ap": 0.3836,
+      "gain": 0.000697260531870636
+    },
+    "NWPU": {
+      "shared_best_ap": 0.38281969342600225,
+      "shared_best_params": {
+        "gamma": -0.5,
+        "alpha": 0.7
+      },
+      "original_best_ap": 0.3845,
+      "gain": -0.0016803065739977585
+    },
+    "DOTA": {
+      "shared_best_ap": 0.3856372079619692,
+      "shared_best_params": {
+        "gamma": -2.0,
+        "alpha": 0.5
+      },
+      "original_best_ap": 0.3864,
+      "gain": -0.0007627920380308129
+    },
+    "VisDrone": {
+      "shared_best_ap": 0.32968900838160087,
+      "shared_best_params": {
+        "gamma": 0.5,
+        "alpha": 0.1
+      },
+      "original_best_ap": 0.3406,
+      "gain": -0.010910991618399146
+    }
+  },
+  "original_baseline": {
+    "DIOR": 0.3836,
+    "NWPU": 0.3845,
+    "DOTA": 0.3864,
+    "VisDrone": 0.3406
+  },
+  "n_domains": 4,
+  "n_components": 30
+}

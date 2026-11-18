@@ -1,0 +1,209 @@
+{
+  "COCO-airplane": {
+    "diag": {
+      "vis_top20": {
+        "precision": 0.65,
+        "cos_gt": 0.733,
+        "pos_neg_gap": 0.105,
+        "n_selected": 20
+      },
+      "gd_top20": {
+        "precision": 1.0,
+        "cos_gt": 0.819,
+        "pos_neg_gap": 0.181,
+        "n_selected": 20
+      },
+      "both_intersect": {
+        "precision": 1.0,
+        "cos_gt": 0.596,
+        "pos_neg_gap": 0.089,
+        "n_selected": 1
+      },
+      "fused_top20": {
+        "precision": 1.0,
+        "cos_gt": 0.889,
+        "pos_neg_gap": 0.169,
+        "n_selected": 20
+      }
+    },
+    "source_only": 0.773,
+    "inductive": {
+      "vis_top20": {
+        "a0.0": 0.7232,
+        "a0.5": 0.7423
+      },
+      "gd_top20": {
+        "a0.0": 0.7319,
+        "a0.5": 0.7744
+      },
+      "both_intersect": {
+        "a0.0": 0.7254,
+        "a0.5": 0.7717
+      },
+      "fused_top20": {
+        "a0.0": 0.7801,
+        "a0.5": 0.7716
+      }
+    },
+    "transductive": {
+      "vis_top20": {
+        "a0.0": 0.7197,
+        "a0.5": 0.7489
+      },
+      "gd_top20": {
+        "a0.0": 0.7656,
+        "a0.5": 0.7795
+      },
+      "both_intersect": {
+        "a0.0": null,
+        "a0.5": null
+      },
+      "fused_top20": {
+        "a0.0": 0.7452,
+        "a0.5": 0.7614
+      }
+    },
+    "inductive_Kshot": {
+      "a0.0": 0.7597,
+      "a0.5": 0.7761
+    }
+  },
+  "COCO-boat": {
+    "diag": {
+      "vis_top20": {
+        "precision": 0.25,
+        "cos_gt": 0.79,
+        "pos_neg_gap": -0.036,
+        "n_selected": 20
+      },
+      "gd_top20": {
+        "precision": 0.75,
+        "cos_gt": 0.765,
+        "pos_neg_gap": 0.121,
+        "n_selected": 20
+      },
+      "both_intersect": {
+        "precision": NaN,
+        "cos_gt": NaN,
+        "pos_neg_gap": NaN,
+        "n_selected": 0
+      },
+      "fused_top20": {
+        "precision": 0.7,
+        "cos_gt": 0.787,
+        "pos_neg_gap": 0.096,
+        "n_selected": 20
+      }
+    },
+    "source_only": 0.2687,
+    "inductive": {
+      "vis_top20": {
+        "a0.0": 0.249,
+        "a0.5": 0.2592
+      },
+      "gd_top20": {
+        "a0.0": 0.3618,
+        "a0.5": 0.3622
+      },
+      "both_intersect": {
+        "a0.0": null,
+        "a0.5": null
+      },
+      "fused_top20": {
+        "a0.0": 0.3349,
+        "a0.5": 0.3296
+      }
+    },
+    "transductive": {
+      "vis_top20": {
+        "a0.0": 0.2323,
+        "a0.5": 0.2501
+      },
+      "gd_top20": {
+        "a0.0": 0.3364,
+        "a0.5": 0.3332
+      },
+      "both_intersect": {
+        "a0.0": 0.1567,
+        "a0.5": 0.1893
+      },
+      "fused_top20": {
+        "a0.0": 0.3085,
+        "a0.5": 0.3067
+      }
+    },
+    "inductive_Kshot": {
+      "a0.0": 0.3482,
+      "a0.5": 0.3293
+    }
+  },
+  "COCO-car": {
+    "diag": {
+      "vis_top20": {
+        "precision": 0.5,
+        "cos_gt": 0.919,
+        "pos_neg_gap": -0.008,
+        "n_selected": 20
+      },
+      "gd_top20": {
+        "precision": 0.7,
+        "cos_gt": 0.491,
+        "pos_neg_gap": 0.069,
+        "n_selected": 20
+      },
+      "both_intersect": {
+        "precision": NaN,
+        "cos_gt": NaN,
+        "pos_neg_gap": NaN,
+        "n_selected": 0
+      },
+      "fused_top20": {
+        "precision": 0.65,
+        "cos_gt": 0.881,
+        "pos_neg_gap": 0.049,
+        "n_selected": 20
+      }
+    },
+    "source_only": 0.2147,
+    "inductive": {
+      "vis_top20": {
+        "a0.0": 0.2389,
+        "a0.5": 0.2274
+      },
+      "gd_top20": {
+        "a0.0": 0.0844,
+        "a0.5": 0.1282
+      },
+      "both_intersect": {
+        "a0.0": null,
+        "a0.5": null
+      },
+      "fused_top20": {
+        "a0.0": 0.2233,
+        "a0.5": 0.2258
+      }
+    },
+    "transductive": {
+      "vis_top20": {
+        "a0.0": 0.2523,
+        "a0.5": 0.238
+      },
+      "gd_top20": {
+        "a0.0": 0.1223,
+        "a0.5": 0.1917
+      },
+      "both_intersect": {
+        "a0.0": null,
+        "a0.5": null
+      },
+      "fused_top20": {
+        "a0.0": 0.2069,
+        "a0.5": 0.2193
+      }
+    },
+    "inductive_Kshot": {
+      "a0.0": 0.2461,
+      "a0.5": 0.2375
+    }
+  }
+}

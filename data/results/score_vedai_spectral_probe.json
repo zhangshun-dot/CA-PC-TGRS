@@ -1,0 +1,233 @@
+{
+  "config": {
+    "vedai_root": "C:\\Users\\张三\\modeling\\dior_data\\VEDAI",
+    "classes": [
+      "car"
+    ],
+    "modalities": [
+      "co",
+      "ir"
+    ],
+    "anchors": [
+      "over",
+      "ir"
+    ],
+    "n_per_class": 20,
+    "B_boot": 200,
+    "lam": 0.5,
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "zero_target_gt": true,
+    "axis": "REAL spectral/imaging condition (VEDAI aligned color vs NIR), no resampling",
+    "matched_pairs": [
+      "(co,over)",
+      "(ir,ir)"
+    ],
+    "mismatched_pairs": [
+      "(co,ir)",
+      "(ir,over)"
+    ]
+  },
+  "identity": {
+    "max_abs_dev_replay_vs_official": 0.0,
+    "criterion": "ap50_replay(tab) == RB.ap_of/ap_base for every cell and arm"
+  },
+  "rows": [
+    {
+      "target_modality": "co",
+      "anchor_env": "over",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.1304,
+      "gain_macro": {
+        "ca_pc": 0.1976,
+        "cond": 0.1976,
+        "vocab": 0.1163,
+        "tge_nat": 0.1184,
+        "tge_star": 0.1429
+      },
+      "margin_ca_minus_tge_nat": 0.0792,
+      "ci_margin_nat": [
+        0.011,
+        0.1644
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0547,
+      "ci_margin_star": [
+        0.0025,
+        0.1402
+      ],
+      "margin_cond_minus_vocab": 0.0813,
+      "ci_margin_cv": [
+        0.011,
+        0.1695
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 20,
+          "base_ap": 0.1304,
+          "gamma": 1.7209,
+          "mag": 0.5106,
+          "tge_star_beta": 3.5,
+          "gains": {
+            "base": 0.1304,
+            "ca_pc": 0.1976,
+            "cond": 0.1976,
+            "vocab": 0.1163,
+            "tge_nat": 0.1184,
+            "tge_star": 0.1429
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "co",
+      "anchor_env": "ir",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.1304,
+      "gain_macro": {
+        "ca_pc": 0.0661,
+        "cond": 0.0661,
+        "vocab": 0.1163,
+        "tge_nat": 0.1184,
+        "tge_star": 0.1429
+      },
+      "margin_ca_minus_tge_nat": -0.0523,
+      "ci_margin_nat": [
+        -0.1186,
+        0.0711
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": -0.0768,
+      "ci_margin_star": [
+        -0.1324,
+        0.0331
+      ],
+      "margin_cond_minus_vocab": -0.0502,
+      "ci_margin_cv": [
+        -0.1204,
+        0.0731
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 20,
+          "base_ap": 0.1304,
+          "gamma": 2.4719,
+          "mag": 0.7334,
+          "tge_star_beta": 3.5,
+          "gains": {
+            "base": 0.1304,
+            "ca_pc": 0.0661,
+            "cond": 0.0661,
+            "vocab": 0.1163,
+            "tge_nat": 0.1184,
+            "tge_star": 0.1429
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "ir",
+      "anchor_env": "over",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.0401,
+      "gain_macro": {
+        "ca_pc": 0.1148,
+        "cond": 0.1148,
+        "vocab": 0.0836,
+        "tge_nat": 0.0848,
+        "tge_star": 0.0891
+      },
+      "margin_ca_minus_tge_nat": 0.03,
+      "ci_margin_nat": [
+        0.0078,
+        0.1075
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0257,
+      "ci_margin_star": [
+        0.0059,
+        0.0881
+      ],
+      "margin_cond_minus_vocab": 0.0312,
+      "ci_margin_cv": [
+        0.0082,
+        0.1056
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 20,
+          "base_ap": 0.0401,
+          "gamma": 1.7209,
+          "mag": 0.5106,
+          "tge_star_beta": 3.5,
+          "gains": {
+            "base": 0.0401,
+            "ca_pc": 0.1148,
+            "cond": 0.1148,
+            "vocab": 0.0836,
+            "tge_nat": 0.0848,
+            "tge_star": 0.0891
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "ir",
+      "anchor_env": "ir",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.0401,
+      "gain_macro": {
+        "ca_pc": 0.1232,
+        "cond": 0.1232,
+        "vocab": 0.0836,
+        "tge_nat": 0.0848,
+        "tge_star": 0.0891
+      },
+      "margin_ca_minus_tge_nat": 0.0384,
+      "ci_margin_nat": [
+        -0.1003,
+        0.1587
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": 0.0341,
+      "ci_margin_star": [
+        -0.1171,
+        0.1457
+      ],
+      "margin_cond_minus_vocab": 0.0396,
+      "ci_margin_cv": [
+        -0.0994,
+        0.1599
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 20,
+          "base_ap": 0.0401,
+          "gamma": 2.4719,
+          "mag": 0.7334,
+          "tge_star_beta": 3.5,
+          "gains": {
+            "base": 0.0401,
+            "ca_pc": 0.1232,
+            "cond": 0.1232,
+            "vocab": 0.0836,
+            "tge_nat": 0.0848,
+            "tge_star": 0.0891
+          }
+        }
+      ]
+    }
+  ]
+}

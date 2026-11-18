@@ -1,0 +1,387 @@
+{
+  "config": {
+    "ssdd_root": "C:\\Users\\张三\\modeling\\sar_data\\SSDD\\data",
+    "present_sar_datasets": [
+      "SSDD"
+    ],
+    "optical_units": [
+      [
+        "ship",
+        "boat",
+        "ship"
+      ],
+      [
+        "airplane",
+        "airplane",
+        "airplane"
+      ]
+    ],
+    "sar_units_all": [
+      [
+        "ship",
+        "boat",
+        "SSDD"
+      ],
+      [
+        "ship",
+        "boat",
+        "HRSID"
+      ],
+      [
+        "ship",
+        "boat",
+        "SRSDD"
+      ],
+      [
+        "airplane",
+        "airplane",
+        "SAR-AIRcraft"
+      ]
+    ],
+    "anchors": [
+      "over",
+      "sar"
+    ],
+    "n_per_arm": 150,
+    "B_boot": 1000,
+    "lam": 0.5,
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "zero_target_gt": true,
+    "axis": "REAL sensor change (optical RS vs SAR), multi-class + independent datasets",
+    "source": "COCO prototypes",
+    "matched_pairs": [
+      "(opt,over)",
+      "(sar,sar)"
+    ],
+    "mismatched_pairs": [
+      "(opt,sar)",
+      "(sar,over)"
+    ],
+    "note": "airplane tgt==src -> cond/vocab split collapses (same as VEDAI); report cond only"
+  },
+  "identity": {
+    "max_abs_dev_replay_vs_official": 0.0,
+    "criterion": "ap50_replay(tab) == RB.ap_of/ap_base for every cell and arm"
+  },
+  "rows": [
+    {
+      "arm": "opt",
+      "target_class": "ship",
+      "source_class": "boat",
+      "sar_dataset": null,
+      "dataset_label": "DIOR(optical)",
+      "anchor_env": "over",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.1893,
+      "gain_macro": {
+        "ca_pc": 0.0565,
+        "cond": 0.0628,
+        "vocab": 0.0072,
+        "tge_nat": 0.0087,
+        "tge_star": 0.0127
+      },
+      "margin_ca_minus_tge_nat": 0.0478,
+      "ci_margin_nat": [
+        0.031,
+        0.0664
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0438,
+      "ci_margin_star": [
+        0.0284,
+        0.061
+      ],
+      "margin_cond_minus_vocab": 0.0556,
+      "ci_margin_cv": [
+        0.0374,
+        0.0767
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 150,
+          "base_ap": 0.1893,
+          "gamma": 2.0396,
+          "mag": 0.6051,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1893,
+            "ca_pc": 0.0565,
+            "cond": 0.0628,
+            "vocab": 0.0072,
+            "tge_nat": 0.0087,
+            "tge_star": 0.0127
+          }
+        }
+      ]
+    },
+    {
+      "arm": "opt",
+      "target_class": "ship",
+      "source_class": "boat",
+      "sar_dataset": null,
+      "dataset_label": "DIOR(optical)",
+      "anchor_env": "sar",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.1893,
+      "gain_macro": {
+        "ca_pc": 0.0275,
+        "cond": 0.0044,
+        "vocab": 0.0226,
+        "tge_nat": 0.0087,
+        "tge_star": 0.0127
+      },
+      "margin_ca_minus_tge_nat": 0.0188,
+      "ci_margin_nat": [
+        0.0064,
+        0.0282
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0148,
+      "ci_margin_star": [
+        0.0023,
+        0.024
+      ],
+      "margin_cond_minus_vocab": -0.0182,
+      "ci_margin_cv": [
+        -0.0613,
+        -0.0053
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 150,
+          "base_ap": 0.1893,
+          "gamma": 2.2233,
+          "mag": 0.6596,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1893,
+            "ca_pc": 0.0275,
+            "cond": 0.0044,
+            "vocab": 0.0226,
+            "tge_nat": 0.0087,
+            "tge_star": 0.0127
+          }
+        }
+      ]
+    },
+    {
+      "arm": "opt",
+      "target_class": "airplane",
+      "source_class": "airplane",
+      "sar_dataset": null,
+      "dataset_label": "DIOR(optical)",
+      "anchor_env": "over",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.4573,
+      "gain_macro": {
+        "ca_pc": -0.002,
+        "cond": -0.002,
+        "vocab": 0.0069,
+        "tge_nat": 0.004,
+        "tge_star": 0.0075
+      },
+      "margin_ca_minus_tge_nat": -0.006,
+      "ci_margin_nat": [
+        -0.0112,
+        -0.0003
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": -0.0095,
+      "ci_margin_star": [
+        -0.015,
+        -0.0035
+      ],
+      "margin_cond_minus_vocab": -0.0089,
+      "ci_margin_cv": [
+        -0.0158,
+        -0.003
+      ],
+      "cells": [
+        {
+          "cls": "airplane",
+          "src": "airplane",
+          "n_img": 150,
+          "base_ap": 0.4573,
+          "gamma": 1.6711,
+          "mag": 0.4958,
+          "tge_star_beta": 0.5,
+          "gains": {
+            "base": 0.4573,
+            "ca_pc": -0.002,
+            "cond": -0.002,
+            "vocab": 0.0069,
+            "tge_nat": 0.004,
+            "tge_star": 0.0075
+          }
+        }
+      ]
+    },
+    {
+      "arm": "opt",
+      "target_class": "airplane",
+      "source_class": "airplane",
+      "sar_dataset": null,
+      "dataset_label": "DIOR(optical)",
+      "anchor_env": "sar",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.4573,
+      "gain_macro": {
+        "ca_pc": -0.1253,
+        "cond": -0.1253,
+        "vocab": 0.0069,
+        "tge_nat": 0.004,
+        "tge_star": 0.0075
+      },
+      "margin_ca_minus_tge_nat": -0.1293,
+      "ci_margin_nat": [
+        -0.1613,
+        -0.1006
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": -0.1328,
+      "ci_margin_star": [
+        -0.1657,
+        -0.1033
+      ],
+      "margin_cond_minus_vocab": -0.1322,
+      "ci_margin_cv": [
+        -0.1661,
+        -0.1031
+      ],
+      "cells": [
+        {
+          "cls": "airplane",
+          "src": "airplane",
+          "n_img": 150,
+          "base_ap": 0.4573,
+          "gamma": 2.2641,
+          "mag": 0.6717,
+          "tge_star_beta": 0.5,
+          "gains": {
+            "base": 0.4573,
+            "ca_pc": -0.1253,
+            "cond": -0.1253,
+            "vocab": 0.0069,
+            "tge_nat": 0.004,
+            "tge_star": 0.0075
+          }
+        }
+      ]
+    },
+    {
+      "arm": "sar",
+      "target_class": "ship",
+      "source_class": "boat",
+      "sar_dataset": "SSDD",
+      "dataset_label": "SSDD",
+      "anchor_env": "over",
+      "matched": false,
+      "n_cells": 1,
+      "base_abs_macro": 0.1956,
+      "gain_macro": {
+        "ca_pc": 0.1982,
+        "cond": 0.1974,
+        "vocab": 0.1044,
+        "tge_nat": 0.099,
+        "tge_star": 0.1052
+      },
+      "margin_ca_minus_tge_nat": 0.0992,
+      "ci_margin_nat": [
+        0.0783,
+        0.1359
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.093,
+      "ci_margin_star": [
+        0.0676,
+        0.1186
+      ],
+      "margin_cond_minus_vocab": 0.093,
+      "ci_margin_cv": [
+        0.0703,
+        0.1223
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 150,
+          "base_ap": 0.1956,
+          "gamma": 2.0396,
+          "mag": 0.6051,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1956,
+            "ca_pc": 0.1982,
+            "cond": 0.1974,
+            "vocab": 0.1044,
+            "tge_nat": 0.099,
+            "tge_star": 0.1052
+          }
+        }
+      ]
+    },
+    {
+      "arm": "sar",
+      "target_class": "ship",
+      "source_class": "boat",
+      "sar_dataset": "SSDD",
+      "dataset_label": "SSDD",
+      "anchor_env": "sar",
+      "matched": true,
+      "n_cells": 1,
+      "base_abs_macro": 0.1956,
+      "gain_macro": {
+        "ca_pc": 0.1461,
+        "cond": 0.1141,
+        "vocab": 0.0232,
+        "tge_nat": 0.099,
+        "tge_star": 0.1052
+      },
+      "margin_ca_minus_tge_nat": 0.0471,
+      "ci_margin_nat": [
+        0.0098,
+        0.1043
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0409,
+      "ci_margin_star": [
+        -0.0036,
+        0.0877
+      ],
+      "margin_cond_minus_vocab": 0.0909,
+      "ci_margin_cv": [
+        0.0129,
+        0.1377
+      ],
+      "cells": [
+        {
+          "cls": "ship",
+          "src": "boat",
+          "n_img": 150,
+          "base_ap": 0.1956,
+          "gamma": 2.2233,
+          "mag": 0.6596,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.1956,
+            "ca_pc": 0.1461,
+            "cond": 0.1141,
+            "vocab": 0.0232,
+            "tge_nat": 0.099,
+            "tge_star": 0.1052
+          }
+        }
+      ]
+    }
+  ]
+}

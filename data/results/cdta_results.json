@@ -1,0 +1,66 @@
+{
+  "uts_alignment": {
+    "airplane↔airplane": {
+      "raw_cos": 1.0000001192092896,
+      "uts_cos": 0.9164323210716248,
+      "gain": -0.0835677981376648
+    },
+    "ship↔boat": {
+      "raw_cos": 0.9438392519950867,
+      "uts_cos": 0.83202064037323,
+      "gain": -0.11181861162185669
+    },
+    "vehicle↔car": {
+      "raw_cos": 0.9478819370269775,
+      "uts_cos": 0.8774009943008423,
+      "gain": -0.07048094272613525
+    },
+    "harbor↔boat": {
+      "raw_cos": 0.8758289813995361,
+      "uts_cos": 0.8320205807685852,
+      "gain": -0.04380840063095093
+    },
+    "airport↔person": {
+      "raw_cos": 0.855117678642273,
+      "uts_cos": 0.805030345916748,
+      "gain": -0.0500873327255249
+    },
+    "bridge↔person": {
+      "raw_cos": 0.8657211661338806,
+      "uts_cos": 0.8050246834754944,
+      "gain": -0.06069648265838623
+    },
+    "stadium↔person": {
+      "raw_cos": 0.866199254989624,
+      "uts_cos": 0.8050313591957092,
+      "gain": -0.061167895793914795
+    }
+  },
+  "axis_similarity": {},
+  "prompts": {
+    "remote_sensing/airplane": {
+      "cd_tdm": "an overhead image of airplane",
+      "cdta": "an overhead image of airplane"
+    },
+    "remote_sensing/ship": {
+      "cd_tdm": "an overhead image of ship",
+      "cdta": "an overhead image of ship"
+    },
+    "remote_sensing/vehicle": {
+      "cd_tdm": "an overhead image of vehicle",
+      "cdta": "an overhead image of vehicle"
+    },
+    "natural_scene/airplane": {
+      "cd_tdm": "a photo of airplane",
+      "cdta": "a photo of airplane"
+    },
+    "natural_scene/boat": {
+      "cd_tdm": "a photo of boat, large and prominent, with natural coloring",
+      "cdta": "a photo of boat"
+    },
+    "natural_scene/car": {
+      "cd_tdm": "a photo of car, large and prominent",
+      "cdta": "a photo of car"
+    }
+  }
+}

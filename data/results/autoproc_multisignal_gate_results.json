@@ -1,0 +1,18 @@
+{
+  "n": 10,
+  "multi_acc": 0.4,
+  "multi_auc": 0.041666666666666664,
+  "single_sem_mig_acc": 0.5,
+  "majority_acc": 0.6,
+  "signal_names": [
+    "baselign",
+    "sem_mig",
+    "div",
+    "av",
+    "n_boxes",
+    "det_mean",
+    "det_var",
+    "gsd",
+    "view"
+  ]
+}

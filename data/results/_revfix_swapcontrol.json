@@ -1,0 +1,26 @@
+{
+ "airplane->airplane": {
+  "base": 0.5248,
+  "orig": 0.5066,
+  "fix": 0.4767,
+  "neg_orig": 0.4767,
+  "neg_fix": 0.5066,
+  "n_img": 100
+ },
+ "boat->ship": {
+  "base": 0.2605,
+  "orig": 0.3087,
+  "fix": 0.2143,
+  "neg_orig": 0.1798,
+  "neg_fix": 0.2941,
+  "n_img": 100
+ },
+ "car->vehicle": {
+  "base": 0.1908,
+  "orig": 0.2208,
+  "fix": 0.0987,
+  "neg_orig": 0.1545,
+  "neg_fix": 0.229,
+  "n_img": 100
+ }
+}

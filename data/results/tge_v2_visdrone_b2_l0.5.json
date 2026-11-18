@@ -1,0 +1,44 @@
+{
+  "config": {
+    "source": "VisDrone (10 类池, 同名细到细映射)",
+    "target": "COCO val2017 全量",
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "protocol": "VisDrone->COCO, β/λ 沿用冻结值, 复用 tge_v2 COCO 缓存"
+  },
+  "classes": {
+    "COCO-car": {
+      "base": 0.1245,
+      "ours": 0.198,
+      "gain": 0.0735,
+      "recall": 0.5537,
+      "n_test": 525
+    },
+    "COCO-truck": {
+      "base": 0.2345,
+      "ours": 0.2612,
+      "gain": 0.0266,
+      "recall": 0.8816,
+      "n_test": 240
+    },
+    "COCO-bus": {
+      "base": 0.5317,
+      "ours": 0.547,
+      "gain": 0.0153,
+      "recall": 0.7138,
+      "n_test": 179
+    },
+    "COCO-motorcycle": {
+      "base": 0.4092,
+      "ours": 0.5074,
+      "gain": 0.0982,
+      "recall": 0.8392,
+      "n_test": 149
+    }
+  },
+  "mean": {
+    "baseline": 0.325,
+    "ours": 0.3784,
+    "gain": 0.0534
+  }
+}

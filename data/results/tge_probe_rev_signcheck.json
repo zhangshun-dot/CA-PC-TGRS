@@ -1,0 +1,40 @@
+{
+  "config": {
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "n_coco_src": 500,
+    "protocol": "COCO→DIOR 反向, 3 类, DIOR full20 N=20, 两套 Δ 符号对照"
+  },
+  "classes": {
+    "DIOR-airplane": {
+      "baseline": 0.4357,
+      "B2_src": 0.4484,
+      "extrap_rev": 0.3909,
+      "extrap_eq1": 0.4386,
+      "T4_text": 0.2708,
+      "n_images": 20
+    },
+    "DIOR-ship": {
+      "baseline": 0.2243,
+      "B2_src": 0.2488,
+      "extrap_rev": 0.2104,
+      "extrap_eq1": 0.314,
+      "T4_text": 0.1937,
+      "n_images": 20
+    },
+    "DIOR-vehicle": {
+      "baseline": 0.2558,
+      "B2_src": 0.344,
+      "extrap_rev": 0.2415,
+      "extrap_eq1": 0.3575,
+      "T4_text": 0.2134,
+      "n_images": 20
+    }
+  },
+  "mean_gain": {
+    "B2_src": 0.0418,
+    "extrap_rev": -0.0243,
+    "extrap_eq1": 0.0648,
+    "T4_text": -0.0793
+  }
+}

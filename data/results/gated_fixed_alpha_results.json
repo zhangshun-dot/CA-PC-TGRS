@@ -1,0 +1,9 @@
+{
+  "best_constant_alpha": 2.5,
+  "best_constant_gain": 0.013148216478937911,
+  "oracle_gain": 0.02533189957914078,
+  "best_gate": "size_viewpoint_and",
+  "best_alpha_open": 2.5,
+  "best_gain": 0.019188461791708297,
+  "best_pos": 10
+}

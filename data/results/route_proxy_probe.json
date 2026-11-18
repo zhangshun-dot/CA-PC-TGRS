@@ -1,0 +1,38 @@
+{
+  "COCO-airplane": {
+    "auc": 0.635,
+    "R_c": 0.5921,
+    "head_ratio": 3.068,
+    "stability": 0.964
+  },
+  "COCO-boat": {
+    "auc": 0.5034,
+    "R_c": 0.8347,
+    "head_ratio": 2.121,
+    "stability": 0.9512
+  },
+  "COCO-car": {
+    "auc": 0.7709,
+    "R_c": 0.8182,
+    "head_ratio": 2.189,
+    "stability": 0.9552
+  },
+  "DIOR-airplane": {
+    "auc": 0.9098,
+    "R_c": 0.605,
+    "head_ratio": 2.453,
+    "stability": 0.975
+  },
+  "DIOR-ship": {
+    "auc": 0.7843,
+    "R_c": 0.8196,
+    "head_ratio": 1.702,
+    "stability": 0.9712
+  },
+  "DIOR-vehicle": {
+    "auc": 0.8997,
+    "R_c": 0.7547,
+    "head_ratio": 1.741,
+    "stability": 0.9604
+  }
+}

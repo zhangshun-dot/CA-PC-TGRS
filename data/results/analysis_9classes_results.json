@@ -1,0 +1,34 @@
+{
+  "n_samples": 30,
+  "n_classes": 8,
+  "classes": [
+    "airplane",
+    "bicycle",
+    "boat",
+    "bus",
+    "car",
+    "motorcycle",
+    "person",
+    "truck"
+  ],
+  "domains": [
+    "COCO",
+    "VOC"
+  ],
+  "oracle_mean": 0.02715757780744064,
+  "best_fixed_alpha": {
+    "alpha": 2.5,
+    "mean_gain": 0.013132833168193208,
+    "pos": 17
+  },
+  "best_gated": {
+    "gate_type": "size_viewpoint_and",
+    "alpha": 2.5,
+    "mean_gain": 0.018569053949686554,
+    "pos": 13,
+    "n_open": 13
+  },
+  "headroom": 0.014024744639247433,
+  "captured": 0.005436220781493346,
+  "capture_rate": 38.76163824245611
+}

@@ -1,0 +1,584 @@
+{
+  "dior": {
+    "airplane": {
+      "images": 20,
+      "gt_boxes": 250,
+      "has_bank_proto": true
+    },
+    "airport": {
+      "images": 20,
+      "gt_boxes": 36,
+      "has_bank_proto": true
+    },
+    "baseball field": {
+      "images": 20,
+      "gt_boxes": 216,
+      "has_bank_proto": true
+    },
+    "basketball court": {
+      "images": 20,
+      "gt_boxes": 123,
+      "has_bank_proto": true
+    },
+    "bridge": {
+      "images": 20,
+      "gt_boxes": 62,
+      "has_bank_proto": true
+    },
+    "chimney": {
+      "images": 20,
+      "gt_boxes": 111,
+      "has_bank_proto": true
+    },
+    "dam": {
+      "images": 20,
+      "gt_boxes": 25,
+      "has_bank_proto": true
+    },
+    "expressway service area": {
+      "images": 20,
+      "gt_boxes": 142,
+      "has_bank_proto": true
+    },
+    "expressway toll station": {
+      "images": 20,
+      "gt_boxes": 75,
+      "has_bank_proto": true
+    },
+    "golf course": {
+      "images": 20,
+      "gt_boxes": 34,
+      "has_bank_proto": true
+    },
+    "ground track field": {
+      "images": 20,
+      "gt_boxes": 82,
+      "has_bank_proto": true
+    },
+    "harbor": {
+      "images": 20,
+      "gt_boxes": 710,
+      "has_bank_proto": true
+    },
+    "overpass": {
+      "images": 20,
+      "gt_boxes": 102,
+      "has_bank_proto": true
+    },
+    "ship": {
+      "images": 20,
+      "gt_boxes": 548,
+      "has_bank_proto": true
+    },
+    "stadium": {
+      "images": 20,
+      "gt_boxes": 65,
+      "has_bank_proto": true
+    },
+    "storage tank": {
+      "images": 20,
+      "gt_boxes": 416,
+      "has_bank_proto": true
+    },
+    "tennis court": {
+      "images": 20,
+      "gt_boxes": 183,
+      "has_bank_proto": true
+    },
+    "train station": {
+      "images": 20,
+      "gt_boxes": 93,
+      "has_bank_proto": true
+    },
+    "vehicle": {
+      "images": 20,
+      "gt_boxes": 233,
+      "has_bank_proto": true
+    },
+    "windmill": {
+      "images": 20,
+      "gt_boxes": 64,
+      "has_bank_proto": true
+    }
+  },
+  "coco": {
+    "person": {
+      "total_imgs": 2693,
+      "local_imgs": 2693
+    },
+    "chair": {
+      "total_imgs": 580,
+      "local_imgs": 580
+    },
+    "car": {
+      "total_imgs": 535,
+      "local_imgs": 535
+    },
+    "dining table": {
+      "total_imgs": 501,
+      "local_imgs": 501
+    },
+    "cup": {
+      "total_imgs": 390,
+      "local_imgs": 390
+    },
+    "bottle": {
+      "total_imgs": 379,
+      "local_imgs": 379
+    },
+    "bowl": {
+      "total_imgs": 314,
+      "local_imgs": 314
+    },
+    "handbag": {
+      "total_imgs": 292,
+      "local_imgs": 292
+    },
+    "truck": {
+      "total_imgs": 250,
+      "local_imgs": 250
+    },
+    "bench": {
+      "total_imgs": 235,
+      "local_imgs": 235
+    },
+    "book": {
+      "total_imgs": 230,
+      "local_imgs": 230
+    },
+    "backpack": {
+      "total_imgs": 228,
+      "local_imgs": 228
+    },
+    "cell phone": {
+      "total_imgs": 214,
+      "local_imgs": 214
+    },
+    "tv": {
+      "total_imgs": 207,
+      "local_imgs": 207
+    },
+    "clock": {
+      "total_imgs": 204,
+      "local_imgs": 204
+    },
+    "couch": {
+      "total_imgs": 195,
+      "local_imgs": 195
+    },
+    "traffic light": {
+      "total_imgs": 191,
+      "local_imgs": 191
+    },
+    "bus": {
+      "total_imgs": 189,
+      "local_imgs": 189
+    },
+    "sink": {
+      "total_imgs": 187,
+      "local_imgs": 187
+    },
+    "cat": {
+      "total_imgs": 184,
+      "local_imgs": 184
+    },
+    "laptop": {
+      "total_imgs": 183,
+      "local_imgs": 183
+    },
+    "knife": {
+      "total_imgs": 181,
+      "local_imgs": 181
+    },
+    "dog": {
+      "total_imgs": 177,
+      "local_imgs": 177
+    },
+    "umbrella": {
+      "total_imgs": 174,
+      "local_imgs": 174
+    },
+    "potted plant": {
+      "total_imgs": 172,
+      "local_imgs": 172
+    },
+    "sports ball": {
+      "total_imgs": 169,
+      "local_imgs": 169
+    },
+    "tennis racket": {
+      "total_imgs": 167,
+      "local_imgs": 167
+    },
+    "motorcycle": {
+      "total_imgs": 159,
+      "local_imgs": 159
+    },
+    "train": {
+      "total_imgs": 157,
+      "local_imgs": 157
+    },
+    "fork": {
+      "total_imgs": 155,
+      "local_imgs": 155
+    },
+    "spoon": {
+      "total_imgs": 153,
+      "local_imgs": 153
+    },
+    "pizza": {
+      "total_imgs": 153,
+      "local_imgs": 153
+    },
+    "bicycle": {
+      "total_imgs": 149,
+      "local_imgs": 149
+    },
+    "surfboard": {
+      "total_imgs": 149,
+      "local_imgs": 149
+    },
+    "bed": {
+      "total_imgs": 149,
+      "local_imgs": 149
+    },
+    "toilet": {
+      "total_imgs": 149,
+      "local_imgs": 149
+    },
+    "tie": {
+      "total_imgs": 145,
+      "local_imgs": 145
+    },
+    "remote": {
+      "total_imgs": 145,
+      "local_imgs": 145
+    },
+    "vase": {
+      "total_imgs": 137,
+      "local_imgs": 137
+    },
+    "horse": {
+      "total_imgs": 128,
+      "local_imgs": 128
+    },
+    "skateboard": {
+      "total_imgs": 127,
+      "local_imgs": 127
+    },
+    "bird": {
+      "total_imgs": 125,
+      "local_imgs": 125
+    },
+    "cake": {
+      "total_imgs": 124,
+      "local_imgs": 124
+    },
+    "boat": {
+      "total_imgs": 121,
+      "local_imgs": 121
+    },
+    "skis": {
+      "total_imgs": 120,
+      "local_imgs": 120
+    },
+    "oven": {
+      "total_imgs": 115,
+      "local_imgs": 115
+    },
+    "wine glass": {
+      "total_imgs": 110,
+      "local_imgs": 110
+    },
+    "keyboard": {
+      "total_imgs": 106,
+      "local_imgs": 106
+    },
+    "suitcase": {
+      "total_imgs": 105,
+      "local_imgs": 105
+    },
+    "banana": {
+      "total_imgs": 103,
+      "local_imgs": 103
+    },
+    "giraffe": {
+      "total_imgs": 101,
+      "local_imgs": 101
+    },
+    "refrigerator": {
+      "total_imgs": 101,
+      "local_imgs": 101
+    },
+    "baseball glove": {
+      "total_imgs": 100,
+      "local_imgs": 100
+    },
+    "sandwich": {
+      "total_imgs": 98,
+      "local_imgs": 98
+    },
+    "airplane": {
+      "total_imgs": 97,
+      "local_imgs": 97
+    },
+    "baseball bat": {
+      "total_imgs": 97,
+      "local_imgs": 97
+    },
+    "teddy bear": {
+      "total_imgs": 94,
+      "local_imgs": 94
+    },
+    "kite": {
+      "total_imgs": 91,
+      "local_imgs": 91
+    },
+    "elephant": {
+      "total_imgs": 89,
+      "local_imgs": 89
+    },
+    "mouse": {
+      "total_imgs": 88,
+      "local_imgs": 88
+    },
+    "cow": {
+      "total_imgs": 87,
+      "local_imgs": 87
+    },
+    "fire hydrant": {
+      "total_imgs": 86,
+      "local_imgs": 86
+    },
+    "zebra": {
+      "total_imgs": 85,
+      "local_imgs": 85
+    },
+    "orange": {
+      "total_imgs": 85,
+      "local_imgs": 85
+    },
+    "frisbee": {
+      "total_imgs": 84,
+      "local_imgs": 84
+    },
+    "carrot": {
+      "total_imgs": 81,
+      "local_imgs": 81
+    },
+    "apple": {
+      "total_imgs": 76,
+      "local_imgs": 76
+    },
+    "broccoli": {
+      "total_imgs": 71,
+      "local_imgs": 71
+    },
+    "stop sign": {
+      "total_imgs": 69,
+      "local_imgs": 69
+    },
+    "sheep": {
+      "total_imgs": 65,
+      "local_imgs": 65
+    },
+    "donut": {
+      "total_imgs": 62,
+      "local_imgs": 62
+    },
+    "microwave": {
+      "total_imgs": 54,
+      "local_imgs": 54
+    },
+    "hot dog": {
+      "total_imgs": 51,
+      "local_imgs": 51
+    },
+    "bear": {
+      "total_imgs": 49,
+      "local_imgs": 49
+    },
+    "snowboard": {
+      "total_imgs": 49,
+      "local_imgs": 49
+    },
+    "parking meter": {
+      "total_imgs": 37,
+      "local_imgs": 37
+    },
+    "toothbrush": {
+      "total_imgs": 34,
+      "local_imgs": 34
+    },
+    "scissors": {
+      "total_imgs": 28,
+      "local_imgs": 28
+    },
+    "hair drier": {
+      "total_imgs": 9,
+      "local_imgs": 9
+    },
+    "toaster": {
+      "total_imgs": 8,
+      "local_imgs": 8
+    }
+  },
+  "pairs": [
+    {
+      "src": "DIOR-airplane",
+      "tgt": "COCO-airplane",
+      "grade": "strong",
+      "status": "已用"
+    },
+    {
+      "src": "DIOR-ship",
+      "tgt": "COCO-boat",
+      "grade": "strong",
+      "status": "已用"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-car",
+      "grade": "strong",
+      "status": "已用"
+    }
+  ],
+  "candidates": [
+    {
+      "src": "DIOR-airplane",
+      "tgt": "COCO-airplane",
+      "grade": "strong",
+      "coco_imgs": 97,
+      "deployable": true,
+      "status": "已用"
+    },
+    {
+      "src": "DIOR-ship",
+      "tgt": "COCO-boat",
+      "grade": "strong",
+      "coco_imgs": 121,
+      "deployable": true,
+      "status": "已用"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-car",
+      "grade": "strong",
+      "coco_imgs": 535,
+      "deployable": true,
+      "status": "已用"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-truck",
+      "grade": "strong",
+      "coco_imgs": 250,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-bus",
+      "grade": "strong",
+      "coco_imgs": 189,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-motorcycle",
+      "grade": "strong",
+      "coco_imgs": 159,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-bicycle",
+      "grade": "weak",
+      "coco_imgs": 149,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-vehicle",
+      "tgt": "COCO-train",
+      "grade": "weak",
+      "coco_imgs": 157,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-train station",
+      "tgt": "COCO-train",
+      "grade": "medium",
+      "coco_imgs": 157,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-tennis court",
+      "tgt": "COCO-sports ball",
+      "grade": "medium",
+      "coco_imgs": 169,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-tennis court",
+      "tgt": "COCO-tennis racket",
+      "grade": "medium",
+      "coco_imgs": 167,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-baseball field",
+      "tgt": "COCO-sports ball",
+      "grade": "medium",
+      "coco_imgs": 169,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-baseball field",
+      "tgt": "COCO-baseball bat",
+      "grade": "medium",
+      "coco_imgs": 97,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-baseball field",
+      "tgt": "COCO-baseball glove",
+      "grade": "medium",
+      "coco_imgs": 100,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-basketball court",
+      "tgt": "COCO-sports ball",
+      "grade": "medium",
+      "coco_imgs": 169,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-golf course",
+      "tgt": "COCO-sports ball",
+      "grade": "medium",
+      "coco_imgs": 169,
+      "deployable": true,
+      "status": "可扩"
+    },
+    {
+      "src": "DIOR-airport",
+      "tgt": "COCO-airplane",
+      "grade": "weak",
+      "coco_imgs": 97,
+      "deployable": true,
+      "status": "可扩"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "config": {
+    "vedai_root": "C:\\Users\\张三\\modeling\\dior_data\\VEDAI",
+    "classes": [
+      "car",
+      "truck",
+      "boat"
+    ],
+    "modalities": [
+      "co",
+      "ir"
+    ],
+    "anchors": [
+      "over",
+      "ir"
+    ],
+    "n_per_class": 100,
+    "B_boot": 1000,
+    "lam": 0.5,
+    "c0": 0.3003235325217247,
+    "prior_scale": 3.3706120402673045,
+    "zero_target_gt": true,
+    "axis": "REAL spectral/imaging condition (VEDAI aligned color vs NIR), no resampling",
+    "matched_pairs": [
+      "(co,over)",
+      "(ir,ir)"
+    ],
+    "mismatched_pairs": [
+      "(co,ir)",
+      "(ir,over)"
+    ]
+  },
+  "identity": {
+    "max_abs_dev_replay_vs_official": 0.0,
+    "criterion": "ap50_replay(tab) == RB.ap_of/ap_base for every cell and arm"
+  },
+  "rows": [
+    {
+      "target_modality": "co",
+      "anchor_env": "over",
+      "matched": true,
+      "n_cells": 3,
+      "base_abs_macro": 0.1009,
+      "gain_macro": {
+        "ca_pc": 0.0994,
+        "cond": 0.0994,
+        "vocab": 0.0454,
+        "tge_nat": 0.0472,
+        "tge_star": 0.0644
+      },
+      "margin_ca_minus_tge_nat": 0.0522,
+      "ci_margin_nat": [
+        0.0308,
+        0.0769
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.035,
+      "ci_margin_star": [
+        0.0133,
+        0.0607
+      ],
+      "margin_cond_minus_vocab": 0.0541,
+      "ci_margin_cv": [
+        0.0337,
+        0.0797
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 100,
+          "base_ap": 0.0645,
+          "gamma": 1.7209,
+          "mag": 0.5106,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.0645,
+            "ca_pc": 0.129,
+            "cond": 0.129,
+            "vocab": 0.0879,
+            "tge_nat": 0.0886,
+            "tge_star": 0.1064
+          }
+        },
+        {
+          "cls": "truck",
+          "src": "truck",
+          "n_img": 100,
+          "base_ap": 0.0739,
+          "gamma": 1.7905,
+          "mag": 0.5312,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.0739,
+            "ca_pc": 0.0915,
+            "cond": 0.0915,
+            "vocab": 0.0238,
+            "tge_nat": 0.0235,
+            "tge_star": 0.0238
+          }
+        },
+        {
+          "cls": "boat",
+          "src": "boat",
+          "n_img": 100,
+          "base_ap": 0.1643,
+          "gamma": 1.7683,
+          "mag": 0.5246,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.1643,
+            "ca_pc": 0.0778,
+            "cond": 0.0778,
+            "vocab": 0.0244,
+            "tge_nat": 0.0296,
+            "tge_star": 0.0631
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "co",
+      "anchor_env": "ir",
+      "matched": false,
+      "n_cells": 3,
+      "base_abs_macro": 0.1009,
+      "gain_macro": {
+        "ca_pc": 0.0327,
+        "cond": 0.0327,
+        "vocab": 0.0454,
+        "tge_nat": 0.0472,
+        "tge_star": 0.0644
+      },
+      "margin_ca_minus_tge_nat": -0.0145,
+      "ci_margin_nat": [
+        -0.0453,
+        0.0109
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": -0.0317,
+      "ci_margin_star": [
+        -0.062,
+        -0.0076
+      ],
+      "margin_cond_minus_vocab": -0.0126,
+      "ci_margin_cv": [
+        -0.0432,
+        0.0134
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 100,
+          "base_ap": 0.0645,
+          "gamma": 2.4719,
+          "mag": 0.7334,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.0645,
+            "ca_pc": 0.1048,
+            "cond": 0.1048,
+            "vocab": 0.0879,
+            "tge_nat": 0.0886,
+            "tge_star": 0.1064
+          }
+        },
+        {
+          "cls": "truck",
+          "src": "truck",
+          "n_img": 100,
+          "base_ap": 0.0739,
+          "gamma": 2.4247,
+          "mag": 0.7194,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.0739,
+            "ca_pc": -0.049,
+            "cond": -0.049,
+            "vocab": 0.0238,
+            "tge_nat": 0.0235,
+            "tge_star": 0.0238
+          }
+        },
+        {
+          "cls": "boat",
+          "src": "boat",
+          "n_img": 100,
+          "base_ap": 0.1643,
+          "gamma": 2.4772,
+          "mag": 0.735,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.1643,
+            "ca_pc": 0.0424,
+            "cond": 0.0424,
+            "vocab": 0.0244,
+            "tge_nat": 0.0296,
+            "tge_star": 0.0631
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "ir",
+      "anchor_env": "over",
+      "matched": false,
+      "n_cells": 3,
+      "base_abs_macro": 0.0696,
+      "gain_macro": {
+        "ca_pc": 0.0597,
+        "cond": 0.0597,
+        "vocab": 0.0231,
+        "tge_nat": 0.0219,
+        "tge_star": 0.0338
+      },
+      "margin_ca_minus_tge_nat": 0.0378,
+      "ci_margin_nat": [
+        0.0139,
+        0.067
+      ],
+      "excl0_nat": true,
+      "margin_ca_minus_tge_star": 0.0259,
+      "ci_margin_star": [
+        0.0023,
+        0.0577
+      ],
+      "margin_cond_minus_vocab": 0.0367,
+      "ci_margin_cv": [
+        0.0134,
+        0.0675
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 100,
+          "base_ap": 0.0288,
+          "gamma": 1.7209,
+          "mag": 0.5106,
+          "tge_star_beta": 2.5,
+          "gains": {
+            "base": 0.0288,
+            "ca_pc": 0.1075,
+            "cond": 0.1075,
+            "vocab": 0.0443,
+            "tge_nat": 0.0444,
+            "tge_star": 0.045
+          }
+        },
+        {
+          "cls": "truck",
+          "src": "truck",
+          "n_img": 100,
+          "base_ap": 0.0534,
+          "gamma": 1.7905,
+          "mag": 0.5312,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.0534,
+            "ca_pc": 0.0267,
+            "cond": 0.0267,
+            "vocab": 0.0175,
+            "tge_nat": 0.0089,
+            "tge_star": 0.0175
+          }
+        },
+        {
+          "cls": "boat",
+          "src": "boat",
+          "n_img": 100,
+          "base_ap": 0.1267,
+          "gamma": 1.7683,
+          "mag": 0.5246,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.1267,
+            "ca_pc": 0.045,
+            "cond": 0.045,
+            "vocab": 0.0074,
+            "tge_nat": 0.0125,
+            "tge_star": 0.039
+          }
+        }
+      ]
+    },
+    {
+      "target_modality": "ir",
+      "anchor_env": "ir",
+      "matched": true,
+      "n_cells": 3,
+      "base_abs_macro": 0.0696,
+      "gain_macro": {
+        "ca_pc": 0.0403,
+        "cond": 0.0403,
+        "vocab": 0.0231,
+        "tge_nat": 0.0219,
+        "tge_star": 0.0338
+      },
+      "margin_ca_minus_tge_nat": 0.0184,
+      "ci_margin_nat": [
+        -0.0178,
+        0.0447
+      ],
+      "excl0_nat": false,
+      "margin_ca_minus_tge_star": 0.0065,
+      "ci_margin_star": [
+        -0.0284,
+        0.0345
+      ],
+      "margin_cond_minus_vocab": 0.0173,
+      "ci_margin_cv": [
+        -0.0176,
+        0.0446
+      ],
+      "cells": [
+        {
+          "cls": "car",
+          "src": "car",
+          "n_img": 100,
+          "base_ap": 0.0288,
+          "gamma": 2.4719,
+          "mag": 0.7334,
+          "tge_star_beta": 2.5,
+          "gains": {
+            "base": 0.0288,
+            "ca_pc": 0.1411,
+            "cond": 0.1411,
+            "vocab": 0.0443,
+            "tge_nat": 0.0444,
+            "tge_star": 0.045
+          }
+        },
+        {
+          "cls": "truck",
+          "src": "truck",
+          "n_img": 100,
+          "base_ap": 0.0534,
+          "gamma": 2.4247,
+          "mag": 0.7194,
+          "tge_star_beta": 0.0,
+          "gains": {
+            "base": 0.0534,
+            "ca_pc": -0.0065,
+            "cond": -0.0065,
+            "vocab": 0.0175,
+            "tge_nat": 0.0089,
+            "tge_star": 0.0175
+          }
+        },
+        {
+          "cls": "boat",
+          "src": "boat",
+          "n_img": 100,
+          "base_ap": 0.1267,
+          "gamma": 2.4772,
+          "mag": 0.735,
+          "tge_star_beta": 4.0,
+          "gains": {
+            "base": 0.1267,
+            "ca_pc": -0.0136,
+            "cond": -0.0136,
+            "vocab": 0.0074,
+            "tge_nat": 0.0125,
+            "tge_star": 0.039
+          }
+        }
+      ]
+    }
+  ]
+}

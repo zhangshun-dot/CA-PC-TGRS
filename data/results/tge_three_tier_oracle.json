@@ -1,0 +1,267 @@
+{
+  "rows": [
+    {
+      "name": "COCO-airplane",
+      "base": 0.7484,
+      "b2": 0.7659,
+      "ext": 0.7601,
+      "oracle": 0.7659,
+      "oracle_action": "B2"
+    },
+    {
+      "name": "COCO-boat",
+      "base": 0.1758,
+      "b2": 0.1646,
+      "ext": 0.2011,
+      "oracle": 0.2011,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "COCO-car",
+      "base": 0.1245,
+      "b2": 0.1071,
+      "ext": 0.2054,
+      "oracle": 0.2054,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "COCO-truck",
+      "base": 0.2345,
+      "b2": 0.2499,
+      "ext": 0.3119,
+      "oracle": 0.3119,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "COCO-bus",
+      "base": 0.5317,
+      "b2": 0.4983,
+      "ext": 0.6052,
+      "oracle": 0.6052,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "COCO-motorcycle",
+      "base": 0.4092,
+      "b2": 0.4354,
+      "ext": 0.5281,
+      "oracle": 0.5281,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "DOTA-plane",
+      "base": 0.2836,
+      "b2": 0.3388,
+      "ext": 0.3688,
+      "oracle": 0.3688,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "DOTA-ship",
+      "base": 0.0053,
+      "b2": 0.0073,
+      "ext": 0.01,
+      "oracle": 0.01,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "DOTA-storage-tank",
+      "base": 0.0409,
+      "b2": 0.0851,
+      "ext": 0.219,
+      "oracle": 0.219,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "DOTA-harbor",
+      "base": 0.1453,
+      "b2": 0.1446,
+      "ext": 0.0713,
+      "oracle": 0.1453,
+      "oracle_action": "baseline"
+    },
+    {
+      "name": "DOTA-bridge",
+      "base": 0.0006,
+      "b2": 0.0006,
+      "ext": 0.0002,
+      "oracle": 0.0006,
+      "oracle_action": "baseline"
+    },
+    {
+      "name": "DOTA-large-vehicle",
+      "base": 0.0532,
+      "b2": 0.061,
+      "ext": 0.0684,
+      "oracle": 0.0684,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "DOTA-small-vehicle",
+      "base": 0.0257,
+      "b2": 0.036,
+      "ext": 0.1316,
+      "oracle": 0.1316,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "VD-car",
+      "base": 0.4452,
+      "b2": 0.401,
+      "ext": 0.439,
+      "oracle": 0.4452,
+      "oracle_action": "baseline"
+    },
+    {
+      "name": "VD-truck",
+      "base": 0.173,
+      "b2": 0.1088,
+      "ext": 0.0869,
+      "oracle": 0.173,
+      "oracle_action": "baseline"
+    },
+    {
+      "name": "VD-bus",
+      "base": 0.1195,
+      "b2": 0.0693,
+      "ext": 0.161,
+      "oracle": 0.161,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "VD-motor",
+      "base": 0.1695,
+      "b2": 0.1859,
+      "ext": 0.2085,
+      "oracle": 0.2085,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "VOC-aeroplane",
+      "base": 0.8482,
+      "b2": 0.8636,
+      "ext": 0.8502,
+      "oracle": 0.8636,
+      "oracle_action": "B2"
+    },
+    {
+      "name": "VOC-boat",
+      "base": 0.4988,
+      "b2": 0.5043,
+      "ext": 0.4754,
+      "oracle": 0.5043,
+      "oracle_action": "B2"
+    },
+    {
+      "name": "VOC-car",
+      "base": 0.5076,
+      "b2": 0.544,
+      "ext": 0.5937,
+      "oracle": 0.5937,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "VOC-bus",
+      "base": 0.6564,
+      "b2": 0.648,
+      "ext": 0.7222,
+      "oracle": 0.7222,
+      "oracle_action": "ext"
+    },
+    {
+      "name": "VOC-motorbike",
+      "base": 0.8332,
+      "b2": 0.8269,
+      "ext": 0.7732,
+      "oracle": 0.8332,
+      "oracle_action": "baseline"
+    }
+  ],
+  "agg": {
+    "ALL": {
+      "n": 22,
+      "mean_base": 0.3196,
+      "mean_B2": 0.3203,
+      "mean_ext": 0.3541,
+      "mean_oracle": 0.3666,
+      "best_fix": 0.3541,
+      "headroom": 0.0125
+    },
+    "COCO": {
+      "n": 6,
+      "mean_base": 0.3707,
+      "mean_B2": 0.3702,
+      "mean_ext": 0.4353,
+      "mean_oracle": 0.4363,
+      "best_fix": 0.4353,
+      "headroom": 0.001
+    },
+    "DOTA": {
+      "n": 7,
+      "mean_base": 0.0792,
+      "mean_B2": 0.0962,
+      "mean_ext": 0.1242,
+      "mean_oracle": 0.1348,
+      "best_fix": 0.1242,
+      "headroom": 0.0106
+    },
+    "VOC": {
+      "n": 5,
+      "mean_base": 0.6688,
+      "mean_B2": 0.6774,
+      "mean_ext": 0.6829,
+      "mean_oracle": 0.7034,
+      "best_fix": 0.6829,
+      "headroom": 0.0205
+    },
+    "VisDrone": {
+      "n": 4,
+      "mean_base": 0.2268,
+      "mean_B2": 0.1913,
+      "mean_ext": 0.2238,
+      "mean_oracle": 0.2469,
+      "best_fix": 0.2268,
+      "headroom": 0.0201
+    }
+  },
+  "action_dist": {
+    "B2": 3,
+    "ext": 14,
+    "baseline": 5
+  },
+  "per_class_head": {
+    "VD-truck": 0.0861,
+    "DOTA-harbor": 0.074,
+    "VOC-motorbike": 0.06,
+    "VOC-boat": 0.0289,
+    "VOC-aeroplane": 0.0134,
+    "VD-car": 0.0062,
+    "COCO-airplane": 0.0058,
+    "DOTA-bridge": 0.0004,
+    "COCO-boat": 0.0,
+    "COCO-car": 0.0,
+    "COCO-truck": 0.0,
+    "COCO-bus": 0.0,
+    "COCO-motorcycle": 0.0,
+    "DOTA-plane": 0.0,
+    "DOTA-ship": 0.0,
+    "DOTA-storage-tank": 0.0,
+    "DOTA-large-vehicle": 0.0,
+    "DOTA-small-vehicle": 0.0,
+    "VD-bus": 0.0,
+    "VD-motor": 0.0,
+    "VOC-car": 0.0,
+    "VOC-bus": 0.0
+  },
+  "top2_share": 0.5826,
+  "headroom_wo_top2": 0.0052,
+  "visdrone_bs": {
+    "point": -0.0029,
+    "ci": [
+      -0.0548,
+      0.0403
+    ],
+    "crosses_zero": true
+  },
+  "verdict": "STOP (D)"
+}

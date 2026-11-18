@@ -1,0 +1,77 @@
+{
+  "per_class": {
+    "COCO-airplane": {
+      "baseline": 0.7484108174376253,
+      "b2": 0.757945478813934,
+      "b2_gain": 0.009534661376308762,
+      "acspc_notarget": 0.7597567510301857,
+      "acspc_notarget_gain": 0.01134593359256042,
+      "dann_notarget": 0.29295967480047325,
+      "dann_notarget_gain": -0.45545114263715203,
+      "coral_notarget": 0.7607339606856285,
+      "coral_notarget_gain": 0.01232314324800321
+    },
+    "COCO-boat": {
+      "baseline": 0.17584452797960526,
+      "b2": 0.1649610735114064,
+      "b2_gain": -0.010883454468198855,
+      "acspc_notarget": 0.16587429935504316,
+      "acspc_notarget_gain": -0.009970228624562094,
+      "dann_notarget": 0.18435225157108,
+      "dann_notarget_gain": 0.008507723591474753,
+      "coral_notarget": 0.18991478446067306,
+      "coral_notarget_gain": 0.0140702564810678
+    },
+    "COCO-car": {
+      "baseline": 0.12452436308600454,
+      "b2": 0.10627268239988878,
+      "b2_gain": -0.018251680686115754,
+      "acspc_notarget": 0.12696621890128482,
+      "acspc_notarget_gain": 0.0024418558152802805,
+      "dann_notarget": 0.07709039039504996,
+      "dann_notarget_gain": -0.047433972690954576,
+      "coral_notarget": 0.14919065394247114,
+      "coral_notarget_gain": 0.0246662908564666
+    },
+    "COCO-truck": {
+      "baseline": 0.23451710016881738,
+      "b2": 0.24983430505949314,
+      "b2_gain": 0.015317204890675756,
+      "acspc_notarget": 0.2613609305010898,
+      "acspc_notarget_gain": 0.026843830332272445,
+      "dann_notarget": 0.12786720386409128,
+      "dann_notarget_gain": -0.1066498963047261,
+      "coral_notarget": 0.2808285214311063,
+      "coral_notarget_gain": 0.04631142126228893
+    },
+    "COCO-bus": {
+      "baseline": 0.5316675148531854,
+      "b2": 0.49093992687434285,
+      "b2_gain": -0.04072758797884257,
+      "acspc_notarget": 0.5325879853927311,
+      "acspc_notarget_gain": 0.0009204705395456925,
+      "dann_notarget": 0.4506932848896456,
+      "dann_notarget_gain": -0.08097422996353981,
+      "coral_notarget": 0.5747371898822982,
+      "coral_notarget_gain": 0.04306967502911274
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.4091960314053447,
+      "b2": 0.43569168630866967,
+      "b2_gain": 0.02649565490332495,
+      "acspc_notarget": 0.47752510700329687,
+      "acspc_notarget_gain": 0.06832907559795215,
+      "dann_notarget": 0.25857424323038225,
+      "dann_notarget_gain": -0.15062178817496247,
+      "coral_notarget": 0.4888113484208416,
+      "coral_notarget_gain": 0.0796153170154969
+    }
+  },
+  "average": {
+    "baseline": 0.3706933924884304,
+    "b2": 0.3676075254946225,
+    "acspc_notarget": 0.38734521536393857,
+    "dann_notarget": 0.23192284145845377,
+    "coral_notarget": 0.40736940980383646
+  }
+}

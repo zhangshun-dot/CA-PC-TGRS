@@ -1,0 +1,53 @@
+{
+  "n_samples": 27,
+  "corr_matrix": {
+    "sv": {
+      "sv": NaN,
+      "tc": NaN,
+      "sim_pos_mean": NaN,
+      "sim_pos_std": NaN,
+      "baseline_ap": NaN,
+      "n_boxes": NaN
+    },
+    "tc": {
+      "sv": NaN,
+      "tc": 1.0,
+      "sim_pos_mean": 0.2837703862263621,
+      "sim_pos_std": -0.4532227354109295,
+      "baseline_ap": 0.21368439621436264,
+      "n_boxes": NaN
+    },
+    "sim_pos_mean": {
+      "sv": NaN,
+      "tc": 0.283770386226362,
+      "sim_pos_mean": 0.9999999999999999,
+      "sim_pos_std": -0.5152625152625152,
+      "baseline_ap": 0.39316239316239315,
+      "n_boxes": NaN
+    },
+    "sim_pos_std": {
+      "sv": NaN,
+      "tc": -0.4532227354109295,
+      "sim_pos_mean": -0.5152625152625152,
+      "sim_pos_std": 0.9999999999999999,
+      "baseline_ap": -0.4487179487179487,
+      "n_boxes": NaN
+    },
+    "baseline_ap": {
+      "sv": NaN,
+      "tc": 0.2136843962143626,
+      "sim_pos_mean": 0.39316239316239315,
+      "sim_pos_std": -0.4487179487179487,
+      "baseline_ap": 0.9999999999999999,
+      "n_boxes": NaN
+    },
+    "n_boxes": {
+      "sv": NaN,
+      "tc": NaN,
+      "sim_pos_mean": NaN,
+      "sim_pos_std": NaN,
+      "baseline_ap": NaN,
+      "n_boxes": NaN
+    }
+  }
+}

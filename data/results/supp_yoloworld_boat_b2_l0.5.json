@@ -1,0 +1,33 @@
+{
+  "config": {
+    "detector": "yolo-world (yolov8s-worldv2)",
+    "beta": 2.0,
+    "lam": 0.5,
+    "pre_filter": 0.03,
+    "K_calib": 10
+  },
+  "classes": {
+    "boat": {
+      "n_pool": 121,
+      "n_test": 111,
+      "boxes_raw_per_img": 300.0,
+      "boxes_kept_per_img": 7.5,
+      "recall": 0.5849,
+      "base50": 0.4101,
+      "ours50": 0.4081,
+      "gain50": -0.002,
+      "base_coco": 0.2311,
+      "ours_coco": 0.2253,
+      "gain_coco": -0.0058
+    }
+  },
+  "mean": {
+    "base50": 0.4101,
+    "ours50": 0.4081,
+    "gain50": -0.002,
+    "base_coco": 0.2311,
+    "ours_coco": 0.2253,
+    "gain_coco": -0.0058,
+    "recall": 0.5849
+  }
+}

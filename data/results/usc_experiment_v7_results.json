@@ -1,0 +1,58 @@
+{
+  "direction": "COCO→DIOR (reverse)",
+  "n_classes": 6,
+  "domain_shift_norm": 0.3179008662700653,
+  "g2_values": {
+    "airplane": -0.07918018102645874,
+    "ship": -0.019041011109948158,
+    "vehicle": -0.14121581614017487
+  },
+  "g2_enabled": [],
+  "g2_disabled": [
+    "airplane",
+    "ship",
+    "vehicle",
+    "vehicle",
+    "vehicle",
+    "vehicle"
+  ],
+  "configs": {
+    "baseline": {
+      "mean": 0.3052499487237621,
+      "per_class": {
+        "airplane": 0.4555081617268854,
+        "ship": 0.16750505215212189,
+        "vehicle": 0.29273663229227903
+      }
+    },
+    "tge_only": {
+      "mean": 0.315041317723789,
+      "gain": 0.009791369000026917,
+      "per_class": {
+        "airplane": 0.46997145970538745,
+        "ship": 0.17622571466256834,
+        "vehicle": 0.2989267788034114
+      }
+    },
+    "usc_tge": {
+      "mean": 0.31692740166957983,
+      "best_alpha": 0.0,
+      "gain": 0.011677452945817735,
+      "per_class": {
+        "airplane": 0.4712135300270921,
+        "ship": 0.1763562496389459,
+        "vehicle": 0.30321242534270154
+      }
+    },
+    "usc_tge_g2": {
+      "mean": 0.31692740166957983,
+      "gain": 0.011677452945817735,
+      "g2_gain_over_usc": 0.0,
+      "per_class": {
+        "airplane": 0.4712135300270921,
+        "ship": 0.1763562496389459,
+        "vehicle": 0.30321242534270154
+      }
+    }
+  }
+}

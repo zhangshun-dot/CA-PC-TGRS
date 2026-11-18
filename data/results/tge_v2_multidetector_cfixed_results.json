@@ -1,0 +1,82 @@
+{
+  "config": {
+    "fusion_cfixed": {
+      "w": 0.35,
+      "tau_det": 2.0,
+      "tau_vis": 2.0
+    },
+    "beta": 2.0,
+    "lambda": 0.5
+  },
+  "results": {
+    "GDINO-tiny": {
+      "geometric": {
+        "DIOR-COCO-airplane": 0.01172442634094617,
+        "DIOR-COCO-boat": 0.025301571743454737,
+        "DIOR-COCO-car": 0.08086819064476139,
+        "DIOR-COCO-truck": 0.07735257037704424,
+        "DIOR-COCO-bus": 0.07351531810707557,
+        "DIOR-COCO-motorcycle": 0.11885960997065231
+      },
+      "cfixed": {
+        "DIOR-COCO-airplane": 0.022829006167783605,
+        "DIOR-COCO-boat": 0.03159559310798571,
+        "DIOR-COCO-car": 0.13101005992611295,
+        "DIOR-COCO-truck": 0.07957430231932983,
+        "DIOR-COCO-bus": 0.06394973577424601,
+        "DIOR-COCO-motorcycle": 0.09915027102020263
+      },
+      "geometric_mean": 0.06460361453065573,
+      "cfixed_mean": 0.07135149471927679,
+      "geometric_pos": 6,
+      "cfixed_pos": 6,
+      "base_mean": 0.3706933924884304
+    },
+    "GDINO-base": {
+      "geometric": {
+        "DIOR-COCO-airplane": 0.0181101340284755,
+        "DIOR-COCO-boat": -0.0018065949906894696,
+        "DIOR-COCO-car": 0.13288375954242135,
+        "DIOR-COCO-truck": 0.060971579625233224,
+        "DIOR-COCO-bus": 0.11122560355122779,
+        "DIOR-COCO-motorcycle": 0.15252608297838283
+      },
+      "cfixed": {
+        "DIOR-COCO-airplane": 0.013265965181327055,
+        "DIOR-COCO-boat": -0.015247198875259882,
+        "DIOR-COCO-car": 0.17730184070852437,
+        "DIOR-COCO-truck": 0.06524559143477113,
+        "DIOR-COCO-bus": 0.1161435953651535,
+        "DIOR-COCO-motorcycle": 0.1480008429365433
+      },
+      "geometric_mean": 0.07898509412250854,
+      "cfixed_mean": 0.0841184394585099,
+      "geometric_pos": 5,
+      "cfixed_pos": 5,
+      "base_mean": 0.40366063424917914
+    },
+    "OWLv2": {
+      "geometric": {
+        "DIOR-COCO-airplane": 0.0008816472856419955,
+        "DIOR-COCO-boat": -0.021304065590776078,
+        "DIOR-COCO-car": -0.016682331655325844,
+        "DIOR-COCO-truck": -0.05556966532393459,
+        "DIOR-COCO-bus": -0.034974754043895606,
+        "DIOR-COCO-motorcycle": -0.06197007055252601
+      },
+      "cfixed": {
+        "DIOR-COCO-airplane": -0.0013375744296499903,
+        "DIOR-COCO-boat": -0.027955434762041986,
+        "DIOR-COCO-car": -0.028168275609415483,
+        "DIOR-COCO-truck": -0.07002811999628339,
+        "DIOR-COCO-bus": -0.03650568065685711,
+        "DIOR-COCO-motorcycle": -0.06293081957361402
+      },
+      "geometric_mean": -0.03160320664680269,
+      "cfixed_mean": -0.03782098417131033,
+      "geometric_pos": 1,
+      "cfixed_pos": 0,
+      "base_mean": 0.6800048240841742
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "airplane": {
+    "baseline": 0.758969109200482,
+    "best": 0.8485930733006274,
+    "best_name": "late_fusion_proj"
+  },
+  "boat": {
+    "baseline": 0.21173157179182203,
+    "best": 0.268309197873742,
+    "best_name": "mah_dino"
+  },
+  "car": {
+    "baseline": 0.13387904820915106,
+    "best": 0.31375009630772605,
+    "best_name": "mah_dino"
+  }
+}

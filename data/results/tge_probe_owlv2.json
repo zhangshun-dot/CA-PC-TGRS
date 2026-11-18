@@ -1,0 +1,100 @@
+{
+  "config": {
+    "detector": "OWLv2-base-patch16-ensemble",
+    "target": "COCO val2017",
+    "n_coco": 100,
+    "k": 10,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "pre_filter": 0.03,
+    "score_scale": "OWLv2 raw logits (实测 [0,0.7]: 噪声框 logit=0, GT 框 0.2~0.6, 无 logit>=1; 与 GDINO 概率同数量级; sigmoid 会压缩到 [0.5,0.65] 致 pre-filter 失效, 已废弃)",
+    "protocol": "OWLv2 boxes + A-CSPC rerank, N=100/类, K=10, 后90图, 逐图 AP50, logit 尺度 pre-filter 0.03 (滤掉全部 logit=0 噪声框), sqrt(gd*vis), 参数与主表完全一致",
+    "question": "end-to-end robustness under detector replacement (box pool changes; NOT \"reranking works on any detector\")"
+  },
+  "sources": {
+    "DIOR": {
+      "classes": {
+        "COCO-airplane": {
+          "baseline": 0.8706,
+          "acspc": 0.8715,
+          "gain": 0.0009,
+          "recall": 0.972
+        },
+        "COCO-boat": {
+          "baseline": 0.5434,
+          "acspc": 0.5199,
+          "gain": -0.0235,
+          "recall": 0.7812
+        },
+        "COCO-car": {
+          "baseline": 0.5816,
+          "acspc": 0.5576,
+          "gain": -0.024,
+          "recall": 0.8567
+        },
+        "COCO-truck": {
+          "baseline": 0.5714,
+          "acspc": 0.5164,
+          "gain": -0.0551,
+          "recall": 0.9603
+        },
+        "COCO-bus": {
+          "baseline": 0.8676,
+          "acspc": 0.8347,
+          "gain": -0.0329,
+          "recall": 0.9675
+        },
+        "COCO-motorcycle": {
+          "baseline": 0.7484,
+          "acspc": 0.6893,
+          "gain": -0.0591,
+          "recall": 0.9389
+        }
+      },
+      "mean": {
+        "baseline": 0.6972,
+        "acspc": 0.6649,
+        "gain": -0.0323
+      }
+    },
+    "NWPU": {
+      "classes": {
+        "COCO-airplane": {
+          "baseline": 0.8706,
+          "acspc": 0.8699,
+          "gain": -0.0007
+        },
+        "COCO-boat": {
+          "baseline": 0.5434,
+          "acspc": 0.5264,
+          "gain": -0.017
+        },
+        "COCO-car": {
+          "baseline": 0.5816,
+          "acspc": 0.5779,
+          "gain": -0.0037
+        },
+        "COCO-truck": {
+          "baseline": 0.5714,
+          "acspc": 0.5458,
+          "gain": -0.0257
+        },
+        "COCO-bus": {
+          "baseline": 0.8676,
+          "acspc": 0.8466,
+          "gain": -0.021
+        },
+        "COCO-motorcycle": {
+          "baseline": 0.7484,
+          "acspc": 0.7008,
+          "gain": -0.0476
+        }
+      },
+      "mean": {
+        "baseline": 0.6972,
+        "acspc": 0.6779,
+        "gain": -0.0193
+      }
+    }
+  }
+}

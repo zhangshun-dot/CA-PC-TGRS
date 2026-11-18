@@ -1,0 +1,16 @@
+numpy>=1.21
+torch>=2.0
+torchvision>=0.15
+Pillow>=9.0
+scipy>=1.9
+matplotlib>=3.5
+scikit-learn>=1.1
+pandas>=1.5
+transformers>=4.30
+pycocotools>=2.0
+pyarrow>=10.0
+lxml>=4.9
+python-docx>=0.8
+tqdm>=4.64
+requests>=2.28
+opencv-python>=4.7

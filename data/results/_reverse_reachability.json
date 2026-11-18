@@ -1,0 +1,26 @@
+{
+ "car->vehicle": {
+  "n_src": 0,
+  "n_tgt": 96,
+  "base": 0.1908,
+  "target_proto": 0.2006,
+  "mid": 0.1975,
+  "gain": 0.0098
+ },
+ "boat->ship": {
+  "n_src": 0,
+  "n_tgt": 362,
+  "base": 0.2605,
+  "target_proto": 0.3012,
+  "mid": 0.2784,
+  "gain": 0.0406
+ },
+ "airplane->airplane": {
+  "n_src": 0,
+  "n_tgt": 150,
+  "base": 0.5248,
+  "target_proto": 0.5663,
+  "mid": 0.555,
+  "gain": 0.0415
+ }
+}

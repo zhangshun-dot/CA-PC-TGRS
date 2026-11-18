@@ -1,0 +1,33 @@
+{
+  "experiment": "Exp5b_gdino_crossdomain_2x2",
+  "detector": "GroundingDINO-tiny",
+  "n_coco": 250,
+  "n_dior": 60,
+  "n_dior_dets": 282,
+  "dc_mag_mean": 0.5882,
+  "P_scale": 3.4001,
+  "coco": {
+    "raw_ap50": 0.6296,
+    "l2align_ap50": 0.6229,
+    "capc_ap50": 0.6229
+  },
+  "dior": {
+    "raw_ap50": 0.1174,
+    "l2align_ap50": 0.1182,
+    "capc_ap50": 0.1088,
+    "cross_domain_drop": -0.5122,
+    "l2_gain": 0.0008,
+    "dc_marginal": -0.0094,
+    "total_capc_gain": -0.0086,
+    "per_class_raw": {
+      "airplane": 0.4553,
+      "ship": 0.1028,
+      "vehicle": 0.0365
+    }
+  },
+  "coco_per_class_raw": {
+    "airplane": 0.8473,
+    "ship": 0.4781,
+    "vehicle": 0.6131
+  }
+}

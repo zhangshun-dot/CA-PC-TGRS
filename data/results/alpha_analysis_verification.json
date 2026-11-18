@@ -1,0 +1,15 @@
+{
+  "grid_units": 13,
+  "pred_units": 13,
+  "intersection_units": 13,
+  "size_gate_uses_class_prior": true,
+  "size_gate_is_domain_blind": true,
+  "closed_form_precision": 0.0,
+  "closed_form_recall": 0.0,
+  "closed_form_f1": 0.0,
+  "true_zeros_count": 4,
+  "closed_zeros_count": 2,
+  "gains_closed_mean": 0.012402882741261768,
+  "gains_closed_median": 0.004842129280829471,
+  "gains_closed_skewed": false
+}

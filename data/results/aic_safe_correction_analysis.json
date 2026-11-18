@@ -1,0 +1,184 @@
+{
+  "n_points": 22,
+  "spearman_g2_gain": {
+    "rho": 0.1248,
+    "p": 0.58
+  },
+  "tau_star": 0.174,
+  "loo_validation": {
+    "COCO-gdino-base": {
+      "tau_dev": 0.105,
+      "base": 0.4079,
+      "always_acspc": 0.463,
+      "safe_loo": 0.463,
+      "worst_delta": -0.0048
+    },
+    "COCO-gdino-tiny": {
+      "tau_dev": 0.105,
+      "base": 0.3772,
+      "always_acspc": 0.4331,
+      "safe_loo": 0.4331,
+      "worst_delta": 0.0
+    },
+    "COCO-owlv2": {
+      "tau_dev": 0.105,
+      "base": 0.6701,
+      "always_acspc": 0.6325,
+      "safe_loo": 0.6325,
+      "worst_delta": -0.0808
+    },
+    "VisDrone": {
+      "tau_dev": 0.168,
+      "base": 0.1078,
+      "always_acspc": 0.1358,
+      "safe_loo": 0.1226,
+      "worst_delta": 0.0
+    }
+  },
+  "always_baseline": {
+    "mean_ap50": 0.4164,
+    "mean_map": 0.3036
+  },
+  "always_acspc": {
+    "mean_ap50": 0.4416,
+    "mean_map": 0.3197
+  },
+  "safe_correction": {
+    "mean_ap50": 0.4489,
+    "mean_map": 0.3278
+  },
+  "points": [
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "airplane",
+      "g2": 0.2598074674606323,
+      "gain_ap50": 0.0044
+    },
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "boat",
+      "g2": 0.2692941725254059,
+      "gain_ap50": 0.0043
+    },
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "bus",
+      "g2": 0.1860933154821396,
+      "gain_ap50": 0.0579
+    },
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "car",
+      "g2": 0.18406559526920319,
+      "gain_ap50": 0.1325
+    },
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "motorcycle",
+      "g2": 0.18498283624649048,
+      "gain_ap50": 0.0788
+    },
+    {
+      "domain": "COCO-gdino-tiny",
+      "cls": "truck",
+      "g2": 0.18753574788570404,
+      "gain_ap50": 0.0573
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "airplane",
+      "g2": 0.2557511329650879,
+      "gain_ap50": 0.0071
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "boat",
+      "g2": 0.263024240732193,
+      "gain_ap50": -0.0048
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "bus",
+      "g2": 0.20178043842315674,
+      "gain_ap50": 0.0842
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "car",
+      "g2": 0.1843048483133316,
+      "gain_ap50": 0.0675
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "motorcycle",
+      "g2": 0.1783076971769333,
+      "gain_ap50": 0.1381
+    },
+    {
+      "domain": "COCO-gdino-base",
+      "cls": "truck",
+      "g2": 0.18978963792324066,
+      "gain_ap50": 0.0389
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "airplane",
+      "g2": 0.19271980226039886,
+      "gain_ap50": -0.0013
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "boat",
+      "g2": 0.19600965082645416,
+      "gain_ap50": -0.0104
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "bus",
+      "g2": 0.1483667641878128,
+      "gain_ap50": -0.043
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "car",
+      "g2": 0.1303025186061859,
+      "gain_ap50": -0.0348
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "motorcycle",
+      "g2": 0.11786350607872009,
+      "gain_ap50": -0.0553
+    },
+    {
+      "domain": "COCO-owlv2",
+      "cls": "truck",
+      "g2": 0.13550017774105072,
+      "gain_ap50": -0.0808
+    },
+    {
+      "domain": "VisDrone",
+      "cls": "car",
+      "g2": 0.194,
+      "gain_ap50": 0.0085
+    },
+    {
+      "domain": "VisDrone",
+      "cls": "truck",
+      "g2": 0.1499,
+      "gain_ap50": 0.0025
+    },
+    {
+      "domain": "VisDrone",
+      "cls": "bus",
+      "g2": 0.2276,
+      "gain_ap50": 0.0509
+    },
+    {
+      "domain": "VisDrone",
+      "cls": "motorcycle",
+      "g2": 0.1154,
+      "gain_ap50": 0.0503
+    }
+  ]
+}

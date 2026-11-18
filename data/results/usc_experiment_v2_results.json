@@ -1,0 +1,95 @@
+{
+  "pca_scan": {
+    "7": {
+      "explained_variance": 0.337,
+      "best_alpha": 0.5,
+      "best_mean": 0.3939,
+      "best_gain": 0.0168
+    },
+    "15": {
+      "explained_variance": 0.464,
+      "best_alpha": 1.0,
+      "best_mean": 0.3954,
+      "best_gain": 0.0183
+    },
+    "30": {
+      "explained_variance": 0.581,
+      "best_alpha": 1.5,
+      "best_mean": 0.3986,
+      "best_gain": 0.0214
+    },
+    "50": {
+      "explained_variance": 0.669,
+      "best_alpha": 1.5,
+      "best_mean": 0.3985,
+      "best_gain": 0.0213
+    },
+    "100": {
+      "explained_variance": 0.787,
+      "best_alpha": 0.7,
+      "best_mean": 0.3943,
+      "best_gain": 0.0171
+    },
+    "512": {
+      "explained_variance": 1.0,
+      "best_alpha": 1.0,
+      "best_mean": 0.3946,
+      "best_gain": 0.0174
+    }
+  },
+  "ablation": {
+    "baseline": {
+      "mean": 0.3736,
+      "gain": -0.0035
+    },
+    "tge_only": {
+      "mean": 0.3896,
+      "gain": 0.0125
+    },
+    "usc_only": {
+      "best_alpha": 0.7,
+      "best_mean": 0.3822,
+      "best_gain": 0.0051
+    },
+    "usc_plus_tge": {
+      "best_alpha": 1.5,
+      "best_mean": 0.3986,
+      "best_gain": 0.0214
+    }
+  },
+  "per_class_best_alpha": {
+    "airplane": {
+      "best_alpha": 0.3,
+      "best_ap": 0.7593,
+      "gain": 0.0104
+    },
+    "boat": {
+      "best_alpha": 1.5,
+      "best_ap": 0.2153,
+      "gain": 0.0312
+    },
+    "car": {
+      "best_alpha": 1.5,
+      "best_ap": 0.1595,
+      "gain": 0.0486
+    },
+    "truck": {
+      "best_alpha": 0.1,
+      "best_ap": 0.2804,
+      "gain": 0.0199
+    },
+    "bus": {
+      "best_alpha": 2.0,
+      "best_ap": 0.5683,
+      "gain": 0.0352
+    },
+    "motorcycle": {
+      "best_alpha": 0.2,
+      "best_ap": 0.4798,
+      "gain": 0.0542
+    }
+  },
+  "per_class_oracle_mean": 0.4104,
+  "per_class_oracle_gain": 0.0333,
+  "baseline_mean": 0.3772
+}

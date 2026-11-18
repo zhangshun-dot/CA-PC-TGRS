@@ -1,0 +1,121 @@
+{
+  "config": {
+    "neg_lam": 0.5,
+    "layer": "L12",
+    "protocol": "same candidate pool, geometric mean fusion, dataset-level 11-point AP50",
+    "generic_neg_definition": "mean of all DIOR class prototypes (20 classes)"
+  },
+  "per_class": {
+    "COCO-airplane": {
+      "baseline": 0.7957874883718857,
+      "src_pos_only": 0.7694359269357716,
+      "src_cdvm": 0.7746675749372488,
+      "demean": 0.7957874883718857,
+      "pca_depc1": 0.7713161077217415,
+      "generic_neg": 0.7667707636615447,
+      "pca_explained": 0.08226986229419708,
+      "gains": {
+        "src_pos_only": -0.026351561436114168,
+        "src_cdvm": -0.021119913434636928,
+        "demean": 0.0,
+        "pca_depc1": -0.024471380650144203,
+        "generic_neg": -0.029016724710341002
+      }
+    },
+    "COCO-boat": {
+      "baseline": 0.26760472940328517,
+      "src_pos_only": 0.22668341674985812,
+      "src_cdvm": 0.2572178651317077,
+      "demean": 0.26760472940328517,
+      "pca_depc1": 0.3150261664503191,
+      "generic_neg": 0.2714666591988848,
+      "pca_explained": 0.06700772792100906,
+      "gains": {
+        "src_pos_only": -0.04092131265342705,
+        "src_cdvm": -0.010386864271577478,
+        "demean": 0.0,
+        "pca_depc1": 0.04742143704703394,
+        "generic_neg": 0.003861929795599628
+      }
+    },
+    "COCO-car": {
+      "baseline": 0.1738409933650702,
+      "src_pos_only": 0.1909336109097887,
+      "src_cdvm": 0.20275353157457657,
+      "demean": 0.1738409933650702,
+      "pca_depc1": 0.10639497599500394,
+      "generic_neg": 0.20930514918880627,
+      "pca_explained": 0.059189341962337494,
+      "gains": {
+        "src_pos_only": 0.017092617544718497,
+        "src_cdvm": 0.028912538209506372,
+        "demean": 0.0,
+        "pca_depc1": -0.06744601737006625,
+        "generic_neg": 0.03546415582373608
+      }
+    },
+    "COCO-truck": {
+      "baseline": 0.36710852596538734,
+      "src_pos_only": 0.39266572094263846,
+      "src_cdvm": 0.42510775459854416,
+      "demean": 0.36710852596538734,
+      "pca_depc1": 0.4095429900969952,
+      "generic_neg": 0.42843926736714144,
+      "pca_explained": 0.05292151868343353,
+      "gains": {
+        "src_pos_only": 0.02555719497725112,
+        "src_cdvm": 0.05799922863315682,
+        "demean": 0.0,
+        "pca_depc1": 0.04243446413160784,
+        "generic_neg": 0.061330741401754096
+      }
+    },
+    "COCO-bus": {
+      "baseline": 0.5965143725122082,
+      "src_pos_only": 0.3785720920916534,
+      "src_cdvm": 0.39862152894691394,
+      "demean": 0.5965143725122082,
+      "pca_depc1": 0.5908731994759088,
+      "generic_neg": 0.3629831708516241,
+      "pca_explained": 0.08753711730241776,
+      "gains": {
+        "src_pos_only": -0.2179422804205548,
+        "src_cdvm": -0.19789284356529424,
+        "demean": 0.0,
+        "pca_depc1": -0.005641173036299407,
+        "generic_neg": -0.23353120166058405
+      }
+    },
+    "COCO-motorcycle": {
+      "baseline": 0.4988140535208068,
+      "src_pos_only": 0.33637788177447403,
+      "src_cdvm": 0.37097627271829764,
+      "demean": 0.4988140535208068,
+      "pca_depc1": 0.5729607075765842,
+      "generic_neg": 0.35239517188793124,
+      "pca_explained": 0.11995896697044373,
+      "gains": {
+        "src_pos_only": -0.1624361717463328,
+        "src_cdvm": -0.12783778080250918,
+        "demean": 0.0,
+        "pca_depc1": 0.07414665405577742,
+        "generic_neg": -0.14641888163287559
+      }
+    }
+  },
+  "macro_mean": {
+    "baseline": 0.44994502718977386,
+    "src_pos_only": 0.3824447749006974,
+    "src_cdvm": 0.4048907546512148,
+    "demean": 0.44994502718977386,
+    "pca_depc1": 0.4610190245527588,
+    "generic_neg": 0.39856003035932214
+  },
+  "macro_gains": {
+    "src_pos_only": -0.06750025228907647,
+    "src_cdvm": -0.04505427253855904,
+    "demean": 0.0,
+    "pca_depc1": 0.011073997362984922,
+    "generic_neg": -0.051384996830451724
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "config": {
+    "n_classes": 37,
+    "n_domain_pairs": 6,
+    "n_bootstrap": 2000,
+    "seed": 42,
+    "weights": {
+      "G": 0.24,
+      "S": 0.18,
+      "I": 0.41,
+      "C": 0.17
+    }
+  },
+  "full_data": {
+    "rho": 0.3542519890559045,
+    "p_value": 0.03146210875656426
+  },
+  "cluster_bootstrap": {
+    "median": 0.4098351411684672,
+    "ci_95_lower": -0.04305447130575666,
+    "ci_95_upper": 0.9303405690242356,
+    "std": 0.27738174361421825,
+    "frac_positive": 0.957,
+    "frac_gt_05": 0.385
+  },
+  "ordinary_bootstrap": {
+    "median": 0.3581527279500063,
+    "ci_95_lower": 0.0076587550248865864,
+    "ci_95_upper": 0.6494149555338885,
+    "std": 0.16759551452226165
+  },
+  "per_domain_pair": {
+    "DIOR→COCO": {
+      "n": 6,
+      "rho": 1.0,
+      "p_value": 0.0
+    },
+    "DIOR→NWPU": {
+      "n": 10,
+      "rho": 0.6,
+      "p_value": 0.06668799999999996
+    },
+    "DIOR→VOC": {
+      "n": 5,
+      "rho": -0.09999999999999999,
+      "p_value": 0.8728885715695383
+    },
+    "DOTA→COCO": {
+      "n": 6,
+      "rho": 0.8285714285714287,
+      "p_value": 0.04156268221574334
+    },
+    "NWPU→COCO": {
+      "n": 6,
+      "rho": 0.942857142857143,
+      "p_value": 0.0048046647230320545
+    },
+    "VisDrone→COCO": {
+      "n": 4,
+      "rho": 1.0,
+      "p_value": 0.0
+    }
+  },
+  "data": [
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "airplane",
+      "risk": 0.27849999999999997,
+      "gain": 0.0117
+    },
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "boat",
+      "risk": 0.4605,
+      "gain": 0.0253
+    },
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "car",
+      "risk": 0.6455,
+      "gain": 0.0809
+    },
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "truck",
+      "risk": 0.5915,
+      "gain": 0.0774
+    },
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "bus",
+      "risk": 0.5095000000000001,
+      "gain": 0.0735
+    },
+    {
+      "domain_pair": "DIOR→COCO",
+      "class": "motorcycle",
+      "risk": 0.6475,
+      "gain": 0.1189
+    },
+    {
+      "domain_pair": "DIOR→VOC",
+      "class": "aeroplane",
+      "risk": 0.27849999999999997,
+      "gain": 0.0019
+    },
+    {
+      "domain_pair": "DIOR→VOC",
+      "class": "boat",
+      "risk": 0.4605,
+      "gain": -0.0234
+    },
+    {
+      "domain_pair": "DIOR→VOC",
+      "class": "car",
+      "risk": 0.6455,
+      "gain": 0.0861
+    },
+    {
+      "domain_pair": "DIOR→VOC",
+      "class": "bus",
+      "risk": 0.5095000000000001,
+      "gain": 0.0659
+    },
+    {
+      "domain_pair": "DIOR→VOC",
+      "class": "motorbike",
+      "risk": 0.6475,
+      "gain": -0.0601
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "airplane",
+      "risk": 0.27849999999999997,
+      "gain": 0.0737
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "ship",
+      "risk": 0.4685,
+      "gain": 0.139
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "storage tank",
+      "risk": 0.34249999999999997,
+      "gain": 0.1142
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "baseball diamond",
+      "risk": 0.368,
+      "gain": 0.116
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "tennis court",
+      "risk": 0.221,
+      "gain": 0.0021
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "basketball court",
+      "risk": 0.25,
+      "gain": 0.0509
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "ground track field",
+      "risk": 0.37099999999999994,
+      "gain": 0.2241
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "harbor",
+      "risk": 0.48450000000000004,
+      "gain": 0.0051
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "bridge",
+      "risk": 0.3535,
+      "gain": 0.0793
+    },
+    {
+      "domain_pair": "DIOR→NWPU",
+      "class": "vehicle",
+      "risk": 0.586,
+      "gain": 0.1703
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "airplane",
+      "risk": 0.27849999999999997,
+      "gain": 0.0099
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "boat",
+      "risk": 0.4605,
+      "gain": 0.0297
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "car",
+      "risk": 0.6455,
+      "gain": 0.0734
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "truck",
+      "risk": 0.5915,
+      "gain": 0.0563
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "bus",
+      "risk": 0.5095000000000001,
+      "gain": 0.0669
+    },
+    {
+      "domain_pair": "NWPU→COCO",
+      "class": "motorcycle",
+      "risk": 0.6475,
+      "gain": 0.1111
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "airplane",
+      "risk": 0.27849999999999997,
+      "gain": 0.0033
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "boat",
+      "risk": 0.4605,
+      "gain": 0.02
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "car",
+      "risk": 0.6455,
+      "gain": 0.0698
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "truck",
+      "risk": 0.5915,
+      "gain": 0.0735
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "bus",
+      "risk": 0.5095000000000001,
+      "gain": 0.0703
+    },
+    {
+      "domain_pair": "DOTA→COCO",
+      "class": "motorcycle",
+      "risk": 0.6475,
+      "gain": 0.1141
+    },
+    {
+      "domain_pair": "VisDrone→COCO",
+      "class": "car",
+      "risk": 0.6455,
+      "gain": 0.0735
+    },
+    {
+      "domain_pair": "VisDrone→COCO",
+      "class": "truck",
+      "risk": 0.5915,
+      "gain": 0.0266
+    },
+    {
+      "domain_pair": "VisDrone→COCO",
+      "class": "bus",
+      "risk": 0.5095000000000001,
+      "gain": 0.0153
+    },
+    {
+      "domain_pair": "VisDrone→COCO",
+      "class": "motorcycle",
+      "risk": 0.6475,
+      "gain": 0.0982
+    }
+  ]
+}

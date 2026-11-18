@@ -1,0 +1,84 @@
+{
+  "DIOR": {
+    "base_mean": 0.40781666666666666,
+    "diag_mean": 0.4238333333333333,
+    "per_class": [
+      {
+        "class": "airplane",
+        "base": 0.8001,
+        "diag_best": 0.8001,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      },
+      {
+        "class": "boat",
+        "base": 0.1937,
+        "diag_best": 0.2145,
+        "best_lambda": 0.25,
+        "delta": 0.0209
+      },
+      {
+        "class": "car",
+        "base": 0.2065,
+        "diag_best": 0.2065,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      },
+      {
+        "class": "truck",
+        "base": 0.2627,
+        "diag_best": 0.2627,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      },
+      {
+        "class": "bus",
+        "base": 0.574,
+        "diag_best": 0.6493,
+        "best_lambda": 0.0,
+        "delta": 0.0753
+      },
+      {
+        "class": "motorcycle",
+        "base": 0.4099,
+        "diag_best": 0.4099,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      }
+    ]
+  },
+  "VisDrone": {
+    "base_mean": 0.38685,
+    "diag_mean": 0.391675,
+    "per_class": [
+      {
+        "class": "bicycle",
+        "base": 0.2687,
+        "diag_best": 0.2687,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      },
+      {
+        "class": "car",
+        "base": 0.2327,
+        "diag_best": 0.2327,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      },
+      {
+        "class": "bus",
+        "base": 0.6319,
+        "diag_best": 0.6512,
+        "best_lambda": 1.0,
+        "delta": 0.0194
+      },
+      {
+        "class": "motorcycle",
+        "base": 0.4141,
+        "diag_best": 0.4141,
+        "best_lambda": 0.0,
+        "delta": 0.0
+      }
+    ]
+  }
+}

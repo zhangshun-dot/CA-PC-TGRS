@@ -1,0 +1,377 @@
+{
+  "config": {
+    "chosen_c0": 0.3003235325217247,
+    "c0_grid": [
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45
+    ],
+    "prior_scale": 3.3706,
+    "lam": 0.5,
+    "neg_topk": 3,
+    "n_proto": 20,
+    "bootstrap_K": 100,
+    "gate": "gamma=clip(PRIOR_SCALE*dc_mag*gate_conf(max_conf,c0,3),0,4)",
+    "zero_target_gt": true,
+    "note": "re-scored from existing detection caches; no GPU re-detection"
+  },
+  "per_c0": [
+    {
+      "c0": 0.15,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0419,
+          "min_gain": -0.0013,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0073,
+          "min_gain": -0.0074,
+          "max_gain": 0.0219
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0055,
+          "min_gain": -0.0001,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0002,
+          "min_gain": -0.0009,
+          "max_gain": 0.0013
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.333,
+        "owlv2": 0.444,
+        "yolo": 0.333,
+        "rtdetr": 0.444
+      },
+      "boot": {
+        "mean": 0.0177,
+        "ci95": [
+          0.0063,
+          0.0301
+        ]
+      },
+      "overall_mean_gain": 0.0177,
+      "overall_parity": 0.389
+    },
+    {
+      "c0": 0.2,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.043,
+          "min_gain": -0.0013,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0079,
+          "min_gain": -0.0131,
+          "max_gain": 0.0255
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0055,
+          "min_gain": -0.0002,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0003,
+          "min_gain": -0.0015,
+          "max_gain": 0.002
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.444,
+        "owlv2": 0.333,
+        "yolo": 0.444,
+        "rtdetr": 0.333
+      },
+      "boot": {
+        "mean": 0.0183,
+        "ci95": [
+          0.0066,
+          0.0288
+        ]
+      },
+      "overall_mean_gain": 0.0183,
+      "overall_parity": 0.389
+    },
+    {
+      "c0": 0.25,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0451,
+          "min_gain": -0.0029,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0078,
+          "min_gain": -0.0227,
+          "max_gain": 0.0329
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.006,
+          "min_gain": -0.0008,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0001,
+          "min_gain": -0.0019,
+          "max_gain": 0.0021
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.444,
+        "owlv2": 0.444,
+        "yolo": 0.444,
+        "rtdetr": 0.333
+      },
+      "boot": {
+        "mean": 0.0193,
+        "ci95": [
+          0.0099,
+          0.0288
+        ]
+      },
+      "overall_mean_gain": 0.0193,
+      "overall_parity": 0.417
+    },
+    {
+      "c0": 0.3,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0481,
+          "min_gain": -0.0054,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0069,
+          "min_gain": -0.029,
+          "max_gain": 0.0352
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0057,
+          "min_gain": -0.0008,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0003,
+          "min_gain": -0.0025,
+          "max_gain": 0.0026
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.556,
+        "owlv2": 0.333,
+        "yolo": 0.444,
+        "rtdetr": 0.222
+      },
+      "boot": {
+        "mean": 0.018,
+        "ci95": [
+          0.0071,
+          0.0313
+        ]
+      },
+      "overall_mean_gain": 0.018,
+      "overall_parity": 0.389
+    },
+    {
+      "c0": 0.35,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0483,
+          "min_gain": -0.0057,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0076,
+          "min_gain": -0.029,
+          "max_gain": 0.0352
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0059,
+          "min_gain": -0.0004,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0003,
+          "min_gain": -0.0027,
+          "max_gain": 0.0025
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.556,
+        "owlv2": 0.333,
+        "yolo": 0.333,
+        "rtdetr": 0.333
+      },
+      "boot": {
+        "mean": 0.019,
+        "ci95": [
+          0.0076,
+          0.0296
+        ]
+      },
+      "overall_mean_gain": 0.019,
+      "overall_parity": 0.389
+    },
+    {
+      "c0": 0.4,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0483,
+          "min_gain": -0.0057,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.006,
+          "min_gain": -0.029,
+          "max_gain": 0.0415
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0058,
+          "min_gain": -0.0006,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0004,
+          "min_gain": -0.0023,
+          "max_gain": 0.003
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.556,
+        "owlv2": 0.333,
+        "yolo": 0.333,
+        "rtdetr": 0.222
+      },
+      "boot": {
+        "mean": 0.0174,
+        "ci95": [
+          0.0056,
+          0.0286
+        ]
+      },
+      "overall_mean_gain": 0.0174,
+      "overall_parity": 0.361
+    },
+    {
+      "c0": 0.45,
+      "per_det": {
+        "gdino": {
+          "n": 9,
+          "mean_gain": 0.0483,
+          "min_gain": -0.0057,
+          "max_gain": 0.1078
+        },
+        "owlv2": {
+          "n": 9,
+          "mean_gain": 0.0012,
+          "min_gain": -0.044,
+          "max_gain": 0.0489
+        },
+        "yolo": {
+          "n": 9,
+          "mean_gain": 0.0057,
+          "min_gain": -0.001,
+          "max_gain": 0.0303
+        },
+        "rtdetr": {
+          "n": 9,
+          "mean_gain": 0.0004,
+          "min_gain": -0.0047,
+          "max_gain": 0.005
+        }
+      },
+      "parity_frac": {
+        "gdino": 0.556,
+        "owlv2": 0.222,
+        "yolo": 0.222,
+        "rtdetr": 0.222
+      },
+      "boot": {
+        "mean": 0.0177,
+        "ci95": [
+          0.0049,
+          0.0286
+        ]
+      },
+      "overall_mean_gain": 0.0177,
+      "overall_parity": 0.306
+    }
+  ],
+  "chosen_c0_detail": {
+    "c0": 0.3,
+    "per_det": {
+      "gdino": {
+        "n": 9,
+        "mean_gain": 0.0481,
+        "min_gain": -0.0054,
+        "max_gain": 0.1078
+      },
+      "owlv2": {
+        "n": 9,
+        "mean_gain": 0.0069,
+        "min_gain": -0.029,
+        "max_gain": 0.0352
+      },
+      "yolo": {
+        "n": 9,
+        "mean_gain": 0.0057,
+        "min_gain": -0.0008,
+        "max_gain": 0.0303
+      },
+      "rtdetr": {
+        "n": 9,
+        "mean_gain": 0.0003,
+        "min_gain": -0.0025,
+        "max_gain": 0.0026
+      }
+    },
+    "parity_frac": {
+      "gdino": 0.556,
+      "owlv2": 0.333,
+      "yolo": 0.444,
+      "rtdetr": 0.222
+    },
+    "boot": {
+      "mean": 0.018,
+      "ci95": [
+        0.0071,
+        0.0313
+      ]
+    },
+    "overall_mean_gain": 0.018,
+    "overall_parity": 0.389
+  },
+  "elapsed_s": 992.3
+}

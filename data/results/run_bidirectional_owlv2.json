@@ -1,0 +1,97 @@
+{
+  "config": {
+    "detector": "owlv2-base-patch16-ensemble",
+    "beta": 2.0,
+    "lam": 0.5,
+    "n_eval": 100,
+    "pre_filter": 0.03,
+    "clip": "openai/clip-vit-base-patch32"
+  },
+  "results": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "baseline": 0.8725,
+        "n_img": 77,
+        "n_box": 1112,
+        "A_anchored": 0.0041,
+        "B_roleswap": -0.005,
+        "beta0": -0.0109,
+        "rand_mean": -0.0041
+      },
+      "ship->boat": {
+        "baseline": 0.5267,
+        "n_img": 100,
+        "n_box": 4046,
+        "A_anchored": -0.0263,
+        "B_roleswap": -0.0648,
+        "beta0": -0.0559,
+        "rand_mean": -0.1122
+      },
+      "vehicle->car": {
+        "baseline": 0.5724,
+        "n_img": 100,
+        "n_box": 1991,
+        "A_anchored": -0.0302,
+        "B_roleswap": -0.1183,
+        "beta0": -0.063,
+        "rand_mean": -0.0868
+      },
+      "vehicle->truck": {
+        "baseline": 0.5685,
+        "n_img": 100,
+        "n_box": 2049,
+        "A_anchored": -0.073,
+        "B_roleswap": -0.1422,
+        "beta0": -0.0774,
+        "rand_mean": -0.1762
+      },
+      "vehicle->bus": {
+        "baseline": 0.8788,
+        "n_img": 100,
+        "n_box": 1868,
+        "A_anchored": -0.0334,
+        "B_roleswap": -0.065,
+        "beta0": -0.0815,
+        "rand_mean": -0.2778
+      },
+      "vehicle->motorcycle": {
+        "baseline": 0.7388,
+        "n_img": 100,
+        "n_box": 3003,
+        "A_anchored": -0.0802,
+        "B_roleswap": -0.0324,
+        "beta0": -0.0484,
+        "rand_mean": -0.2062
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "baseline": 0.8739,
+        "n_img": 100,
+        "n_box": 7626,
+        "A_anchored": -0.0329,
+        "B_roleswap": -0.0793,
+        "beta0": -0.0109,
+        "rand_mean": -0.0792
+      },
+      "boat->ship": {
+        "baseline": 0.5246,
+        "n_img": 100,
+        "n_box": 9390,
+        "A_anchored": -0.0192,
+        "B_roleswap": -0.0274,
+        "beta0": 0.0014,
+        "rand_mean": -0.0017
+      },
+      "car->vehicle": {
+        "baseline": 0.3508,
+        "n_img": 100,
+        "n_box": 8809,
+        "A_anchored": -0.0497,
+        "B_roleswap": -0.0102,
+        "beta0": -0.0033,
+        "rand_mean": -0.0119
+      }
+    }
+  }
+}

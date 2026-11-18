@@ -1,0 +1,33 @@
+{
+  "config": {
+    "detector": "yolo-world (yolov8s-worldv2)",
+    "beta": 2.0,
+    "lam": 0.5,
+    "pre_filter": 0.03,
+    "K_calib": 10
+  },
+  "classes": {
+    "truck": {
+      "n_pool": 250,
+      "n_test": 240,
+      "boxes_raw_per_img": 300.0,
+      "boxes_kept_per_img": 3.4,
+      "recall": 0.7415,
+      "base50": 0.5366,
+      "ours50": 0.5524,
+      "gain50": 0.0157,
+      "base_coco": 0.3669,
+      "ours_coco": 0.3768,
+      "gain_coco": 0.0099
+    }
+  },
+  "mean": {
+    "base50": 0.5366,
+    "ours50": 0.5524,
+    "gain50": 0.0157,
+    "base_coco": 0.3669,
+    "ours_coco": 0.3768,
+    "gain_coco": 0.0099,
+    "recall": 0.7415
+  }
+}

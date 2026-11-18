@@ -1,0 +1,91 @@
+{
+  "single_operator": {
+    "TGE": 0.013709561123895781,
+    "FMS": 0.002561226650724286,
+    "DDC": -0.08589378358980475
+  },
+  "multi_operator": {
+    "rule_based": 0.026648492668393697,
+    "oracle": 0.02624709461400846,
+    "final_framework": 0.02643443984500485
+  },
+  "per_class": {
+    "airplane": {
+      "gate": 0,
+      "TGE_gain": -0.012820957635687765,
+      "FMS_gain": -0.03018212183750694,
+      "DDC_gain": -0.33303382448636365,
+      "oracle_op": "TGE",
+      "oracle_gain": -0.012820957635687765,
+      "rule_op": "NONE",
+      "rule_gain": 0.0,
+      "final_gain": 0.0
+    },
+    "bicycle": {
+      "gate": 0,
+      "TGE_gain": -0.021169049877099083,
+      "FMS_gain": 0.0014983697637219323,
+      "DDC_gain": -0.05917088160984023,
+      "oracle_op": "FMS",
+      "oracle_gain": 0.0014983697637219323,
+      "rule_op": "FMS",
+      "rule_gain": 0.0014983697637219323,
+      "final_gain": 0.0
+    },
+    "boat": {
+      "gate": 0,
+      "TGE_gain": -0.008590042309711785,
+      "FMS_gain": 0.03503730992850476,
+      "DDC_gain": 0.0066257737993748135,
+      "oracle_op": "FMS",
+      "oracle_gain": 0.03503730992850476,
+      "rule_op": "FMS",
+      "rule_gain": 0.03503730992850476,
+      "final_gain": 0.03503730992850476
+    },
+    "bus": {
+      "gate": 0,
+      "TGE_gain": -0.006571900980300749,
+      "FMS_gain": 0.014896061571450459,
+      "DDC_gain": 0.00942328469752074,
+      "oracle_op": "FMS",
+      "oracle_gain": 0.014896061571450459,
+      "rule_op": "FMS",
+      "rule_gain": 0.014896061571450459,
+      "final_gain": 0.014896061571450459
+    },
+    "car": {
+      "gate": 1,
+      "TGE_gain": 0.05282221714766051,
+      "FMS_gain": -0.05819603161752231,
+      "DDC_gain": -0.15330846048805863,
+      "oracle_op": "TGE",
+      "oracle_gain": 0.05282221714766051,
+      "rule_op": "TGE",
+      "rule_gain": 0.05282221714766051,
+      "final_gain": 0.05282221714766051
+    },
+    "motorcycle": {
+      "gate": 1,
+      "TGE_gain": 0.08228549026741822,
+      "FMS_gain": 0.060142861674373105,
+      "DDC_gain": -0.008905378988068202,
+      "oracle_op": "TGE",
+      "oracle_gain": 0.08228549026741822,
+      "rule_op": "TGE",
+      "rule_gain": 0.08228549026741822,
+      "final_gain": 0.08228549026741822
+    },
+    "truck": {
+      "gate": 0,
+      "TGE_gain": 0.010011171254991125,
+      "FMS_gain": -0.005267862927951006,
+      "DDC_gain": -0.06288699805319808,
+      "oracle_op": "TGE",
+      "oracle_gain": 0.010011171254991125,
+      "rule_op": "NONE",
+      "rule_gain": 0.0,
+      "final_gain": 0.0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "A_zc_content": {
+    "acc_zc": 0.3133,
+    "acc_clip": 0.92,
+    "acc_dino": 0.7667,
+    "random": 0.1,
+    "eff_rank": 2.34,
+    "pairwise_cos_mean": 0.993,
+    "pairwise_cos_std": 0.0063,
+    "A_ok": true
+  },
+  "B_zk_cond": {
+    "pearson_r": 0.655,
+    "r2": 0.426,
+    "baseline_ceiling_r": 0.27,
+    "B_ok": true
+  },
+  "C_D": {
+    "zc_consistency": 0.9871,
+    "zk_diff_cond": 0.1152,
+    "zk_varies_with_cond": true,
+    "cond_depend_L1": 0.0029,
+    "recon_depends_on_zk": false
+  },
+  "verdict": "可进反事实/下游",
+  "note": "v2 矩阵: 条件改分辨率(可识别); 共享浅层并行 + VICReg + 弱不变 warm-up + 重建依赖zk."
+}

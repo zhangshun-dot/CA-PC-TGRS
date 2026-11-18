@@ -1,0 +1,376 @@
+{
+  "names": [
+    "COCO-airplane",
+    "COCO-boat",
+    "COCO-car",
+    "DIOR-airplane",
+    "DIOR-ship",
+    "DIOR-vehicle",
+    "DIOR-harbor",
+    "DIOR-storage",
+    "DIOR-tennis",
+    "DIOR-baseball",
+    "DIOR-bridge"
+  ],
+  "orig_7factor": {
+    "COCO-airplane": -0.1312,
+    "COCO-boat": -0.0246,
+    "COCO-car": 0.0823,
+    "DIOR-airplane": -0.2585,
+    "DIOR-ship": -0.0137,
+    "DIOR-vehicle": -0.0811,
+    "DIOR-harbor": -0.0682,
+    "DIOR-storage": 0.0261,
+    "DIOR-tennis": 0.0063,
+    "DIOR-baseball": 0.043,
+    "DIOR-bridge": 0.0268
+  },
+  "zero_zk": {
+    "COCO-airplane": {
+      "delta": -0.3631,
+      "ci_low": -0.4086,
+      "ci_high": -0.2837,
+      "fold_std": 0.0291
+    },
+    "COCO-boat": {
+      "delta": 0.0273,
+      "ci_low": 0.0028,
+      "ci_high": 0.0486,
+      "fold_std": 0.016
+    },
+    "COCO-car": {
+      "delta": 0.1629,
+      "ci_low": 0.1102,
+      "ci_high": 0.2053,
+      "fold_std": 0.0686
+    },
+    "DIOR-airplane": {
+      "delta": -0.2517,
+      "ci_low": -0.423,
+      "ci_high": -0.1252,
+      "fold_std": 0.0245
+    },
+    "DIOR-ship": {
+      "delta": -0.0582,
+      "ci_low": -0.1431,
+      "ci_high": -0.0131,
+      "fold_std": 0.0112
+    },
+    "DIOR-vehicle": {
+      "delta": -0.1137,
+      "ci_low": -0.2774,
+      "ci_high": -0.0038,
+      "fold_std": 0.0271
+    },
+    "DIOR-harbor": {
+      "delta": -0.0063,
+      "ci_low": -0.0485,
+      "ci_high": 0.016,
+      "fold_std": 0.0221
+    },
+    "DIOR-storage": {
+      "delta": 0.0281,
+      "ci_low": -0.1531,
+      "ci_high": 0.1348,
+      "fold_std": 0.1155
+    },
+    "DIOR-tennis": {
+      "delta": 0.0132,
+      "ci_low": 0.0008,
+      "ci_high": 0.0432,
+      "fold_std": 0.0275
+    },
+    "DIOR-baseball": {
+      "delta": 0.1373,
+      "ci_low": 0.0508,
+      "ci_high": 0.233,
+      "fold_std": 0.0945
+    },
+    "DIOR-bridge": {
+      "delta": 0.0734,
+      "ci_low": 0.0055,
+      "ci_high": 0.1855,
+      "fold_std": 0.1837
+    }
+  },
+  "shuffle_zk": {
+    "COCO-airplane": {
+      "delta": -0.3631,
+      "ci_low": -0.4086,
+      "ci_high": -0.2837,
+      "fold_std": 0.0291,
+      "delta_mean3": -0.3714
+    },
+    "COCO-boat": {
+      "delta": 0.0147,
+      "ci_low": -0.0192,
+      "ci_high": 0.0374,
+      "fold_std": 0.0318,
+      "delta_mean3": 0.0054
+    },
+    "COCO-car": {
+      "delta": 0.1629,
+      "ci_low": 0.1102,
+      "ci_high": 0.2053,
+      "fold_std": 0.0686,
+      "delta_mean3": 0.1629
+    },
+    "DIOR-airplane": {
+      "delta": -0.2698,
+      "ci_low": -0.4532,
+      "ci_high": -0.1428,
+      "fold_std": 0.022,
+      "delta_mean3": -0.2569
+    },
+    "DIOR-ship": {
+      "delta": -0.0582,
+      "ci_low": -0.1431,
+      "ci_high": -0.0131,
+      "fold_std": 0.0112,
+      "delta_mean3": -0.0619
+    },
+    "DIOR-vehicle": {
+      "delta": -0.1137,
+      "ci_low": -0.2774,
+      "ci_high": -0.0038,
+      "fold_std": 0.0271,
+      "delta_mean3": -0.1137
+    },
+    "DIOR-harbor": {
+      "delta": 0.0011,
+      "ci_low": -0.0336,
+      "ci_high": 0.0223,
+      "fold_std": 0.0133,
+      "delta_mean3": -0.0204
+    },
+    "DIOR-storage": {
+      "delta": 0.0281,
+      "ci_low": -0.1531,
+      "ci_high": 0.1348,
+      "fold_std": 0.1155,
+      "delta_mean3": 0.0281
+    },
+    "DIOR-tennis": {
+      "delta": 0.0116,
+      "ci_low": -0.001,
+      "ci_high": 0.0428,
+      "fold_std": 0.0296,
+      "delta_mean3": 0.013
+    },
+    "DIOR-baseball": {
+      "delta": 0.1373,
+      "ci_low": 0.0508,
+      "ci_high": 0.233,
+      "fold_std": 0.0945,
+      "delta_mean3": 0.1146
+    },
+    "DIOR-bridge": {
+      "delta": 0.0734,
+      "ci_low": 0.0055,
+      "ci_high": 0.1855,
+      "fold_std": 0.1837,
+      "delta_mean3": 0.0385
+    }
+  },
+  "zero_zk_cachedw": {
+    "COCO-airplane": 0.034,
+    "COCO-boat": 0.0323,
+    "COCO-car": 0.2281,
+    "DIOR-airplane": 0.0456,
+    "DIOR-ship": 0.0044,
+    "DIOR-vehicle": 0.0517,
+    "DIOR-harbor": 0.012,
+    "DIOR-storage": 0.0799,
+    "DIOR-tennis": 0.0625,
+    "DIOR-baseball": 0.135,
+    "DIOR-bridge": 0.0567
+  },
+  "shuffle_zk_cachedw": {
+    "COCO-airplane": 0.0258,
+    "COCO-boat": 0.0018,
+    "COCO-car": 0.0739,
+    "DIOR-airplane": -0.0295,
+    "DIOR-ship": -0.071,
+    "DIOR-vehicle": -0.0012,
+    "DIOR-harbor": -0.0078,
+    "DIOR-storage": 0.0082,
+    "DIOR-tennis": 0.0015,
+    "DIOR-baseball": -0.09,
+    "DIOR-bridge": 0.0016
+  },
+  "class_adaptive_loo": {
+    "COCO-airplane": {
+      "delta": -0.0979,
+      "bucket": 2,
+      "learned_from": [
+        "DIOR-airplane",
+        "DIOR-ship",
+        "DIOR-vehicle"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "cond_inv": 1.0
+      }
+    },
+    "COCO-boat": {
+      "delta": -0.0101,
+      "bucket": 1,
+      "learned_from": [
+        "DIOR-harbor",
+        "DIOR-storage"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "rel": 0.5,
+        "cond": 1.0,
+        "cond_inv": 1.0
+      }
+    },
+    "COCO-car": {
+      "delta": 0.0388,
+      "bucket": 0,
+      "learned_from": [
+        "DIOR-tennis",
+        "DIOR-baseball",
+        "DIOR-bridge"
+      ],
+      "w": {
+        "vis": 1.0,
+        "clip": 0.5
+      }
+    },
+    "DIOR-airplane": {
+      "delta": 0.1272,
+      "bucket": 2,
+      "learned_from": [
+        "COCO-airplane",
+        "DIOR-ship",
+        "DIOR-vehicle"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 0.5,
+        "clip": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-ship": {
+      "delta": 0.0846,
+      "bucket": 2,
+      "learned_from": [
+        "COCO-airplane",
+        "DIOR-airplane",
+        "DIOR-vehicle"
+      ],
+      "w": {
+        "gd": 1.0,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-vehicle": {
+      "delta": 0.0824,
+      "bucket": 2,
+      "learned_from": [
+        "COCO-airplane",
+        "DIOR-airplane",
+        "DIOR-ship"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-harbor": {
+      "delta": 0.0131,
+      "bucket": 1,
+      "learned_from": [
+        "COCO-boat",
+        "DIOR-storage"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 0.5,
+        "rel": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-storage": {
+      "delta": 0.0332,
+      "bucket": 1,
+      "learned_from": [
+        "COCO-boat",
+        "DIOR-harbor"
+      ],
+      "w": {
+        "gd": 0.5,
+        "vis": 1.0,
+        "clip": 1.0,
+        "rel": 0.5,
+        "unc": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-tennis": {
+      "delta": 0.0008,
+      "bucket": 0,
+      "learned_from": [
+        "COCO-car",
+        "DIOR-baseball",
+        "DIOR-bridge"
+      ],
+      "w": {
+        "vis": 0.5,
+        "unc": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-baseball": {
+      "delta": -0.1166,
+      "bucket": 0,
+      "learned_from": [
+        "COCO-car",
+        "DIOR-tennis",
+        "DIOR-bridge"
+      ],
+      "w": {
+        "vis": 0.5,
+        "unc": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    },
+    "DIOR-bridge": {
+      "delta": 0.0035,
+      "bucket": 0,
+      "learned_from": [
+        "COCO-car",
+        "DIOR-tennis",
+        "DIOR-baseball"
+      ],
+      "w": {
+        "vis": 0.5,
+        "unc": 0.5,
+        "cond": 0.5,
+        "cond_inv": 1.0
+      }
+    }
+  },
+  "summary": {
+    "orig_7factor_mean": -0.03570909090909092,
+    "zero_zk_mean": -0.03189090909090909,
+    "shuffle_zk_mean": -0.04198181818181818,
+    "zero_zk_cachedw_mean": 0.06747272727272727,
+    "shuffle_zk_cachedw_mean": -0.007881818181818183,
+    "class_adaptive_loo_mean": 0.014454545454545458
+  }
+}

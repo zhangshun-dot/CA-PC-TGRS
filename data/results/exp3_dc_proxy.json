@@ -1,0 +1,54 @@
+{
+  "experiment": "Exp3_d_c_proxy_validity",
+  "n_img": 200,
+  "levels": [
+    "light",
+    "moderate",
+    "heavy"
+  ],
+  "dc_text_pooled": {
+    "light": 0.6625,
+    "moderate": 0.6815,
+    "heavy": 0.7079
+  },
+  "dc_text_per_class": {
+    "car": {
+      "light": 0.6305,
+      "moderate": 0.6582,
+      "heavy": 0.675
+    },
+    "truck": {
+      "light": 0.6867,
+      "moderate": 0.7079,
+      "heavy": 0.7287
+    },
+    "bus": {
+      "light": 0.6313,
+      "moderate": 0.6564,
+      "heavy": 0.6861
+    },
+    "motorcycle": {
+      "light": 0.7023,
+      "moderate": 0.7071,
+      "heavy": 0.7283
+    },
+    "boat": {
+      "light": 0.6387,
+      "moderate": 0.6466,
+      "heavy": 0.6994
+    },
+    "airplane": {
+      "light": 0.6853,
+      "moderate": 0.7127,
+      "heavy": 0.73
+    }
+  },
+  "image_feature_drift": {
+    "light": 0.1532,
+    "moderate": 0.2497,
+    "heavy": 0.3292
+  },
+  "rho_dc_vs_image_drift": 0.9889,
+  "monotonic_dc": true,
+  "monotonic_image_drift": true
+}

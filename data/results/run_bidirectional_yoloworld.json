@@ -1,0 +1,51 @@
+{
+  "config": {
+    "detector": "yoloworld-v2-small",
+    "weights": "C:\\Users\\张三\\yolov8s-worldv2.pt",
+    "n_eval": 100,
+    "pre_filter": 0.03,
+    "clip": "openai/clip-vit-base-patch32"
+  },
+  "results": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "n_img": 77,
+        "n_box": 201
+      },
+      "ship->boat": {
+        "n_img": 100,
+        "n_box": 809
+      },
+      "vehicle->car": {
+        "n_img": 100,
+        "n_box": 574
+      },
+      "vehicle->truck": {
+        "n_img": 100,
+        "n_box": 324
+      },
+      "vehicle->bus": {
+        "n_img": 100,
+        "n_box": 304
+      },
+      "vehicle->motorcycle": {
+        "n_img": 100,
+        "n_box": 603
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "n_img": 100,
+        "n_box": 389
+      },
+      "boat->ship": {
+        "n_img": 100,
+        "n_box": 29
+      },
+      "car->vehicle": {
+        "n_img": 100,
+        "n_box": 57
+      }
+    }
+  }
+}

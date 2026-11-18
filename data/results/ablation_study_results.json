@@ -1,0 +1,178 @@
+{
+  "DIOR": {
+    "airplane": {
+      "Baseline": 0.767972280039737,
+      "TGE": 0.7735475065295158,
+      "USC_fixed_alpha1.0": 0.7501273213112362,
+      "USC_fixed_alpha0.5": 0.7753383795370791,
+      "USC_adaptive_alpha": 0.7764096223238576,
+      "alpha_adaptive": 0.3484940417569934,
+      "box_size_variance": 24250.968288396016,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.7771658970732876,
+      "oracle_alpha": 0.1
+    },
+    "ship": {
+      "Baseline": 0.1825186934188259,
+      "TGE": 0.162107522644723,
+      "USC_fixed_alpha1.0": 0.20385466004275157,
+      "USC_fixed_alpha0.5": 0.1744571093608464,
+      "USC_adaptive_alpha": 0.2108454059121084,
+      "alpha_adaptive": 1.8100579104278731,
+      "box_size_variance": 12893.037462541433,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.20967133700617263,
+      "oracle_alpha": 2.0
+    },
+    "vehicle": {
+      "Baseline": 0.1432432706759854,
+      "TGE": 0.1734962302271403,
+      "USC_fixed_alpha1.0": 0.14269680517085753,
+      "USC_fixed_alpha0.5": 0.16303215061332002,
+      "USC_adaptive_alpha": 0.1660409719586965,
+      "alpha_adaptive": 0.10214466606945527,
+      "box_size_variance": 25530.19880953667,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.1695698814562492,
+      "oracle_alpha": 0.3
+    }
+  },
+  "NWPU": {
+    "airplane": {
+      "Baseline": 0.767972280039737,
+      "TGE": 0.7801632764484542,
+      "USC_fixed_alpha1.0": 0.7625562537765732,
+      "USC_fixed_alpha0.5": 0.7768278722245484,
+      "USC_adaptive_alpha": 0.7759501437551822,
+      "alpha_adaptive": 0.3484940417569934,
+      "box_size_variance": 24250.968288396016,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.7776346674590264,
+      "oracle_alpha": 0.0
+    },
+    "ship": {
+      "Baseline": 0.1825186934188259,
+      "TGE": 0.16874656251485842,
+      "USC_fixed_alpha1.0": 0.18498016412865767,
+      "USC_fixed_alpha0.5": 0.17486177162950017,
+      "USC_adaptive_alpha": 0.20345043890730452,
+      "alpha_adaptive": 1.8100579104278731,
+      "box_size_variance": 12893.037462541433,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.20409975000960756,
+      "oracle_alpha": 1.5
+    },
+    "vehicle": {
+      "Baseline": 0.1432432706759854,
+      "TGE": 0.1947588813078335,
+      "USC_fixed_alpha1.0": 0.13458134386955145,
+      "USC_fixed_alpha0.5": 0.16503498519391369,
+      "USC_adaptive_alpha": 0.1634651010971193,
+      "alpha_adaptive": 0.10214466606945527,
+      "box_size_variance": 25530.19880953667,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.16835190369421363,
+      "oracle_alpha": 0.3
+    }
+  },
+  "DOTA": {
+    "plane": {
+      "Baseline": 0.767972280039737,
+      "TGE": 0.7748395094548258,
+      "USC_fixed_alpha1.0": 0.7757463395311692,
+      "USC_fixed_alpha0.5": 0.7777048792377689,
+      "USC_adaptive_alpha": 0.7749836372530357,
+      "alpha_adaptive": 0.3484940417569934,
+      "box_size_variance": 24250.968288396016,
+      "text_confusability": 0.3331111669540405,
+      "USC_oracle_alpha": 0.7783058748700409,
+      "oracle_alpha": 0.7
+    },
+    "ship": {
+      "Baseline": 0.1825186934188259,
+      "TGE": 0.1654112289062165,
+      "USC_fixed_alpha1.0": 0.2033166628084598,
+      "USC_fixed_alpha0.5": 0.17437371653543468,
+      "USC_adaptive_alpha": 0.20948500728770705,
+      "alpha_adaptive": 1.8100579104278731,
+      "box_size_variance": 12893.037462541433,
+      "text_confusability": 0.3351442515850067,
+      "USC_oracle_alpha": 0.20885231260295714,
+      "oracle_alpha": 1.5
+    },
+    "small-vehicle": {
+      "Baseline": 0.1432432706759854,
+      "TGE": 0.17283362781407238,
+      "USC_fixed_alpha1.0": 0.14426388830363646,
+      "USC_fixed_alpha0.5": 0.16469572124610676,
+      "USC_adaptive_alpha": 0.1657471279479358,
+      "alpha_adaptive": 0.10214466606945527,
+      "box_size_variance": 25530.19880953667,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.17003279211917852,
+      "oracle_alpha": 0.3
+    },
+    "large-vehicle": {
+      "Baseline": 0.2625665415635606,
+      "TGE": 0.25680659967148184,
+      "USC_fixed_alpha1.0": 0.2714393520675033,
+      "USC_fixed_alpha0.5": 0.27272224388838734,
+      "USC_adaptive_alpha": 0.27503387828061804,
+      "alpha_adaptive": 0.8001994206760292,
+      "box_size_variance": 24547.94388062385,
+      "text_confusability": 0.39315423369407654,
+      "USC_oracle_alpha": 0.27436886960260476,
+      "oracle_alpha": 0.7
+    }
+  },
+  "VisDrone": {
+    "bicycle": {
+      "Baseline": 0.17891479164847982,
+      "TGE": 0.19783170042742845,
+      "USC_fixed_alpha1.0": 0.2164359841684326,
+      "USC_fixed_alpha0.5": 0.20487851521108444,
+      "USC_adaptive_alpha": 0.23057366955465025,
+      "alpha_adaptive": 1.2231040949555751,
+      "box_size_variance": 20707.08574634751,
+      "text_confusability": 0.3850901424884796,
+      "USC_oracle_alpha": 0.22472335866295287,
+      "oracle_alpha": 1.5
+    },
+    "car": {
+      "Baseline": 0.1432432706759854,
+      "TGE": 0.1847401503711404,
+      "USC_fixed_alpha1.0": 0.13909867199672607,
+      "USC_fixed_alpha0.5": 0.1624799351753065,
+      "USC_adaptive_alpha": 0.18116922259949203,
+      "alpha_adaptive": 0.10214466606945527,
+      "box_size_variance": 25530.19880953667,
+      "text_confusability": 0.3228561282157898,
+      "USC_oracle_alpha": 0.18122717546185696,
+      "oracle_alpha": 0.1
+    },
+    "bus": {
+      "Baseline": 0.5201165241478234,
+      "TGE": 0.5131675679188881,
+      "USC_fixed_alpha1.0": 0.5421155850001781,
+      "USC_fixed_alpha0.5": 0.5329287140560699,
+      "USC_adaptive_alpha": 0.5507039165428693,
+      "alpha_adaptive": 1.6673668403072073,
+      "box_size_variance": 18061.777006792403,
+      "text_confusability": 0.39830347895622253,
+      "USC_oracle_alpha": 0.5558261443559739,
+      "oracle_alpha": 2.0
+    },
+    "motor": {
+      "Baseline": 0.3867683654083688,
+      "TGE": 0.42236381678676144,
+      "USC_fixed_alpha1.0": 0.41982118158257475,
+      "USC_fixed_alpha0.5": 0.41911465501063305,
+      "USC_adaptive_alpha": 0.4197619280569601,
+      "alpha_adaptive": 1.0056489402387738,
+      "box_size_variance": 22416.330292500792,
+      "text_confusability": 0.3850901424884796,
+      "USC_oracle_alpha": 0.42405270651121474,
+      "oracle_alpha": 0.7
+    }
+  }
+}

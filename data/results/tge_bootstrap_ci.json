@@ -1,0 +1,110 @@
+{
+  "config": {
+    "n_coco": 100,
+    "k": 10,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "r": 1000,
+    "seed": 42,
+    "protocol": "paired image-level bootstrap on N=100 main-table protocol (90 test images), image-safe per-image AP50 (per-image matching + global PR, COCO official)",
+    "p_definition": "(n_rounds_delta_le_0 + 1) / (R + 1), one-sided"
+  },
+  "mean6": {
+    "mean_delta": 0.0668,
+    "ci95_low": 0.052,
+    "ci95_high": 0.0817,
+    "p_delta_le_0": 0.001
+  },
+  "classes": {
+    "COCO-airplane": {
+      "full_ap": {
+        "baseline": 0.7484,
+        "zs_extrap": 0.7601
+      },
+      "boot": {
+        "mean_delta": 0.0146,
+        "ci95_low": -0.0035,
+        "ci95_high": 0.0354,
+        "p_delta_le_0": 0.0659,
+        "n_pos_rounds": 935
+      },
+      "n_test_images": 87,
+      "n_gt_total": 143
+    },
+    "COCO-boat": {
+      "full_ap": {
+        "baseline": 0.1879,
+        "zs_extrap": 0.2277
+      },
+      "boot": {
+        "mean_delta": 0.0288,
+        "ci95_low": 0.0011,
+        "ci95_high": 0.0529,
+        "p_delta_le_0": 0.025,
+        "n_pos_rounds": 976
+      },
+      "n_test_images": 90,
+      "n_gt_total": 320
+    },
+    "COCO-car": {
+      "full_ap": {
+        "baseline": 0.0858,
+        "zs_extrap": 0.1752
+      },
+      "boot": {
+        "mean_delta": 0.0983,
+        "ci95_low": 0.0709,
+        "ci95_high": 0.1332,
+        "p_delta_le_0": 0.001,
+        "n_pos_rounds": 1000
+      },
+      "n_test_images": 90,
+      "n_gt_total": 314
+    },
+    "COCO-truck": {
+      "full_ap": {
+        "baseline": 0.2631,
+        "zs_extrap": 0.3342
+      },
+      "boot": {
+        "mean_delta": 0.0761,
+        "ci95_low": 0.0294,
+        "ci95_high": 0.1278,
+        "p_delta_le_0": 0.001,
+        "n_pos_rounds": 1000
+      },
+      "n_test_images": 90,
+      "n_gt_total": 151
+    },
+    "COCO-bus": {
+      "full_ap": {
+        "baseline": 0.5651,
+        "zs_extrap": 0.6236
+      },
+      "boot": {
+        "mean_delta": 0.0629,
+        "ci95_low": 0.0326,
+        "ci95_high": 0.0982,
+        "p_delta_le_0": 0.001,
+        "n_pos_rounds": 1000
+      },
+      "n_test_images": 90,
+      "n_gt_total": 154
+    },
+    "COCO-motorcycle": {
+      "full_ap": {
+        "baseline": 0.435,
+        "zs_extrap": 0.5557
+      },
+      "boot": {
+        "mean_delta": 0.1204,
+        "ci95_low": 0.0742,
+        "ci95_high": 0.1715,
+        "p_delta_le_0": 0.001,
+        "n_pos_rounds": 1000
+      },
+      "n_test_images": 90,
+      "n_gt_total": 229
+    }
+  }
+}

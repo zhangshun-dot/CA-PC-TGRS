@@ -1,0 +1,43 @@
+{
+  "A_condition": {
+    "res": {
+      "pooled_r_zk_k": 0.4805114708875526,
+      "pooled_acc_4way": 0.3458333333333333,
+      "random_acc_4way": 0.25,
+      "per_class": {
+        "airplane": {
+          "r_zk_k": 0.49132532089480346,
+          "acc_4way": 0.4125
+        },
+        "ship": {
+          "r_zk_k": 0.47738829427189294,
+          "acc_4way": 0.3625
+        },
+        "vehicle": {
+          "r_zk_k": 0.5138463646258721,
+          "acc_4way": 0.3125
+        }
+      }
+    },
+    "haze_generalization": {
+      "pooled_r_zk_hazeseverity": 0.7128961389108388,
+      "note": "v4 CondEncoder 仅 res 训练; haze 为未训练条件, 验泛化"
+    }
+  },
+  "B_ood": {
+    "coco_vs_dior": {
+      "n_coco": 360,
+      "n_dior": 60,
+      "auc_zk_zc_logistic": 1.0,
+      "auc_zk": 0.6622685185185185,
+      "auc_zc": 0.8870370370370371,
+      "random": 0.5
+    },
+    "dota_status": "pending_external_raw_images",
+    "nwpu_status": "pending_external_raw_images"
+  },
+  "notes": [
+    "dota 原始图缺失, 多RS域OOD待补数据",
+    "nwpu 原始图缺失, 多RS域OOD待补数据"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "results": [
+    {
+      "method": "理论闭式解(无门控)",
+      "rho": 0.0,
+      "p": 1.0,
+      "mean_gain": 0.011038670240095408,
+      "median_gain": 0.004842129280829471,
+      "n_positive": 14,
+      "n_total": 27,
+      "oracle_realization": 67.77974718217756,
+      "mean_gate": 1.0
+    },
+    {
+      "method": "数据驱动门控+闭式解",
+      "rho": -0.5897052210657862,
+      "p": 0.001207151110329505,
+      "mean_gain": -0.0005388394661600753,
+      "median_gain": 0.0,
+      "n_positive": 2,
+      "n_total": 27,
+      "oracle_realization": -3.3085871752423825,
+      "mean_gate": 0.48148148148148145
+    },
+    {
+      "method": "物理先验-size门控+闭式解",
+      "rho": 0.5175944748584942,
+      "p": 0.005690457589655724,
+      "mean_gain": 0.013946159669586814,
+      "median_gain": 0.0,
+      "n_positive": 10,
+      "n_total": 27,
+      "oracle_realization": 85.63234121564855,
+      "mean_gate": 0.4444444444444444
+    },
+    {
+      "method": "物理先验-viewpoint门控+闭式解",
+      "rho": 0.5347327004579586,
+      "p": 0.0040579241141916605,
+      "mean_gain": 0.014913204321649488,
+      "median_gain": 0.0,
+      "n_positive": 11,
+      "n_total": 27,
+      "oracle_realization": 91.57019791442048,
+      "mean_gate": 0.48148148148148145
+    },
+    {
+      "method": "物理先验-size_viewpoint门控+闭式解",
+      "rho": 0.3768891807222045,
+      "p": 0.052641623123015735,
+      "mean_gain": 0.013955365051568499,
+      "median_gain": 0.0,
+      "n_positive": 11,
+      "n_total": 27,
+      "oracle_realization": 85.68886418896535,
+      "mean_gate": 0.5555555555555556
+    },
+    {
+      "method": "物理先验-size_viewpoint_and门控+闭式解",
+      "rho": 0.6980683814932759,
+      "p": 5.15716757119652e-05,
+      "mean_gain": 0.014903998939667805,
+      "median_gain": 0.0,
+      "n_positive": 10,
+      "n_total": 27,
+      "oracle_realization": 91.51367494110369,
+      "mean_gate": 0.37037037037037035
+    },
+    {
+      "method": "物理先验-combined_score门控+闭式解",
+      "rho": 0.3768891807222045,
+      "p": 0.052641623123015735,
+      "mean_gain": 0.013955365051568499,
+      "median_gain": 0.0,
+      "n_positive": 11,
+      "n_total": 27,
+      "oracle_realization": 85.68886418896535,
+      "mean_gate": 0.5555555555555556
+    },
+    {
+      "method": "Oracle(上界)",
+      "rho": 1.0,
+      "p": 0.0,
+      "mean_gain": 0.016286079427902125,
+      "median_gain": 0.004842129280829471,
+      "n_positive": 23,
+      "n_total": 27,
+      "oracle_realization": 99.99993859790561,
+      "mean_gate": 1.0
+    }
+  ]
+}

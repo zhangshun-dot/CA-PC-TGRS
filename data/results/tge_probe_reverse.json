@@ -1,0 +1,77 @@
+{
+  "config": {
+    "source": "COCO val2017 (6 类)",
+    "target": "DIOR (airplane/ship/vehicle)",
+    "direction": "natural -> remote sensing (主表反向)",
+    "n_dior": 100,
+    "k": 10,
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "pre_filter": 0.03,
+    "protocol": "GDINO boxes + TGE/A-CSPC rerank, N=100/类, K=10, 后90图, 逐图 AP50, pre-filter 0.03, sqrt(gd*vis), 与主表一致 (模板互换)",
+    "question": "A-CSPC 增益的方向对称性 (自然->遥感 反向是否成立); TGE(λ=0) 行隔离负原型池污染"
+  },
+  "classes": {
+    "DIOR-airplane": {
+      "src_cls": "airplane",
+      "baseline": 0.8305,
+      "tge_lam0": 0.8504,
+      "acspc": 0.8253,
+      "tge_gain": 0.0199,
+      "acspc_gain": -0.0052,
+      "recall": 0.8457
+    },
+    "DIOR-ship": {
+      "src_cls": "boat",
+      "baseline": 0.1731,
+      "tge_lam0": 0.1817,
+      "acspc": 0.1555,
+      "tge_gain": 0.0086,
+      "acspc_gain": -0.0176,
+      "recall": 0.6529
+    },
+    "DIOR-vehicle-car": {
+      "src_cls": "car",
+      "baseline": 0.2053,
+      "tge_lam0": 0.2074,
+      "acspc": 0.1664,
+      "tge_gain": 0.0021,
+      "acspc_gain": -0.0389,
+      "recall": 0.6693
+    },
+    "DIOR-vehicle-truck": {
+      "src_cls": "truck",
+      "baseline": 0.2053,
+      "tge_lam0": 0.201,
+      "acspc": 0.0581,
+      "tge_gain": -0.0043,
+      "acspc_gain": -0.1472,
+      "recall": 0.6693
+    },
+    "DIOR-vehicle-bus": {
+      "src_cls": "bus",
+      "baseline": 0.2053,
+      "tge_lam0": 0.2008,
+      "acspc": 0.0319,
+      "tge_gain": -0.0045,
+      "acspc_gain": -0.1734,
+      "recall": 0.6693
+    },
+    "DIOR-vehicle-motorcycle": {
+      "src_cls": "motorcycle",
+      "baseline": 0.2053,
+      "tge_lam0": 0.2049,
+      "acspc": 0.068,
+      "tge_gain": -0.0004,
+      "acspc_gain": -0.1373,
+      "recall": 0.6693
+    }
+  },
+  "mean": {
+    "baseline": 0.3041,
+    "tge_lam0": 0.3077,
+    "acspc": 0.2175,
+    "tge_gain": 0.0036,
+    "acspc_gain": -0.0866
+  }
+}

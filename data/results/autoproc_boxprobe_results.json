@@ -1,0 +1,200 @@
+{
+  "DIOR": {
+    "GSD": 1.0,
+    "base_mean": 0.42228333333333334,
+    "probe_mean": 0.42311666666666664,
+    "raw_mean": 0.4018000000000001,
+    "raw_probe_mean": 0.4021333333333334,
+    "per_class": [
+      {
+        "class": "airplane",
+        "base_ap": 0.7732,
+        "probe_ap": 0.7732,
+        "probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "raw_ap": 0.7721,
+        "raw_probe_ap": 0.7721,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0
+      },
+      {
+        "class": "boat",
+        "base_ap": 0.2196,
+        "probe_ap": 0.2197,
+        "probe_t": [
+          1.0,
+          -0.08,
+          0.08
+        ],
+        "raw_ap": 0.2144,
+        "raw_probe_ap": 0.215,
+        "raw_probe_t": [
+          1.0,
+          0.0,
+          0.08
+        ],
+        "delta_method": 0.0
+      },
+      {
+        "class": "car",
+        "base_ap": 0.181,
+        "probe_ap": 0.182,
+        "probe_t": [
+          0.9,
+          0.08,
+          0.0
+        ],
+        "raw_ap": 0.1661,
+        "raw_probe_ap": 0.1667,
+        "raw_probe_t": [
+          0.8,
+          0.08,
+          -0.08
+        ],
+        "delta_method": 0.0011
+      },
+      {
+        "class": "truck",
+        "base_ap": 0.2793,
+        "probe_ap": 0.28,
+        "probe_t": [
+          0.9,
+          0.0,
+          0.08
+        ],
+        "raw_ap": 0.2208,
+        "raw_probe_ap": 0.2216,
+        "raw_probe_t": [
+          0.9,
+          0.0,
+          0.08
+        ],
+        "delta_method": 0.0007
+      },
+      {
+        "class": "bus",
+        "base_ap": 0.6322,
+        "probe_ap": 0.6322,
+        "probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "raw_ap": 0.6493,
+        "raw_probe_ap": 0.6493,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0
+      },
+      {
+        "class": "motorcycle",
+        "base_ap": 0.4484,
+        "probe_ap": 0.4516,
+        "probe_t": [
+          0.9,
+          0.0,
+          0.0
+        ],
+        "raw_ap": 0.3881,
+        "raw_probe_ap": 0.3881,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0032
+      }
+    ]
+  },
+  "VisDrone": {
+    "GSD": 0.3,
+    "base_mean": 0.39122500000000004,
+    "probe_mean": 0.39255,
+    "raw_mean": 0.36160000000000003,
+    "raw_probe_mean": 0.36175,
+    "per_class": [
+      {
+        "class": "bicycle",
+        "base_ap": 0.2954,
+        "probe_ap": 0.2954,
+        "probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "raw_ap": 0.2429,
+        "raw_probe_ap": 0.2429,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0
+      },
+      {
+        "class": "car",
+        "base_ap": 0.1942,
+        "probe_ap": 0.1947,
+        "probe_t": [
+          0.9,
+          0.08,
+          0.0
+        ],
+        "raw_ap": 0.1661,
+        "raw_probe_ap": 0.1667,
+        "raw_probe_t": [
+          0.8,
+          0.08,
+          -0.08
+        ],
+        "delta_method": 0.0005
+      },
+      {
+        "class": "bus",
+        "base_ap": 0.6407,
+        "probe_ap": 0.6407,
+        "probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "raw_ap": 0.6493,
+        "raw_probe_ap": 0.6493,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0
+      },
+      {
+        "class": "motorcycle",
+        "base_ap": 0.4346,
+        "probe_ap": 0.4394,
+        "probe_t": [
+          0.9,
+          0.0,
+          0.0
+        ],
+        "raw_ap": 0.3881,
+        "raw_probe_ap": 0.3881,
+        "raw_probe_t": [
+          1.0,
+          0,
+          0
+        ],
+        "delta_method": 0.0048
+      }
+    ]
+  }
+}

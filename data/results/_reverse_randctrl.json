@@ -1,0 +1,29 @@
+{
+ "car->vehicle": {
+  "base": 0.1908,
+  "cond_g1": 0.0152,
+  "rand_mean": 0.0064,
+  "rand_std": 0.0123,
+  "rand_max": 0.0415,
+  "p_value": 0.255,
+  "n_draw": 200
+ },
+ "boat->ship": {
+  "base": 0.2605,
+  "cond_g1": 0.0446,
+  "rand_mean": -0.01,
+  "rand_std": 0.0162,
+  "rand_max": 0.029,
+  "p_value": 0.0,
+  "n_draw": 200
+ },
+ "airplane->airplane": {
+  "base": 0.5248,
+  "cond_g1": 0.0423,
+  "rand_mean": -0.0342,
+  "rand_std": 0.0211,
+  "rand_max": 0.0205,
+  "p_value": 0.0,
+  "n_draw": 200
+ }
+}

@@ -1,0 +1,99 @@
+{
+  "lambda_scan": [
+    {
+      "lambda": 0.0,
+      "cos_clip": 1.0000000536441802,
+      "cos_bert": 0.8212587005562253,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "lambda": 0.02,
+      "cos_clip": 0.9999186635017395,
+      "cos_bert": 0.8212611807717217,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "lambda": 0.05,
+      "cos_clip": 0.9994880050420761,
+      "cos_bert": 0.8212666196955575,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "lambda": 0.1,
+      "cos_clip": 0.9979318648576736,
+      "cos_bert": 0.8212805108891593,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "lambda": 0.15,
+      "cos_clip": 0.9953082233667374,
+      "cos_bert": 0.8213002615504794,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "lambda": 0.2,
+      "cos_clip": 0.9916033715009689,
+      "cos_bert": 0.8213258650567796,
+      "dr": 1.0,
+      "neg_dr": 1.0,
+      "specificity": 0.0
+    }
+  ],
+  "best_lambda": 0.0,
+  "per_class": {
+    "airplane": {
+      "baseline": 0.8,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "ship": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "stadium": {
+      "baseline": 1.0,
+      "cd_tdm": 1.0,
+      "token_proj": 1.0
+    },
+    "bridge": {
+      "baseline": 1.0,
+      "cd_tdm": 0.9,
+      "token_proj": 1.0
+    },
+    "harbor": {
+      "baseline": 0.6,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "overpass": {
+      "baseline": 0.4,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "tennis court": {
+      "baseline": 0.8,
+      "cd_tdm": 0.6,
+      "token_proj": 1.0
+    },
+    "windmill": {
+      "baseline": 1.0,
+      "cd_tdm": 1.0,
+      "token_proj": 1.0
+    }
+  },
+  "mean_baseline": 0.7749999999999999,
+  "mean_cd_tdm": 0.7374999999999999,
+  "mean_token_proj": 1.0,
+  "projection_retention_cos": 0.8040748536586761
+}

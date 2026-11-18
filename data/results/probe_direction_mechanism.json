@@ -1,0 +1,147 @@
+{
+  "config": {
+    "beta": 2.0,
+    "lam": 0.5,
+    "n_proto": 20,
+    "n_eval": 30,
+    "n_rand_seed": 5,
+    "detector": "gdino-tiny",
+    "clip": "openai/clip-vit-base-patch32",
+    "tasks": {
+      "same_dior2dior": [
+        "dior",
+        "dior"
+      ],
+      "same_coco2coco": [
+        "coco",
+        "coco"
+      ],
+      "rev_coco2dior": [
+        "coco",
+        "dior"
+      ],
+      "fwd_dior2coco": [
+        "dior",
+        "coco"
+      ]
+    }
+  },
+  "results": {
+    "same_dior2dior": {
+      "airplane": {
+        "baseline_ap50": 0.3891,
+        "gain_plus_delta": 0.0534,
+        "gain_minus_delta": 0.0262,
+        "gain_beta0": 0.0407,
+        "gain_random_dir": 0.0382,
+        "random_dir_spread": 0.026,
+        "n_images": 30
+      },
+      "ship": {
+        "baseline_ap50": 0.2793,
+        "gain_plus_delta": 0.113,
+        "gain_minus_delta": 0.0111,
+        "gain_beta0": 0.0544,
+        "gain_random_dir": 0.0665,
+        "random_dir_spread": 0.063,
+        "n_images": 30
+      },
+      "vehicle": {
+        "baseline_ap50": 0.1155,
+        "gain_plus_delta": 0.0703,
+        "gain_minus_delta": 0.0244,
+        "gain_beta0": 0.0571,
+        "gain_random_dir": 0.0503,
+        "random_dir_spread": 0.0333,
+        "n_images": 30
+      }
+    },
+    "same_coco2coco": {
+      "airplane": {
+        "baseline_ap50": 0.8067,
+        "gain_plus_delta": -0.0425,
+        "gain_minus_delta": 0.0007,
+        "gain_beta0": 0.0046,
+        "gain_random_dir": -0.0082,
+        "random_dir_spread": 0.0479,
+        "n_images": 30
+      },
+      "boat": {
+        "baseline_ap50": 0.1623,
+        "gain_plus_delta": 0.0153,
+        "gain_minus_delta": 0.0201,
+        "gain_beta0": 0.0113,
+        "gain_random_dir": 0.0112,
+        "random_dir_spread": 0.0183,
+        "n_images": 30
+      },
+      "car": {
+        "baseline_ap50": 0.135,
+        "gain_plus_delta": 0.0845,
+        "gain_minus_delta": 0.0153,
+        "gain_beta0": 0.0458,
+        "gain_random_dir": 0.056,
+        "random_dir_spread": 0.0251,
+        "n_images": 30
+      }
+    },
+    "rev_coco2dior": {
+      "airplane": {
+        "baseline_ap50": 0.3891,
+        "gain_plus_delta": 0.0057,
+        "gain_minus_delta": -0.0099,
+        "gain_beta0": 0.0183,
+        "gain_random_dir": -0.0017,
+        "random_dir_spread": 0.0363,
+        "n_images": 30
+      },
+      "ship": {
+        "baseline_ap50": 0.2793,
+        "gain_plus_delta": 0.0785,
+        "gain_minus_delta": -0.0337,
+        "gain_beta0": 0.0124,
+        "gain_random_dir": 0.0019,
+        "random_dir_spread": 0.0411,
+        "n_images": 30
+      },
+      "vehicle": {
+        "baseline_ap50": 0.1155,
+        "gain_plus_delta": 0.0811,
+        "gain_minus_delta": 0.0189,
+        "gain_beta0": 0.0573,
+        "gain_random_dir": 0.0501,
+        "random_dir_spread": 0.0311,
+        "n_images": 30
+      }
+    },
+    "fwd_dior2coco": {
+      "airplane": {
+        "baseline_ap50": 0.8067,
+        "gain_plus_delta": 0.0323,
+        "gain_minus_delta": 0.0453,
+        "gain_beta0": 0.0425,
+        "gain_random_dir": 0.0475,
+        "random_dir_spread": 0.033,
+        "n_images": 30
+      },
+      "boat": {
+        "baseline_ap50": 0.1623,
+        "gain_plus_delta": 0.0036,
+        "gain_minus_delta": 0.0037,
+        "gain_beta0": 0.017,
+        "gain_random_dir": 0.007,
+        "random_dir_spread": 0.0548,
+        "n_images": 30
+      },
+      "car": {
+        "baseline_ap50": 0.135,
+        "gain_plus_delta": 0.0607,
+        "gain_minus_delta": -0.0201,
+        "gain_beta0": 0.0189,
+        "gain_random_dir": 0.0273,
+        "random_dir_spread": 0.0288,
+        "n_images": 30
+      }
+    }
+  }
+}

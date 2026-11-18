@@ -1,0 +1,813 @@
+{
+  "per_class": {
+    "person": {
+      "A_baseline": {
+        "DR": 0.05,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 1,
+        "FN": 60
+      },
+      "B_cross_domain": {
+        "DR": 0.6,
+        "P": 0.5384615384615384,
+        "R": 0.11666666666666667,
+        "F1": 0.1917808219178082,
+        "TP": 7,
+        "FP": 6,
+        "FN": 53
+      },
+      "C_gold": {
+        "DR": 0.6,
+        "P": 0.5384615384615384,
+        "R": 0.11666666666666667,
+        "F1": 0.1917808219178082,
+        "TP": 7,
+        "FP": 6,
+        "FN": 53
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a picture of person",
+        "cross": "a picture of person, large and prominent",
+        "gold": "a picture of person, large and prominent, with natural coloring"
+      }
+    },
+    "car": {
+      "A_baseline": {
+        "DR": 0.2,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 4,
+        "FN": 60
+      },
+      "B_cross_domain": {
+        "DR": 0.45,
+        "P": 0.2222222222222222,
+        "R": 0.03333333333333333,
+        "F1": 0.057971014492753624,
+        "TP": 2,
+        "FP": 7,
+        "FN": 58
+      },
+      "C_gold": {
+        "DR": 0.45,
+        "P": 0.2222222222222222,
+        "R": 0.03333333333333333,
+        "F1": 0.057971014492753624,
+        "TP": 2,
+        "FP": 7,
+        "FN": 58
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of car",
+        "cross": "a photo of car, large and prominent",
+        "gold": "a photo of car, large and prominent"
+      }
+    },
+    "dog": {
+      "A_baseline": {
+        "DR": 0.6,
+        "P": 0.8461538461538461,
+        "R": 0.5,
+        "F1": 0.6285714285714286,
+        "TP": 11,
+        "FP": 2,
+        "FN": 11
+      },
+      "B_cross_domain": {
+        "DR": 0.65,
+        "P": 0.7142857142857143,
+        "R": 0.45454545454545453,
+        "F1": 0.5555555555555556,
+        "TP": 10,
+        "FP": 4,
+        "FN": 12
+      },
+      "C_gold": {
+        "DR": 0.65,
+        "P": 0.7142857142857143,
+        "R": 0.45454545454545453,
+        "F1": 0.5555555555555556,
+        "TP": 10,
+        "FP": 4,
+        "FN": 12
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of dog",
+        "cross": "a photo of dog, large and prominent",
+        "gold": "a photo of dog, large and prominent"
+      }
+    },
+    "chair": {
+      "A_baseline": {
+        "DR": 0.7,
+        "P": 0.3333333333333333,
+        "R": 0.08,
+        "F1": 0.12903225806451613,
+        "TP": 6,
+        "FP": 12,
+        "FN": 69
+      },
+      "B_cross_domain": {
+        "DR": 0.75,
+        "P": 0.29411764705882354,
+        "R": 0.06666666666666667,
+        "F1": 0.10869565217391304,
+        "TP": 5,
+        "FP": 12,
+        "FN": 70
+      },
+      "C_gold": {
+        "DR": 0.75,
+        "P": 0.29411764705882354,
+        "R": 0.06666666666666667,
+        "F1": 0.10869565217391304,
+        "TP": 5,
+        "FP": 12,
+        "FN": 70
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of chair",
+        "cross": "a photo of chair, large and prominent",
+        "gold": "a photo of chair, large and prominent"
+      }
+    },
+    "bottle": {
+      "A_baseline": {
+        "DR": 0.0,
+        "P": 0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 59
+      },
+      "B_cross_domain": {
+        "DR": 0.5,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 11,
+        "FN": 59
+      },
+      "C_gold": {
+        "DR": 0.5,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 11,
+        "FN": 59
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a photo of bottle",
+        "cross": "a photo of bottle, large and prominent",
+        "gold": "a photo of bottle, large and prominent, with natural coloring"
+      }
+    },
+    "cup": {
+      "A_baseline": {
+        "DR": 0.0,
+        "P": 0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 42
+      },
+      "B_cross_domain": {
+        "DR": 0.5,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 10,
+        "FN": 42
+      },
+      "C_gold": {
+        "DR": 0.5,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0,
+        "TP": 0,
+        "FP": 10,
+        "FN": 42
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a photo of cup",
+        "cross": "a photo of cup, large and prominent",
+        "gold": "a photo of cup, large and prominent, with natural coloring"
+      }
+    },
+    "boat": {
+      "A_baseline": {
+        "DR": 0.05,
+        "P": 1.0,
+        "R": 0.019230769230769232,
+        "F1": 0.03773584905660378,
+        "TP": 1,
+        "FP": 0,
+        "FN": 51
+      },
+      "B_cross_domain": {
+        "DR": 0.35,
+        "P": 0.7142857142857143,
+        "R": 0.09615384615384616,
+        "F1": 0.16949152542372883,
+        "TP": 5,
+        "FP": 2,
+        "FN": 47
+      },
+      "C_gold": {
+        "DR": 0.35,
+        "P": 0.7142857142857143,
+        "R": 0.09615384615384616,
+        "F1": 0.16949152542372883,
+        "TP": 5,
+        "FP": 2,
+        "FN": 47
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a picture of boat",
+        "cross": "a picture of boat, large and prominent",
+        "gold": "a picture of boat, large and prominent, with natural coloring"
+      }
+    },
+    "airplane": {
+      "A_baseline": {
+        "DR": 0.85,
+        "P": 0.8888888888888888,
+        "R": 0.5714285714285714,
+        "F1": 0.6956521739130435,
+        "TP": 16,
+        "FP": 2,
+        "FN": 12
+      },
+      "B_cross_domain": {
+        "DR": 0.75,
+        "P": 0.9375,
+        "R": 0.5357142857142857,
+        "F1": 0.6818181818181818,
+        "TP": 15,
+        "FP": 1,
+        "FN": 13
+      },
+      "C_gold": {
+        "DR": 0.85,
+        "P": 0.8888888888888888,
+        "R": 0.5714285714285714,
+        "F1": 0.6956521739130435,
+        "TP": 16,
+        "FP": 2,
+        "FN": 12
+      },
+      "dior_mods": [
+        "in its natural setting",
+        "large and prominent"
+      ],
+      "coco_mods": [],
+      "prompts": {
+        "baseline": "a photo of airplane",
+        "cross": "a photo of airplane, in its natural setting, large and prominent",
+        "gold": "a photo of airplane"
+      }
+    },
+    "bird": {
+      "A_baseline": {
+        "DR": 0.9,
+        "P": 0.7368421052631579,
+        "R": 0.2153846153846154,
+        "F1": 0.33333333333333337,
+        "TP": 14,
+        "FP": 5,
+        "FN": 51
+      },
+      "B_cross_domain": {
+        "DR": 0.95,
+        "P": 0.6818181818181818,
+        "R": 0.23076923076923078,
+        "F1": 0.3448275862068966,
+        "TP": 15,
+        "FP": 7,
+        "FN": 50
+      },
+      "C_gold": {
+        "DR": 0.95,
+        "P": 0.6818181818181818,
+        "R": 0.23076923076923078,
+        "F1": 0.3448275862068966,
+        "TP": 15,
+        "FP": 7,
+        "FN": 50
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of bird",
+        "cross": "a photo of bird, large and prominent",
+        "gold": "a photo of bird, large and prominent"
+      }
+    },
+    "potted plant": {
+      "A_baseline": {
+        "DR": 0.1,
+        "P": 0.3333333333333333,
+        "R": 0.027777777777777776,
+        "F1": 0.05128205128205128,
+        "TP": 1,
+        "FP": 2,
+        "FN": 35
+      },
+      "B_cross_domain": {
+        "DR": 0.45,
+        "P": 0.09090909090909091,
+        "R": 0.027777777777777776,
+        "F1": 0.0425531914893617,
+        "TP": 1,
+        "FP": 10,
+        "FN": 35
+      },
+      "C_gold": {
+        "DR": 0.45,
+        "P": 0.09090909090909091,
+        "R": 0.027777777777777776,
+        "F1": 0.0425531914893617,
+        "TP": 1,
+        "FP": 10,
+        "FN": 35
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of potted plant",
+        "cross": "a photo of potted plant, large and prominent",
+        "gold": "a photo of potted plant, large and prominent"
+      }
+    },
+    "dining table": {
+      "A_baseline": {
+        "DR": 0.8,
+        "P": 0.5,
+        "R": 0.25,
+        "F1": 0.3333333333333333,
+        "TP": 10,
+        "FP": 10,
+        "FN": 30
+      },
+      "B_cross_domain": {
+        "DR": 0.8,
+        "P": 0.5,
+        "R": 0.275,
+        "F1": 0.3548387096774194,
+        "TP": 11,
+        "FP": 11,
+        "FN": 29
+      },
+      "C_gold": {
+        "DR": 0.8,
+        "P": 0.5,
+        "R": 0.25,
+        "F1": 0.3333333333333333,
+        "TP": 10,
+        "FP": 10,
+        "FN": 30
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [],
+      "prompts": {
+        "baseline": "a photo of dining table",
+        "cross": "a photo of dining table, large and prominent",
+        "gold": "a photo of dining table"
+      }
+    },
+    "couch": {
+      "A_baseline": {
+        "DR": 0.2,
+        "P": 0.5,
+        "R": 0.08,
+        "F1": 0.13793103448275865,
+        "TP": 2,
+        "FP": 2,
+        "FN": 23
+      },
+      "B_cross_domain": {
+        "DR": 0.55,
+        "P": 0.38461538461538464,
+        "R": 0.2,
+        "F1": 0.2631578947368421,
+        "TP": 5,
+        "FP": 8,
+        "FN": 20
+      },
+      "C_gold": {
+        "DR": 0.55,
+        "P": 0.38461538461538464,
+        "R": 0.2,
+        "F1": 0.2631578947368421,
+        "TP": 5,
+        "FP": 8,
+        "FN": 20
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of couch",
+        "cross": "a photo of couch, large and prominent",
+        "gold": "a photo of couch, large and prominent"
+      }
+    },
+    "motorcycle": {
+      "A_baseline": {
+        "DR": 0.25,
+        "P": 0.8,
+        "R": 0.08163265306122448,
+        "F1": 0.1481481481481481,
+        "TP": 4,
+        "FP": 1,
+        "FN": 45
+      },
+      "B_cross_domain": {
+        "DR": 0.65,
+        "P": 0.6111111111111112,
+        "R": 0.22448979591836735,
+        "F1": 0.3283582089552239,
+        "TP": 11,
+        "FP": 7,
+        "FN": 38
+      },
+      "C_gold": {
+        "DR": 0.65,
+        "P": 0.6111111111111112,
+        "R": 0.22448979591836735,
+        "F1": 0.3283582089552239,
+        "TP": 11,
+        "FP": 7,
+        "FN": 38
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a photo of motorcycle",
+        "cross": "a photo of motorcycle, large and prominent",
+        "gold": "a photo of motorcycle, large and prominent, with natural coloring"
+      }
+    },
+    "cat": {
+      "A_baseline": {
+        "DR": 0.5,
+        "P": 0.7692307692307693,
+        "R": 0.45454545454545453,
+        "F1": 0.5714285714285714,
+        "TP": 10,
+        "FP": 3,
+        "FN": 12
+      },
+      "B_cross_domain": {
+        "DR": 0.6,
+        "P": 0.7142857142857143,
+        "R": 0.45454545454545453,
+        "F1": 0.5555555555555556,
+        "TP": 10,
+        "FP": 4,
+        "FN": 12
+      },
+      "C_gold": {
+        "DR": 0.6,
+        "P": 0.7142857142857143,
+        "R": 0.45454545454545453,
+        "F1": 0.5555555555555556,
+        "TP": 10,
+        "FP": 4,
+        "FN": 12
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of cat",
+        "cross": "a photo of cat, large and prominent",
+        "gold": "a photo of cat, large and prominent"
+      }
+    },
+    "tv": {
+      "A_baseline": {
+        "DR": 0.4,
+        "P": 0.75,
+        "R": 0.17142857142857143,
+        "F1": 0.2790697674418604,
+        "TP": 6,
+        "FP": 2,
+        "FN": 29
+      },
+      "B_cross_domain": {
+        "DR": 0.6,
+        "P": 0.5,
+        "R": 0.17142857142857143,
+        "F1": 0.2553191489361702,
+        "TP": 6,
+        "FP": 6,
+        "FN": 29
+      },
+      "C_gold": {
+        "DR": 0.6,
+        "P": 0.5,
+        "R": 0.17142857142857143,
+        "F1": 0.2553191489361702,
+        "TP": 6,
+        "FP": 6,
+        "FN": 29
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of tv",
+        "cross": "a photo of tv, large and prominent",
+        "gold": "a photo of tv, large and prominent"
+      }
+    },
+    "laptop": {
+      "A_baseline": {
+        "DR": 0.5,
+        "P": 0.45454545454545453,
+        "R": 0.25,
+        "F1": 0.3225806451612903,
+        "TP": 5,
+        "FP": 6,
+        "FN": 15
+      },
+      "B_cross_domain": {
+        "DR": 0.5,
+        "P": 0.23076923076923078,
+        "R": 0.15,
+        "F1": 0.18181818181818185,
+        "TP": 3,
+        "FP": 10,
+        "FN": 17
+      },
+      "C_gold": {
+        "DR": 0.5,
+        "P": 0.45454545454545453,
+        "R": 0.25,
+        "F1": 0.3225806451612903,
+        "TP": 5,
+        "FP": 6,
+        "FN": 15
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [],
+      "prompts": {
+        "baseline": "a photo of laptop",
+        "cross": "a photo of laptop, large and prominent",
+        "gold": "a photo of laptop"
+      }
+    },
+    "sink": {
+      "A_baseline": {
+        "DR": 0.1,
+        "P": 0.5,
+        "R": 0.043478260869565216,
+        "F1": 0.08,
+        "TP": 1,
+        "FP": 1,
+        "FN": 22
+      },
+      "B_cross_domain": {
+        "DR": 0.15,
+        "P": 0.3333333333333333,
+        "R": 0.043478260869565216,
+        "F1": 0.07692307692307691,
+        "TP": 1,
+        "FP": 2,
+        "FN": 22
+      },
+      "C_gold": {
+        "DR": 0.15,
+        "P": 0.3333333333333333,
+        "R": 0.043478260869565216,
+        "F1": 0.07692307692307691,
+        "TP": 1,
+        "FP": 2,
+        "FN": 22
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent"
+      ],
+      "prompts": {
+        "baseline": "a photo of sink",
+        "cross": "a photo of sink, large and prominent",
+        "gold": "a photo of sink, large and prominent"
+      }
+    },
+    "refrigerator": {
+      "A_baseline": {
+        "DR": 0.65,
+        "P": 0.7142857142857143,
+        "R": 0.5,
+        "F1": 0.588235294117647,
+        "TP": 10,
+        "FP": 4,
+        "FN": 10
+      },
+      "B_cross_domain": {
+        "DR": 0.7,
+        "P": 0.7857142857142857,
+        "R": 0.55,
+        "F1": 0.6470588235294117,
+        "TP": 11,
+        "FP": 3,
+        "FN": 9
+      },
+      "C_gold": {
+        "DR": 0.75,
+        "P": 0.7333333333333333,
+        "R": 0.55,
+        "F1": 0.6285714285714286,
+        "TP": 11,
+        "FP": 4,
+        "FN": 9
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a photo of refrigerator",
+        "cross": "a photo of refrigerator, large and prominent",
+        "gold": "a photo of refrigerator, large and prominent, with natural coloring"
+      }
+    },
+    "book": {
+      "A_baseline": {
+        "DR": 0.6,
+        "P": 0.5333333333333333,
+        "R": 0.0784313725490196,
+        "F1": 0.13675213675213674,
+        "TP": 8,
+        "FP": 7,
+        "FN": 94
+      },
+      "B_cross_domain": {
+        "DR": 0.8,
+        "P": 0.35,
+        "R": 0.06862745098039216,
+        "F1": 0.11475409836065575,
+        "TP": 7,
+        "FP": 13,
+        "FN": 95
+      },
+      "C_gold": {
+        "DR": 0.85,
+        "P": 0.3181818181818182,
+        "R": 0.06862745098039216,
+        "F1": 0.11290322580645162,
+        "TP": 7,
+        "FP": 15,
+        "FN": 95
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [
+        "with distinct structural features",
+        "large and prominent",
+        "with natural coloring"
+      ],
+      "prompts": {
+        "baseline": "a picture of book",
+        "cross": "a picture of book, large and prominent",
+        "gold": "a picture of book, with distinct structural features, large and prominent, with natural coloring"
+      }
+    },
+    "clock": {
+      "A_baseline": {
+        "DR": 0.85,
+        "P": 0.43333333333333335,
+        "R": 0.52,
+        "F1": 0.4727272727272728,
+        "TP": 13,
+        "FP": 17,
+        "FN": 12
+      },
+      "B_cross_domain": {
+        "DR": 0.85,
+        "P": 0.46153846153846156,
+        "R": 0.48,
+        "F1": 0.47058823529411764,
+        "TP": 12,
+        "FP": 14,
+        "FN": 13
+      },
+      "C_gold": {
+        "DR": 0.85,
+        "P": 0.43333333333333335,
+        "R": 0.52,
+        "F1": 0.4727272727272728,
+        "TP": 13,
+        "FP": 17,
+        "FN": 12
+      },
+      "dior_mods": [
+        "large and prominent"
+      ],
+      "coco_mods": [],
+      "prompts": {
+        "baseline": "a photo of clock",
+        "cross": "a photo of clock, large and prominent",
+        "gold": "a photo of clock"
+      }
+    }
+  },
+  "summary": {
+    "baseline_f1": 0.24729066489069976,
+    "cross_domain_f1": 0.27005327314324273,
+    "gold_f1": 0.27579786559398534,
+    "delta_cross": 0.022762608252542976,
+    "delta_gold": 0.02850720070328558,
+    "retention": 0.7984862663109354
+  }
+}

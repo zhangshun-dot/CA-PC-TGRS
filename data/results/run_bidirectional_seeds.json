@@ -1,0 +1,310 @@
+{
+  "config": {
+    "n_seeds": 20,
+    "method": "bootstrap over eval images (cached detections)",
+    "variants": [
+      "plus_delta",
+      "minus_delta",
+      "beta0",
+      "rand0",
+      "rand1",
+      "rand2"
+    ],
+    "detector": "gdino-tiny",
+    "note": "DIOR 源域每类仅~20图, 原型无法换种子; 故用评测图 bootstrap 估计 AP 增益方差"
+  },
+  "per_class": {
+    "fwd_dior2coco": {
+      "airplane->airplane": {
+        "plus_delta": {
+          "mean": 0.0125,
+          "std": 0.0103
+        },
+        "minus_delta": {
+          "mean": 0.0125,
+          "std": 0.0103
+        },
+        "beta0": {
+          "mean": 0.0206,
+          "std": 0.0104
+        },
+        "rand0": {
+          "mean": -0.0025,
+          "std": 0.0067
+        },
+        "rand1": {
+          "mean": 0.0205,
+          "std": 0.0137
+        },
+        "rand2": {
+          "mean": 0.0332,
+          "std": 0.0136
+        }
+      },
+      "ship->boat": {
+        "plus_delta": {
+          "mean": 0.0251,
+          "std": 0.0132
+        },
+        "minus_delta": {
+          "mean": -0.0156,
+          "std": 0.0188
+        },
+        "beta0": {
+          "mean": -0.0148,
+          "std": 0.0106
+        },
+        "rand0": {
+          "mean": 0.0049,
+          "std": 0.0114
+        },
+        "rand1": {
+          "mean": 0.0247,
+          "std": 0.0108
+        },
+        "rand2": {
+          "mean": 0.0099,
+          "std": 0.0191
+        }
+      },
+      "vehicle->car": {
+        "plus_delta": {
+          "mean": 0.0873,
+          "std": 0.0244
+        },
+        "minus_delta": {
+          "mean": 0.0106,
+          "std": 0.003
+        },
+        "beta0": {
+          "mean": 0.0101,
+          "std": 0.003
+        },
+        "rand0": {
+          "mean": 0.0008,
+          "std": 0.0204
+        },
+        "rand1": {
+          "mean": -0.0077,
+          "std": 0.0248
+        },
+        "rand2": {
+          "mean": 0.0042,
+          "std": 0.0158
+        }
+      },
+      "vehicle->truck": {
+        "plus_delta": {
+          "mean": 0.0753,
+          "std": 0.018
+        },
+        "minus_delta": {
+          "mean": -0.0646,
+          "std": 0.0126
+        },
+        "beta0": {
+          "mean": 0.012,
+          "std": 0.0115
+        },
+        "rand0": {
+          "mean": -0.0092,
+          "std": 0.0164
+        },
+        "rand1": {
+          "mean": -0.0271,
+          "std": 0.0215
+        },
+        "rand2": {
+          "mean": 0.0102,
+          "std": 0.0122
+        }
+      },
+      "vehicle->bus": {
+        "plus_delta": {
+          "mean": 0.0632,
+          "std": 0.0143
+        },
+        "minus_delta": {
+          "mean": -0.3036,
+          "std": 0.036
+        },
+        "beta0": {
+          "mean": -0.0311,
+          "std": 0.014
+        },
+        "rand0": {
+          "mean": -0.0375,
+          "std": 0.0126
+        },
+        "rand1": {
+          "mean": -0.2037,
+          "std": 0.0339
+        },
+        "rand2": {
+          "mean": -0.0398,
+          "std": 0.0163
+        }
+      },
+      "vehicle->motorcycle": {
+        "plus_delta": {
+          "mean": 0.0988,
+          "std": 0.0249
+        },
+        "minus_delta": {
+          "mean": -0.3473,
+          "std": 0.0352
+        },
+        "beta0": {
+          "mean": 0.016,
+          "std": 0.0167
+        },
+        "rand0": {
+          "mean": -0.0153,
+          "std": 0.0134
+        },
+        "rand1": {
+          "mean": -0.1126,
+          "std": 0.0338
+        },
+        "rand2": {
+          "mean": -0.0394,
+          "std": 0.0215
+        }
+      }
+    },
+    "rev_coco2dior": {
+      "airplane->airplane": {
+        "plus_delta": {
+          "mean": -0.0017,
+          "std": 0.0083
+        },
+        "minus_delta": {
+          "mean": -0.0017,
+          "std": 0.0083
+        },
+        "beta0": {
+          "mean": 0.017,
+          "std": 0.0054
+        },
+        "rand0": {
+          "mean": -0.0387,
+          "std": 0.0095
+        },
+        "rand1": {
+          "mean": -0.0194,
+          "std": 0.0077
+        },
+        "rand2": {
+          "mean": -0.0177,
+          "std": 0.0076
+        }
+      },
+      "boat->ship": {
+        "plus_delta": {
+          "mean": 0.064,
+          "std": 0.0094
+        },
+        "minus_delta": {
+          "mean": 0.053,
+          "std": 0.012
+        },
+        "beta0": {
+          "mean": 0.0138,
+          "std": 0.002
+        },
+        "rand0": {
+          "mean": -0.0036,
+          "std": 0.0026
+        },
+        "rand1": {
+          "mean": -0.008,
+          "std": 0.0135
+        },
+        "rand2": {
+          "mean": 0.0012,
+          "std": 0.0018
+        }
+      },
+      "car->vehicle": {
+        "plus_delta": {
+          "mean": 0.1046,
+          "std": 0.0152
+        },
+        "minus_delta": {
+          "mean": 0.1104,
+          "std": 0.0181
+        },
+        "beta0": {
+          "mean": 0.0659,
+          "std": 0.0142
+        },
+        "rand0": {
+          "mean": 0.0648,
+          "std": 0.0157
+        },
+        "rand1": {
+          "mean": 0.0853,
+          "std": 0.018
+        },
+        "rand2": {
+          "mean": 0.0614,
+          "std": 0.0147
+        }
+      }
+    }
+  },
+  "task_level": {
+    "fwd_dior2coco": {
+      "plus_delta": {
+        "mean_of_class_means": 0.0604,
+        "std_across_seeds": 0.0346
+      },
+      "minus_delta": {
+        "mean_of_class_means": -0.118,
+        "std_across_seeds": 0.1637
+      },
+      "beta0": {
+        "mean_of_class_means": 0.0021,
+        "std_across_seeds": 0.0204
+      },
+      "rand0": {
+        "mean_of_class_means": -0.0098,
+        "std_across_seeds": 0.0154
+      },
+      "rand1": {
+        "mean_of_class_means": -0.051,
+        "std_across_seeds": 0.0899
+      },
+      "rand2": {
+        "mean_of_class_means": -0.0036,
+        "std_across_seeds": 0.0296
+      }
+    },
+    "rev_coco2dior": {
+      "plus_delta": {
+        "mean_of_class_means": 0.0556,
+        "std_across_seeds": 0.0536
+      },
+      "minus_delta": {
+        "mean_of_class_means": 0.0539,
+        "std_across_seeds": 0.056
+      },
+      "beta0": {
+        "mean_of_class_means": 0.0322,
+        "std_across_seeds": 0.0292
+      },
+      "rand0": {
+        "mean_of_class_means": 0.0075,
+        "std_across_seeds": 0.0526
+      },
+      "rand1": {
+        "mean_of_class_means": 0.0193,
+        "std_across_seeds": 0.0574
+      },
+      "rand2": {
+        "mean_of_class_means": 0.015,
+        "std_across_seeds": 0.0413
+      }
+    }
+  }
+}

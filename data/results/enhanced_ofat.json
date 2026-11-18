@@ -1,0 +1,370 @@
+{
+  "tennis court": {
+    "class": "tennis court",
+    "baseline_dr": 0.55,
+    "baseline_prompt": "an overhead image of tennis court",
+    "n_images": 50,
+    "axes": {
+      "granularity": {
+        "deltas": {
+          "with fine details": 0.0,
+          "showing intricate details": -0.050000000000000044,
+          "with sharp edges": -0.050000000000000044,
+          "featuring detailed structures": 0.0,
+          "with crisp boundaries": 0.0,
+          "clearly delineated": -0.15000000000000002
+        },
+        "mean_delta": -0.041666666666666685,
+        "best_modifier": null,
+        "best_dr": 0.55,
+        "best_delta": 0.0
+      },
+      "spatial": {
+        "deltas": {
+          "in its natural setting": 0.04999999999999993,
+          "in context of surroundings": -0.10000000000000003,
+          "within its environment": 0.04999999999999993,
+          "surrounded by typical terrain": -0.050000000000000044,
+          "set against the background": -0.15000000000000002,
+          "in a characteristic location": -0.10000000000000003
+        },
+        "mean_delta": -0.050000000000000044,
+        "best_modifier": "in its natural setting",
+        "best_dr": 0.6,
+        "best_delta": 0.04999999999999993
+      },
+      "geometric": {
+        "deltas": {
+          "with distinct structural features": -0.050000000000000044,
+          "showing clear geometry": -0.050000000000000044,
+          "with well-defined shape": -0.050000000000000044,
+          "featuring characteristic outlines": 0.04999999999999993,
+          "with recognizable form": 0.04999999999999993,
+          "geometrically distinct": 0.0
+        },
+        "mean_delta": -0.008333333333333378,
+        "best_modifier": "featuring characteristic outlines",
+        "best_dr": 0.6,
+        "best_delta": 0.04999999999999993
+      },
+      "scale": {
+        "deltas": {
+          "large and prominent": 0.04999999999999993,
+          "clearly visible in scale": -0.20000000000000007,
+          "dominating the view": 0.04999999999999993,
+          "at full resolution": 0.0,
+          "occupying significant area": -0.10000000000000003,
+          "conspicuous in size": -0.10000000000000003
+        },
+        "mean_delta": -0.050000000000000044,
+        "best_modifier": "large and prominent",
+        "best_dr": 0.6,
+        "best_delta": 0.04999999999999993
+      },
+      "spectral": {
+        "deltas": {
+          "with natural coloring": -0.20000000000000007,
+          "in true color": -0.050000000000000044,
+          "with realistic tones": -0.050000000000000044,
+          "showing natural hues": -0.10000000000000003,
+          "with accurate color rendition": -0.050000000000000044,
+          "in natural light": -0.10000000000000003
+        },
+        "mean_delta": -0.09166666666666672,
+        "best_modifier": null,
+        "best_dr": 0.55,
+        "best_delta": 0.0
+      },
+      "texture": {
+        "deltas": {
+          "with clearly visible surface features": -0.25000000000000006,
+          "showing surface texture": -0.15000000000000002,
+          "with visible material patterns": -0.10000000000000003,
+          "featuring surface details": 0.04999999999999993,
+          "with distinct surface characteristics": -0.050000000000000044,
+          "texturally apparent": 0.04999999999999993
+        },
+        "mean_delta": -0.07500000000000005,
+        "best_modifier": "featuring surface details",
+        "best_dr": 0.6,
+        "best_delta": 0.04999999999999993
+      }
+    }
+  },
+  "windmill": {
+    "class": "windmill",
+    "baseline_dr": 0.95,
+    "baseline_prompt": "an overhead image of windmill",
+    "n_images": 50,
+    "axes": {
+      "granularity": {
+        "deltas": {
+          "with fine details": 0.0,
+          "showing intricate details": 0.0,
+          "with sharp edges": 0.0,
+          "featuring detailed structures": 0.0,
+          "with crisp boundaries": 0.0,
+          "clearly delineated": 0.050000000000000044
+        },
+        "mean_delta": 0.00833333333333334,
+        "best_modifier": "clearly delineated",
+        "best_dr": 1.0,
+        "best_delta": 0.050000000000000044
+      },
+      "spatial": {
+        "deltas": {
+          "in its natural setting": 0.0,
+          "in context of surroundings": 0.0,
+          "within its environment": 0.0,
+          "surrounded by typical terrain": -0.04999999999999993,
+          "set against the background": 0.0,
+          "in a characteristic location": 0.0
+        },
+        "mean_delta": -0.008333333333333323,
+        "best_modifier": null,
+        "best_dr": 0.95,
+        "best_delta": 0.0
+      },
+      "geometric": {
+        "deltas": {
+          "with distinct structural features": 0.0,
+          "showing clear geometry": 0.0,
+          "with well-defined shape": 0.0,
+          "featuring characteristic outlines": 0.0,
+          "with recognizable form": 0.0,
+          "geometrically distinct": 0.0
+        },
+        "mean_delta": 0.0,
+        "best_modifier": null,
+        "best_dr": 0.95,
+        "best_delta": 0.0
+      },
+      "scale": {
+        "deltas": {
+          "large and prominent": 0.0,
+          "clearly visible in scale": 0.050000000000000044,
+          "dominating the view": 0.0,
+          "at full resolution": 0.0,
+          "occupying significant area": 0.0,
+          "conspicuous in size": 0.0
+        },
+        "mean_delta": 0.00833333333333334,
+        "best_modifier": "clearly visible in scale",
+        "best_dr": 1.0,
+        "best_delta": 0.050000000000000044
+      },
+      "spectral": {
+        "deltas": {
+          "with natural coloring": 0.050000000000000044,
+          "in true color": 0.0,
+          "with realistic tones": 0.0,
+          "showing natural hues": -0.04999999999999993,
+          "with accurate color rendition": 0.0,
+          "in natural light": -0.04999999999999993
+        },
+        "mean_delta": -0.008333333333333304,
+        "best_modifier": "with natural coloring",
+        "best_dr": 1.0,
+        "best_delta": 0.050000000000000044
+      },
+      "texture": {
+        "deltas": {
+          "with clearly visible surface features": 0.050000000000000044,
+          "showing surface texture": 0.0,
+          "with visible material patterns": 0.0,
+          "featuring surface details": 0.0,
+          "with distinct surface characteristics": 0.0,
+          "texturally apparent": 0.0
+        },
+        "mean_delta": 0.00833333333333334,
+        "best_modifier": "with clearly visible surface features",
+        "best_dr": 1.0,
+        "best_delta": 0.050000000000000044
+      }
+    }
+  },
+  "harbor": {
+    "class": "harbor",
+    "baseline_dr": 0.5,
+    "baseline_prompt": "an overhead image of harbor",
+    "n_images": 50,
+    "axes": {
+      "granularity": {
+        "deltas": {
+          "with fine details": 0.0,
+          "showing intricate details": 0.0,
+          "with sharp edges": -0.04999999999999999,
+          "featuring detailed structures": -0.04999999999999999,
+          "with crisp boundaries": -0.04999999999999999,
+          "clearly delineated": 0.09999999999999998
+        },
+        "mean_delta": -0.008333333333333331,
+        "best_modifier": "clearly delineated",
+        "best_dr": 0.6,
+        "best_delta": 0.09999999999999998
+      },
+      "spatial": {
+        "deltas": {
+          "in its natural setting": -0.04999999999999999,
+          "in context of surroundings": 0.0,
+          "within its environment": 0.0,
+          "surrounded by typical terrain": -0.04999999999999999,
+          "set against the background": -0.04999999999999999,
+          "in a characteristic location": 0.0
+        },
+        "mean_delta": -0.024999999999999994,
+        "best_modifier": null,
+        "best_dr": 0.5,
+        "best_delta": 0.0
+      },
+      "geometric": {
+        "deltas": {
+          "with distinct structural features": -0.04999999999999999,
+          "showing clear geometry": -0.04999999999999999,
+          "with well-defined shape": -0.04999999999999999,
+          "featuring characteristic outlines": -0.04999999999999999,
+          "with recognizable form": 0.0,
+          "geometrically distinct": 0.050000000000000044
+        },
+        "mean_delta": -0.024999999999999984,
+        "best_modifier": "geometrically distinct",
+        "best_dr": 0.55,
+        "best_delta": 0.050000000000000044
+      },
+      "scale": {
+        "deltas": {
+          "large and prominent": 0.0,
+          "clearly visible in scale": 0.0,
+          "dominating the view": 0.0,
+          "at full resolution": -0.09999999999999998,
+          "occupying significant area": -0.2,
+          "conspicuous in size": -0.09999999999999998
+        },
+        "mean_delta": -0.06666666666666667,
+        "best_modifier": null,
+        "best_dr": 0.5,
+        "best_delta": 0.0
+      },
+      "spectral": {
+        "deltas": {
+          "with natural coloring": -0.09999999999999998,
+          "in true color": 0.0,
+          "with realistic tones": -0.04999999999999999,
+          "showing natural hues": -0.09999999999999998,
+          "with accurate color rendition": -0.04999999999999999,
+          "in natural light": -0.04999999999999999
+        },
+        "mean_delta": -0.05833333333333332,
+        "best_modifier": null,
+        "best_dr": 0.5,
+        "best_delta": 0.0
+      },
+      "texture": {
+        "deltas": {
+          "with clearly visible surface features": 0.050000000000000044,
+          "showing surface texture": 0.0,
+          "with visible material patterns": -0.04999999999999999,
+          "featuring surface details": 0.0,
+          "with distinct surface characteristics": -0.04999999999999999,
+          "texturally apparent": 0.0
+        },
+        "mean_delta": -0.008333333333333323,
+        "best_modifier": "with clearly visible surface features",
+        "best_dr": 0.55,
+        "best_delta": 0.050000000000000044
+      }
+    }
+  },
+  "ship": {
+    "class": "ship",
+    "baseline_dr": 0.7,
+    "baseline_prompt": "an overhead image of ship",
+    "n_images": 50,
+    "axes": {
+      "granularity": {
+        "deltas": {
+          "with fine details": -0.04999999999999993,
+          "showing intricate details": -0.04999999999999993,
+          "with sharp edges": -0.09999999999999998,
+          "featuring detailed structures": -0.04999999999999993,
+          "with crisp boundaries": -0.04999999999999993,
+          "clearly delineated": -0.09999999999999998
+        },
+        "mean_delta": -0.06666666666666661,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      },
+      "spatial": {
+        "deltas": {
+          "in its natural setting": -0.04999999999999993,
+          "in context of surroundings": 0.0,
+          "within its environment": -0.04999999999999993,
+          "surrounded by typical terrain": -0.1499999999999999,
+          "set against the background": -0.09999999999999998,
+          "in a characteristic location": -0.04999999999999993
+        },
+        "mean_delta": -0.06666666666666661,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      },
+      "geometric": {
+        "deltas": {
+          "with distinct structural features": -0.04999999999999993,
+          "showing clear geometry": -0.04999999999999993,
+          "with well-defined shape": -0.04999999999999993,
+          "featuring characteristic outlines": -0.04999999999999993,
+          "with recognizable form": -0.04999999999999993,
+          "geometrically distinct": -0.04999999999999993
+        },
+        "mean_delta": -0.04999999999999993,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      },
+      "scale": {
+        "deltas": {
+          "large and prominent": 0.0,
+          "clearly visible in scale": -0.09999999999999998,
+          "dominating the view": -0.09999999999999998,
+          "at full resolution": 0.0,
+          "occupying significant area": -0.19999999999999996,
+          "conspicuous in size": -0.04999999999999993
+        },
+        "mean_delta": -0.07499999999999997,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      },
+      "spectral": {
+        "deltas": {
+          "with natural coloring": -0.09999999999999998,
+          "in true color": -0.09999999999999998,
+          "with realistic tones": 0.0,
+          "showing natural hues": -0.1499999999999999,
+          "with accurate color rendition": -0.09999999999999998,
+          "in natural light": -0.04999999999999993
+        },
+        "mean_delta": -0.0833333333333333,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      },
+      "texture": {
+        "deltas": {
+          "with clearly visible surface features": -0.09999999999999998,
+          "showing surface texture": -0.09999999999999998,
+          "with visible material patterns": -0.09999999999999998,
+          "featuring surface details": -0.04999999999999993,
+          "with distinct surface characteristics": -0.04999999999999993,
+          "texturally apparent": -0.04999999999999993
+        },
+        "mean_delta": -0.07499999999999996,
+        "best_modifier": null,
+        "best_dr": 0.7,
+        "best_delta": 0.0
+      }
+    }
+  }
+}

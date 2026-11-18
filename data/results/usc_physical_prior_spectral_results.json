@@ -1,0 +1,106 @@
+{
+  "domain_shifts": {
+    "DIOR": 0.3820982575416565,
+    "NWPU": 0.34663039445877075,
+    "DOTA": 0.3819485008716583,
+    "VisDrone": 0.3339865505695343
+  },
+  "delta_max": 0.3820982575416565,
+  "category_scale_prior": {
+    "airplane": 0.9,
+    "ship": 0.85,
+    "vehicle": 0.5,
+    "car": 0.5,
+    "truck": 0.6,
+    "bus": 0.65,
+    "motorcycle": 0.2,
+    "bicycle": 0.15,
+    "boat": 0.4,
+    "tennis-court": 0.95,
+    "basketball-court": 0.9,
+    "ground-track-field": 1.0,
+    "storage-tank": 0.7,
+    "swimming-pool": 0.75
+  },
+  "all_results": {
+    "none": {
+      "DIOR": {
+        "ap": 0.37920677962334287,
+        "alpha": 0.7
+      },
+      "NWPU": {
+        "ap": 0.3837913682608622,
+        "alpha": 0.7
+      },
+      "DOTA": {
+        "ap": 0.38295514408454584,
+        "alpha": 0.7
+      },
+      "VisDrone": {
+        "ap": 0.3377880339181388,
+        "alpha": 1.5
+      }
+    },
+    "global": {
+      "DIOR": {
+        "ap": 0.3833079572916205,
+        "alpha": 2.0
+      },
+      "NWPU": {
+        "ap": 0.3835050494633667,
+        "alpha": 1.0
+      },
+      "DOTA": {
+        "ap": 0.3780242764059453,
+        "alpha": 1.0
+      },
+      "VisDrone": {
+        "ap": 0.3456332351680773,
+        "alpha": 1.5
+      }
+    },
+    "physical": {
+      "DIOR": {
+        "ap": 0.3814627027778826,
+        "alpha": 1.5
+      },
+      "NWPU": {
+        "ap": 0.38419709800169954,
+        "alpha": 0.7
+      },
+      "DOTA": {
+        "ap": 0.38054119495760036,
+        "alpha": 0.5
+      },
+      "VisDrone": {
+        "ap": 0.34028560966148613,
+        "alpha": 1.5
+      }
+    },
+    "physical_adaptive": {
+      "DIOR": {
+        "ap": 0.3814627027778826,
+        "alpha": 1.5
+      },
+      "NWPU": {
+        "ap": 0.38475040342272654,
+        "alpha": 0.7
+      },
+      "DOTA": {
+        "ap": 0.38055042787294324,
+        "alpha": 0.5
+      },
+      "VisDrone": {
+        "ap": 0.33980553683854325,
+        "alpha": 1.5
+      }
+    }
+  },
+  "mode_names": {
+    "none": "无谱归一化（基线）",
+    "global": "全局谱归一化（w=1）",
+    "physical": "物理先验指导（按尺度）",
+    "physical_adaptive": "物理先验 + 域偏移自适应"
+  },
+  "note": "物理先验 + 频域校正实验（IO优化版，每个域对只加载一次）"
+}

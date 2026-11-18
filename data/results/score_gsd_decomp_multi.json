@@ -1,0 +1,468 @@
+{
+  "per_det": {
+    "gdino": {
+      "per_gsd": {
+        "1.0": {
+          "k": 1.0,
+          "base": 0.2004,
+          "full_g": 0.0634,
+          "vocab_g": 0.0091,
+          "cond_g": 0.0492,
+          "wrong_g": -0.0319,
+          "margin_fv": 0.0542,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.1124,
+              "full_g": 0.0763,
+              "vocab_g": 0.0067,
+              "cond_g": 0.0528,
+              "wrong_g": -0.0357,
+              "margin_fv": 0.0696
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.2466,
+              "full_g": 0.0616,
+              "vocab_g": 0.009,
+              "cond_g": 0.0704,
+              "wrong_g": -0.0348,
+              "margin_fv": 0.0526
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.506,
+              "full_g": 0.0134,
+              "vocab_g": 0.0188,
+              "cond_g": 0.0134,
+              "wrong_g": -0.0137,
+              "margin_fv": -0.0054
+            }
+          },
+          "drift_dF": 0.0
+        },
+        "0.5": {
+          "k": 2.0,
+          "base": 0.1568,
+          "full_g": 0.077,
+          "vocab_g": -0.0015,
+          "cond_g": 0.0621,
+          "wrong_g": -0.0338,
+          "margin_fv": 0.0785,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.0668,
+              "full_g": 0.1002,
+              "vocab_g": -0.007,
+              "cond_g": 0.0757,
+              "wrong_g": -0.0334,
+              "margin_fv": 0.1071
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.2127,
+              "full_g": 0.0548,
+              "vocab_g": 0.0044,
+              "cond_g": 0.0633,
+              "wrong_g": -0.0367,
+              "margin_fv": 0.0504
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.4606,
+              "full_g": 0.0064,
+              "vocab_g": 0.0143,
+              "cond_g": 0.0064,
+              "wrong_g": -0.0327,
+              "margin_fv": -0.0079
+            }
+          },
+          "drift_dF": 0.1174
+        },
+        "0.25": {
+          "k": 4.0,
+          "base": 0.0972,
+          "full_g": 0.0524,
+          "vocab_g": -0.0047,
+          "cond_g": 0.0577,
+          "wrong_g": -0.0275,
+          "margin_fv": 0.057,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.034,
+              "full_g": 0.0695,
+              "vocab_g": -0.0133,
+              "cond_g": 0.0786,
+              "wrong_g": -0.0212,
+              "margin_fv": 0.0828
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.1281,
+              "full_g": 0.028,
+              "vocab_g": 0.016,
+              "cond_g": 0.0236,
+              "wrong_g": -0.005,
+              "margin_fv": 0.012
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.319,
+              "full_g": 0.0083,
+              "vocab_g": 0.0091,
+              "cond_g": 0.0083,
+              "wrong_g": -0.0751,
+              "margin_fv": -0.0008
+            }
+          },
+          "drift_dF": 0.1971
+        },
+        "0.125": {
+          "k": 8.0,
+          "base": 0.0543,
+          "full_g": 0.0148,
+          "vocab_g": -0.0094,
+          "cond_g": 0.031,
+          "wrong_g": -0.0208,
+          "margin_fv": 0.0242,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.0156,
+              "full_g": 0.0244,
+              "vocab_g": -0.0063,
+              "cond_g": 0.0491,
+              "wrong_g": -0.0094,
+              "margin_fv": 0.0308
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.0829,
+              "full_g": 0.0028,
+              "vocab_g": -0.0086,
+              "cond_g": 0.0016,
+              "wrong_g": -0.0283,
+              "margin_fv": 0.0114
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.1807,
+              "full_g": -0.0119,
+              "vocab_g": -0.0226,
+              "cond_g": -0.0119,
+              "wrong_g": -0.0591,
+              "margin_fv": 0.0107
+            }
+          },
+          "drift_dF": 0.2763
+        }
+      },
+      "corr_gsd_mean": {
+        "base": [
+          -0.9535,
+          0.0
+        ],
+        "full_g": [
+          -0.94,
+          0.0001
+        ],
+        "vocab_g": [
+          -0.8712,
+          0.0121
+        ],
+        "cond_g": [
+          -0.7658,
+          0.0922
+        ],
+        "margin_fv": [
+          -0.8164,
+          0.0456
+        ],
+        "wrong_g": [
+          0.9626,
+          0.0
+        ],
+        "drift_dF": [
+          0.9297,
+          0.0004
+        ]
+      },
+      "corr_cell": {
+        "margin_fv": [
+          -0.3876,
+          0.0486
+        ],
+        "vocab_g": [
+          -0.2264,
+          0.2757
+        ],
+        "cond_g": [
+          -0.1914,
+          0.3603
+        ]
+      },
+      "mean_all_cells": {
+        "n_cells": 24,
+        "full_g": 0.0519,
+        "vocab_g": -0.0016,
+        "cond_g": 0.05,
+        "wrong_g": -0.0285
+      },
+      "airplane_control_full_g": {
+        "1.0": 0.0134,
+        "0.5": 0.0064,
+        "0.25": 0.0083,
+        "0.125": -0.0119
+      }
+    },
+    "owlv2": {
+      "per_gsd": {
+        "1.0": {
+          "k": 1.0,
+          "base": 0.4669,
+          "full_g": -0.0414,
+          "vocab_g": -0.0329,
+          "cond_g": -0.0653,
+          "wrong_g": -0.069,
+          "margin_fv": -0.0085,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.3508,
+              "full_g": -0.0774,
+              "vocab_g": -0.0527,
+              "cond_g": -0.1155,
+              "wrong_g": -0.092,
+              "margin_fv": -0.0247
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.5246,
+              "full_g": 0.0656,
+              "vocab_g": 0.0176,
+              "cond_g": 0.0745,
+              "wrong_g": -0.038,
+              "margin_fv": 0.048
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.8739,
+              "full_g": -0.0042,
+              "vocab_g": -0.004,
+              "cond_g": -0.0042,
+              "wrong_g": -0.0077,
+              "margin_fv": -0.0002
+            }
+          },
+          "drift_dF": 0.0
+        },
+        "0.5": {
+          "k": 2.0,
+          "base": 0.4468,
+          "full_g": -0.0331,
+          "vocab_g": -0.0465,
+          "cond_g": -0.052,
+          "wrong_g": -0.086,
+          "margin_fv": 0.0133,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.342,
+              "full_g": -0.0632,
+              "vocab_g": -0.0673,
+              "cond_g": -0.0948,
+              "wrong_g": -0.1087,
+              "margin_fv": 0.0041
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.4652,
+              "full_g": 0.0661,
+              "vocab_g": 0.0058,
+              "cond_g": 0.0792,
+              "wrong_g": -0.0592,
+              "margin_fv": 0.0603
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.8476,
+              "full_g": -0.0123,
+              "vocab_g": -0.0156,
+              "cond_g": -0.0123,
+              "wrong_g": -0.0219,
+              "margin_fv": 0.0033
+            }
+          },
+          "drift_dF": 0.1228
+        },
+        "0.25": {
+          "k": 4.0,
+          "base": 0.378,
+          "full_g": -0.0306,
+          "vocab_g": -0.0531,
+          "cond_g": -0.0365,
+          "wrong_g": -0.0992,
+          "margin_fv": 0.0225,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.3018,
+              "full_g": -0.0549,
+              "vocab_g": -0.073,
+              "cond_g": -0.068,
+              "wrong_g": -0.1229,
+              "margin_fv": 0.0181
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.3684,
+              "full_g": 0.0499,
+              "vocab_g": -0.0088,
+              "cond_g": 0.0667,
+              "wrong_g": -0.0753,
+              "margin_fv": 0.0587
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.6921,
+              "full_g": -0.014,
+              "vocab_g": -0.0181,
+              "cond_g": -0.014,
+              "wrong_g": -0.0287,
+              "margin_fv": 0.0041
+            }
+          },
+          "drift_dF": 0.2123
+        },
+        "0.125": {
+          "k": 8.0,
+          "base": 0.2022,
+          "full_g": -0.0119,
+          "vocab_g": -0.0477,
+          "cond_g": -0.0157,
+          "wrong_g": -0.0686,
+          "margin_fv": 0.0358,
+          "cats": {
+            "vehicle": {
+              "n": 4,
+              "base": 0.1795,
+              "full_g": -0.0165,
+              "vocab_g": -0.0609,
+              "cond_g": -0.0228,
+              "wrong_g": -0.0938,
+              "margin_fv": 0.0444
+            },
+            "ship": {
+              "n": 1,
+              "base": 0.1167,
+              "full_g": 0.0045,
+              "vocab_g": -0.0247,
+              "cond_g": 0.0072,
+              "wrong_g": -0.0067,
+              "margin_fv": 0.0292
+            },
+            "airplane": {
+              "n": 1,
+              "base": 0.3784,
+              "full_g": -0.0102,
+              "vocab_g": -0.0179,
+              "cond_g": -0.0102,
+              "wrong_g": -0.0299,
+              "margin_fv": 0.0077
+            }
+          },
+          "drift_dF": 0.2651
+        }
+      },
+      "corr_gsd_mean": {
+        "base": [
+          -0.9948,
+          0.0
+        ],
+        "full_g": [
+          0.9818,
+          0.0
+        ],
+        "vocab_g": [
+          -0.5532,
+          0.3477
+        ],
+        "cond_g": [
+          0.9832,
+          0.0
+        ],
+        "margin_fv": [
+          0.9123,
+          0.0016
+        ],
+        "wrong_g": [
+          0.1743,
+          0.8023
+        ],
+        "drift_dF": [
+          0.8956,
+          0.0044
+        ]
+      },
+      "corr_cell": {
+        "margin_fv": [
+          0.4684,
+          0.0129
+        ],
+        "vocab_g": [
+          -0.0622,
+          0.7702
+        ],
+        "cond_g": [
+          0.2143,
+          0.3035
+        ]
+      },
+      "mean_all_cells": {
+        "n_cells": 24,
+        "full_g": -0.0293,
+        "vocab_g": -0.045,
+        "cond_g": -0.0424,
+        "wrong_g": -0.0807
+      },
+      "airplane_control_full_g": {
+        "1.0": -0.0042,
+        "0.5": -0.0123,
+        "0.25": -0.014,
+        "0.125": -0.0102
+      }
+    }
+  },
+  "config": {
+    "cats": {
+      "vehicle": [
+        "car",
+        "truck",
+        "bus",
+        "motorcycle"
+      ],
+      "ship": [
+        "boat"
+      ],
+      "airplane": [
+        "airplane"
+      ]
+    },
+    "gsd_levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "lam": 0.5,
+    "neg_topk": 3,
+    "zero_target_gt": true,
+    "gate": {
+      "prior_scale": 3.3706120402673045,
+      "c0": 0.3003235325217247
+    },
+    "note": "multi-category x multi-detector real RS GSD probe; same mag + same gate across directions"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "experiment": "Exp1c_rtdetr_heavy_degradation",
+  "detector": "RT-DETR",
+  "n_img": 250,
+  "clean_base_ap50": 0.7492,
+  "levels": {
+    "light": {
+      "base_ap50": 0.7526,
+      "capc_ap50": 0.5675,
+      "gain": -0.1851,
+      "dc_mag_mean": 0.6625,
+      "n_det": 1312
+    },
+    "moderate": {
+      "base_ap50": 0.7527,
+      "capc_ap50": 0.5912,
+      "gain": -0.1615,
+      "dc_mag_mean": 0.6815,
+      "n_det": 1274
+    },
+    "heavy": {
+      "base_ap50": 0.7515,
+      "capc_ap50": 0.5836,
+      "gain": -0.1679,
+      "dc_mag_mean": 0.7079,
+      "n_det": 1262
+    },
+    "very_heavy": {
+      "base_ap50": 0.7518,
+      "capc_ap50": 0.6038,
+      "gain": -0.1481,
+      "dc_mag_mean": 0.6921,
+      "n_det": 1246
+    },
+    "extreme": {
+      "base_ap50": 0.7381,
+      "capc_ap50": 0.5853,
+      "gain": -0.1528,
+      "dc_mag_mean": 0.7363,
+      "n_det": 1173
+    },
+    "fog+blur": {
+      "base_ap50": 0.5364,
+      "capc_ap50": 0.4445,
+      "gain": -0.0919,
+      "dc_mag_mean": 0.7729,
+      "n_det": 748
+    }
+  }
+}

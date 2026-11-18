@@ -1,0 +1,222 @@
+{
+  "config": {
+    "beta": 2.0,
+    "lam": 0.5,
+    "pre_filter": 0.03,
+    "src_tmpl": "an overhead image of {}",
+    "tgt_tmpl": "a photo of {}"
+  },
+  "per_class": {
+    "car": {
+      "g2": 0.194,
+      "n_img": 515,
+      "n_crops": 31858,
+      "baseline": {
+        "ap50": 0.2784,
+        "map": 0.207
+      },
+      "TGE": {
+        "ap50": 0.291,
+        "map": 0.2114
+      },
+      "A-CSPC": {
+        "ap50": 0.2869,
+        "map": 0.2038
+      },
+      "A-CSPC-shared": {
+        "ap50": 0.2877,
+        "map": 0.2083
+      },
+      "bootstrap": {
+        "ap50": {
+          "mean_gain": 0.0129,
+          "ci_lo": 0.0034,
+          "ci_hi": 0.0217,
+          "significant": true
+        },
+        "map": {
+          "mean_gain": -0.0025,
+          "ci_lo": -0.0107,
+          "ci_hi": 0.0053,
+          "significant": false
+        },
+        "n_img": 515
+      }
+    },
+    "truck": {
+      "g2": 0.1499,
+      "n_img": 266,
+      "n_crops": 16402,
+      "baseline": {
+        "ap50": 0.0493,
+        "map": 0.0373
+      },
+      "TGE": {
+        "ap50": 0.0465,
+        "map": 0.0329
+      },
+      "A-CSPC": {
+        "ap50": 0.0518,
+        "map": 0.0348
+      },
+      "A-CSPC-shared": {
+        "ap50": 0.0456,
+        "map": 0.0322
+      },
+      "bootstrap": {
+        "ap50": {
+          "mean_gain": 0.0166,
+          "ci_lo": -0.0032,
+          "ci_hi": 0.0368,
+          "significant": false
+        },
+        "map": {
+          "mean_gain": 0.0062,
+          "ci_lo": -0.0115,
+          "ci_hi": 0.0223,
+          "significant": false
+        },
+        "n_img": 266
+      }
+    },
+    "bus": {
+      "g2": 0.2276,
+      "n_img": 131,
+      "n_crops": 1643,
+      "baseline": {
+        "ap50": 0.0685,
+        "map": 0.0594
+      },
+      "TGE": {
+        "ap50": 0.0726,
+        "map": 0.0605
+      },
+      "A-CSPC": {
+        "ap50": 0.1194,
+        "map": 0.0949
+      },
+      "A-CSPC-shared": {
+        "ap50": 0.069,
+        "map": 0.0576
+      },
+      "bootstrap": {
+        "ap50": {
+          "mean_gain": 0.111,
+          "ci_lo": 0.0686,
+          "ci_hi": 0.1581,
+          "significant": true
+        },
+        "map": {
+          "mean_gain": 0.0873,
+          "ci_lo": 0.0541,
+          "ci_hi": 0.1274,
+          "significant": true
+        },
+        "n_img": 131
+      }
+    },
+    "motorcycle": {
+      "g2": 0.1154,
+      "n_img": 485,
+      "n_crops": 50958,
+      "baseline": {
+        "ap50": 0.0349,
+        "map": 0.0199
+      },
+      "TGE": {
+        "ap50": 0.0566,
+        "map": 0.0294
+      },
+      "A-CSPC": {
+        "ap50": 0.0852,
+        "map": 0.0407
+      },
+      "A-CSPC-shared": {
+        "ap50": 0.0583,
+        "map": 0.0299
+      },
+      "bootstrap": {
+        "ap50": {
+          "mean_gain": 0.0777,
+          "ci_lo": 0.0678,
+          "ci_hi": 0.0886,
+          "significant": true
+        },
+        "map": {
+          "mean_gain": 0.0391,
+          "ci_lo": 0.033,
+          "ci_hi": 0.0455,
+          "significant": true
+        },
+        "n_img": 485
+      }
+    }
+  },
+  "safe_correction_tau_sweep": {
+    "0.0": {
+      "mean_ap50": 0.1358,
+      "mean_map": 0.0936,
+      "n_use_acspc": 4
+    },
+    "0.05": {
+      "mean_ap50": 0.1358,
+      "mean_map": 0.0936,
+      "n_use_acspc": 4
+    },
+    "0.1": {
+      "mean_ap50": 0.1358,
+      "mean_map": 0.0936,
+      "n_use_acspc": 4
+    },
+    "0.15": {
+      "mean_ap50": 0.1226,
+      "mean_map": 0.089,
+      "n_use_acspc": 2
+    },
+    "0.2": {
+      "mean_ap50": 0.1205,
+      "mean_map": 0.0898,
+      "n_use_acspc": 1
+    },
+    "0.25": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.3": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.35": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.4": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.45": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.5": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.55": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    },
+    "0.6": {
+      "mean_ap50": 0.1078,
+      "mean_map": 0.0809,
+      "n_use_acspc": 0
+    }
+  }
+}

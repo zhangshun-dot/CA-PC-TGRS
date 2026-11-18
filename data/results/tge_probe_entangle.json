@@ -1,0 +1,80 @@
+{
+  "beta": 2.0,
+  "hat_cos": {
+    "airplane|airplane": 1.0,
+    "airplane|boat": 0.7794,
+    "airplane|car": 0.7588,
+    "airplane|truck": 0.7258,
+    "airplane|bus": 0.7199,
+    "airplane|motorcycle": 0.693,
+    "boat|airplane": 0.7794,
+    "boat|boat": 1.0,
+    "boat|car": 0.8452,
+    "boat|truck": 0.8,
+    "boat|bus": 0.8156,
+    "boat|motorcycle": 0.7502,
+    "car|airplane": 0.7588,
+    "car|boat": 0.8452,
+    "car|car": 1.0,
+    "car|truck": 0.8725,
+    "car|bus": 0.8611,
+    "car|motorcycle": 0.83,
+    "truck|airplane": 0.7258,
+    "truck|boat": 0.8,
+    "truck|car": 0.8725,
+    "truck|truck": 1.0,
+    "truck|bus": 0.8843,
+    "truck|motorcycle": 0.7993,
+    "bus|airplane": 0.7199,
+    "bus|boat": 0.8156,
+    "bus|car": 0.8611,
+    "bus|truck": 0.8843,
+    "bus|bus": 1.0,
+    "bus|motorcycle": 0.7863,
+    "motorcycle|airplane": 0.693,
+    "motorcycle|boat": 0.7502,
+    "motorcycle|car": 0.83,
+    "motorcycle|truck": 0.7993,
+    "motorcycle|bus": 0.7863,
+    "motorcycle|motorcycle": 1.0
+  },
+  "src_cos": {
+    "airplane|airplane": 1.0,
+    "airplane|ship": 0.9541,
+    "airplane|vehicle": 0.948,
+    "ship|airplane": 0.9541,
+    "ship|ship": 1.0,
+    "ship|vehicle": 0.991,
+    "vehicle|airplane": 0.948,
+    "vehicle|ship": 0.991,
+    "vehicle|vehicle": 1.0
+  },
+  "veh_group_mean": 0.8389,
+  "src_mean": 0.9644,
+  "neg_cos": {
+    "airplane": {
+      "cos_src_neg": 0.9532,
+      "cos_hat_neg": 0.6945
+    },
+    "boat": {
+      "cos_src_neg": 0.9854,
+      "cos_hat_neg": 0.6068
+    },
+    "car": {
+      "cos_src_neg": 0.9809,
+      "cos_hat_neg": 0.5963
+    },
+    "truck": {
+      "cos_src_neg": 0.9809,
+      "cos_hat_neg": 0.5662
+    },
+    "bus": {
+      "cos_src_neg": 0.9809,
+      "cos_hat_neg": 0.5593
+    },
+    "motorcycle": {
+      "cos_src_neg": 0.9809,
+      "cos_hat_neg": 0.545
+    }
+  }
+}

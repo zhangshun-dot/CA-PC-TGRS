@@ -1,0 +1,61 @@
+{
+  "config": {
+    "beta": 2.0,
+    "n_per_class": 10,
+    "protocol": "GDINO th=0 -> pre-filter 0.03 -> image-safe per-image AP50 (2026-08-23 修正)"
+  },
+  "dior_to_dota": {
+    "plane": {
+      "baseline": 0.2836,
+      "B2_src_neg": 0.3384,
+      "extrap": 0.3633
+    },
+    "ship": {
+      "baseline": 0.0053,
+      "B2_src_neg": 0.0078,
+      "extrap": 0.0111
+    },
+    "storage-tank": {
+      "baseline": 0.0409,
+      "B2_src_neg": 0.1209,
+      "extrap": 0.2713
+    },
+    "harbor": {
+      "baseline": 0.1452,
+      "B2_src_neg": 0.1449,
+      "extrap": 0.0713
+    },
+    "bridge": {
+      "baseline": 0.0006,
+      "B2_src_neg": 0.0008,
+      "extrap": 0.0006
+    },
+    "large-vehicle": {
+      "baseline": 0.0532,
+      "B2_src_neg": 0.0621,
+      "extrap": 0.0753
+    },
+    "small-vehicle": {
+      "baseline": 0.0257,
+      "B2_src_neg": 0.0393,
+      "extrap": 0.1297
+    }
+  },
+  "coco_to_dota": {
+    "plane": {
+      "baseline": 0.2711,
+      "B2_src_neg": 0.327,
+      "extrap": 0.3105
+    },
+    "ship": {
+      "baseline": 0.0053,
+      "B2_src_neg": 0.0068,
+      "extrap": 0.0047
+    },
+    "large-vehicle": {
+      "baseline": 0.0541,
+      "B2_src_neg": 0.0605,
+      "extrap": 0.0527
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "COCO-airplane": {
+    "class": "airplane",
+    "true_domain": "natural_scene",
+    "natural_prefix": 0.5454545452173912,
+    "remote_prefix": 0.4545454543388429,
+    "dps": 0.5454545452173912,
+    "oracle": 0.5454545452173912,
+    "dps_accuracy": 0.43333333333333335,
+    "n_images": 30
+  },
+  "COCO-boat": {
+    "class": "boat",
+    "true_domain": "natural_scene",
+    "natural_prefix": 0.0,
+    "remote_prefix": 0.09090909072727273,
+    "dps": 0.09090909045454545,
+    "oracle": 0.0,
+    "dps_accuracy": 0.9333333333333333,
+    "n_images": 30
+  },
+  "COCO-car": {
+    "class": "car",
+    "true_domain": "natural_scene",
+    "natural_prefix": 0.04545454522727273,
+    "remote_prefix": 0.04545454539772727,
+    "dps": 0.04545454522727273,
+    "oracle": 0.04545454522727273,
+    "dps_accuracy": 0.9666666666666667,
+    "n_images": 30
+  },
+  "DIOR-airplane": {
+    "class": "airplane",
+    "true_domain": "remote_sensing",
+    "natural_prefix": 0.1770334927077078,
+    "remote_prefix": 0.17272727261643356,
+    "dps": 0.17272727261643356,
+    "oracle": 0.17272727261643356,
+    "dps_accuracy": 1.0,
+    "n_images": 20
+  },
+  "DIOR-ship": {
+    "class": "ship",
+    "true_domain": "remote_sensing",
+    "natural_prefix": 0.09090909045454545,
+    "remote_prefix": 0.09090909045454545,
+    "dps": 0.09090909045454545,
+    "oracle": 0.09090909045454545,
+    "dps_accuracy": 1.0,
+    "n_images": 20
+  },
+  "DIOR-vehicle": {
+    "class": "vehicle",
+    "true_domain": "remote_sensing",
+    "natural_prefix": 0.19380764069629566,
+    "remote_prefix": 0.11713286702881254,
+    "dps": 0.11713286702881254,
+    "oracle": 0.11713286702881254,
+    "dps_accuracy": 1.0,
+    "n_images": 20
+  }
+}

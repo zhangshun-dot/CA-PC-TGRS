@@ -1,0 +1,202 @@
+{
+  "DIOR": {
+    "n_classes": 6,
+    "domain_shift_norm": 0.37363070249557495,
+    "domain_shift_enabled": true,
+    "g2_values": {
+      "airplane": 0.2755817472934723,
+      "boat": 0.28007590770721436,
+      "car": 0.1518028825521469,
+      "truck": 0.16278710961341858,
+      "bus": 0.1617671251296997,
+      "motorcycle": 0.1611378937959671
+    },
+    "g2_enabled_count": 6,
+    "g2_disabled_count": 0,
+    "enabled_classes": [
+      "airplane",
+      "boat",
+      "car",
+      "truck",
+      "bus",
+      "motorcycle"
+    ],
+    "disabled_classes": [],
+    "configs": {
+      "baseline": {
+        "mean": 0.3771976125423835
+      },
+      "tge_only": {
+        "mean": 0.38776755435535587,
+        "gain": 0.010569941812972383
+      },
+      "usc_tge": {
+        "mean": 0.39572229295446654,
+        "best_alpha": 0.2,
+        "gain": 0.01852468041208305
+      },
+      "full_gating": {
+        "mean": 0.39572229295446654,
+        "gain": 0.01852468041208305,
+        "gain_over_usc": 0.0
+      }
+    }
+  },
+  "NWPU": {
+    "n_classes": 6,
+    "domain_shift_norm": 0.3372759521007538,
+    "domain_shift_enabled": true,
+    "g2_values": {
+      "airplane": 0.2984297275543213,
+      "boat": 0.35092461109161377,
+      "car": 0.25298893451690674,
+      "truck": 0.2588835060596466,
+      "bus": 0.2492663562297821,
+      "motorcycle": 0.2698088586330414
+    },
+    "g2_enabled_count": 6,
+    "g2_disabled_count": 0,
+    "enabled_classes": [
+      "airplane",
+      "boat",
+      "car",
+      "truck",
+      "bus",
+      "motorcycle"
+    ],
+    "disabled_classes": [],
+    "configs": {
+      "baseline": {
+        "mean": 0.3771976125423835
+      },
+      "tge_only": {
+        "mean": 0.39081896643154357,
+        "gain": 0.013621353889160082
+      },
+      "usc_tge": {
+        "mean": 0.402311581631735,
+        "best_alpha": 0.7,
+        "gain": 0.02511396908935154
+      },
+      "full_gating": {
+        "mean": 0.402311581631735,
+        "gain": 0.02511396908935154,
+        "gain_over_usc": 0.0
+      }
+    }
+  },
+  "DOTA": {
+    "n_classes": 6,
+    "domain_shift_norm": 0.38154855370521545,
+    "domain_shift_enabled": true,
+    "g2_values": {
+      "airplane": 0.3741055428981781,
+      "boat": 0.4372873902320862,
+      "car": 0.3223465085029602,
+      "truck": 0.34044572710990906,
+      "bus": 0.3359690308570862,
+      "motorcycle": 0.323902428150177
+    },
+    "g2_enabled_count": 6,
+    "g2_disabled_count": 0,
+    "enabled_classes": [
+      "airplane",
+      "boat",
+      "car",
+      "truck",
+      "bus",
+      "motorcycle"
+    ],
+    "disabled_classes": [],
+    "configs": {
+      "baseline": {
+        "mean": 0.3771976125423835
+      },
+      "tge_only": {
+        "mean": 0.3864861252373757,
+        "gain": 0.009288512694992201
+      },
+      "usc_tge": {
+        "mean": 0.3948768691491333,
+        "best_alpha": 0.7,
+        "gain": 0.017679256606749794
+      },
+      "full_gating": {
+        "mean": 0.3948768691491333,
+        "gain": 0.017679256606749794,
+        "gain_over_usc": 0.0
+      }
+    }
+  },
+  "VOC": {
+    "n_classes": 20,
+    "domain_shift_norm": 0.13767722249031067,
+    "domain_shift_enabled": false,
+    "g2_values": {
+      "airplane": -0.006615677382797003,
+      "bicycle": -0.2485629916191101,
+      "bird": -0.2485629916191101,
+      "boat": -0.2485629916191101,
+      "bottle": -0.2485629916191101,
+      "bus": -0.2485629916191101,
+      "car": -0.2485629916191101,
+      "cat": -0.2485629916191101,
+      "chair": -0.2485629916191101,
+      "cow": -0.2485629916191101,
+      "dining table": -0.17987677454948425,
+      "dog": -0.2485629916191101,
+      "horse": -0.2485629916191101,
+      "motorcycle": -0.11899709701538086,
+      "person": -0.2485629916191101,
+      "potted plant": -0.1627664566040039,
+      "sheep": -0.2485629916191101,
+      "couch": -0.18557707965373993,
+      "train": -0.2485629916191101,
+      "tv": -0.13040398061275482
+    },
+    "g2_enabled_count": 0,
+    "g2_disabled_count": 20,
+    "enabled_classes": [],
+    "disabled_classes": [
+      "airplane",
+      "bicycle",
+      "bird",
+      "boat",
+      "bottle",
+      "bus",
+      "car",
+      "cat",
+      "chair",
+      "cow",
+      "dining table",
+      "dog",
+      "horse",
+      "motorcycle",
+      "person",
+      "potted plant",
+      "sheep",
+      "couch",
+      "train",
+      "tv"
+    ],
+    "configs": {
+      "baseline": {
+        "mean": 0.38718448157678764
+      },
+      "tge_only": {
+        "mean": 0.4179812778169615,
+        "gain": 0.03079679624017384
+      },
+      "usc_tge": {
+        "mean": 0.4179812778169615,
+        "best_alpha": 0.0,
+        "gain": 0.03079679624017384
+      },
+      "full_gating": {
+        "mean": 0.4179812778169615,
+        "gain": 0.03079679624017384,
+        "gain_over_usc": 0.0
+      }
+    }
+  }
+}

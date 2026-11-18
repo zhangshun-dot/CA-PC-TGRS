@@ -1,0 +1,140 @@
+{
+ "aeroplane<->airplane|fwd_dior2voc": {
+  "pair": "aeroplane<->airplane",
+  "note": "1:1",
+  "direction": "fwd_dior2voc",
+  "base": 0.8612,
+  "n_img": 100,
+  "gain_beta2": -0.0173,
+  "best_beta": "0.0",
+  "best_gain": 0.0,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": -0.0031,
+   "1.0": -0.0065,
+   "1.5": -0.0082,
+   "2.0": -0.0173,
+   "2.5": -0.0376,
+   "3.0": -0.085,
+   "3.5": -0.1438,
+   "4.0": -0.2123
+  },
+  "rand_beta2_mean": -0.0064,
+  "R": 0.519
+ },
+ "aeroplane<->airplane|rev_voc2dior": {
+  "pair": "aeroplane<->airplane",
+  "note": "1:1",
+  "direction": "rev_voc2dior",
+  "base": 0.5348,
+  "n_img": 100,
+  "gain_beta2": -0.0557,
+  "best_beta": "0.0",
+  "best_gain": 0.0,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": -0.0043,
+   "1.0": -0.0149,
+   "1.5": -0.0293,
+   "2.0": -0.0557,
+   "2.5": -0.0937,
+   "3.0": -0.1588,
+   "3.5": -0.2372,
+   "4.0": -0.3111
+  },
+  "rand_beta2_mean": -0.0301,
+  "R": 0.519
+ },
+ "boat<->ship|fwd_dior2voc": {
+  "pair": "boat<->ship",
+  "note": "1:1",
+  "direction": "fwd_dior2voc",
+  "base": 0.5007,
+  "n_img": 100,
+  "gain_beta2": -0.0472,
+  "best_beta": "0.5",
+  "best_gain": 0.0013,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": 0.0013,
+   "1.0": -0.0046,
+   "1.5": -0.0171,
+   "2.0": -0.0472,
+   "2.5": -0.118,
+   "3.0": -0.1588,
+   "3.5": -0.1591,
+   "4.0": -0.1165
+  },
+  "rand_beta2_mean": -0.0325,
+  "R": 0.5991
+ },
+ "boat<->ship|rev_voc2dior": {
+  "pair": "boat<->ship",
+  "note": "1:1",
+  "direction": "rev_voc2dior",
+  "base": 0.2501,
+  "n_img": 100,
+  "gain_beta2": -0.0478,
+  "best_beta": "0.0",
+  "best_gain": 0.0,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": -0.0064,
+   "1.0": -0.0157,
+   "1.5": -0.028,
+   "2.0": -0.0478,
+   "2.5": -0.08,
+   "3.0": -0.0926,
+   "3.5": -0.0845,
+   "4.0": -0.0677
+  },
+  "rand_beta2_mean": -0.0369,
+  "R": 0.5991
+ },
+ "car<->vehicle|fwd_dior2voc": {
+  "pair": "car<->vehicle",
+  "note": "superset GT",
+  "direction": "fwd_dior2voc",
+  "base": 0.541,
+  "n_img": 100,
+  "gain_beta2": 0.0449,
+  "best_beta": "2.0",
+  "best_gain": 0.0449,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": 0.0102,
+   "1.0": 0.0186,
+   "1.5": 0.0351,
+   "2.0": 0.0449,
+   "2.5": 0.0261,
+   "3.0": -0.0737,
+   "3.5": -0.1694,
+   "4.0": -0.1428
+  },
+  "rand_beta2_mean": -0.1053,
+  "R": 0.6061
+ },
+ "car<->vehicle|rev_voc2dior": {
+  "pair": "car<->vehicle",
+  "note": "superset GT",
+  "direction": "rev_voc2dior",
+  "base": 0.1949,
+  "n_img": 100,
+  "gain_beta2": -0.0493,
+  "best_beta": "0.0",
+  "best_gain": 0.0,
+  "curve": {
+   "0.0": 0.0,
+   "0.5": -0.013,
+   "1.0": -0.0239,
+   "1.5": -0.0355,
+   "2.0": -0.0493,
+   "2.5": -0.0977,
+   "3.0": -0.1579,
+   "3.5": -0.1765,
+   "4.0": -0.1754
+  },
+  "rand_beta2_mean": 0.0238,
+  "R": 0.6061
+ }
+}

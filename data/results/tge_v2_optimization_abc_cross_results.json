@@ -1,0 +1,93 @@
+{
+  "config": {
+    "dev_set": "DIOR→COCO 前60张/类, 6类",
+    "test_set": "DIOR→COCO 60张之后/类, 6类",
+    "heldout_skip": 60,
+    "best_beta": 2.5,
+    "best_lambda": 0.5,
+    "best_m_B": 10,
+    "best_w_C": 0.4,
+    "best_tau_det": 2.0,
+    "best_tau_vis": 2.0
+  },
+  "dev_gains": {
+    "baseline": 0.07750665104464342,
+    "B": 0.060110707952352876,
+    "C": 0.07770370615019447,
+    "B+C": 0.045185537980301504
+  },
+  "voc_results_for_comparison": {
+    "baseline": 0.0347,
+    "B_only": 0.0416,
+    "C_only": 0.0649,
+    "B+C": 0.0721,
+    "oracle": 0.0775
+  },
+  "results": {
+    "baseline": {
+      "mean_gain": 0.043158789811510445,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": -0.0013021239048506272,
+        "DIOR-COCO-boat": 0.011054566065942156,
+        "DIOR-COCO-car": 0.08313796077875565,
+        "DIOR-COCO-truck": 0.058491970808287275,
+        "DIOR-COCO-bus": 0.06487826662829788,
+        "DIOR-COCO-motorcycle": 0.04269209849263034
+      }
+    },
+    "B_only": {
+      "mean_gain": 0.023225529230587766,
+      "n_positive": 6,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": 0.003156491824571339,
+        "DIOR-COCO-boat": 0.00040526269401258697,
+        "DIOR-COCO-car": 0.08641800074465836,
+        "DIOR-COCO-truck": 0.0017939185194556784,
+        "DIOR-COCO-bus": 0.03125836140661209,
+        "DIOR-COCO-motorcycle": 0.016321140194216543
+      }
+    },
+    "C_only": {
+      "mean_gain": 0.04505612796668804,
+      "n_positive": 6,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": 0.0038058920585011258,
+        "DIOR-COCO-boat": 0.01993485969344483,
+        "DIOR-COCO-car": 0.09130582362012724,
+        "DIOR-COCO-truck": 0.06658611455140778,
+        "DIOR-COCO-bus": 0.053638957348501215,
+        "DIOR-COCO-motorcycle": 0.03506512052814603
+      }
+    },
+    "B+C": {
+      "mean_gain": 0.02739836998380206,
+      "n_positive": 5,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": 0.00236605048490357,
+        "DIOR-COCO-boat": -0.0006910861426293602,
+        "DIOR-COCO-car": 0.08984739339899103,
+        "DIOR-COCO-truck": 0.034806353306014726,
+        "DIOR-COCO-bus": 0.02097970358358514,
+        "DIOR-COCO-motorcycle": 0.017081805271947248
+      }
+    },
+    "oracle": {
+      "mean_gain": 0.06870048855435755,
+      "n_positive": 6,
+      "n_total": 6,
+      "gains": {
+        "DIOR-COCO-airplane": 0.008967815528944767,
+        "DIOR-COCO-boat": 0.0571644254423046,
+        "DIOR-COCO-car": 0.08410103652000195,
+        "DIOR-COCO-truck": 0.07695437842167185,
+        "DIOR-COCO-bus": 0.07280873554915734,
+        "DIOR-COCO-motorcycle": 0.11220653986406476
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "car_multi_source": {
+    "visdrone_mean_gain": 0.03710285062149398,
+    "other_mean_gain": 0.05679379208638691
+  },
+  "confusion_matrix": {
+    "tp": 14,
+    "fp": 0,
+    "tn": 10,
+    "fn": 7
+  }
+}

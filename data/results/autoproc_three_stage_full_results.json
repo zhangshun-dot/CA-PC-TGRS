@@ -1,0 +1,192 @@
+{
+  "DIOR": {
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "airplane",
+        "base": 0.7762,
+        "three": 0.7772,
+        "delta": 0.001
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base": 0.1618,
+        "three": 0.1812,
+        "delta": 0.0195
+      },
+      {
+        "class": "car",
+        "src": "vehicle",
+        "base": 0.168,
+        "three": 0.1453,
+        "delta": -0.0227
+      },
+      {
+        "class": "truck",
+        "src": "vehicle",
+        "base": 0.2043,
+        "three": 0.2483,
+        "delta": 0.044
+      },
+      {
+        "class": "bus",
+        "src": "vehicle",
+        "base": 0.4673,
+        "three": 0.5191,
+        "delta": 0.0518
+      },
+      {
+        "class": "motorcycle",
+        "src": "vehicle",
+        "base": 0.4223,
+        "three": 0.4026,
+        "delta": -0.0197
+      }
+    ],
+    "domain": {
+      "base": 0.3666,
+      "three": 0.3789,
+      "delta": 0.0123
+    }
+  },
+  "NWPU": {
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "airplane",
+        "base": 0.7738,
+        "three": 0.7751,
+        "delta": 0.0013
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base": 0.1707,
+        "three": 0.1815,
+        "delta": 0.0108
+      },
+      {
+        "class": "car",
+        "src": "vehicle",
+        "base": 0.2159,
+        "three": 0.1454,
+        "delta": -0.0705
+      },
+      {
+        "class": "truck",
+        "src": "vehicle",
+        "base": 0.1963,
+        "three": 0.2431,
+        "delta": 0.0468
+      },
+      {
+        "class": "bus",
+        "src": "vehicle",
+        "base": 0.4648,
+        "three": 0.5216,
+        "delta": 0.0568
+      },
+      {
+        "class": "motorcycle",
+        "src": "vehicle",
+        "base": 0.4229,
+        "three": 0.4065,
+        "delta": -0.0164
+      }
+    ],
+    "domain": {
+      "base": 0.3741,
+      "three": 0.3789,
+      "delta": 0.0048
+    }
+  },
+  "DOTA": {
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "plane",
+        "base": 0.7754,
+        "three": 0.782,
+        "delta": 0.0066
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base": 0.1624,
+        "three": 0.1814,
+        "delta": 0.0189
+      },
+      {
+        "class": "car",
+        "src": "small-vehicle",
+        "base": 0.168,
+        "three": 0.1464,
+        "delta": -0.0216
+      },
+      {
+        "class": "truck",
+        "src": "large-vehicle",
+        "base": 0.2139,
+        "three": 0.2649,
+        "delta": 0.051
+      },
+      {
+        "class": "bus",
+        "src": "large-vehicle",
+        "base": 0.5185,
+        "three": 0.5356,
+        "delta": 0.0171
+      },
+      {
+        "class": "motorcycle",
+        "src": "small-vehicle",
+        "base": 0.421,
+        "three": 0.4052,
+        "delta": -0.0158
+      }
+    ],
+    "domain": {
+      "base": 0.3766,
+      "three": 0.3859,
+      "delta": 0.0094
+    }
+  },
+  "VisDrone": {
+    "per_class": [
+      {
+        "class": "bicycle",
+        "src": "bicycle",
+        "base": 0.1994,
+        "three": 0.2326,
+        "delta": 0.0331
+      },
+      {
+        "class": "car",
+        "src": "car",
+        "base": 0.1926,
+        "three": 0.192,
+        "delta": -0.0006
+      },
+      {
+        "class": "bus",
+        "src": "bus",
+        "base": 0.5165,
+        "three": 0.5265,
+        "delta": 0.01
+      },
+      {
+        "class": "motorcycle",
+        "src": "motor",
+        "base": 0.4282,
+        "three": 0.4421,
+        "delta": 0.0139
+      }
+    ],
+    "domain": {
+      "base": 0.3342,
+      "three": 0.3483,
+      "delta": 0.0141
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "eta_d": 0.20151373368906456,
+  "eta_d_method": "1 - retention_rate",
+  "kl_total_nats": 41.714846511453445,
+  "H_S_nats": -6.670240788872784,
+  "Q_eff_single_bits": 0.9322,
+  "Q_eff_cross_bits": 0.7443488974550541,
+  "cross_retention": 0.7984862663109354,
+  "axis_classification": {
+    "granularity": {
+      "universality": 0.6364907645807523,
+      "class": "MIXED",
+      "mu_coco": -0.03499999999999999,
+      "mu_dior": -0.0027999765294221364,
+      "spec_coco": 1.0,
+      "spec_dior": 0.07999932941206106,
+      "sign_match": true
+    },
+    "spatial": {
+      "universality": 0.48216947080480366,
+      "class": "MIXED",
+      "mu_coco": -0.06999999999999999,
+      "mu_dior": 0.003101830681960643,
+      "spec_coco": 1.0,
+      "spec_dior": 0.04431186688515205,
+      "sign_match": false
+    },
+    "geometric": {
+      "universality": 0.7610912465058919,
+      "class": "UNIVERSAL",
+      "mu_coco": -0.047500000000000014,
+      "mu_dior": -0.004431639730476571,
+      "spec_coco": 1.0,
+      "spec_dior": 0.09329767853634884,
+      "sign_match": true
+    },
+    "scale": {
+      "universality": 0.5395976248071336,
+      "class": "MIXED",
+      "mu_coco": 0.19249999999999998,
+      "mu_dior": 0.007609980612501055,
+      "spec_coco": 1.0,
+      "spec_dior": 0.0395323668181873,
+      "sign_match": true
+    },
+    "spectral": {
+      "universality": 0.9413123261088883,
+      "class": "UNIVERSAL",
+      "mu_coco": -0.025,
+      "mu_dior": -0.004686371958370382,
+      "spec_coco": 1.0,
+      "spec_dior": 0.18745487833481528,
+      "sign_match": true
+    },
+    "texture": {
+      "universality": 0.49885294989676576,
+      "class": "MIXED",
+      "mu_coco": -0.10250000000000001,
+      "mu_dior": 0.0036709205609641365,
+      "spec_coco": 1.0,
+      "spec_dior": 0.03581385913135743,
+      "sign_match": false
+    }
+  },
+  "axis_pearson_r": 0.4983195702280053,
+  "universal_axes": [
+    "geometric",
+    "spectral"
+  ],
+  "mixed_axes": [
+    "granularity",
+    "spatial",
+    "scale",
+    "texture"
+  ],
+  "domain_specific_axes": [],
+  "kl_per_axis": {
+    "granularity": 4.768064821938303,
+    "spatial": 3.8492946687788097,
+    "geometric": 5.2837081425792345,
+    "scale": 21.03094097853153,
+    "spectral": 0.49723321067744874,
+    "texture": 6.285604688948121
+  }
+}

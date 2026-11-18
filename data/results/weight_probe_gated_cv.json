@@ -1,0 +1,208 @@
+{
+  "summary": {
+    "n_scenarios": 11,
+    "mean_delta_gated": -0.0343,
+    "mean_delta_tuned_ungated": -0.0357,
+    "n_gated_sig": 2
+  },
+  "scenarios": {
+    "COCO-airplane": {
+      "domain": "natural_scene",
+      "n_img": 80,
+      "mean_baseline": 0.7613,
+      "delta_tuned_ungated": -0.1312,
+      "delta_gated": -0.1621,
+      "ci_low": -0.2259,
+      "ci_high": -0.0734,
+      "bootstrap_sig": "no",
+      "tau_star": [
+        0.25,
+        0.25,
+        0.2,
+        0.25
+      ],
+      "mean_reliability": 0.1387,
+      "n_gt": 112
+    },
+    "COCO-boat": {
+      "domain": "natural_scene",
+      "n_img": 80,
+      "mean_baseline": 0.2057,
+      "delta_tuned_ungated": -0.0246,
+      "delta_gated": -0.0246,
+      "ci_low": -0.0626,
+      "ci_high": 0.0142,
+      "bootstrap_sig": "no",
+      "tau_star": [
+        0.15,
+        0.12,
+        0.15,
+        0.15
+      ],
+      "mean_reliability": 0.0715,
+      "n_gt": 244
+    },
+    "COCO-car": {
+      "domain": "natural_scene",
+      "n_img": 80,
+      "mean_baseline": 0.0944,
+      "delta_tuned_ungated": 0.0823,
+      "delta_gated": 0.082,
+      "ci_low": 0.01,
+      "ci_high": 0.1096,
+      "bootstrap_sig": "YES",
+      "tau_star": [
+        0.15,
+        0.18,
+        0.18,
+        0.18
+      ],
+      "mean_reliability": 0.1067,
+      "n_gt": 237
+    },
+    "DIOR-airplane": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.4405,
+      "delta_tuned_ungated": -0.2585,
+      "delta_gated": -0.2543,
+      "ci_low": -0.4329,
+      "ci_high": -0.1081,
+      "bootstrap_sig": "no",
+      "tau_star": [
+        0.3,
+        0.25,
+        0.3,
+        0.25
+      ],
+      "mean_reliability": 0.2173,
+      "n_gt": 162
+    },
+    "DIOR-ship": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.2263,
+      "delta_tuned_ungated": -0.0137,
+      "delta_gated": 0.0037,
+      "ci_low": -0.0563,
+      "ci_high": 0.1023,
+      "bootstrap_sig": "marginal",
+      "tau_star": [
+        0.25,
+        0.25,
+        0.25,
+        0.2
+      ],
+      "mean_reliability": 0.2038,
+      "n_gt": 435
+    },
+    "DIOR-vehicle": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.2562,
+      "delta_tuned_ungated": -0.0811,
+      "delta_gated": -0.0818,
+      "ci_low": -0.2364,
+      "ci_high": 0.0158,
+      "bootstrap_sig": "no",
+      "tau_star": [
+        0.3,
+        0.25,
+        0.3,
+        0.3
+      ],
+      "mean_reliability": 0.2329,
+      "n_gt": 127
+    },
+    "DIOR-harbor": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.1561,
+      "delta_tuned_ungated": -0.0682,
+      "delta_gated": -0.0148,
+      "ci_low": -0.1091,
+      "ci_high": 0.0095,
+      "bootstrap_sig": "no",
+      "tau_star": [
+        0.3,
+        0.3,
+        0.3,
+        0.25
+      ],
+      "mean_reliability": 0.2008,
+      "n_gt": 99
+    },
+    "DIOR-storage": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.2039,
+      "delta_tuned_ungated": 0.0261,
+      "delta_gated": 0.0261,
+      "ci_low": -0.1886,
+      "ci_high": 0.1468,
+      "bootstrap_sig": "marginal",
+      "tau_star": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "mean_reliability": 0.2163,
+      "n_gt": 349
+    },
+    "DIOR-tennis": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.0096,
+      "delta_tuned_ungated": 0.0063,
+      "delta_gated": 0.0064,
+      "ci_low": 0.0001,
+      "ci_high": 0.0458,
+      "bootstrap_sig": "YES",
+      "tau_star": [
+        0.25,
+        0.25,
+        0.25,
+        0.2
+      ],
+      "mean_reliability": 0.1904,
+      "n_gt": 105
+    },
+    "DIOR-baseball": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.1286,
+      "delta_tuned_ungated": 0.043,
+      "delta_gated": 0.043,
+      "ci_low": -0.0587,
+      "ci_high": 0.1101,
+      "bootstrap_sig": "marginal",
+      "tau_star": [
+        0.3,
+        0.3,
+        0.3,
+        0.3
+      ],
+      "mean_reliability": 0.2459,
+      "n_gt": 44
+    },
+    "DIOR-bridge": {
+      "domain": "remote_sensing",
+      "n_img": 20,
+      "mean_baseline": 0.0083,
+      "delta_tuned_ungated": 0.0268,
+      "delta_gated": -0.0008,
+      "ci_low": -0.0363,
+      "ci_high": 0.0293,
+      "bootstrap_sig": "marginal",
+      "tau_star": [
+        0.2,
+        0.18,
+        0.2,
+        0.25
+      ],
+      "mean_reliability": 0.1921,
+      "n_gt": 26
+    }
+  }
+}

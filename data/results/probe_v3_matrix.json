@@ -1,0 +1,41 @@
+{
+  "A_zc_content": {
+    "zc_probe_acc": 0.2375,
+    "zc_probe_train_acc": 0.3438,
+    "gc_head_acc": 0.215,
+    "eff_rank_zc": 10.718,
+    "pairwise_cos_zc": 0.9243,
+    "majority_baseline": 0.05
+  },
+  "A_pass": false,
+  "B_zk_leak": {
+    "zk_probe_acc": 0.05,
+    "zk_probe_train_acc": 0.1031
+  },
+  "B_pass": true,
+  "C_condition_dependency": {
+    "q_resolution_acc_4class": 0.0938,
+    "laplacian_logvar_per_k": [
+      -6.6248,
+      -6.6178,
+      -6.605,
+      -6.5932
+    ],
+    "laplacian_corr_with_k": 0.9933,
+    "n_decode_samples": 320
+  },
+  "C_pass": false,
+  "D_paired_delta_zk": {
+    "mean_perimage_corr": 0.9593,
+    "frac_monotonic(corr>0.3)": 1.0,
+    "mean_abs_zk_delta_k1to4": 0.529
+  },
+  "D_pass": true,
+  "overall_accept": false,
+  "gate": {
+    "A_zc_content": false,
+    "B_zk_leak": true,
+    "C_condition_dependency": false,
+    "D_paired_delta": true
+  }
+}

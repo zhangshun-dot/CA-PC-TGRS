@@ -1,0 +1,84 @@
+{
+  "results": {
+    "airplane": {
+      "class": "airplane",
+      "baseline_dr": 0.8,
+      "tdm_dr": 0.8,
+      "verifier_pred_best": 0.8746081166250912,
+      "verifier_best_dr": 0.95,
+      "best_dr": 0.95,
+      "best_prompt": "a photo of airplane, in true color, showing clear geometry"
+    },
+    "ship": {
+      "class": "ship",
+      "baseline_dr": 0.7,
+      "tdm_dr": 0.7,
+      "verifier_pred_best": 0.765485769481365,
+      "verifier_best_dr": 0.2,
+      "best_dr": 0.7,
+      "best_prompt": "an overhead image of ship"
+    },
+    "stadium": {
+      "class": "stadium",
+      "baseline_dr": 0.9,
+      "tdm_dr": 0.9,
+      "verifier_pred_best": 0.8859018666104035,
+      "verifier_best_dr": 0.9,
+      "best_dr": 0.9,
+      "best_prompt": "an overhead image of stadium"
+    },
+    "bridge": {
+      "class": "bridge",
+      "baseline_dr": 0.85,
+      "tdm_dr": 0.85,
+      "verifier_pred_best": 0.7561785700793102,
+      "verifier_best_dr": 0.85,
+      "best_dr": 0.85,
+      "best_prompt": "an overhead image of bridge"
+    },
+    "harbor": {
+      "class": "harbor",
+      "baseline_dr": 0.5,
+      "tdm_dr": 0.5,
+      "verifier_pred_best": 0.7745806437136787,
+      "verifier_best_dr": 0.0,
+      "best_dr": 0.5,
+      "best_prompt": "an overhead image of harbor"
+    },
+    "overpass": {
+      "class": "overpass",
+      "baseline_dr": 0.65,
+      "tdm_dr": 0.65,
+      "verifier_pred_best": 0.7146353213603891,
+      "verifier_best_dr": 0.2,
+      "best_dr": 0.7,
+      "best_prompt": "an overhead image of overpass, with fine details, surrounded by typical terrain, showing clear geometry"
+    },
+    "tennis court": {
+      "class": "tennis court",
+      "baseline_dr": 0.55,
+      "tdm_dr": 0.55,
+      "verifier_pred_best": 0.6120172674057012,
+      "verifier_best_dr": 0.55,
+      "best_dr": 0.55,
+      "best_prompt": "an overhead image of tennis court"
+    },
+    "windmill": {
+      "class": "windmill",
+      "baseline_dr": 0.95,
+      "tdm_dr": 0.95,
+      "verifier_pred_best": 0.9077324663600561,
+      "verifier_best_dr": 0.1,
+      "best_dr": 0.95,
+      "best_prompt": "an overhead image of windmill"
+    }
+  },
+  "summary": {
+    "mean_baseline": 0.7375,
+    "mean_tdm": 0.7375,
+    "mean_cps_only": 0.79375,
+    "mean_verifier": 0.46875000000000006,
+    "mean_best": 0.7625
+  },
+  "training_data_size": 105
+}

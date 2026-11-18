@@ -1,0 +1,668 @@
+{
+  "DIOR": {
+    "base_mean_allcls": 0.3853,
+    "fixed1.0_mean_allcls": 0.3937,
+    "diag_mean_allcls": 0.4071,
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "airplane",
+        "base_evalhalf_full": 0.7535,
+        "best_evalhalf_full": 0.7547,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.7535,
+        "base_seed_std": 0.0,
+        "best_seed_mean": 0.7547,
+        "best_seed_std": 0.0,
+        "best_delta_mean": 0.0012,
+        "best_delta_std": 0.0,
+        "fixed": {
+          "0.5": {
+            "full": 0.7451,
+            "seed_mean": 0.7451,
+            "seed_std": 0.0,
+            "delta_mean": -0.0084,
+            "delta_std": 0.0
+          },
+          "1.0": {
+            "full": 0.7363,
+            "seed_mean": 0.7363,
+            "seed_std": 0.0,
+            "delta_mean": -0.0171,
+            "delta_std": 0.0
+          }
+        }
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base_evalhalf_full": 0.1437,
+        "best_evalhalf_full": 0.1793,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.1587,
+        "base_seed_std": 0.0215,
+        "best_seed_mean": 0.1802,
+        "best_seed_std": 0.0068,
+        "best_delta_mean": 0.0215,
+        "best_delta_std": 0.0187,
+        "fixed": {
+          "0.5": {
+            "full": 0.1636,
+            "seed_mean": 0.1665,
+            "seed_std": 0.0107,
+            "delta_mean": 0.0078,
+            "delta_std": 0.022
+          },
+          "1.0": {
+            "full": 0.1775,
+            "seed_mean": 0.1764,
+            "seed_std": 0.0056,
+            "delta_mean": 0.0177,
+            "delta_std": 0.022
+          }
+        }
+      },
+      {
+        "class": "car",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.1934,
+        "best_evalhalf_full": 0.2058,
+        "best_lam": 0.25,
+        "base_seed_mean": 0.184,
+        "base_seed_std": 0.0287,
+        "best_seed_mean": 0.19,
+        "best_seed_std": 0.0289,
+        "best_delta_mean": 0.0059,
+        "best_delta_std": 0.0073,
+        "fixed": {
+          "0.5": {
+            "full": 0.2009,
+            "seed_mean": 0.1698,
+            "seed_std": 0.0352,
+            "delta_mean": -0.0142,
+            "delta_std": 0.0201
+          },
+          "1.0": {
+            "full": 0.1939,
+            "seed_mean": 0.1628,
+            "seed_std": 0.0359,
+            "delta_mean": -0.0212,
+            "delta_std": 0.0215
+          }
+        }
+      },
+      {
+        "class": "truck",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.2222,
+        "best_evalhalf_full": 0.289,
+        "best_lam": 0.5,
+        "base_seed_mean": 0.2241,
+        "base_seed_std": 0.0245,
+        "best_seed_mean": 0.2753,
+        "best_seed_std": 0.0252,
+        "best_delta_mean": 0.0512,
+        "best_delta_std": 0.0138,
+        "fixed": {
+          "0.5": {
+            "full": 0.289,
+            "seed_mean": 0.2587,
+            "seed_std": 0.0387,
+            "delta_mean": 0.0346,
+            "delta_std": 0.0187
+          },
+          "1.0": {
+            "full": 0.2784,
+            "seed_mean": 0.2688,
+            "seed_std": 0.026,
+            "delta_mean": 0.0447,
+            "delta_std": 0.015
+          }
+        }
+      },
+      {
+        "class": "bus",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.5017,
+        "best_evalhalf_full": 0.5462,
+        "best_lam": 1.0,
+        "base_seed_mean": 0.5129,
+        "base_seed_std": 0.0278,
+        "best_seed_mean": 0.5587,
+        "best_seed_std": 0.0388,
+        "best_delta_mean": 0.0458,
+        "best_delta_std": 0.0123,
+        "fixed": {
+          "0.5": {
+            "full": 0.5345,
+            "seed_mean": 0.5497,
+            "seed_std": 0.0353,
+            "delta_mean": 0.0368,
+            "delta_std": 0.0093
+          },
+          "1.0": {
+            "full": 0.5462,
+            "seed_mean": 0.5551,
+            "seed_std": 0.0392,
+            "delta_mean": 0.0422,
+            "delta_std": 0.0138
+          }
+        }
+      },
+      {
+        "class": "motorcycle",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.459,
+        "best_evalhalf_full": 0.459,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.4788,
+        "base_seed_std": 0.0231,
+        "best_seed_mean": 0.4838,
+        "best_seed_std": 0.0256,
+        "best_delta_mean": 0.005,
+        "best_delta_std": 0.0062,
+        "fixed": {
+          "0.5": {
+            "full": 0.4549,
+            "seed_mean": 0.472,
+            "seed_std": 0.0333,
+            "delta_mean": -0.0068,
+            "delta_std": 0.0155
+          },
+          "1.0": {
+            "full": 0.4447,
+            "seed_mean": 0.463,
+            "seed_std": 0.0326,
+            "delta_mean": -0.0159,
+            "delta_std": 0.0174
+          }
+        }
+      }
+    ]
+  },
+  "NWPU": {
+    "base_mean_allcls": 0.3829,
+    "fixed1.0_mean_allcls": 0.3942,
+    "diag_mean_allcls": 0.4053,
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "airplane",
+        "base_evalhalf_full": 0.7456,
+        "best_evalhalf_full": 0.7456,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.7456,
+        "base_seed_std": 0.0,
+        "best_seed_mean": 0.7456,
+        "best_seed_std": 0.0,
+        "best_delta_mean": 0.0,
+        "best_delta_std": 0.0,
+        "fixed": {
+          "0.5": {
+            "full": 0.7363,
+            "seed_mean": 0.7363,
+            "seed_std": 0.0,
+            "delta_mean": -0.0093,
+            "delta_std": 0.0
+          },
+          "1.0": {
+            "full": 0.7332,
+            "seed_mean": 0.7332,
+            "seed_std": 0.0,
+            "delta_mean": -0.0123,
+            "delta_std": 0.0
+          }
+        }
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base_evalhalf_full": 0.1492,
+        "best_evalhalf_full": 0.1775,
+        "best_lam": 1.25,
+        "base_seed_mean": 0.1608,
+        "base_seed_std": 0.0122,
+        "best_seed_mean": 0.1771,
+        "best_seed_std": 0.0056,
+        "best_delta_mean": 0.0162,
+        "best_delta_std": 0.0088,
+        "fixed": {
+          "0.5": {
+            "full": 0.1698,
+            "seed_mean": 0.1709,
+            "seed_std": 0.0075,
+            "delta_mean": 0.0101,
+            "delta_std": 0.0062
+          },
+          "1.0": {
+            "full": 0.1763,
+            "seed_mean": 0.1767,
+            "seed_std": 0.0055,
+            "delta_mean": 0.0158,
+            "delta_std": 0.0085
+          }
+        }
+      },
+      {
+        "class": "car",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.2174,
+        "best_evalhalf_full": 0.2174,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.1913,
+        "base_seed_std": 0.0307,
+        "best_seed_mean": 0.1913,
+        "best_seed_std": 0.0307,
+        "best_delta_mean": 0.0,
+        "best_delta_std": 0.0,
+        "fixed": {
+          "0.5": {
+            "full": 0.1988,
+            "seed_mean": 0.1683,
+            "seed_std": 0.035,
+            "delta_mean": -0.0229,
+            "delta_std": 0.0065
+          },
+          "1.0": {
+            "full": 0.1943,
+            "seed_mean": 0.1626,
+            "seed_std": 0.0358,
+            "delta_mean": -0.0287,
+            "delta_std": 0.0076
+          }
+        }
+      },
+      {
+        "class": "truck",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.2075,
+        "best_evalhalf_full": 0.2823,
+        "best_lam": 0.5,
+        "base_seed_mean": 0.2126,
+        "base_seed_std": 0.0207,
+        "best_seed_mean": 0.2734,
+        "best_seed_std": 0.0275,
+        "best_delta_mean": 0.0608,
+        "best_delta_std": 0.0223,
+        "fixed": {
+          "0.5": {
+            "full": 0.2823,
+            "seed_mean": 0.2568,
+            "seed_std": 0.0388,
+            "delta_mean": 0.0442,
+            "delta_std": 0.0254
+          },
+          "1.0": {
+            "full": 0.277,
+            "seed_mean": 0.2702,
+            "seed_std": 0.0266,
+            "delta_mean": 0.0576,
+            "delta_std": 0.0228
+          }
+        }
+      },
+      {
+        "class": "bus",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.4982,
+        "best_evalhalf_full": 0.5475,
+        "best_lam": 1.0,
+        "base_seed_mean": 0.5086,
+        "base_seed_std": 0.028,
+        "best_seed_mean": 0.5576,
+        "best_seed_std": 0.0401,
+        "best_delta_mean": 0.049,
+        "best_delta_std": 0.0139,
+        "fixed": {
+          "0.5": {
+            "full": 0.5359,
+            "seed_mean": 0.5478,
+            "seed_std": 0.0348,
+            "delta_mean": 0.0392,
+            "delta_std": 0.008
+          },
+          "1.0": {
+            "full": 0.5475,
+            "seed_mean": 0.5569,
+            "seed_std": 0.0407,
+            "delta_mean": 0.0483,
+            "delta_std": 0.0143
+          }
+        }
+      },
+      {
+        "class": "motorcycle",
+        "src": "vehicle",
+        "base_evalhalf_full": 0.4585,
+        "best_evalhalf_full": 0.4634,
+        "best_lam": 0.5,
+        "base_seed_mean": 0.4784,
+        "base_seed_std": 0.0189,
+        "best_seed_mean": 0.4866,
+        "best_seed_std": 0.0219,
+        "best_delta_mean": 0.0082,
+        "best_delta_std": 0.008,
+        "fixed": {
+          "0.5": {
+            "full": 0.4634,
+            "seed_mean": 0.4751,
+            "seed_std": 0.0291,
+            "delta_mean": -0.0034,
+            "delta_std": 0.0142
+          },
+          "1.0": {
+            "full": 0.4482,
+            "seed_mean": 0.4656,
+            "seed_std": 0.0328,
+            "delta_mean": -0.0128,
+            "delta_std": 0.0179
+          }
+        }
+      }
+    ]
+  },
+  "DOTA": {
+    "base_mean_allcls": 0.3979,
+    "fixed1.0_mean_allcls": 0.3962,
+    "diag_mean_allcls": 0.4079,
+    "per_class": [
+      {
+        "class": "airplane",
+        "src": "plane",
+        "base_evalhalf_full": 0.7508,
+        "best_evalhalf_full": 0.7508,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.7508,
+        "base_seed_std": 0.0,
+        "best_seed_mean": 0.7508,
+        "best_seed_std": 0.0,
+        "best_delta_mean": 0.0,
+        "best_delta_std": 0.0,
+        "fixed": {
+          "0.5": {
+            "full": 0.7396,
+            "seed_mean": 0.7396,
+            "seed_std": 0.0,
+            "delta_mean": -0.0112,
+            "delta_std": 0.0
+          },
+          "1.0": {
+            "full": 0.7363,
+            "seed_mean": 0.7363,
+            "seed_std": 0.0,
+            "delta_mean": -0.0145,
+            "delta_std": 0.0
+          }
+        }
+      },
+      {
+        "class": "boat",
+        "src": "ship",
+        "base_evalhalf_full": 0.1821,
+        "best_evalhalf_full": 0.1821,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.1743,
+        "base_seed_std": 0.0164,
+        "best_seed_mean": 0.1808,
+        "best_seed_std": 0.0065,
+        "best_delta_mean": 0.0065,
+        "best_delta_std": 0.0102,
+        "fixed": {
+          "0.5": {
+            "full": 0.1585,
+            "seed_mean": 0.1657,
+            "seed_std": 0.0112,
+            "delta_mean": -0.0087,
+            "delta_std": 0.0115
+          },
+          "1.0": {
+            "full": 0.1769,
+            "seed_mean": 0.1775,
+            "seed_std": 0.0057,
+            "delta_mean": 0.0031,
+            "delta_std": 0.0122
+          }
+        }
+      },
+      {
+        "class": "car",
+        "src": "small-vehicle",
+        "base_evalhalf_full": 0.1933,
+        "best_evalhalf_full": 0.205,
+        "best_lam": 0.25,
+        "base_seed_mean": 0.1837,
+        "base_seed_std": 0.0294,
+        "best_seed_mean": 0.189,
+        "best_seed_std": 0.0295,
+        "best_delta_mean": 0.0053,
+        "best_delta_std": 0.0066,
+        "fixed": {
+          "0.5": {
+            "full": 0.2005,
+            "seed_mean": 0.1695,
+            "seed_std": 0.0352,
+            "delta_mean": -0.0142,
+            "delta_std": 0.0194
+          },
+          "1.0": {
+            "full": 0.1951,
+            "seed_mean": 0.1636,
+            "seed_std": 0.0359,
+            "delta_mean": -0.0201,
+            "delta_std": 0.0209
+          }
+        }
+      },
+      {
+        "class": "truck",
+        "src": "large-vehicle",
+        "base_evalhalf_full": 0.243,
+        "best_evalhalf_full": 0.2897,
+        "best_lam": 0.5,
+        "base_seed_mean": 0.2417,
+        "base_seed_std": 0.0263,
+        "best_seed_mean": 0.2739,
+        "best_seed_std": 0.0272,
+        "best_delta_mean": 0.0322,
+        "best_delta_std": 0.0196,
+        "fixed": {
+          "0.5": {
+            "full": 0.2897,
+            "seed_mean": 0.2646,
+            "seed_std": 0.0256,
+            "delta_mean": 0.0229,
+            "delta_std": 0.0182
+          },
+          "1.0": {
+            "full": 0.2821,
+            "seed_mean": 0.2682,
+            "seed_std": 0.0246,
+            "delta_mean": 0.0265,
+            "delta_std": 0.021
+          }
+        }
+      },
+      {
+        "class": "bus",
+        "src": "large-vehicle",
+        "base_evalhalf_full": 0.5433,
+        "best_evalhalf_full": 0.5539,
+        "best_lam": 0.75,
+        "base_seed_mean": 0.5573,
+        "base_seed_std": 0.0316,
+        "best_seed_mean": 0.569,
+        "best_seed_std": 0.0375,
+        "best_delta_mean": 0.0117,
+        "best_delta_std": 0.0119,
+        "fixed": {
+          "0.5": {
+            "full": 0.5491,
+            "seed_mean": 0.5646,
+            "seed_std": 0.0376,
+            "delta_mean": 0.0074,
+            "delta_std": 0.0101
+          },
+          "1.0": {
+            "full": 0.5531,
+            "seed_mean": 0.566,
+            "seed_std": 0.0382,
+            "delta_mean": 0.0087,
+            "delta_std": 0.014
+          }
+        }
+      },
+      {
+        "class": "motorcycle",
+        "src": "small-vehicle",
+        "base_evalhalf_full": 0.4599,
+        "best_evalhalf_full": 0.463,
+        "best_lam": 0.25,
+        "base_seed_mean": 0.4795,
+        "base_seed_std": 0.0219,
+        "best_seed_mean": 0.4839,
+        "best_seed_std": 0.0233,
+        "best_delta_mean": 0.0044,
+        "best_delta_std": 0.0053,
+        "fixed": {
+          "0.5": {
+            "full": 0.4591,
+            "seed_mean": 0.4722,
+            "seed_std": 0.0292,
+            "delta_mean": -0.0073,
+            "delta_std": 0.0136
+          },
+          "1.0": {
+            "full": 0.4483,
+            "seed_mean": 0.4655,
+            "seed_std": 0.0325,
+            "delta_mean": -0.014,
+            "delta_std": 0.0181
+          }
+        }
+      }
+    ]
+  },
+  "VisDrone": {
+    "base_mean_allcls": 0.367,
+    "fixed1.0_mean_allcls": 0.3542,
+    "diag_mean_allcls": 0.3748,
+    "per_class": [
+      {
+        "class": "bicycle",
+        "src": "bicycle",
+        "base_evalhalf_full": 0.2202,
+        "best_evalhalf_full": 0.2315,
+        "best_lam": 1.0,
+        "base_seed_mean": 0.2098,
+        "base_seed_std": 0.0218,
+        "best_seed_mean": 0.2261,
+        "best_seed_std": 0.0191,
+        "best_delta_mean": 0.0163,
+        "best_delta_std": 0.009,
+        "fixed": {
+          "0.5": {
+            "full": 0.2038,
+            "seed_mean": 0.2071,
+            "seed_std": 0.0294,
+            "delta_mean": -0.0027,
+            "delta_std": 0.0132
+          },
+          "1.0": {
+            "full": 0.2315,
+            "seed_mean": 0.2243,
+            "seed_std": 0.0173,
+            "delta_mean": 0.0144,
+            "delta_std": 0.0115
+          }
+        }
+      },
+      {
+        "class": "car",
+        "src": "car",
+        "base_evalhalf_full": 0.2379,
+        "best_evalhalf_full": 0.2379,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.2234,
+        "base_seed_std": 0.0196,
+        "best_seed_mean": 0.2234,
+        "best_seed_std": 0.0196,
+        "best_delta_mean": 0.0,
+        "best_delta_std": 0.0,
+        "fixed": {
+          "0.5": {
+            "full": 0.2099,
+            "seed_mean": 0.1797,
+            "seed_std": 0.0323,
+            "delta_mean": -0.0436,
+            "delta_std": 0.0294
+          },
+          "1.0": {
+            "full": 0.1993,
+            "seed_mean": 0.1684,
+            "seed_std": 0.0341,
+            "delta_mean": -0.055,
+            "delta_std": 0.0316
+          }
+        }
+      },
+      {
+        "class": "bus",
+        "src": "bus",
+        "base_evalhalf_full": 0.5379,
+        "best_evalhalf_full": 0.5507,
+        "best_lam": 1.0,
+        "base_seed_mean": 0.5519,
+        "base_seed_std": 0.0329,
+        "best_seed_mean": 0.5637,
+        "best_seed_std": 0.0392,
+        "best_delta_mean": 0.0118,
+        "best_delta_std": 0.0096,
+        "fixed": {
+          "0.5": {
+            "full": 0.5457,
+            "seed_mean": 0.5605,
+            "seed_std": 0.0386,
+            "delta_mean": 0.0086,
+            "delta_std": 0.0074
+          },
+          "1.0": {
+            "full": 0.5507,
+            "seed_mean": 0.5623,
+            "seed_std": 0.0396,
+            "delta_mean": 0.0104,
+            "delta_std": 0.0105
+          }
+        }
+      },
+      {
+        "class": "motorcycle",
+        "src": "motor",
+        "base_evalhalf_full": 0.4662,
+        "best_evalhalf_full": 0.4662,
+        "best_lam": 0.0,
+        "base_seed_mean": 0.4828,
+        "base_seed_std": 0.0232,
+        "best_seed_mean": 0.4862,
+        "best_seed_std": 0.0236,
+        "best_delta_mean": 0.0034,
+        "best_delta_std": 0.0049,
+        "fixed": {
+          "0.5": {
+            "full": 0.4511,
+            "seed_mean": 0.4699,
+            "seed_std": 0.0325,
+            "delta_mean": -0.0128,
+            "delta_std": 0.0154
+          },
+          "1.0": {
+            "full": 0.4401,
+            "seed_mean": 0.4619,
+            "seed_std": 0.0339,
+            "delta_mean": -0.0209,
+            "delta_std": 0.0197
+          }
+        }
+      }
+    ]
+  }
+}

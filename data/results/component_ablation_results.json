@@ -1,0 +1,54 @@
+{
+  "config": {
+    "protocol": "A-CSPC component ablation, full val2017, GDINO-tiny, CLIP ViT-B/32",
+    "beta": 2.0,
+    "lam": 0.5,
+    "note": "主配置β=2.0,λ=0.5为目标域调参配置"
+  },
+  "results": {
+    "acspc_main": {
+      "per_class_gain": {
+        "COCO-airplane": 0.0117,
+        "COCO-boat": 0.0253,
+        "COCO-car": 0.0809,
+        "COCO-truck": 0.0774,
+        "COCO-bus": 0.0735,
+        "COCO-motorcycle": 0.1189
+      },
+      "mean_gain": 0.0646
+    },
+    "no_pos_extrap": {
+      "per_class_gain": {
+        "COCO-airplane": 0.0175,
+        "COCO-boat": -0.0113,
+        "COCO-car": -0.0174,
+        "COCO-truck": 0.0154,
+        "COCO-bus": -0.0334,
+        "COCO-motorcycle": 0.0262
+      },
+      "mean_gain": -0.0005
+    },
+    "no_neg_proto": {
+      "per_class_gain": {
+        "COCO-airplane": 0.0079,
+        "COCO-boat": -0.0075,
+        "COCO-car": 0.0039,
+        "COCO-truck": 0.0301,
+        "COCO-bus": 0.0072,
+        "COCO-motorcycle": 0.0807
+      },
+      "mean_gain": 0.0204
+    },
+    "symmetric_extrap": {
+      "per_class_gain": {
+        "COCO-airplane": 0.0126,
+        "COCO-boat": -0.0064,
+        "COCO-car": 0.0055,
+        "COCO-truck": 0.0339,
+        "COCO-bus": 0.006,
+        "COCO-motorcycle": 0.0817
+      },
+      "mean_gain": 0.0222
+    }
+  }
+}

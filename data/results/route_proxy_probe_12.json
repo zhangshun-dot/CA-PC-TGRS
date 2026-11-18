@@ -1,0 +1,110 @@
+{
+  "COCO-airplane": {
+    "auc": 0.635,
+    "n_images": 97,
+    "n_boxes": 2394,
+    "n_pos": 582,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "COCO-boat": {
+    "auc": 0.5264,
+    "n_images": 121,
+    "n_boxes": 993,
+    "n_pos": 245,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "COCO-car": {
+    "auc": 0.7832,
+    "n_images": 500,
+    "n_boxes": 9994,
+    "n_pos": 1300,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "COCO-truck": {
+    "auc": 0.5648,
+    "n_images": 250,
+    "n_boxes": 10200,
+    "n_pos": 1075,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "COCO-bus": {
+    "auc": 0.1999,
+    "n_images": 189,
+    "n_boxes": 881,
+    "n_pos": 252,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "COCO-motorcycle": {
+    "auc": 0.2924,
+    "n_images": 159,
+    "n_boxes": 5496,
+    "n_pos": 1225,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-airplane": {
+    "auc": 0.9098,
+    "n_images": 20,
+    "n_boxes": 2086,
+    "n_pos": 314,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-ship": {
+    "auc": 0.7843,
+    "n_images": 20,
+    "n_boxes": 2552,
+    "n_pos": 393,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-vehicle": {
+    "auc": 0.8997,
+    "n_images": 20,
+    "n_boxes": 2261,
+    "n_pos": 175,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-harbor": {
+    "auc": 0.8521,
+    "n_images": 20,
+    "n_boxes": 2768,
+    "n_pos": 247,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-storage tank": {
+    "auc": 0.9459,
+    "n_images": 20,
+    "n_boxes": 2103,
+    "n_pos": 346,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  },
+  "DIOR-bridge": {
+    "auc": 0.736,
+    "n_images": 20,
+    "n_boxes": 2778,
+    "n_pos": 30,
+    "R_c": null,
+    "head_ratio": null,
+    "stability": null
+  }
+}

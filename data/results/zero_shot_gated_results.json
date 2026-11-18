@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "method": "纯双因子(固定权重)",
+      "rho": -0.14216341903048657,
+      "p": 0.47934669766782356,
+      "mean_gain": 0.0015895472503639763,
+      "median_gain": 0.0007041554846844156,
+      "n_positive": 16,
+      "n_total": 27,
+      "oracle_realization": 9.760153027532109,
+      "mean_gate": 1.0
+    },
+    {
+      "method": "理论闭式解(无门控)",
+      "rho": 0.0,
+      "p": 1.0,
+      "mean_gain": 0.011101291792216302,
+      "median_gain": 0.004842129280829471,
+      "n_positive": 14,
+      "n_total": 27,
+      "oracle_realization": 68.16425662748127,
+      "mean_gate": 1.0
+    },
+    {
+      "method": "门控+双因子(固定权重)",
+      "rho": 0.3777395473055817,
+      "p": 0.05206731168603241,
+      "mean_gain": 0.002168907581415141,
+      "median_gain": 0.0,
+      "n_positive": 11,
+      "n_total": 27,
+      "oracle_realization": 13.317546799781551,
+      "mean_gate": 0.48148148148148145
+    },
+    {
+      "method": "门控+闭式解(零训练)",
+      "rho": 0.5459396121379564,
+      "p": 0.00322181742985963,
+      "mean_gain": 0.01497582587377038,
+      "median_gain": 0.0,
+      "n_positive": 11,
+      "n_total": 27,
+      "oracle_realization": 91.95470735972418,
+      "mean_gate": 0.48148148148148145
+    },
+    {
+      "method": "Oracle(上界)",
+      "rho": 1.0,
+      "p": 0.0,
+      "mean_gain": 0.016286079427902125,
+      "median_gain": 0.004842129280829471,
+      "n_positive": 23,
+      "n_total": 27,
+      "oracle_realization": 99.99993859790561,
+      "mean_gate": 1.0
+    }
+  ],
+  "domain_medians": {
+    "COCO": 0.7292993366718292,
+    "VOC": 0.7367874979972839
+  }
+}

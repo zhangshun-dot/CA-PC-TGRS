@@ -1,0 +1,33 @@
+{
+  "config": {
+    "detector": "yolo-world (yolov8s-worldv2)",
+    "beta": 2.0,
+    "lam": 0.5,
+    "pre_filter": 0.03,
+    "K_calib": 10
+  },
+  "classes": {
+    "motorcycle": {
+      "n_pool": 159,
+      "n_test": 149,
+      "boxes_raw_per_img": 300.0,
+      "boxes_kept_per_img": 5.1,
+      "recall": 0.7411,
+      "base50": 0.6289,
+      "ours50": 0.6266,
+      "gain50": -0.0023,
+      "base_coco": 0.3836,
+      "ours_coco": 0.363,
+      "gain_coco": -0.0206
+    }
+  },
+  "mean": {
+    "base50": 0.6289,
+    "ours50": 0.6266,
+    "gain50": -0.0023,
+    "base_coco": 0.3836,
+    "ours_coco": 0.363,
+    "gain_coco": -0.0206,
+    "recall": 0.7411
+  }
+}

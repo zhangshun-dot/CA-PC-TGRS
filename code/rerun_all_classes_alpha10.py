@@ -1,0 +1,220 @@
+# -*- coding: utf-8 -*-
+"""rerun_all_classes_alpha10.py — 全部类统一扩网格到10（不是只car/person）
+搜索范围不一致会与门控决策直接混淆，必须全部8个类用同一个α网格
+"""
+import sys
+sys.path.insert(0, r'C:\Users\张三\Desktop\实验代码')
+import json
+from pathlib import Path
+import numpy as np
+import tge_probe as T
+from sota_comparison import (
+    SOURCE_LOADERS, build_proto_tge, evaluate_with_features,
+    SRC_TMPL_OVERHEAD, TGT_TMPL,
+)
+
+DATA = Path(r'C:\Users\张三\Desktop\实验数据')
+
+# 统一α网格到10.0
+ALPHAS = [0.0, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0]
+
+
+def compute_sim_factors(target_data, src_proto):
+    features = target_data['features']
+    if len(features) == 0:
+        return {'sim_pos_mean': 0.0, 'sim_pos_std': 0.0}
+    sims = features @ src_proto
+    pos_mask = sims > np.percentile(sims, 25)
+    pos_sims = sims[pos_mask]
+    return {
+        'sim_pos_mean': float(np.mean(pos_sims)) if len(pos_sims) > 0 else 0.0,
+        'sim_pos_std': float(np.std(pos_sims)) if len(pos_sims) > 0 else 0.0,
+    }
+
+
+def compute_sv(target_data):
+    per_img = target_data['per_img']
+    if not per_img:
+        return 0.0
+    sizes = []
+    for img_data in per_img:
+        boxes = img_data['box']
+        if len(boxes) == 0:
+            continue
+        for box in boxes:
+            w = box[2] - box[0]
+            h = box[3] - box[1]
+            sizes.append(w * h)
+    if not sizes:
+        return 0.0
+    return float(np.std(sizes) / (np.mean(sizes) + 1e-8))
+
+
+def compute_tc(target_cls):
+    classes = ['airplane', 'boat', 'car', 'bus', 'motorcycle', 'bicycle', 'truck', 'person']
+    t_emb = T.text_avg([TGT_TMPL], target_cls).cpu().numpy()
+    sims = []
+    for c in classes:
+        if c == target_cls:
+            continue
+        t_c = T.text_avg([TGT_TMPL], c).cpu().numpy()
+        sim = float(t_emb @ t_c / (np.linalg.norm(t_emb) * np.linalg.norm(t_c) + 1e-8))
+        sims.append(sim)
+    return float(max(sims)) if sims else 0.0
+
+
+def compute_m0(target_data, src_proto):
+    features = target_data['features']
+    if len(features) == 0:
+        return 0.0
+    sims = features @ src_proto
+    median_sim = float(np.median(sims))
+    p25_sim = float(np.percentile(sims, 25))
+    m0 = median_sim - p25_sim
+    return max(0.0, m0)
+
+
+def compute_mu(target_data, src_proto, src_cls, target_cls):
+    features = target_data['features']
+    s_emb = T.text_avg([SRC_TMPL_OVERHEAD], src_cls).cpu().numpy()
+    d_emb = T.text_avg([TGT_TMPL], target_cls).cpu().numpy()
+    delta = d_emb - s_emb
+    delta = delta / (np.linalg.norm(delta) + 1e-8)
+    mu = float(np.mean(features @ delta))
+    return abs(mu) + 1e-6
+
+
+def process_sample(src_name, src_cls, target_cls, target_domain, target_loader_func):
+    print(f'\n  处理 {src_name}/{src_cls} -> {target_domain}/{target_cls}...')
+    src_loader = SOURCE_LOADERS[src_name][0]
+    src_data = src_loader(src_cls, n=150)
+    if src_data is None:
+        print(f'    源域数据加载失败，跳过')
+        return None
+    src_proto = src_data['prototype']
+    src_features = src_data['features']
+
+    sims = src_features @ src_proto
+    neg_idx = np.argmin(sims)
+    proto_neg = src_features[neg_idx]
+    proto_neg = proto_neg / (np.linalg.norm(proto_neg) + 1e-8)
+
+    target_data = target_loader_func(target_cls, n=200)
+    if target_data is None:
+        print(f'    目标域数据加载失败，跳过')
+        return None
+
+    sim_factors = compute_sim_factors(target_data, src_proto)
+    sv = compute_sv(target_data)
+    tc = compute_tc(target_cls)
+    m0 = compute_m0(target_data, src_proto)
+    mu = compute_mu(target_data, src_proto, src_cls, target_cls)
+
+    # α网格搜索（统一到10.0）
+    ap_curve = {}
+    for alpha in ALPHAS:
+        if alpha == 0.0:
+            proto = src_proto
+        else:
+            proto = build_proto_tge(src_proto, src_cls, target_cls, beta=alpha)
+        ap = evaluate_with_features(target_data, proto, neg_proto=proto_neg)
+        ap_curve[str(alpha)] = float(ap)
+        print(f'    α={alpha:.1f}: AP={ap:.4f}')
+
+    best_alpha = ALPHAS[0]
+    best_ap = ap_curve[str(ALPHAS[0])]
+    for alpha in ALPHAS:
+        if ap_curve[str(alpha)] > best_ap:
+            best_ap = ap_curve[str(alpha)]
+            best_alpha = alpha
+
+    baseline_ap = ap_curve['0.0']
+
+    return {
+        'src': src_name, 'src_cls': src_cls, 'target_cls': target_cls,
+        'target_domain': target_domain,
+        'sv': sv, 'tc': tc, 'm0': m0, 'mu': mu,
+        'sim_pos_mean': sim_factors['sim_pos_mean'],
+        'sim_pos_std': sim_factors['sim_pos_std'],
+        'best_alpha': float(best_alpha), 'best_ap': float(best_ap),
+        'baseline_ap': float(baseline_ap),
+        'oracle_gain': float(best_ap - baseline_ap),
+        'ap_curve': ap_curve,
+    }
+
+
+def main():
+    print('=' * 80)
+    print('全部类统一扩网格到10（不是只car/person）')
+    print('=' * 80)
+
+    # 加载现有数据
+    samples_file = DATA / 'zero_shot_gated_samples_extended_alpha.json'
+    with open(samples_file, 'r', encoding='utf-8') as f:
+        all_samples = json.load(f)
+    print(f'\n现有样本数: {len(all_samples)}')
+
+    # 找出需要重跑的样本（ap_curve没有到10.0的）
+    samples_to_rerun = []
+    samples_to_keep = []
+    for s in all_samples:
+        has_alpha_10 = '10.0' in s['ap_curve']
+        if not has_alpha_10:
+            samples_to_rerun.append(s)
+        else:
+            samples_to_keep.append(s)
+
+    print(f'\n需要重跑的样本数: {len(samples_to_rerun)}')
+    print(f'保留的样本数: {len(samples_to_keep)}')
+    print(f'\n需要重跑的样本:')
+    for s in samples_to_rerun:
+        print(f'  {s["src"]}/{s["src_cls"]} -> {s["target_domain"]}/{s["target_cls"]}')
+
+    # 重跑
+    print(f'\n{"=" * 80}')
+    print('开始重跑...')
+    print(f'{"=" * 80}')
+
+    from sota_comparison import load_target_coco
+    from voc_sota_comparison import load_target_voc
+
+    rerun_results = []
+    for i, s in enumerate(samples_to_rerun):
+        print(f'\n--- 重跑第 {i+1}/{len(samples_to_rerun)} 个样本 ---')
+        target_loader = load_target_coco if s['target_domain'] == 'COCO' else load_target_voc
+        result = process_sample(
+            s['src'], s['src_cls'], s['target_cls'],
+            s['target_domain'], target_loader
+        )
+        if result:
+            rerun_results.append(result)
+            print(f'  重跑完成，最优α={result["best_alpha"]}, 增益={result["oracle_gain"]:+.4f}')
+
+    # 合并结果
+    final_samples = samples_to_keep + rerun_results
+    print(f'\n{"=" * 80}')
+    print(f'重跑完成！最终样本数: {len(final_samples)}')
+    print(f'{"=" * 80}')
+
+    # 统计所有样本的α网格是否都到10.0
+    all_have_10 = all('10.0' in s['ap_curve'] for s in final_samples)
+    print(f'\n所有样本的α网格都到10.0: {all_have_10}')
+
+    # 统计各类的最优α分布
+    print(f'\n--- 各类最优α分布 ---')
+    classes = sorted(set(s['target_cls'] for s in final_samples))
+    for cls in classes:
+        cls_samples = [s for s in final_samples if s['target_cls'] == cls]
+        best_alphas = [s['best_alpha'] for s in cls_samples]
+        oracle_gains = [s['oracle_gain'] for s in cls_samples]
+        print(f'  {cls}: n={len(cls_samples)}, 最优α范围=[{min(best_alphas)}, {max(best_alphas)}], '
+              f'平均Oracle增益={np.mean(oracle_gains):+.4f}')
+
+    # 保存
+    with open(samples_file, 'w', encoding='utf-8') as f:
+        json.dump(final_samples, f, indent=2, ensure_ascii=False)
+    print(f'\n结果已保存到: {samples_file}')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,68 @@
+{
+  "airplane": {
+    "category": "airplane",
+    "V": 1.3925,
+    "M": 1.3925,
+    "S": 1.3925,
+    "I": 1.3925,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  },
+  "boat": {
+    "category": "boat",
+    "V": 2.3025,
+    "M": 2.3025,
+    "S": 2.3025,
+    "I": 2.3025,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  },
+  "car": {
+    "category": "car",
+    "V": 3.2275,
+    "M": 3.2275,
+    "S": 3.2275,
+    "I": 3.2275,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  },
+  "truck": {
+    "category": "truck",
+    "V": 2.9575,
+    "M": 2.9575,
+    "S": 2.9575,
+    "I": 2.9575,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  },
+  "bus": {
+    "category": "bus",
+    "V": 2.5475,
+    "M": 2.5475,
+    "S": 2.5475,
+    "I": 2.5475,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  },
+  "motorcycle": {
+    "category": "motorcycle",
+    "V": 3.2375,
+    "M": 3.2375,
+    "S": 3.2375,
+    "I": 3.2375,
+    "source": "stored",
+    "confidence": 1.0,
+    "raw_response": "R(c) from m3_cluster_bootstrap.json stored risk library",
+    "generated_at": "m3"
+  }
+}

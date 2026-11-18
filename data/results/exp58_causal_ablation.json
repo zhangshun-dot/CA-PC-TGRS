@@ -1,0 +1,66 @@
+{
+  "experiment": "Exp58_causal_ablation",
+  "detector": "RT-DETR",
+  "protocol": "DIOR->COCO 2x2 (same as Exp5)",
+  "n_coco": 250,
+  "n_dior": 60,
+  "n_dior_dets": 274,
+  "N_DIOR_arg": 400,
+  "dc_mag_mean": 0.5882,
+  "P_scale": 3.4001,
+  "conf_median": 0.4482,
+  "conf_iqr": 0.3215,
+  "coco_raw_ap50": 0.7492,
+  "dior": {
+    "raw_ap50": 0.1142,
+    "l2align_ap50": 0.116,
+    "l2neg_ap50": 0.1152,
+    "gate_only_ap50": 0.1146,
+    "dc_only_ap50": 0.1121,
+    "proposed_ap50": 0.1083,
+    "oracle_ap50": 0.1153,
+    "random_dir_ap50": 0.1043,
+    "neg_dc_ap50": 0.1005,
+    "proposed_minus_raw": -0.0059,
+    "oracle_minus_raw": 0.0011,
+    "neg_dc_minus_raw": -0.0137,
+    "random_minus_raw": -0.0099,
+    "per_class": {
+      "raw": {
+        "airplane": 0.4337,
+        "ship": 0.0942,
+        "vehicle": 0.0394
+      },
+      "l2align": {
+        "airplane": 0.4345,
+        "ship": 0.0957,
+        "vehicle": 0.0414
+      },
+      "proposed": {
+        "airplane": 0.4118,
+        "ship": 0.0933,
+        "vehicle": 0.0362
+      },
+      "oracle": {
+        "airplane": 0.4312,
+        "ship": 0.0958,
+        "vehicle": 0.0412
+      }
+    }
+  },
+  "oracle_per_class_m": {
+    "car": 0.75,
+    "truck": 0.0,
+    "bus": 0.25,
+    "motorcycle": 1.0,
+    "boat": 0.25,
+    "airplane": 0.0
+  },
+  "exp5_reference": {
+    "raw_ap50": 0.1142,
+    "l2align_ap50": 0.116,
+    "capc_ap50": 0.1058,
+    "total_capc_gain": -0.0084,
+    "note": "Exp5 fixed-gamma 2x2 (N_DIOR=60)"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "beta": 2.0,
+    "neg_lam": 0.5,
+    "n_coco_src": 500,
+    "protocol": "GDINO th=0 -> pre-filter 0.03 -> image-safe per-image AP50 (2026-08-23 修正, COCO→DIOR 反向)"
+  },
+  "classes": {
+    "DIOR-airplane": {
+      "baseline": 0.4357,
+      "B2_src": 0.4484,
+      "extrap": 0.3909,
+      "T4_text": 0.2708,
+      "n_images": 20,
+      "n_boxes": 2086
+    },
+    "DIOR-ship": {
+      "baseline": 0.2243,
+      "B2_src": 0.2488,
+      "extrap": 0.2104,
+      "T4_text": 0.1937,
+      "n_images": 20,
+      "n_boxes": 2552
+    },
+    "DIOR-vehicle": {
+      "baseline": 0.2558,
+      "B2_src": 0.344,
+      "extrap": 0.2415,
+      "T4_text": 0.2134,
+      "n_images": 20,
+      "n_boxes": 2261
+    }
+  }
+}

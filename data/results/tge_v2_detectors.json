@@ -1,0 +1,175 @@
+{
+  "config": {
+    "protocol": "v2 frozen: β=1.0 λ=0.25, full val2017, per-image AP50 + COCO AP@0.5:0.95; OWLv2 raw-logit pre-filter 0.03",
+    "beta": 1.0,
+    "neg_lam": 0.25
+  },
+  "gdino_tiny_mean": {
+    "base50": 0.3707,
+    "b2_50": 0.368,
+    "t4_50": 0.4021,
+    "ours50": 0.3874,
+    "gain50": 0.0166,
+    "base_coco": 0.2872,
+    "ours_coco": 0.299,
+    "gain_coco": 0.0118
+  },
+  "gdino_base": {
+    "classes": {
+      "COCO-airplane": {
+        "n_pool": 97,
+        "n_test": 87,
+        "recall": 0.979,
+        "base50": 0.7922,
+        "ours50": 0.8059,
+        "gain50": 0.0137,
+        "base_coco": 0.6728,
+        "ours_coco": 0.6766,
+        "gain_coco": 0.0038
+      },
+      "COCO-boat": {
+        "n_pool": 121,
+        "n_test": 111,
+        "recall": 0.7453,
+        "base50": 0.3233,
+        "ours50": 0.3169,
+        "gain50": -0.0065,
+        "base_coco": 0.2002,
+        "ours_coco": 0.1933,
+        "gain_coco": -0.0068
+      },
+      "COCO-car": {
+        "n_pool": 535,
+        "n_test": 525,
+        "recall": 0.7424,
+        "base50": 0.1455,
+        "ours50": 0.1776,
+        "gain50": 0.0321,
+        "base_coco": 0.0844,
+        "ours_coco": 0.1052,
+        "gain_coco": 0.0208
+      },
+      "COCO-truck": {
+        "n_pool": 250,
+        "n_test": 240,
+        "recall": 0.872,
+        "base50": 0.2408,
+        "ours50": 0.2182,
+        "gain50": -0.0226,
+        "base_coco": 0.1621,
+        "ours_coco": 0.1632,
+        "gain_coco": 0.0011
+      },
+      "COCO-bus": {
+        "n_pool": 189,
+        "n_test": 179,
+        "recall": 0.9399,
+        "base50": 0.5419,
+        "ours50": 0.5221,
+        "gain50": -0.0198,
+        "base_coco": 0.4845,
+        "ours_coco": 0.4663,
+        "gain_coco": -0.0182
+      },
+      "COCO-motorcycle": {
+        "n_pool": 159,
+        "n_test": 149,
+        "recall": 0.9019,
+        "base50": 0.3782,
+        "ours50": 0.4302,
+        "gain50": 0.0519,
+        "base_coco": 0.282,
+        "ours_coco": 0.3096,
+        "gain_coco": 0.0277
+      }
+    },
+    "mean": {
+      "base50": 0.4037,
+      "ours50": 0.4118,
+      "gain50": 0.0081,
+      "base_coco": 0.3143,
+      "ours_coco": 0.319,
+      "gain_coco": 0.0047,
+      "recall": 0.8634
+    }
+  },
+  "owlv2": {
+    "classes": {
+      "COCO-airplane": {
+        "n_pool": 97,
+        "n_test": 87,
+        "recall": 0.972,
+        "base50": 0.8706,
+        "ours50": 0.8549,
+        "gain50": -0.0157,
+        "base_coco": 0.7032,
+        "ours_coco": 0.6799,
+        "gain_coco": -0.0233
+      },
+      "COCO-boat": {
+        "n_pool": 121,
+        "n_test": 111,
+        "recall": 0.7783,
+        "base50": 0.5196,
+        "ours50": 0.4919,
+        "gain50": -0.0277,
+        "base_coco": 0.2766,
+        "ours_coco": 0.2427,
+        "gain_coco": -0.0339
+      },
+      "COCO-car": {
+        "n_pool": 535,
+        "n_test": 525,
+        "recall": 0.8055,
+        "base50": 0.5708,
+        "ours50": 0.5374,
+        "gain50": -0.0334,
+        "base_coco": 0.3504,
+        "ours_coco": 0.3102,
+        "gain_coco": -0.0403
+      },
+      "COCO-truck": {
+        "n_pool": 250,
+        "n_test": 240,
+        "recall": 0.9638,
+        "base50": 0.5353,
+        "ours50": 0.4468,
+        "gain50": -0.0885,
+        "base_coco": 0.3345,
+        "ours_coco": 0.2663,
+        "gain_coco": -0.0682
+      },
+      "COCO-bus": {
+        "n_pool": 189,
+        "n_test": 179,
+        "recall": 0.9682,
+        "base50": 0.8648,
+        "ours50": 0.8152,
+        "gain50": -0.0496,
+        "base_coco": 0.6668,
+        "ours_coco": 0.5985,
+        "gain_coco": -0.0682
+      },
+      "COCO-motorcycle": {
+        "n_pool": 159,
+        "n_test": 149,
+        "recall": 0.921,
+        "base50": 0.7189,
+        "ours50": 0.6904,
+        "gain50": -0.0284,
+        "base_coco": 0.4182,
+        "ours_coco": 0.3747,
+        "gain_coco": -0.0435
+      }
+    },
+    "mean": {
+      "base50": 0.68,
+      "ours50": 0.6394,
+      "gain50": -0.0406,
+      "base_coco": 0.4583,
+      "ours_coco": 0.412,
+      "gain_coco": -0.0462,
+      "recall": 0.9015
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "per_task": {
+    "same_dior2dior": {
+      "airplane": {
+        "baseline": 0.3891,
+        "plus_b0.0": 0.0407,
+        "plus_b0.5": 0.0409,
+        "plus_b1.0": 0.0441,
+        "plus_b1.5": 0.0492,
+        "plus_b2.0": 0.0534,
+        "plus_b3.0": 0.0431,
+        "plus_b4.0": -0.0098,
+        "minus_b0.0": 0.0407,
+        "minus_b0.5": 0.0385,
+        "minus_b1.0": 0.0352,
+        "minus_b1.5": 0.0357,
+        "minus_b2.0": 0.0262,
+        "minus_b3.0": -0.0029,
+        "minus_b4.0": -0.0984
+      },
+      "ship": {
+        "baseline": 0.2793,
+        "plus_b0.0": 0.0544,
+        "plus_b0.5": 0.0698,
+        "plus_b1.0": 0.0822,
+        "plus_b1.5": 0.101,
+        "plus_b2.0": 0.113,
+        "plus_b3.0": -0.0109,
+        "plus_b4.0": -0.0268,
+        "minus_b0.0": 0.0544,
+        "minus_b0.5": 0.0457,
+        "minus_b1.0": 0.0337,
+        "minus_b1.5": 0.0216,
+        "minus_b2.0": 0.0111,
+        "minus_b3.0": -0.0728,
+        "minus_b4.0": -0.0941
+      },
+      "vehicle": {
+        "baseline": 0.1155,
+        "plus_b0.0": 0.0571,
+        "plus_b0.5": 0.0642,
+        "plus_b1.0": 0.0755,
+        "plus_b1.5": 0.0823,
+        "plus_b2.0": 0.0703,
+        "plus_b3.0": 0.0324,
+        "plus_b4.0": -0.0522,
+        "minus_b0.0": 0.0571,
+        "minus_b0.5": 0.053,
+        "minus_b1.0": 0.0419,
+        "minus_b1.5": 0.0331,
+        "minus_b2.0": 0.0244,
+        "minus_b3.0": -0.0639,
+        "minus_b4.0": -0.1011
+      }
+    },
+    "same_coco2coco": {
+      "airplane": {
+        "baseline": 0.8067,
+        "plus_b0.0": 0.0046,
+        "plus_b0.5": 0.0012,
+        "plus_b1.0": -0.0019,
+        "plus_b1.5": -0.0119,
+        "plus_b2.0": -0.0425,
+        "plus_b3.0": -0.1275,
+        "plus_b4.0": -0.2762,
+        "minus_b0.0": 0.0046,
+        "minus_b0.5": 0.0058,
+        "minus_b1.0": 0.0058,
+        "minus_b1.5": 0.0053,
+        "minus_b2.0": 0.0007,
+        "minus_b3.0": -0.1202,
+        "minus_b4.0": -0.4302
+      },
+      "boat": {
+        "baseline": 0.1623,
+        "plus_b0.0": 0.0113,
+        "plus_b0.5": 0.0123,
+        "plus_b1.0": 0.016,
+        "plus_b1.5": 0.0151,
+        "plus_b2.0": 0.0153,
+        "plus_b3.0": 0.0341,
+        "plus_b4.0": 0.0199,
+        "minus_b0.0": 0.0113,
+        "minus_b0.5": 0.016,
+        "minus_b1.0": 0.0168,
+        "minus_b1.5": 0.0149,
+        "minus_b2.0": 0.0201,
+        "minus_b3.0": -0.0104,
+        "minus_b4.0": 0.0115
+      },
+      "car": {
+        "baseline": 0.135,
+        "plus_b0.0": 0.0458,
+        "plus_b0.5": 0.0477,
+        "plus_b1.0": 0.0554,
+        "plus_b1.5": 0.0662,
+        "plus_b2.0": 0.0845,
+        "plus_b3.0": 0.2046,
+        "plus_b4.0": 0.1324,
+        "minus_b0.0": 0.0458,
+        "minus_b0.5": 0.0464,
+        "minus_b1.0": 0.0383,
+        "minus_b1.5": 0.0301,
+        "minus_b2.0": 0.0153,
+        "minus_b3.0": -0.0417,
+        "minus_b4.0": -0.0101
+      }
+    },
+    "rev_coco2dior": {
+      "airplane": {
+        "baseline": 0.3891,
+        "plus_b0.0": 0.0183,
+        "plus_b0.5": 0.0178,
+        "plus_b1.0": 0.0167,
+        "plus_b1.5": 0.0147,
+        "plus_b2.0": 0.0057,
+        "plus_b3.0": -0.1069,
+        "plus_b4.0": 0.0,
+        "minus_b0.0": 0.0183,
+        "minus_b0.5": 0.0164,
+        "minus_b1.0": 0.0123,
+        "minus_b1.5": 0.0024,
+        "minus_b2.0": -0.0099,
+        "minus_b3.0": -0.0617,
+        "minus_b4.0": -0.1328
+      },
+      "ship": {
+        "baseline": 0.2793,
+        "plus_b0.0": 0.0124,
+        "plus_b0.5": 0.0216,
+        "plus_b1.0": 0.0334,
+        "plus_b1.5": 0.0507,
+        "plus_b2.0": 0.0785,
+        "plus_b3.0": -0.0016,
+        "plus_b4.0": -0.0076,
+        "minus_b0.0": 0.0124,
+        "minus_b0.5": 0.0063,
+        "minus_b1.0": -0.0016,
+        "minus_b1.5": -0.0139,
+        "minus_b2.0": -0.0337,
+        "minus_b3.0": -0.1003,
+        "minus_b4.0": -0.1065
+      },
+      "vehicle": {
+        "baseline": 0.1155,
+        "plus_b0.0": 0.0573,
+        "plus_b0.5": 0.0619,
+        "plus_b1.0": 0.07,
+        "plus_b1.5": 0.0808,
+        "plus_b2.0": 0.0811,
+        "plus_b3.0": 0.0396,
+        "plus_b4.0": -0.0589,
+        "minus_b0.0": 0.0573,
+        "minus_b0.5": 0.0453,
+        "minus_b1.0": 0.0369,
+        "minus_b1.5": 0.0294,
+        "minus_b2.0": 0.0189,
+        "minus_b3.0": -0.0052,
+        "minus_b4.0": -0.0875
+      }
+    },
+    "fwd_dior2coco": {
+      "airplane": {
+        "baseline": 0.8067,
+        "plus_b0.0": 0.0425,
+        "plus_b0.5": 0.044,
+        "plus_b1.0": 0.0457,
+        "plus_b1.5": 0.0415,
+        "plus_b2.0": 0.0323,
+        "plus_b3.0": -0.0393,
+        "plus_b4.0": -0.2791,
+        "minus_b0.0": 0.0425,
+        "minus_b0.5": 0.045,
+        "minus_b1.0": 0.0444,
+        "minus_b1.5": 0.0477,
+        "minus_b2.0": 0.0453,
+        "minus_b3.0": -0.0306,
+        "minus_b4.0": -0.4284
+      },
+      "boat": {
+        "baseline": 0.1623,
+        "plus_b0.0": 0.017,
+        "plus_b0.5": 0.0094,
+        "plus_b1.0": 0.0055,
+        "plus_b1.5": 0.0059,
+        "plus_b2.0": 0.0036,
+        "plus_b3.0": 0.001,
+        "plus_b4.0": -0.0336,
+        "minus_b0.0": 0.017,
+        "minus_b0.5": 0.0161,
+        "minus_b1.0": 0.0164,
+        "minus_b1.5": 0.0121,
+        "minus_b2.0": 0.0037,
+        "minus_b3.0": -0.028,
+        "minus_b4.0": -0.0055
+      },
+      "car": {
+        "baseline": 0.135,
+        "plus_b0.0": 0.0189,
+        "plus_b0.5": 0.027,
+        "plus_b1.0": 0.0355,
+        "plus_b1.5": 0.0424,
+        "plus_b2.0": 0.0607,
+        "plus_b3.0": 0.1408,
+        "plus_b4.0": 0.1014,
+        "minus_b0.0": 0.0189,
+        "minus_b0.5": 0.0116,
+        "minus_b1.0": 0.0049,
+        "minus_b1.5": -0.0071,
+        "minus_b2.0": -0.0201,
+        "minus_b3.0": -0.0518,
+        "minus_b4.0": -0.0011
+      }
+    }
+  },
+  "beta_selection": {
+    "rev_coco2dior": {
+      "selected_on": "same_coco2coco",
+      "source_best": [
+        "plus",
+        3.0
+      ],
+      "source_gain": 0.0371,
+      "cross_gain_at_source_beta": -0.023,
+      "oracle_best": [
+        "plus",
+        2.0
+      ],
+      "cross_gain_at_oracle": 0.0551
+    },
+    "fwd_dior2coco": {
+      "selected_on": "same_dior2dior",
+      "source_best": [
+        "plus",
+        2.0
+      ],
+      "source_gain": 0.0789,
+      "cross_gain_at_source_beta": 0.0322,
+      "oracle_best": [
+        "plus",
+        3.0
+      ],
+      "cross_gain_at_oracle": 0.0342
+    }
+  },
+  "betas": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "rows": [
+    {
+      "src": "DIOR",
+      "cls": "airplane",
+      "src_cls": "airplane",
+      "best_beta": -1.5,
+      "lab_sign_pos": 0,
+      "lab_ext_helpful": 0,
+      "gain_b2_vs_b0": -0.0058,
+      "gain_at_b2": 0.0117,
+      "gain_at_neg": -0.365,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2910579159686587,
+        "c2_cos_psrc_dsrc": 0.30851601542512896,
+        "c3_psrc_dot_delta": -0.017458099456470193,
+        "c4_cos_dtgt_dsrc": 0.8770654476961617,
+        "c4b_norm_delta": 0.49585189785628175,
+        "c5_cos_psrc_meanothers": 0.9570044576250647,
+        "c6_cos_psrc_pneg": 0.9701993364228572,
+        "c7_cos_oth_mean": 0.8990178873514391,
+        "c7b_cos_oth_max": 0.9645705456982332,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06468929796177302,
+        "c8c_boxes_per_img": 22.908045977011493
+      }
+    },
+    {
+      "src": "DIOR",
+      "cls": "boat",
+      "src_cls": "ship",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0366,
+      "gain_at_b2": 0.0253,
+      "gain_at_neg": -0.057,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.23853402639991206,
+        "c2_cos_psrc_dsrc": 0.23606657227265027,
+        "c3_psrc_dot_delta": 0.002467454127261714,
+        "c4_cos_dtgt_dsrc": 0.8204352591477843,
+        "c4b_norm_delta": 0.5992741290131182,
+        "c5_cos_psrc_meanothers": 0.936282863777951,
+        "c6_cos_psrc_pneg": 0.9863467606870736,
+        "c7_cos_oth_mean": 0.8805215681775632,
+        "c7b_cos_oth_max": 0.991039802288979,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.05509415866804989,
+        "c8c_boxes_per_img": 7.936936936936937
+      }
+    },
+    {
+      "src": "DIOR",
+      "cls": "car",
+      "src_cls": "vehicle",
+      "best_beta": 3.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0983,
+      "gain_at_b2": 0.0809,
+      "gain_at_neg": -0.0659,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24715010327054143,
+        "c2_cos_psrc_dsrc": 0.23872812437301888,
+        "c3_psrc_dot_delta": 0.008421978897522574,
+        "c4_cos_dtgt_dsrc": 0.8161714711582955,
+        "c4b_norm_delta": 0.606347307805856,
+        "c5_cos_psrc_meanothers": 0.9381702704619546,
+        "c6_cos_psrc_pneg": 0.9900834762044017,
+        "c7_cos_oth_mean": 0.8822080180341145,
+        "c7b_cos_oth_max": 0.991039802288979,
+        "c8_frac_vis_pos_b2": 0.9960071870632861,
+        "c8b_gd_mean": 0.0580491084818531,
+        "c8c_boxes_per_img": 19.081904761904763
+      }
+    },
+    {
+      "src": "DIOR",
+      "cls": "truck",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.062,
+      "gain_at_b2": 0.0774,
+      "gain_at_neg": -0.1705,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24148720543325042,
+        "c2_cos_psrc_dsrc": 0.23872812437301888,
+        "c3_psrc_dot_delta": 0.0027590810602315698,
+        "c4_cos_dtgt_dsrc": 0.787136617641139,
+        "c4b_norm_delta": 0.6524774055227678,
+        "c5_cos_psrc_meanothers": 0.9381702704619546,
+        "c6_cos_psrc_pneg": 0.9900834762044017,
+        "c7_cos_oth_mean": 0.8822080180341145,
+        "c7b_cos_oth_max": 0.991039802288979,
+        "c8_frac_vis_pos_b2": 0.9742403532751551,
+        "c8b_gd_mean": 0.06412495296217768,
+        "c8c_boxes_per_img": 39.62916666666667
+      }
+    },
+    {
+      "src": "DIOR",
+      "cls": "bus",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.1069,
+      "gain_at_b2": 0.0735,
+      "gain_at_neg": -0.36,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24034897453441154,
+        "c2_cos_psrc_dsrc": 0.23872812437301888,
+        "c3_psrc_dot_delta": 0.001620850161392671,
+        "c4_cos_dtgt_dsrc": 0.7798097766345389,
+        "c4b_norm_delta": 0.6636116686217344,
+        "c5_cos_psrc_meanothers": 0.9381702704619546,
+        "c6_cos_psrc_pneg": 0.9900834762044017,
+        "c7_cos_oth_mean": 0.8822080180341145,
+        "c7b_cos_oth_max": 0.991039802288979,
+        "c8_frac_vis_pos_b2": 0.9915458937198067,
+        "c8b_gd_mean": 0.06003975520666311,
+        "c8c_boxes_per_img": 4.625698324022347
+      }
+    },
+    {
+      "src": "DIOR",
+      "cls": "motorcycle",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0927,
+      "gain_at_b2": 0.1189,
+      "gain_at_neg": -0.3481,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24375650688804526,
+        "c2_cos_psrc_dsrc": 0.23872812437301888,
+        "c3_psrc_dot_delta": 0.0050283825150263545,
+        "c4_cos_dtgt_dsrc": 0.7579307979105381,
+        "c4b_norm_delta": 0.6958005491366936,
+        "c5_cos_psrc_meanothers": 0.9381702704619546,
+        "c6_cos_psrc_pneg": 0.9900834762044017,
+        "c7_cos_oth_mean": 0.8822080180341145,
+        "c7b_cos_oth_max": 0.991039802288979,
+        "c8_frac_vis_pos_b2": 0.9790575916230366,
+        "c8b_gd_mean": 0.054463728696731994,
+        "c8c_boxes_per_img": 33.328859060402685
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "airplane",
+      "src_cls": "airplane",
+      "best_beta": 0.5,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 0,
+      "gain_b2_vs_b0": -0.0069,
+      "gain_at_b2": 0.0099,
+      "gain_at_neg": -0.3829,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2967200109817993,
+        "c2_cos_psrc_dsrc": 0.3249381808028463,
+        "c3_psrc_dot_delta": -0.028218169821047065,
+        "c4_cos_dtgt_dsrc": 0.8770654476961617,
+        "c4b_norm_delta": 0.49585189785628175,
+        "c5_cos_psrc_meanothers": 0.8819665150686579,
+        "c6_cos_psrc_pneg": 0.8979935779609893,
+        "c7_cos_oth_mean": 0.816385127730108,
+        "c7b_cos_oth_max": 0.8842440364056087,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06468929796177302,
+        "c8c_boxes_per_img": 22.908045977011493
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "boat",
+      "src_cls": "ship",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0337,
+      "gain_at_b2": 0.0297,
+      "gain_at_neg": -0.0493,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24672488533317943,
+        "c2_cos_psrc_dsrc": 0.27196570930151853,
+        "c3_psrc_dot_delta": -0.02524082396833907,
+        "c4_cos_dtgt_dsrc": 0.8204352591477843,
+        "c4b_norm_delta": 0.5992741290131182,
+        "c5_cos_psrc_meanothers": 0.9217207036779684,
+        "c6_cos_psrc_pneg": 0.9524624428664751,
+        "c7_cos_oth_mean": 0.8495103719454313,
+        "c7b_cos_oth_max": 0.9293041085049049,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.05509415866804989,
+        "c8c_boxes_per_img": 7.936936936936937
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "car",
+      "src_cls": "vehicle",
+      "best_beta": 3.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.068,
+      "gain_at_b2": 0.0734,
+      "gain_at_neg": -0.0619,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2660394170592991,
+        "c2_cos_psrc_dsrc": 0.2704110050361591,
+        "c3_psrc_dot_delta": -0.004371587976859973,
+        "c4_cos_dtgt_dsrc": 0.8161714711582955,
+        "c4b_norm_delta": 0.606347307805856,
+        "c5_cos_psrc_meanothers": 0.9122533489653781,
+        "c6_cos_psrc_pneg": 0.9370171240666774,
+        "c7_cos_oth_mean": 0.841648862484304,
+        "c7b_cos_oth_max": 0.9247160197391713,
+        "c8_frac_vis_pos_b2": 0.9919145538031543,
+        "c8b_gd_mean": 0.0580491084818531,
+        "c8c_boxes_per_img": 19.081904761904763
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "truck",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0472,
+      "gain_at_b2": 0.0563,
+      "gain_at_neg": -0.1682,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2559586688872845,
+        "c2_cos_psrc_dsrc": 0.2704110050361591,
+        "c3_psrc_dot_delta": -0.014452336148874574,
+        "c4_cos_dtgt_dsrc": 0.787136617641139,
+        "c4b_norm_delta": 0.6524774055227678,
+        "c5_cos_psrc_meanothers": 0.9122533489653781,
+        "c6_cos_psrc_pneg": 0.9370171240666774,
+        "c7_cos_oth_mean": 0.841648862484304,
+        "c7b_cos_oth_max": 0.9247160197391713,
+        "c8_frac_vis_pos_b2": 0.9690884239301861,
+        "c8b_gd_mean": 0.06412495296217768,
+        "c8c_boxes_per_img": 39.62916666666667
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "bus",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.1079,
+      "gain_at_b2": 0.0669,
+      "gain_at_neg": -0.3624,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.25396082480759696,
+        "c2_cos_psrc_dsrc": 0.2704110050361591,
+        "c3_psrc_dot_delta": -0.01645018022856219,
+        "c4_cos_dtgt_dsrc": 0.7798097766345389,
+        "c4b_norm_delta": 0.6636116686217344,
+        "c5_cos_psrc_meanothers": 0.9122533489653781,
+        "c6_cos_psrc_pneg": 0.9370171240666774,
+        "c7_cos_oth_mean": 0.841648862484304,
+        "c7b_cos_oth_max": 0.9247160197391713,
+        "c8_frac_vis_pos_b2": 0.9915458937198067,
+        "c8b_gd_mean": 0.06003975520666311,
+        "c8c_boxes_per_img": 4.625698324022347
+      }
+    },
+    {
+      "src": "NWPU",
+      "cls": "motorcycle",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0774,
+      "gain_at_b2": 0.1111,
+      "gain_at_neg": -0.341,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2505629636421146,
+        "c2_cos_psrc_dsrc": 0.2704110050361591,
+        "c3_psrc_dot_delta": -0.019848041394044533,
+        "c4_cos_dtgt_dsrc": 0.7579307979105381,
+        "c4b_norm_delta": 0.6958005491366936,
+        "c5_cos_psrc_meanothers": 0.9122533489653781,
+        "c6_cos_psrc_pneg": 0.9370171240666774,
+        "c7_cos_oth_mean": 0.841648862484304,
+        "c7b_cos_oth_max": 0.9247160197391713,
+        "c8_frac_vis_pos_b2": 0.9810712847362062,
+        "c8b_gd_mean": 0.054463728696731994,
+        "c8c_boxes_per_img": 33.328859060402685
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "airplane",
+      "src_cls": "plane",
+      "best_beta": -0.5,
+      "lab_sign_pos": 0,
+      "lab_ext_helpful": 0,
+      "gain_b2_vs_b0": -0.0183,
+      "gain_at_b2": 0.0033,
+      "gain_at_neg": -0.2626,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.3059201361202087,
+        "c2_cos_psrc_dsrc": 0.34346007862926936,
+        "c3_psrc_dot_delta": -0.03753994250906069,
+        "c4_cos_dtgt_dsrc": 0.8382072844004355,
+        "c4b_norm_delta": 0.5688457006949506,
+        "c5_cos_psrc_meanothers": 0.8744401060239969,
+        "c6_cos_psrc_pneg": 0.9132764027635891,
+        "c7_cos_oth_mean": 0.8150118614638167,
+        "c7b_cos_oth_max": 0.909508299059314,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06468929796177302,
+        "c8c_boxes_per_img": 22.908045977011493
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "boat",
+      "src_cls": "ship",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0349,
+      "gain_at_b2": 0.02,
+      "gain_at_neg": -0.0641,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24149212571956974,
+        "c2_cos_psrc_dsrc": 0.23767067458158628,
+        "c3_psrc_dot_delta": 0.0038214511379834892,
+        "c4_cos_dtgt_dsrc": 0.8204352591477843,
+        "c4b_norm_delta": 0.5992741290131182,
+        "c5_cos_psrc_meanothers": 0.9382740731244645,
+        "c6_cos_psrc_pneg": 0.9823562006069501,
+        "c7_cos_oth_mean": 0.870979104463893,
+        "c7b_cos_oth_max": 0.9812852876348694,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.05509415866804989,
+        "c8c_boxes_per_img": 7.936936936936937
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "car",
+      "src_cls": "vehicle",
+      "best_beta": 3.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0889,
+      "gain_at_b2": 0.0698,
+      "gain_at_neg": -0.0676,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24833045185395164,
+        "c2_cos_psrc_dsrc": 0.2519094815808142,
+        "c3_psrc_dot_delta": -0.0035790297268625663,
+        "c4_cos_dtgt_dsrc": 0.8161714711582955,
+        "c4b_norm_delta": 0.606347307805856,
+        "c5_cos_psrc_meanothers": 0.9652665653783941,
+        "c6_cos_psrc_pneg": 0.9971358434766759,
+        "c7_cos_oth_mean": 0.8945053518622867,
+        "c7b_cos_oth_max": 0.9929115516521982,
+        "c8_frac_vis_pos_b2": 0.9996007187063286,
+        "c8b_gd_mean": 0.0580491084818531,
+        "c8c_boxes_per_img": 19.081904761904763
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "truck",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0556,
+      "gain_at_b2": 0.0735,
+      "gain_at_neg": -0.1739,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24512136505840337,
+        "c2_cos_psrc_dsrc": 0.2519094815808142,
+        "c3_psrc_dot_delta": -0.006788116522410879,
+        "c4_cos_dtgt_dsrc": 0.787136617641139,
+        "c4b_norm_delta": 0.6524774055227678,
+        "c5_cos_psrc_meanothers": 0.9652665653783941,
+        "c6_cos_psrc_pneg": 0.9971358434766759,
+        "c7_cos_oth_mean": 0.8945053518622867,
+        "c7b_cos_oth_max": 0.9929115516521982,
+        "c8_frac_vis_pos_b2": 0.990642414046893,
+        "c8b_gd_mean": 0.06412495296217768,
+        "c8c_boxes_per_img": 39.62916666666667
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "bus",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.1004,
+      "gain_at_b2": 0.0703,
+      "gain_at_neg": -0.3602,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.24538817912978467,
+        "c2_cos_psrc_dsrc": 0.2519094815808142,
+        "c3_psrc_dot_delta": -0.0065213024510295285,
+        "c4_cos_dtgt_dsrc": 0.7798097766345389,
+        "c4b_norm_delta": 0.6636116686217344,
+        "c5_cos_psrc_meanothers": 0.9652665653783941,
+        "c6_cos_psrc_pneg": 0.9971358434766759,
+        "c7_cos_oth_mean": 0.8945053518622867,
+        "c7b_cos_oth_max": 0.9929115516521982,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06003975520666311,
+        "c8c_boxes_per_img": 4.625698324022347
+      }
+    },
+    {
+      "src": "DOTA",
+      "cls": "motorcycle",
+      "src_cls": "vehicle",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0874,
+      "gain_at_b2": 0.1141,
+      "gain_at_neg": -0.3506,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2421844193037967,
+        "c2_cos_psrc_dsrc": 0.2519094815808142,
+        "c3_psrc_dot_delta": -0.009725062277017553,
+        "c4_cos_dtgt_dsrc": 0.7579307979105381,
+        "c4b_norm_delta": 0.6958005491366936,
+        "c5_cos_psrc_meanothers": 0.9652665653783941,
+        "c6_cos_psrc_pneg": 0.9971358434766759,
+        "c7_cos_oth_mean": 0.8945053518622867,
+        "c7b_cos_oth_max": 0.9929115516521982,
+        "c8_frac_vis_pos_b2": 0.9891260571888845,
+        "c8b_gd_mean": 0.054463728696731994,
+        "c8c_boxes_per_img": 33.328859060402685
+      }
+    },
+    {
+      "src": "VisDrone",
+      "cls": "car",
+      "src_cls": "car",
+      "best_beta": 3.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0634,
+      "gain_at_b2": 0.0735,
+      "gain_at_neg": -0.0494,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.28398587993216984,
+        "c2_cos_psrc_dsrc": 0.29087317309801697,
+        "c3_psrc_dot_delta": -0.006887293165847148,
+        "c4_cos_dtgt_dsrc": 0.8695258914967716,
+        "c4b_norm_delta": 0.5108309084290575,
+        "c5_cos_psrc_meanothers": 0.9304860348685697,
+        "c6_cos_psrc_pneg": 0.9642286141318898,
+        "c7_cos_oth_mean": 0.9146372800308747,
+        "c7b_cos_oth_max": 0.9756130343774503,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.0580491084818531,
+        "c8c_boxes_per_img": 19.081904761904763
+      }
+    },
+    {
+      "src": "VisDrone",
+      "cls": "truck",
+      "src_cls": "truck",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0061,
+      "gain_at_b2": 0.0266,
+      "gain_at_neg": -0.1556,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2797301479033506,
+        "c2_cos_psrc_dsrc": 0.2916875546106884,
+        "c3_psrc_dot_delta": -0.01195740670733779,
+        "c4_cos_dtgt_dsrc": 0.8589117453305011,
+        "c4b_norm_delta": 0.5312028890537008,
+        "c5_cos_psrc_meanothers": 0.9768095136462268,
+        "c6_cos_psrc_pneg": 0.9889800384065414,
+        "c7_cos_oth_mean": 0.9556343287832443,
+        "c7b_cos_oth_max": 0.9779981470708629,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06412495296217768,
+        "c8c_boxes_per_img": 39.62916666666667
+      }
+    },
+    {
+      "src": "VisDrone",
+      "cls": "bus",
+      "src_cls": "bus",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0156,
+      "gain_at_b2": 0.0153,
+      "gain_at_neg": -0.111,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2675432282312701,
+        "c2_cos_psrc_dsrc": 0.2567650850980685,
+        "c3_psrc_dot_delta": 0.010778143133201745,
+        "c4_cos_dtgt_dsrc": 0.8663916928243425,
+        "c4b_norm_delta": 0.5169299897967955,
+        "c5_cos_psrc_meanothers": 0.9864740622951846,
+        "c6_cos_psrc_pneg": 0.98237697604788,
+        "c7_cos_oth_mean": 0.9641363582163444,
+        "c7b_cos_oth_max": 0.9824735071661206,
+        "c8_frac_vis_pos_b2": 1.0,
+        "c8b_gd_mean": 0.06003975520666311,
+        "c8c_boxes_per_img": 4.625698324022347
+      }
+    },
+    {
+      "src": "VisDrone",
+      "cls": "motorcycle",
+      "src_cls": "motor",
+      "best_beta": 2.0,
+      "lab_sign_pos": 1,
+      "lab_ext_helpful": 1,
+      "gain_b2_vs_b0": 0.0629,
+      "gain_at_b2": 0.0982,
+      "gain_at_neg": -0.3465,
+      "feats": {
+        "c1_cos_psrc_dtgt": 0.2535087324320997,
+        "c2_cos_psrc_dsrc": 0.23034557971993602,
+        "c3_psrc_dot_delta": 0.023163152712163695,
+        "c4_cos_dtgt_dsrc": 0.759576367975523,
+        "c4b_norm_delta": 0.6934315135966596,
+        "c5_cos_psrc_meanothers": 0.9872210916352223,
+        "c6_cos_psrc_pneg": 0.9984814818688732,
+        "c7_cos_oth_mean": 0.9647927953577126,
+        "c7b_cos_oth_max": 0.9959199907821972,
+        "c8_frac_vis_pos_b2": 0.9959726137736609,
+        "c8b_gd_mean": 0.054463728696731994,
+        "c8c_boxes_per_img": 33.328859060402685
+      }
+    }
+  ],
+  "L1_sign": {
+    "c1_cos_psrc_dtgt": {
+      "auc": 0.025,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c2_cos_psrc_dsrc": {
+      "auc": 0.025,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c3_psrc_dot_delta": {
+      "auc": 0.925,
+      "acc_pos_rule": 0.45454545454545453,
+      "acc_max": 0.5454545454545454
+    },
+    "c4_cos_dtgt_dsrc": {
+      "auc": 0.1125,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c4b_norm_delta": {
+      "auc": 0.8875,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c5_cos_psrc_meanothers": {
+      "auc": 0.675,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c6_cos_psrc_pneg": {
+      "auc": 0.8,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c7_cos_oth_mean": {
+      "auc": 0.6,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c7b_cos_oth_max": {
+      "auc": 0.825,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c8_frac_vis_pos_b2": {
+      "auc": 0.2,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c8b_gd_mean": {
+      "auc": 0.025,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    },
+    "c8c_boxes_per_img": {
+      "auc": 0.425,
+      "acc_pos_rule": 0.9090909090909091,
+      "acc_max": 0.9090909090909091
+    }
+  },
+  "L2_helpful": {
+    "c1_cos_psrc_dtgt": {
+      "auc": 0.0,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c2_cos_psrc_dsrc": {
+      "auc": 0.0,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c3_psrc_dot_delta": {
+      "auc": 0.9649122807017544,
+      "acc_pos_rule": 0.5,
+      "acc_max": 0.5
+    },
+    "c4_cos_dtgt_dsrc": {
+      "auc": 0.05263157894736842,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c4b_norm_delta": {
+      "auc": 0.9473684210526315,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c5_cos_psrc_meanothers": {
+      "auc": 0.7894736842105263,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c6_cos_psrc_pneg": {
+      "auc": 0.8947368421052632,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c7_cos_oth_mean": {
+      "auc": 0.7368421052631579,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c7b_cos_oth_max": {
+      "auc": 0.9122807017543859,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c8_frac_vis_pos_b2": {
+      "auc": 0.18421052631578946,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c8b_gd_mean": {
+      "auc": 0.0,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    },
+    "c8c_boxes_per_img": {
+      "auc": 0.42105263157894735,
+      "acc_pos_rule": 0.8636363636363636,
+      "acc_max": 0.8636363636363636
+    }
+  },
+  "best_L1": "c1_cos_psrc_dtgt",
+  "best_L2": "c1_cos_psrc_dtgt",
+  "elapsed_s": 63.519508838653564
+}

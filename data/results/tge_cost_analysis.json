@@ -1,0 +1,22 @@
+{
+  "config": {
+    "device": "cuda"
+  },
+  "inference": {
+    "gdino_detect_per_image_ms": 734.2,
+    "clip_encode_per_box_ms": 16.9,
+    "acspc_score_per_box_ms": 0.0001,
+    "note": "A-CSPC 总推理 = GDINO 检测 + 框 CLIP 编码 + 打分 (均无训练参数)"
+  },
+  "learnable_params": {
+    "A-CSPC (本文, 纯推理)": 0,
+    "CoOp 提示 (8 ctx token)": 4096,
+    "CLIP-Adapter (残差 MLP+λ)": 525312,
+    "CLIP ViT-B/32 文本编码器": 37828608
+  },
+  "training": {
+    "coop_epochs": 10,
+    "adapter_epochs": 20,
+    "note": "CoOp/Adapter 仅训练提示/适配器 (分钟级); A-CSPC 零训练"
+  }
+}

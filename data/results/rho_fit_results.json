@@ -1,0 +1,145 @@
+{
+  "rho": 0.091,
+  "mse": 0.8630597379185878,
+  "r_squared": -0.10070500629064405,
+  "spearman_rho": 0.6789281291968754,
+  "spearman_p": 0.015190925249032457,
+  "loco_r_squared": -0.390982899240472,
+  "loco_spearman_rho": 0.6789281291968754,
+  "loco_spearman_p": 0.015190925249032457,
+  "n_samples": 12,
+  "samples": [
+    {
+      "src": "DIOR",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0": 0.113273024559021,
+      "mu_c": 0.025744371116161346,
+      "alpha_grid": 0.2,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.2
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.15387392044067383,
+      "mu_c": 0.034729477018117905,
+      "alpha_grid": 0.1,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.1
+    },
+    {
+      "src": "DIOR",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0": 0.047403693199157715,
+      "mu_c": 0.014319458045065403,
+      "alpha_grid": 2.0,
+      "alpha_pred": 3.0445500565481183,
+      "alpha_pred_loco": 3.7429005086761644,
+      "residual": -1.0445500565481183
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "airplane",
+      "target_cls": "aeroplane",
+      "m_0": 0.12967565655708313,
+      "mu_c": 0.033775098621845245,
+      "alpha_grid": 0.0,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.0
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.2150467336177826,
+      "mu_c": 0.03394024074077606,
+      "alpha_grid": 1.0,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 1.0
+    },
+    {
+      "src": "NWPU",
+      "src_cls": "vehicle",
+      "target_cls": "car",
+      "m_0": 0.07165080308914185,
+      "mu_c": 0.012245469726622105,
+      "alpha_grid": 2.0,
+      "alpha_pred": 1.580110632162381,
+      "alpha_pred_loco": 1.1717963647946046,
+      "residual": 0.419889367837619
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "plane",
+      "target_cls": "aeroplane",
+      "m_0": 0.1590263843536377,
+      "mu_c": 0.021690232679247856,
+      "alpha_grid": 0.0,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.0
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "ship",
+      "target_cls": "boat",
+      "m_0": 0.18821966648101807,
+      "mu_c": 0.03406255319714546,
+      "alpha_grid": 0.1,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.1
+    },
+    {
+      "src": "DOTA",
+      "src_cls": "small-vehicle",
+      "target_cls": "car",
+      "m_0": 0.07089531421661377,
+      "mu_c": 0.03018329106271267,
+      "alpha_grid": 2.0,
+      "alpha_pred": 0.6660866020744444,
+      "alpha_pred_loco": 0.5666938621056047,
+      "residual": 1.3339133979255555
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "car",
+      "target_cls": "car",
+      "m_0": 0.19118636846542358,
+      "mu_c": 0.010775637812912464,
+      "alpha_grid": 2.0,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 2.0
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "bus",
+      "target_cls": "bus",
+      "m_0": 0.11596515774726868,
+      "mu_c": 0.02024092711508274,
+      "alpha_grid": 0.0,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 0.0
+    },
+    {
+      "src": "VisDrone",
+      "src_cls": "motor",
+      "target_cls": "motorbike",
+      "m_0": 0.11563050746917725,
+      "mu_c": 0.03667520731687546,
+      "alpha_grid": 1.5,
+      "alpha_pred": 0.0,
+      "alpha_pred_loco": 0.0,
+      "residual": 1.5
+    }
+  ]
+}

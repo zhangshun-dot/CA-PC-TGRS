@@ -1,0 +1,54 @@
+{
+  "config": {
+    "layer": 11,
+    "k": 10,
+    "alpha": 0.5,
+    "neg_lam": 0.5,
+    "shrinkage": 0.3,
+    "ctx_expand": 1.5,
+    "neg_iou_range": [
+      0.1,
+      0.5
+    ],
+    "n_coco": 100,
+    "protocol": "strict: K calib / rest test, pre-filter 0.03, dataset AP50"
+  },
+  "per_class": {
+    "COCO-airplane": {
+      "baseline": 0.7890724826319194,
+      "n_cal_pos": 14,
+      "n_cal_neg": 51,
+      "src_tgt_cosine": 0.35666173696517944,
+      "cos_only": 0.8017366322312605,
+      "cosine": 0.8014673578151634,
+      "mah_tight": 0.7894052648454803,
+      "mah_ctx": 0.7937212858990688,
+      "mah_pn_tight": 0.7957242469840549,
+      "mah_pn_ctx": 0.7929151580064763
+    },
+    "COCO-boat": {
+      "baseline": 0.24532059707664242,
+      "n_cal_pos": 22,
+      "n_cal_neg": 15,
+      "src_tgt_cosine": 0.4904555678367615,
+      "cos_only": 0.2596921492558972,
+      "cosine": 0.2679508608995547,
+      "mah_tight": 0.25470900589874995,
+      "mah_ctx": 0.25722134420667414,
+      "mah_pn_tight": 0.2597928021040162,
+      "mah_pn_ctx": 0.25600332403563575
+    },
+    "COCO-car": {
+      "baseline": 0.14942855680821016,
+      "n_cal_pos": 25,
+      "n_cal_neg": 16,
+      "src_tgt_cosine": 0.6155642867088318,
+      "cos_only": 0.29054274263921037,
+      "cosine": 0.3198335855795376,
+      "mah_tight": 0.19895160961327285,
+      "mah_ctx": 0.1820694021408962,
+      "mah_pn_tight": 0.2068544556336895,
+      "mah_pn_ctx": 0.18728875286875846
+    }
+  }
+}
