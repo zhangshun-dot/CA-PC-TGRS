@@ -1,0 +1,57 @@
+{
+  "config": {
+    "beta": 2.0,
+    "lam": 0.5,
+    "topk": 4,
+    "c0": 0.2974,
+    "s": 3.0,
+    "mu": 0.6187
+  },
+  "samples": [
+    {
+      "cls": "car",
+      "img_id": 196759,
+      "n_gt": 3,
+      "base_tp": 1,
+      "base_fp": 3,
+      "vocab_tp": 1,
+      "vocab_fp": 3,
+      "cond_tp": 2,
+      "cond_fp": 2,
+      "joint_tp": 3,
+      "joint_fp": 1,
+      "joint+gate_tp": 2,
+      "joint+gate_fp": 2
+    },
+    {
+      "cls": "truck",
+      "img_id": 124277,
+      "n_gt": 2,
+      "base_tp": 0,
+      "base_fp": 4,
+      "vocab_tp": 1,
+      "vocab_fp": 3,
+      "cond_tp": 2,
+      "cond_fp": 2,
+      "joint_tp": 2,
+      "joint_fp": 2,
+      "joint+gate_tp": 2,
+      "joint+gate_fp": 2
+    },
+    {
+      "cls": "airplane",
+      "img_id": 571857,
+      "n_gt": 4,
+      "base_tp": 2,
+      "base_fp": 2,
+      "vocab_tp": 2,
+      "vocab_fp": 2,
+      "cond_tp": 3,
+      "cond_fp": 1,
+      "joint_tp": 3,
+      "joint_fp": 1,
+      "joint+gate_tp": 2,
+      "joint+gate_fp": 2
+    }
+  ]
+}
