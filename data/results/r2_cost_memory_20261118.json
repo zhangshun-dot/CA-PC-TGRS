@@ -1,0 +1,29 @@
+{
+  "config": {
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_vram_gb": 8.0,
+    "torch": "2.11.0+cu128",
+    "n_img_timed": 20,
+    "warmup_excluded": true,
+    "detector": "grounding-dino-tiny (transformers AutoModelForZeroShotObjectDetection)",
+    "prompt": "a photo of car",
+    "date": "2026-11-18 18:32"
+  },
+  "baseline_detector": {
+    "n_params": 172250626,
+    "n_params_million": 172.25,
+    "weights_gpu_mib": 660.0,
+    "latency_ms_median": 395.4,
+    "latency_ms_mean": 411.1,
+    "latency_ms_p90": 473.8,
+    "latency_ms_min": 347.7,
+    "latency_ms_max": 479.1,
+    "peak_allocated_mib": 2004.0,
+    "peak_reserved_mib": 2974.0
+  },
+  "capc_added": {
+    "trainable_params": 0,
+    "score_step_peak_delta_mib": 2.54,
+    "note": "online modulation is a 512-d dot product on the cached crop features; adds no detector forward pass and no trainable parameter"
+  }
+}
