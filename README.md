@@ -4,7 +4,7 @@ Code and experiment records for **CA-PC**, a training-free, annotation-free prot
 
 > Manuscript: *Observation-Aware Canonical-Anchored Prototype Correction for Cross-Domain Open-Vocabulary Detection in Remote Sensing*, under review at **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**, 2026.
 
-This repository is **private** while the manuscript is under review. It will be made public upon acceptance, in line with the data-availability statement of the paper.
+This repository is **publicly available** and accompanies the manuscript, in line with its data-availability statement. It contains the full research code and the detection caches behind every table and figure in the paper, so that all reported numbers can be regenerated without re-running the detectors.
 
 ---
 
@@ -90,3 +90,16 @@ The slight box-IoU decrease is expected: CA-PC re-scores cached proposals and ne
 ## Note on code provenance
 
 The scripts are the actual research code, kept in their working form rather than refactored into a package. Some are one-off probes or figure scripts and contain hard-coded local paths and Chinese comments. `unified_eval.py` and `confirm_devtest_global_split.py` are the two entry points that define the evaluation protocol used by every table in the paper.
+
+---
+
+## License
+
+The **code** in this repository (`code/`, and the figure-generation scripts) is released under the [MIT License](LICENSE). You are free to use, modify and redistribute it, including for commercial purposes, provided the copyright notice is retained.
+
+The **data** are not covered by the MIT License:
+
+- `data/cache/` contains cached detector outputs and CLIP features derived from the source and target datasets. The underlying images remain subject to the licenses of their original providers — DIOR, DOTA, NWPU VHR-10, VEDAI, and COCO (val2017). Anyone reusing these caches must comply with those licenses; the caches are redistributed only as experiment records, not as a substitute for the original datasets.
+- `data/results/` contains numerical results produced by this work and may be reused freely with attribution.
+
+Model checkpoints of GroundingDINO, OWLv2, YOLO-World and RT-DETR are third-party weights and are **not** redistributed here; obtain them from their original releases under their own terms.
